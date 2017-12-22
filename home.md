@@ -73,7 +73,7 @@ This is an ongoing work in progress and reflects various material obtained durin
 
   [radare/radare2ida](https://github.com/radare/radare2ida)
 
-   _You can use `idc2r.py file.idc > file.r2` to convert IDA database to r2 format. This can then be loaded into radare2 using `. file.r2` inside the radare2 shell. Alternate method is to use `.!idc2r.py < file.idc` inside the radare2 shell_ 
+   > _You can use `idc2r.py file.idc > file.r2` to convert IDA database to r2 format. This can then be loaded into radare2 using `. file.r2` inside the radare2 shell. Alternate method is to use `.!idc2r.py < file.idc` inside the radare2 shell_ 
 
 ## Radare2 themes
 
