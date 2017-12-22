@@ -56,8 +56,7 @@ This is an ongoing work in progress and reflects various material obtained durin
 
 ## Install
 
-  > If you are one a *nix system, install using github.
-  {.is-success}
+  > If you are one a *nix system, install using github. {.is-info}
 
   - Pre packaged binaries
 
