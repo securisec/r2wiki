@@ -8,7 +8,8 @@
 
 - [BinaryStudio](https://binarystud.io/googlectf-2017-inst-prof-152-final-value.html)
 
-	> *Google CTF 2017 qualifier PWN challenge* {.is-info}
+	> *Google CTF 2017 qualifier PWN challenge* 
+	{.is-info}
 
 - [Reverse TUCTF - Unknown](https://teamrocketist.github.io/2017/11/27/Reverse-TUCTF-Unknown/)
 
