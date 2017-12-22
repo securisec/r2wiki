@@ -20,7 +20,7 @@ This is an ongoing work in progress and reflects various material obtained durin
 
 [Pwn helper](./Pwn-helper-909a42a7-2ab5-4e39-a9dd-7bc496e7e5a2.md)
 
-[CTF solving using radare2](./CTF-solving-using-radare2-80ddb7c2-1fc6-4e89-aaa7-a1b22a49d942.md)
+[CTF solving using radare2](./CTF-solving-using-radare2)
 
 [Tips](./Tips)
 
