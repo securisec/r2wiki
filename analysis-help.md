@@ -33,7 +33,7 @@
             0x0047bd10 5 119 type..hash._3_interface___
             0x0047bd90 8 176 type..eq._3_interface___
 
-- ARM reversing with radare2
+## ARM reversing with radare2
   - Videos
 
-    [](https://www.youtube.com/watch?v=oXSx0Qo2Upk)
+    [video](https://www.youtube.com/watch?v=oXSx0Qo2Upk){.youtube}
