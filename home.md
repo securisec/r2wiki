@@ -78,7 +78,7 @@ This is an ongoing work in progress and reflects various material obtained durin
 
   See previews of all the [Themes](./themes) 
 
-> **IRC: irc.freenode.net #radare** 
+## **IRC: irc.freenode.net #radare** 
 {.is-warning}
 
 [radare (@radareorg) | Twitter](undefined)
