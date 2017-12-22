@@ -31,8 +31,8 @@
 
 ## Online writeups
 
-  [Pwning exploit400 from the Nullcon 2014 CTF with radare2](undefined)
+  [Pwning exploit400 from the Nullcon 2014 CTF with radare2](https://dustri.org/b/pwning-exploit400-from-the-nullcon-2014-ctf-with-radare2.html)
 
-  [pwning with radare2 - crowell's blog](undefined)
+  [pwning with radare2 - crowell's blog](http://crowell.github.io/blog/2014/11/23/pwning-with-radare2/)
 
-  [A journey into Radare 2 - Part 2: Exploitation - Megabeets](undefined)
+  [A journey into Radare 2 - Part 2: Exploitation - Megabeets](https://www.megabeets.net/a-journey-into-radare-2-part-2/)
