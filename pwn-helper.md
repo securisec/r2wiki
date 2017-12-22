@@ -1,7 +1,7 @@
 # Pwn helper
 
 ## ROP
-  - Use rarop. See [this section](https://www.notion.so/rarop-find-and-debug-ROP-gadgets-using-radare2-f1a74c9d70b24415b8f8dad7ca27137f#21138fe74fc74470adb5010e8c986e61) for help.
+  - > The r2pm install seems to be broken. Use this method instead {.is-warning}
 
   [Rop'n'roll · The Official Radare Blog](undefined)
 
