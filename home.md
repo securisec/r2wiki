@@ -76,7 +76,7 @@ This is an ongoing work in progress and reflects various material obtained durin
 
 ## Radare2 themes
 
-  See previews of all the [Themes](https://www.notion.so/6e0a941a-c5c6-47c1-a62e-82466567bccb) 
+  See previews of all the [Themes](./themes) 
 
 > **IRC: irc.freenode.net #radare** 
 {.is-warning}
