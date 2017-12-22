@@ -1,14 +1,14 @@
 # CTF solving using radare2
 
-[A journey into Radare 2 - Part 1](https://www.megabeets.net/a-journey-into-radare-2-part-1/)
+- [A journey into Radare 2 - Part 1](https://www.megabeets.net/a-journey-into-radare-2-part-1/)
 
-[A journey into Radare 2 - Part 2: Exploitation - Megabeets](https://www.megabeets.net/a-journey-into-radare-2-part-2/)
+- [A journey into Radare 2 - Part 2: Exploitation - Megabeets](https://www.megabeets.net/a-journey-into-radare-2-part-2/)
 
-[Tools! Tools! Tools! Capitol City's solvingest binaries. They're not even obfuscating their bytes.](https://fevral.github.io/2017/08/13/flareon2015-2.html)
+- [Tools! Tools! Tools! Capitol City's solvingest binaries. They're not even obfuscating their bytes.](https://fevral.github.io/2017/08/13/flareon2015-2.html)
 
-[BinaryStudio](https://binarystud.io/googlectf-2017-inst-prof-152-final-value.html)
+- [BinaryStudio](https://binarystud.io/googlectf-2017-inst-prof-152-final-value.html)
 
-> *Google CTF 2017 qualifier PWN challenge* {.is-info}
+	> *Google CTF 2017 qualifier PWN challenge* {.is-info}
 
 [Reverse TUCTF - Unknown](https://teamrocketist.github.io/2017/11/27/Reverse-TUCTF-Unknown/)
 
