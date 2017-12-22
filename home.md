@@ -24,7 +24,7 @@ This is an ongoing work in progress and reflects various material obtained durin
 
 [Tips](./Tips)
 
-[Code samples](./Code-samples-6fbd05f4-01ee-447d-876c-27ed65f6a9c2.md)
+[Code samples](./Code-samples)
 
 [Debugger help](./Debugger-help-21263424-c22b-4c90-9d9a-20a43436f858.md)
 
