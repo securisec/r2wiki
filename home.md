@@ -57,6 +57,7 @@ This is an ongoing work in progress and reflects various material obtained durin
 ## Install
 
   > If you are one a *nix system, install using github.
+  {.is-success}
 
   - Pre packaged binaries
 
@@ -70,7 +71,7 @@ This is an ongoing work in progress and reflects various material obtained durin
 
 ## IDA to radare2
 
-  [radare/radare2ida](undefined)
+  [radare/radare2ida](https://github.com/radare/radare2ida)
 
    _You can use _ `_idc2r.py file.idc > file.r2_` _ to convert IDA database to r2 format. This can then be loaded into radare2 using _ `_. file.r2_` _ inside the radare2 shell. Alternate method is to use _ `_.!idc2r.py < file.idc_` _ inside the radare2 shell_ 
 
@@ -80,6 +81,6 @@ This is an ongoing work in progress and reflects various material obtained durin
 
 ## **IRC: irc.freenode.net #radare** 
 
-[radare (@radareorg) | Twitter](undefined)
+[radare (@radareorg) | Twitter](https://twitter.com/radareorg)
 
 ![](https://static.notion-static.com/754c9573-76a3-4f3f-9aa6-f3326ae85b1a/r2_learning_curve.png){.align-center}
