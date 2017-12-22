@@ -38,7 +38,7 @@ This is an ongoing work in progress and reflects various material obtained durin
 
   [Introduction · Radare2 Explorations](https://monosource.gitbooks.io/radare2-explorations/content/)
 
-   _Tutorial 3, memory manipulation is really good_ 
+   > _Tutorial 3, memory manipulation is really good_ {.is-info}
 
   [Plugins · Radare2 Book](https://radare.gitbooks.io/radare2book/content/plugins/plugins.html)
 
