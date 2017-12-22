@@ -25,6 +25,5 @@ for x in range(0, len(flag)):
         sys.stdout.flush()
         if eax == 0:
             break
-						```
 
    @securisec
