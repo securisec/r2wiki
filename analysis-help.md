@@ -7,7 +7,8 @@
 ## Go reversing with radare2
   ### Videos
 
-	[video](https://www.youtube.com/watch?v=PRLOlY4IKeA){youtube}
+		[video](https://www.youtube.com/watch?v=PRLOlY4IKeA){.youtube}
+
 
   - Helpers
 
