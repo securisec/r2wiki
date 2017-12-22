@@ -34,33 +34,33 @@ This is an ongoing work in progress and reflects various material obtained durin
 
 ## Books
 
-  [introduction · Radare2 Book](undefined)
+  [introduction · Radare2 Book](https://radare.gitbooks.io/radare2book/content/)
 
-  [Introduction · Radare2 Explorations](undefined)
+  [Introduction · Radare2 Explorations](https://monosource.gitbooks.io/radare2-explorations/content/)
 
    _Tutorial 3, memory manipulation is really good_ 
 
-  [Plugins · Radare2 Book](undefined)
+  [Plugins · Radare2 Book](https://radare.gitbooks.io/radare2book/content/plugins/plugins.html)
 
 ## Cheatsheets
 
-  [Radare2 Debugger Complete Cheat Sheet Flashcards | Quizlet](undefined)
+  [Radare2 Debugger Complete Cheat Sheet Flashcards | Quizlet](https://quizlet.com/182492323/radare2-debugger-complete-cheat-sheet-flash-cards/)
 
-  [radare/radare2](undefined)
+  [radare/radare2](https://github.com/radare/radare2/blob/master/doc/intro.md)
 
-  [Reference Card · Radare2 Book](undefined)
+  [Reference Card · Radare2 Book](https://radare.gitbooks.io/radare2book/content/refcard/intro.html)
 
 ## Gui
 
-  [radareorg/cutter](undefined)
+  [radareorg/cutter](https://github.com/radareorg/cutter)
 
 ## Install
 
-  If you are one a *nix system, install using github.
+  > If you are one a *nix system, install using github.
 
   - Pre packaged binaries
 
-    [Index of /get/](undefined)
+    [Pre-packaged binaries](http://radare.mikelloc.com/get/)
 
 [Resources](./Resources-09912c2c-cfe9-4e26-8f7b-25e7a6268f34.md)
 
@@ -79,7 +79,6 @@ This is an ongoing work in progress and reflects various material obtained durin
   See previews of all the [Themes](./themes) 
 
 ## **IRC: irc.freenode.net #radare** 
-{.is-warning}
 
 [radare (@radareorg) | Twitter](undefined)
 
