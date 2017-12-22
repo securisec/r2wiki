@@ -4,7 +4,7 @@
   > The r2pm install seems to be broken. Use this method instead {.is-danger}
 
 	- Clone the rarop repository 
-		[rarop github](https://github.com/jpenalbae/rarop)
+	[rarop github](https://github.com/jpenalbae/rarop)
 
   [Rop'n'roll · The Official Radare Blog](http://radare.today/posts/ropnroll/)
 
