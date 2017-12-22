@@ -2,7 +2,6 @@
 
 - My version of the solver for Unknown from TUCTF 2017 (this is just a placeholder for now)
 
-		```
 		# -*- coding: utf-8 -*-
 		import r2pipe
 		import sys
@@ -25,6 +24,6 @@
 						sys.stdout.flush()
 						if eax == 0:
 								break
-						```
+						
 
    @Hapsida securisec
