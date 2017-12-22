@@ -12,13 +12,13 @@ This is an ongoing work in progress and reflects various material obtained durin
 
 [Options](./Options-c322f9f5-fc3e-426a-b9c8-e718216bdb9b.md)
 
-[Radare2 Python scripting](./Radare2-Python-scripting-f62ea1cf-6b4c-4fd1-bffa-c5628f9b16d7.md)
+[Radare2 Python scripting](./Radare2-Python-scripting)
 
-[Radare2 tools](./Radare2-tools-b38ae017-e1b0-4d72-9bb4-d4aefdbd3f16.md)
+[Radare2 tools](./Radare2-tools)
 
-[Radare Plugins](./Radare-Plugins-8fc9a9d1-dea8-4417-bae5-c4dccde5d273.md)
+[Radare Plugins](./Radare-Plugins)
 
-[Pwn helper](./Pwn-helper-909a42a7-2ab5-4e39-a9dd-7bc496e7e5a2.md)
+[Pwn helper](./Pwn-helper)
 
 [CTF solving using radare2](./CTF-solving-using-radare2)
 
