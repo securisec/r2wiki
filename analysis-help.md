@@ -12,9 +12,9 @@
 
   - Helpers
 
-    [zlowram/radare2-scripts](undefined)
+    [zlowram/radare2-scripts](https://github.com/zlowram/radare2-scripts/tree/master/go_helpers)
 
-     _To run, from inside r2 console, use _ _`#!pipe python ./file.py`_ _ _ or `. ./file.py` 
+     > _To run, from inside r2 console, use `#!pipe python ./file.py` or `. ./file.py`{.is-info}
 
     - _load_pclntab_info.py_
       - Before
