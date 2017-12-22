@@ -12,7 +12,7 @@
 
 - [Reverse TUCTF - Unknown](https://teamrocketist.github.io/2017/11/27/Reverse-TUCTF-Unknown/)
 
-	> *TUCTF 2017 Unknown writeup. This is an example of brute forcing strings based on a returned true statement using by patching on the fly* {.is-info}
+	> *TUCTF 2017 Unknown writeup. This is an example of brute forcing strings based on a returned true statement using by patching on the fly*  {.is-info}
 
 - [Write-ups from RHME3 pre-qualifications at RADARE2 conference - Riscure](https://www.riscure.com/blog/write-ups-rhme3-pre-qualifications-radare2-conference/)
 
