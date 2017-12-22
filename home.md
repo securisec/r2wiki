@@ -30,7 +30,7 @@ This is an ongoing work in progress and reflects various material obtained durin
 
 [Analysis Help (go, arm, ios etc)](./Analysis-Help-go-arm-ios-etc-1bac9418-523f-45e9-9376-c469af14959c.md)
 
-# Books / Resources
+# [Books / Resources](http://google.com)
 
 ## Books
 
