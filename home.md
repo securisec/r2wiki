@@ -26,7 +26,7 @@ This is an ongoing work in progress and reflects various material obtained durin
 
 [Code samples](./Code-samples)
 
-[Debugger help](./Debugger-help-21263424-c22b-4c90-9d9a-20a43436f858.md)
+[Debugger help](./Debugger-help)
 
 [Analysis Help (go, arm, ios etc)](./Analysis-Help)
 
