@@ -5,6 +5,9 @@
 
 - Clone the rarop repository 
 	[rarop github](https://github.com/jpenalbae/rarop)
+- `npm install`
+- Make a sym link `ln -s /path/to/rarop/bin/rarop /usr/local/bin/rarop` 
+- Run with `rarop /path/to/binary`
 
   [Rop'n'roll · The Official Radare Blog](http://radare.today/posts/ropnroll/)
 
