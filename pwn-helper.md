@@ -1,7 +1,7 @@
 # Pwn helper
 
 ## ROP
-  - > The r2pm install seems to be broken. Use this method instead {.is-warning}
+  The r2pm install seems to be broken. Use this method instead {.is-warning}
 
   [Rop'n'roll · The Official Radare Blog](undefined)
 
