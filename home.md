@@ -22,7 +22,7 @@ This is an ongoing work in progress and reflects various material obtained durin
 
 [CTF solving using radare2](./CTF-solving-using-radare2-80ddb7c2-1fc6-4e89-aaa7-a1b22a49d942.md)
 
-[Tips](./Tips-203f2ab5-a46d-4737-b8e2-14b89e008ddc.md)
+[Tips](./Tips)
 
 [Code samples](./Code-samples-6fbd05f4-01ee-447d-876c-27ed65f6a9c2.md)
 
