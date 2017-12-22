@@ -8,7 +8,7 @@ This is an ongoing work in progress and reflects various material obtained durin
     radare2 2.1.0-git 16575 @ linux-x86-64 git.2.0.1-245-g48bfa50
     commit: 48bfa5087bed71be501e4c37933c0fe1298d817e build: 2017-11-14__02:43:49
 
-# **Sections**
+# Sections
 
 [Options](./Options-c322f9f5-fc3e-426a-b9c8-e718216bdb9b.md)
 
@@ -30,9 +30,9 @@ This is an ongoing work in progress and reflects various material obtained durin
 
 [Analysis Help (go, arm, ios etc)](./Analysis-Help-go-arm-ios-etc-1bac9418-523f-45e9-9376-c469af14959c.md)
 
-## Books / Resources
+# Books / Resources
 
-- Books
+## Books
 
   [introduction · Radare2 Book](undefined)
 
@@ -42,7 +42,7 @@ This is an ongoing work in progress and reflects various material obtained durin
 
   [Plugins · Radare2 Book](undefined)
 
-- Cheatsheets
+## Cheatsheets
 
   [Radare2 Debugger Complete Cheat Sheet Flashcards | Quizlet](undefined)
 
@@ -50,11 +50,11 @@ This is an ongoing work in progress and reflects various material obtained durin
 
   [Reference Card · Radare2 Book](undefined)
 
-- Gui
+## Gui
 
   [radareorg/cutter](undefined)
 
-- Install
+## Install
 
   If you are one a *nix system, install using github.
 
@@ -66,20 +66,21 @@ This is an ongoing work in progress and reflects various material obtained durin
 
 [Videos](./Videos-f6209288-e2bf-4623-ad81-e577e8e71def.md)
 
-## Stuff
+# Stuff
 
-- IDA to radare2
+## IDA to radare2
 
   [radare/radare2ida](undefined)
 
    _You can use _ `_idc2r.py file.idc > file.r2_` _ to convert IDA database to r2 format. This can then be loaded into radare2 using _ `_. file.r2_` _ inside the radare2 shell. Alternate method is to use _ `_.!idc2r.py < file.idc_` _ inside the radare2 shell_ 
 
-- Radare2 themes
+## Radare2 themes
 
   See previews of all the [Themes](https://www.notion.so/6e0a941a-c5c6-47c1-a62e-82466567bccb) 
 
- **IRC: irc.freenode.net #radare** 
+> **IRC: irc.freenode.net #radare** 
+{.is-warning}
 
 [radare (@radareorg) | Twitter](undefined)
 
-![](https://static.notion-static.com/754c9573-76a3-4f3f-9aa6-f3326ae85b1a/r2_learning_curve.png)
+![](https://static.notion-static.com/754c9573-76a3-4f3f-9aa6-f3326ae85b1a/r2_learning_curve.png){.align-center}
