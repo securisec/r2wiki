@@ -8,7 +8,7 @@ Usage: ds Step commands
 ```
 
 
-- **`ds`** Step one instruction
+- **`ds`** Step one instruction <p hidden>ds</p>
 - **`ds <num>`** Step <num> instructions
 - **`dsb`** Step back one instruction
   > _When you run dsb, reverse debugger restore previous recorded state and execute program from it until desired point_
