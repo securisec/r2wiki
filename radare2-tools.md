@@ -2,33 +2,34 @@
 
 ## Command line tools
 
-  [r2agent](./r2agent-f57a22bc-a908-4a6f-9cfe-cbc52218e4ce.md)
+  [r2agent](tools/r2agent)
 
-  [r2pm (radare2 package manager)](./r2pm-radare2-package-manager-5a6a3203-d8f6-4578-984e-7e05d22e0ef4.md)
+  [r2pm (radare2 package manager)](tools/r2pm)
 
-  [rabin2](./rabin2-46b759eb-51aa-4843-8dd0-b1964b3b269c.md)
+  [rabin2](tools/rabin2)
 
-  [radare2](./radare2-7a05a5c8-4bfd-438b-a109-1b7b89a482bd.md)
+  [radare2](tools/radare2)
 
-  [radiff2](./radiff2-47880310-c47d-4015-968e-ba51395d0f98.md)
+  [radiff2](tools/radiff2)
 
-  [rafind2](./rafind2-d3fccb2d-e148-42d5-990b-8c1396b6443e.md)
+  [rafind2](tools/rafind2)
 
-  [ragg2](./ragg2-cce61a74-13d7-468e-86e1-60e148c86a4e.md)
+  [ragg2](tools/ragg2)
 
-  [rahash2](./rahash2-dbc8f418-53d3-45e0-8a9b-c0eef3a6c252.md)
+  [rahash2](tools/rahash2)
 
-  [rarun2](./rarun2-9e2ef6e3-cf87-4cd6-a46c-3bb13f220c5e.md)
+  [rarun2](tools/rarun2)
 
-  [rasm2](./rasm2-072caac6-646a-4cd7-96e1-25e865ee6b3a.md)
+  [rasm2](tools/rasm2)
 
-  [rax2](./rax2-ac4a7db9-d43f-464d-93d5-29e2bb063f1d.md)
+  [rax2](tools/rax2)
 
-##--
+---
 
-## Valid architectures `rasm2 -L`
+## Valid architectures 
+   - `rasm2 -L`
 
-  [radare](undefined)
+  [radare](http://rada.re/r/arch.html)
 
       _dAe 8 16 6502 LGPL3 6502/NES/C64/Tamagotchi/T-1000 CPU
       _dA_ 8 8051 PD 8051 Intel CPU
@@ -90,9 +91,10 @@
       adA_ 8 z80 GPL Zilog Z80
       _d__ 32 propeller LGPL3 propeller disassembly plugin
 
-## Valid file formats supported `rabin2 -L`
+## Valid file formats supported 
+   - `rabin2 -L`
 
-  [radare](undefined)
+  [radare](http://rada.re/r/fileformat.html)
 
       bin any Dummy format r_bin plugin (LGPL3) 
       bin art Android Runtime (LGPL3) 
@@ -141,7 +143,9 @@
       xtr fatmach0 fat mach0 bin extractor plugin (LGPL3)
       xtr xtr_dyldcache dyld cache bin extractor plugin (LGPL3)
 
-## Valid IO plugins (can be extended) `radare2 -L`
+## Valid IO plugins 
+   - (can be extended) 
+   - `radare2 -L`
 
       rw_ ar Open ar/lib files [ar|lib]://[file//path] (LGPL3)
       rw_ bfdbg BrainFuck Debugger (bfdbg://path/to/file) (LGPL3)
@@ -172,7 +176,8 @@
       rwd winedbg Wine-dbg io and debug.io plugin for r2 (MIT)
       rw_ zip Open zip files [apk|ipa|zip|zipall]://[file//path] (BSD)
 
-## Available algorithems ( `rahash2 -L` , sorted)
+## Available algorithems 
+   - `rahash2 -L` , sorted
 
       Available Hashes: 
        adler32
