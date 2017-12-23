@@ -45,7 +45,7 @@ This is an ongoing work in progress and reflects various material obtained durin
 
 
 ## Analysis
-[Analysis Help (go, arm, ios etc)](./Analysis-Help)
+[Analysis Help (go, arm, ios, windows etc)](./Analysis-Help)
 
 # Books / Resources
 
