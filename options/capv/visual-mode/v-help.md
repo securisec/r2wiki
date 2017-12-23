@@ -12,7 +12,7 @@
 - **`??`** show the user-friendly hud
   - Screenshot
 
-    ![Question Question Hud](/uploads/v-help/question-question-hud.png "Question Question Hud")
+    <img src="/uploads/v-help/question-question-hud.png" width="50%">
 
   > _Makes it really easy to do various tasks in visual mode. This is different from the `_` HUD mode_
 - **`$`** toggle asm.pseudo
@@ -22,7 +22,7 @@
 - **`_`** enter the flag/comment/functions/.. hud (same as VF_)
   - Screenshot
 
-    ![Underscore Hud](/uploads/v-help/underscore-hud.png "Underscore Hud")
+    <img src="/uploads/v-help/underscore-hud.png" width="50%">
 
 - **`=`** set cmd.vprompt (top row)
 - **`|`** set cmd.cprompt (right column)
@@ -92,7 +92,7 @@
 - **`xX`** show xrefs/refs of current function from/to data/code
   - Screenshot
 
-    ![X Xref](/uploads/cap-v/x-xref.png "X Xref")
+    <img src="/uploads/cap-v/x-xref.png" width="50%">
 
 - **`yY`** copy and paste selection
 - **`z`** fold/unfold comments in disassembly
