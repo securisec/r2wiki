@@ -16,3 +16,5 @@
 - **`search.prefix`** Prefix name in search hits label _Default is hit_
 - **`search.show`** Show search results _Default is true_
 - **`search.to`** Search end address _Default is 0xffffffffffffffff_
+
+<p hidden>search.align search.chunk search.contiguous search.distance search.esilcombo search.flags search.from search.in search.kwidx search.maxhits search.overlap search.prefix search.show search.to</p>
