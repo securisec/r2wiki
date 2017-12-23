@@ -32,3 +32,5 @@ Usage: a[abdefFghoprxstc] [...]
 - [ `as[?] [num]` analyze syscall using dbg.reg](/options/a/as)
 - `av[?] [.]` show vtables
 - [ `ax[?]` manage refs/xrefs (see also afx?)](/options/a/ax)
+
+<p hidden>aa ab ac ad ae af aF ag ah ai an ao aO ap ar as av ax</p>
