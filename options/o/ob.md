@@ -19,3 +19,5 @@ Usage: ob # List open binary files backed by fd
 - **`ob- [fd]`** Delete binfile by fd
 - **`obd [objid]`** Delete binary file by objid. Do nothing if only one loaded.
 - **`obo [objid]`** Switch to open binary file by objid
+
+<p hidden>ob ob* oba oba obb obj obr ob- obd obo</p>
