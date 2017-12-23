@@ -24,7 +24,7 @@ Usage: ae[idesr?] [arg]ESIL code emulation
 [ `aep[?] [addr]`   manage esil pin hooks](/options/a/ae/aep)
 - `aepc [addr]`   change esil PC to this address
 - `aer [..]`   handle ESIL registers like 'ar' or 'dr' does
-[ `aets[?]`   ESIL Trace session](./aets-ESIL-Trace-session-ba8fedcb-9540-4831-a85a-b64e9e698242.md)
+[ `aets[?]`   ESIL Trace session](/options/a/ae/aets)
 - `aes`   perform emulated debugger step
 - `aesp [X] [N]`   evaluate N instr from offset X
 - `aesb`   step back
