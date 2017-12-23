@@ -13,7 +13,7 @@ Repeat a command over a list of offsets
 - **`x @@.file`** run 'x' over the offsets specified in the file (one offset per line)
 - **`x @@=off1 off2 ..`** manual list of offsets
 
-   _Run query over multiple offsets_ 
+  > Run query over multiple offsets
 
 - **`x @@/x 9090`** temporary set cmd.hit to run a command on each search result
 - **`x @@k sdbquery`** run 'x' on all offsets returned by that sdbquery
