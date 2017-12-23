@@ -37,22 +37,22 @@ modifier:
 - **`:[s]-[e]`** show lines s-e
 - **`..`** internal 'less'
 
-   _Example: _ _`pdf ~..`_ _ _ 
+   > _Example: _ _`pdf ~..`_ _ _ 
 
 - **`...`** internal 'hud' (like V_)
   - Screenshot
 
     ![](https://static.notion-static.com/30522cb0-5953-48ea-b16e-7ef88084d0d0/Untitled)
 
-   _This is take any commands output and overlay a HUD on top of it for string type searching. Example: _ _`pdf ~...`_ _ and then search for call_ 
+   > _This is take any commands output and overlay a HUD on top of it for string type searching. Example: _ _`pdf ~...`_ _ and then search for call_ 
 
 - **`{}`** json indentation
 
-   _Example: _ _`iij ~{}`_ _ for pretty printing json output. Can be combine with .. for less_ 
+   > _Example: _ _`iij ~{}`_ _ for pretty printing json output. Can be combine with .. for less_ 
 
 - **`{path}`** json grep
 
-   _The path is a json key. If the json output is an array, then use [array position]key. If the keys are nested, then use key.secondkey etc. Example _ _`ij~{bin.pic}`_ _ _ 
+   > _The path is a json key. If the json output is an array, then use [array position]key. If the keys are nested, then use key.secondkey etc. Example _ _`ij~{bin.pic}`_ _ _ 
 
 - **`{}..`** less json indentation
 - `**endmodifier**` ** **
