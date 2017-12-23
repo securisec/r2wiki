@@ -1,6 +1,5 @@
 # Radare
 ![R 2 Logo 3](/uploads/r-2-logo-3.png "R 2 Logo 3"){.pagelogo}
-**Principle author** : Hapsida (@securisec)
 
 This is an ongoing work in progress and reflects various material obtained during stuying how to user r2. This wiki is constantly updated. Feel free to tweet to me [@securisec](https://twitter.com/securisec) if there is a tidbit I can include in here.
 
