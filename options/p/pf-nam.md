@@ -3,7 +3,6 @@
 #  **`pf[?][.nam] [fmt]`** print formatted data (pf.name, pf.name $\<expr\>)
 
 ## **Tips**
-- Tips
   - > To print stacked data types, you can use `pf` . For example, use `pf xxS @ esp` (this will print hex value 64 bit pointer at offset esp)
   - > It is possible to define arrays of structures with `pf` . To do this, prefix the format string with a numeric value. You can also define a name for each field of the structure by appending them as space seperated arguments list. Example `pf 2*xs pointer type @ esp` (radare2 book page 58)
   - > Use `pfi @ offset` to print offset as signed int
