@@ -8,7 +8,7 @@
     - Trace symbols
       - Use the following syntax to trace. Example: `\dtf write iZi` (this was tested against node. Write is the symbol being hooked)
 
-  [Frida Commands](./Frida-Commands)
+  [Frida Commands](plugins/Frida-Commands)
 
   [nowsecure/r2frida](https://github.com/nowsecure/r2frida)
 
