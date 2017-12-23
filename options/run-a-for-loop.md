@@ -6,7 +6,6 @@ Repeat a command over a list of offsets
 ## **Tips**
   - Example: `wx 90 @@ /x80` . This will replace all hex 80 with hex 90
 	- Use `@@` as a replacement for a for i in x loop (iterator). Example: `axt @@ str.*` will look for xref of all strings and return thier offsets.
-
 ---
 - **`x @@ sym.*`** run 'x' over all flags matching 'sym.' in current flagspace
 - **`x @@dbt[abs]`** run 'x' command on every backtrace address, bp or sp
