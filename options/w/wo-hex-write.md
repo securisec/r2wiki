@@ -30,3 +30,5 @@ Usage: wo[asmdxoArl24] [hexpairs] @ addr[!bsize]
   > _This can be used to xor using registers. Example: `wox `p8 32 @ edi` @ eax!32`. This command will take 32 bytes in hex from edi and then xor eax till 32 bytes_
 
   [Memory Manipulation · Radare2 Explorations](https://monosource.gitbooks.io/radare2-explorations/content/tut2/tut2_-_mem_manip.html)
+	
+	<p hidden>wo wo2 wo4 woa woA wod woD woe woE wol wom woo wop wor woR wos wow wox</p>
