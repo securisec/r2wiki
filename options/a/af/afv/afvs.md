@@ -9,3 +9,5 @@
 - `afvs- [name]`   delete stack based argument or locals with the given name
 - `afvsg [idx] [addr]`   define var get reference
 - `afvss [idx] [addr]`   define var set reference
+
+<p hidden>afvs afvs* afvsj afvs- afvsg afvss</p>
