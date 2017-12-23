@@ -34,7 +34,7 @@
   - Changes the color of the offset based on the value of the offset. Allows one to easily remember where they were or functions by color.
   - Screenshot
 
-    ![Rainbow](/uploads/small-e/rainbow.png "Rainbow")
+    <img src="/uploads/small-e/rainbow.png" width="50%">
 
 - **`scr.randpal`** Random color palete or just get the next one from 'eco' _Default is false_
 - **`scr.responsive`** Auto-adjust Visual depending on screen (e.g. unset asm.bytes) _Default is false_
@@ -50,3 +50,5 @@
 - **`scr.wheelnkey`** Use sn/sp and scr.nkey on wheel instead of scroll _Default is false_
 - **`scr.wheelspeed`** Mouse wheel speed _Default is 4_
 - **`scr.zoneflags`** Show zoneflags in visual mode before the title (see fz?) _Default is true_
+
+<p hidden>scr.atport scr.breaklines scr.breakword scr.color scr.color.bytes scr.color.ops scr.columns scr.echo scr.feedback scr.fgets scr.fix.columns scr.fix.rows scr.flush scr.fps scr.highlight scr.histsave scr.html scr.interactive scr.linesleep scr.nkey scr.null scr.pager scr.pagesize scr.pipecolor scr.prompt scr.promptfile scr.promptflag scr.promptsect scr.rainbow scr.randpal scr.responsive scr.rgbcolor scr.rows scr.seek scr.tee scr.truecolor scr.tts scr.utf8 scr.utf8.curvy scr.wheel scr.wheelnkey scr.wheelspeed scr.zoneflags</p>
