@@ -25,11 +25,11 @@ Use io.va for searching in non virtual addressing spaces
 - **`/b`** search backwards, command modifier, followed by other command
 - **`/B`** search recognized RBin headers
 
-[ **`/c jmp [esp]`** search for asm code matching the given string](search/c)
+- [ **`/c jmp [esp]`** search for asm code matching the given string](search/c)
 
 - **`/ce rsp,rbp`** search for esil expressions matching
 
-[ **`/C[ar]`** search for crypto materials](search/cap_c)
+- [ **`/C[ar]`** search for crypto materials](search/cap_c)
 
 - **`/d 101112`** search for a deltified sequence of bytes
 - **`/e /E.F/i`** match regular expression
@@ -47,9 +47,9 @@ Use io.va for searching in non virtual addressing spaces
 - **`/p patternsize`** search for pattern of given size
 - **`/P patternsize`** search similar blocks
 
-[ **`/r[erwx][?] sym.printf`** analyze opcode reference an offset (/re for esil)](search/r)
+- [ **`/r[erwx][?] sym.printf`** analyze opcode reference an offset (/re for esil)](search/r)
 
-[ **`/R [grepopcode]`** search for matching ROP gadgets, semicolon-separated](search/cap_r)
+- [ **`/R [grepopcode]`** search for matching ROP gadgets, semicolon-separated](search/cap_r)
 
 - **`/s`** search for all syscalls in a region (EXPERIMENTAL)
 - **`/v[1248] value`** look for an `cfg.bigendian` 32bit value
@@ -57,6 +57,6 @@ Use io.va for searching in non virtual addressing spaces
 - **`/w foo`** search for wide string 'f\0o\0o\0'
 - **`/wi foo`** search for wide string ignoring case 'f\0o\0o\0'
 
-[ `/x ff..33` search for hex string ignoring some nibbles](search/x)
+- [ `/x ff..33` search for hex string ignoring some nibbles](search/x)
 
 - **`/z min max`** search for strings of given size
