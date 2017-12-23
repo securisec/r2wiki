@@ -16,7 +16,7 @@
 - `aai[j]` show info of all analysis parameters
 - `aan` autoname functions that either start with fcn.* or sym.func.*
 - `aap` find and analyze function preludes
-[ `**aar[?] [len]**` ** ** analyze len bytes of instructions for references](/options/a/aa/aar)
+[ `aar[?] [len]` analyze len bytes of instructions for references](/options/a/aa/aar)
 - `aas [len]` analyze symbols (af @@= \`isq~[0]\` )
 - `aat [len]` analyze all consecutive functions in section
 - `aaT [len]` analyze code after trap-sleds
