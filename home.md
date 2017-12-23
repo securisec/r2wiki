@@ -10,7 +10,7 @@ This is an ongoing work in progress and reflects various material obtained durin
 
 # Sections
 
-[Options](./Options-c322f9f5-fc3e-426a-b9c8-e718216bdb9b.md)
+[Options](./Options)
 
 [Radare2 Python scripting](./Radare2-Python-scripting)
 
