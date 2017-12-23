@@ -18,8 +18,7 @@ Use io.va for searching in non virtual addressing spaces
 - **`/+ /bin/sh`** construct the string with chunks
 - **`//`** repeat last search
 - `**/a jmp eax**` assemble opcode and search its bytes
-
- > Example: `/a jmp eax`
+  > Example: `/a jmp eax`
 
 - **`/A jmp`** find analyzed instructions of this type _(/A? for help)_
 - **`/b`** search backwards, command modifier, followed by other command
