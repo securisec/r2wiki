@@ -59,3 +59,5 @@ Usage: p[=68abcdDfiImrstuxz] [arg|len] [@addr]
 - [ **`px[?][owq] [len]`** hexdump of N bytes (o=octal, w=32bit, q=64bit)](/options/p/px-owq)
 
 - [ **`pz[?] [len]`** print zoom view (see pz? for help)](/options/p/pz-len-print-zoom)
+
+<p hidden>p2 p3 p6 p8 pA pb pB pC pd pf ph pi pj pk pK pm pq pr ps pt pu pv pwd px pz</p>
