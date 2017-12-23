@@ -13,7 +13,7 @@ Usage: a[abdefFghoprxstc] [...]
   - To see cross references for strings, use `axt @@ str.*` . The `@@` is a for i in x operator in radare2.
 ---
 
-[ **`aa[?]`** analyze all (fcns + bbs) (aa0 to avoid sub renaming)](/options/a/aa-analyze-all-fcns-bbs-aa0-to-avoid-sub-renaming-9737ead9-79fc-48a3-9fb1-85015f607d57.md)
+[ **`aa[?]`** analyze all (fcns + bbs) (aa0 to avoid sub renaming)](/options/a/aa)
 
 [ `**ab [hexpairs]**` ** ** analyze bytes](/options/a/ab-hexpairs-analyze-bytes-2dd7479c-157b-4f2a-8b74-824aad13fcb5.md)
 
