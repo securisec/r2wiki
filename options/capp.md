@@ -23,3 +23,5 @@ Usage: P[?osi] [file]Project management
 - **`Ps [file]`** save project
 - **`PS [file]`** save script file
 - **`P- [file]`** delete project (alias for Pd)
+
+<p hidden>Pc Pd Pi Pl Pn Po Ps PS P-</p>
