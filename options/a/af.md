@@ -18,7 +18,7 @@
 - `aff`   re-adjust function boundaries to fit
 
 - `afF[1|0|]`   fold/unfold/toggle
-[ `afi [addr|fcn.name]`   show function(s) information (verbose afl)](./afi-addr-fcn-name-show-function-s-information-verbose-afl-dea687f3-901c-42b1-a7ab-e08aba895c93.md)
+[ `afi [addr|fcn.name]`   show function(s) information (verbose afl)](/options/a/af/afi)
 [ `afl[?] [l*] [fcn name]`   list functions (addr, size, bbs, name) (see afll)](./afl-l-fcn-name-list-functions-addr-size-bbs-name-see-afll-39bb9543-9de0-4ea4-b847-059965b93268.md)
 
 - `afo [fcn.name]`   show address for the function named like this
