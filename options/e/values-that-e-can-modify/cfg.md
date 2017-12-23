@@ -39,3 +39,6 @@
 - **`cfg.sandbox`** Sandbox mode disables systems and open on upper directories _Default is false_
 - **`cfg.user`** Set current username/pid _Default is pid2978_
 - **`cfg.wseek`** Seek after write _Default is false_
+
+
+<p hidden>cfg.bigendian cfg.debug cfg.editor cfg.fortunes cfg.fortunes.clippy cfg.fortunes.tts cfg.fortunes.type <p hidden>cfg.hashlimit cfg.log cfg.newtab cfg.plugins cfg.prefixdump cfg.sandbox cfg.user cfg.wseek</p>
