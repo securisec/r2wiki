@@ -28,3 +28,5 @@ Usage: m[-?*dgy] [...] Mountpoints management
 - **`ms /mnt`** Open filesystem prompt at /mnt
   > Shell prompt inside the mounted directory
 - **`my`** Yank contents of file into clipboard
+
+<p hidden>m- md mg mo mi mp ms my</p>
