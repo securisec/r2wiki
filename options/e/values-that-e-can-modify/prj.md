@@ -8,3 +8,5 @@
 - **`prj.name`** Name of current project
 - **`prj.simple`** Use simple project saving style (funcions, comments, options) _Default is false_
 - **`prj.zip`** Use ZIP format for project files _Default is false_
+
+<p hidden>prj.files prj.git prj.gpg prj.name prj.simple prj.zip</p>
