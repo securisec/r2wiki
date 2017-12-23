@@ -4,6 +4,9 @@
 
 > **(V! = panels, VV = fcngraph, VVV = callgraph)**  {.is-info}
 
+> [Visual mode help](./Visual-mode-help-644118cc-baed-4188-bae7-c56ef3d64288.md) {.is-warning}
+
+
 ## **Tips**
   > You can use `h, j, k, l` or `H, G, K, L` to move inside the visual mode, or `TAB` to navigate
 
@@ -25,7 +28,6 @@
 
   > Use `??` in visual mode to get a HUD style panel (easier for beginners)
 
-[Visual mode help](./Visual-mode-help-644118cc-baed-4188-bae7-c56ef3d64288.md)
 
 - Panels `V!`
 
