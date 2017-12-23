@@ -21,7 +21,7 @@ Usage: s # Help for the seek commands. See ?$? to see all variables
 - **`s++[n]`** Seek blocksize bytes forward (/=n)
 - **`s[j*=!]`** List undo seek history (JSON, =list, *r2, !=names, s==)
 - **`s/ DATA`** Search for next occurrence of 'DATA'
-  - > This will also seek to the address of the first match
+  > This will also seek to the address of the first match
 - **`s/x 9091`** Search for next occurrence of \x90\x91
 - **`s.hexoff`** Seek honoring a base from core->offset
 - **`sa [[+-]a] [asz]`** Seek asz (or bsize) aligned to addr
