@@ -32,7 +32,7 @@
 
       
 ```text
-_dAe 8 16 6502 LGPL3 6502/NES/C64/Tamagotchi/T-1000 CPU
+			_dAe 8 16 6502 LGPL3 6502/NES/C64/Tamagotchi/T-1000 CPU
       _dA_ 8 8051 PD 8051 Intel CPU
       _dA_ 16 32 arc GPL3 Argonaut RISC Core
       a___ 16 32 64 arm.as LGPL3 as ARM Assembler (use ARM_AS environment)
@@ -150,6 +150,8 @@ _dAe 8 16 6502 LGPL3 6502/NES/C64/Tamagotchi/T-1000 CPU
    - (can be extended) 
    - `radare2 -L`
 
+      
+```text
       rw_ ar Open ar/lib files [ar|lib]://[file//path] (LGPL3)
       rw_ bfdbg BrainFuck Debugger (bfdbg://path/to/file) (LGPL3)
       rwd bochs Attach to a BOCHS debugger (LGPL3)
@@ -178,10 +180,14 @@ _dAe 8 16 6502 LGPL3 6502/NES/C64/Tamagotchi/T-1000 CPU
       rwd windbg Attach to a KD debugger (windbg://socket) (LGPL3)
       rwd winedbg Wine-dbg io and debug.io plugin for r2 (MIT)
       rw_ zip Open zip files [apk|ipa|zip|zipall]://[file//path] (BSD)
+```
+
 
 ## Available algorithems 
    - `rahash2 -L` , sorted
 
+      
+```text
       Available Hashes: 
        adler32
        crc15can
@@ -229,3 +235,4 @@ _dAe 8 16 6502 LGPL3 6502/NES/C64/Tamagotchi/T-1000 CPU
        rot
        serpent-ecb
        xor
+```
