@@ -19,7 +19,7 @@ Usage: ae[idesr?] [arg]ESIL code emulation
 - `aei`   initialize ESIL VM state (aei- to deinitialize)
 - `aeim [addr] [size] [name]`   initialize ESIL VM stack (aeim- remove)
 - `aeip`   initialize ESIL program counter to curseek
-- `aek [query]`   perform sdb query on ESIL\.info
+- `aek [query]`   perform sdb query on ESIL .info
 - `aek-`   resets the ESIL.info sdb instance
 [ `aep[?] [addr]`   manage esil pin hooks](./aep-addr-manage-esil-pin-hooks-660fc309-f990-499a-912e-a374f04bf9f2.md)
 - `aepc [addr]`   change esil PC to this address
