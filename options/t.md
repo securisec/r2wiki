@@ -34,7 +34,7 @@ Usage: t # cparse types commands
 - **`to -`** Open cfg.editor to load types
 - **`to <path>`** Load types from C header file
 - **`tos <path>`** Load types from parsed Sdb database
-- **`tp <type> = <address>`** cast data at <address> to <type> and print it
+- **`tp <type> = <address>`** cast data at \<address\> to \<type\> and print it
 
 - [ **`ts[?]`** print loaded struct types](/options/t/ts-print)
 
