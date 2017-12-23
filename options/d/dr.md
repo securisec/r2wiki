@@ -1,0 +1,56 @@
+<!-- TITLE: dr -->
+
+#  **`dr[?]`** Cpu registers
+
+
+```text
+Usage: dr Registers commands
+```
+
+
+- **`dr`** Show 'gpr' registers
+- **`dr <register>=<val>`** Set register value
+- **`dr8[1|2|4|8] [type]`** Display hexdump of gpr arena (WIP)
+- **`dr=`** Show registers in columns
+- **`dr?<register>`** Show value of given register
+- **`drb[1|2|4|8] [type]`** Display hexdump of gpr arena (WIP)
+- **`drc [name]`** Related to conditional flag registers
+- **`drC`** Show register profile comments
+- **`drd`** Show only different registers
+  > _This can be used to show differences between old and new register values_
+- **`drf`** Show fpu registers (80 bit long double)
+- **`drl[j]`** List all register names
+- **`drm`** Show multimedia packed registers
+- **`drm mmx0 0 32 = 12`** Set the first 32 bit word of the mmx reg to 12
+- **`drn <pc>`** Get regname for pc,sp,bp,a0-3,zf,cf,of,sg
+- **`dro`** Show previous (old) values of registers
+- **`drp`** Display current register profile
+
+- [ **`drp[?] <file>`** Load register metadata file](/options/d/dr/drp)
+
+- **`drpi`** Display current internal representation of the register profile
+- **`drps`** Fake register profile size
+- **`drpj`** Show the current register profile (JSON)
+- **`drr`** Show registers references (telescoping)
+  - Screenshot
+
+    ![Drr](/uploads/small-d/drr.png "Drr")
+
+- [ **`drs[?]`** Stack register states](/options/d/dr/drs)
+
+- **`drt 16`** Show 16 bit registers
+- **`drt 32`** Show 32 bit registers
+- **`drt 80`** Show 80 bit registers (long double)
+- **`drt all`** Show all registers
+- **`drt flg`** Show flag registers
+
+- [ **`drt[?]`** Show all register types](/options/d/dr/drt)
+
+- **`drw <hexnum>`** Set contents of the register arena
+
+- [ **`drx[?]`** Show all debug registers](/options/d/dr/drx)
+
+- **`drx idx addr len rwx`** Modify hardware breakpoint
+- **`drx-number`** Clear hardware breakpoint
+- **`.dr*`** Include common register values in flags
+- **`.dr-`** Unflag all registers
