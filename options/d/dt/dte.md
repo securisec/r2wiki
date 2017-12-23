@@ -13,3 +13,5 @@ Usage: dte Show esil trace logs
 - **`dte-*`** Delete all esil traces
 - **`dtei`** Esil trace log single instruction
 - **`dtek [sdb query]`** Esil trace log single instruction from sdb
+
+<p hidden>dte dte- dtei dtek</p>
