@@ -15,7 +15,7 @@ Usage: a[abdefFghoprxstc] [...]
 
 [ **`aa[?]`** analyze all (fcns + bbs) (aa0 to avoid sub renaming)](/options/a/aa)
 
-[ `**ab [hexpairs]**` ** ** analyze bytes](/options/a/ab-hexpairs-analyze-bytes-2dd7479c-157b-4f2a-8b74-824aad13fcb5.md)
+[ `**ab [hexpairs]**` ** ** analyze bytes](/options/a/ab)
 
 - `**ac [cycles]**` ** ** analyze which op could be executed in [cycles]
 
