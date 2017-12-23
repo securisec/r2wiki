@@ -60,6 +60,7 @@
   - Follow prompts
   - Example from original [pull request](https://github.com/pbiernat/ripr/pull/9)
 
+```
         ripr $ r2 /tmp/example3 
  -- Remember that word: C H A I R
 [0x004007f0]> s sym.algo
@@ -141,6 +142,7 @@ class asdf(object):
         self.mu.mem_write(0x7fffffff, '\x01\x00\x00\x00')
         self._start_unicorn(0x400908)
         return self.mu.reg_read(UC_X86_REG_RAX)
+				```
 
 ## `r2scylla` scylla for radare2
 
