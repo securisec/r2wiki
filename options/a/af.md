@@ -19,7 +19,7 @@
 
 - `afF[1|0|]`   fold/unfold/toggle
 [ `afi [addr|fcn.name]`   show function(s) information (verbose afl)](/options/a/af/afi)
-[ `afl[?] [l*] [fcn name]`   list functions (addr, size, bbs, name) (see afll)](./afl-l-fcn-name-list-functions-addr-size-bbs-name-see-afll-39bb9543-9de0-4ea4-b847-059965b93268.md)
+[ `afl[?] [l*] [fcn name]`   list functions (addr, size, bbs, name) (see afll)](/options/a/af/afl)
 
 - `afo [fcn.name]`   show address for the function named like this
 
