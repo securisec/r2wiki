@@ -11,3 +11,5 @@
 - **`tcr`** Register telescoping using the calling conventions order
 - **`tcj`** json output (TODO)
 - **`tc?`** show this help
+
+<p hidden>tc tc= tc- tc+ tcl tcr tcj</p>
