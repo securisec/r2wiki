@@ -46,7 +46,7 @@ Usage: [.][#]<cmd>[*] [`cmd`] [@ addr] [~grep] [|syscmd] [>[>]file]
 - **`>file`** pipe output of command to file
 - **`>>file`** append to file
 - **`H>file`** pipe output of command to file in HTML
-						 _Example:`pdf H>somefile.html` {.is-info}_
+	> Example:`pdf H>somefile.html` {.is-info}
 - **`H>>file`** append to file with the output of command in HTML
 - **``pdi~push:0[0]** replace output of command inside the line
 - **`|cmd`** pipe output to command (pd|less) (.dr*)
