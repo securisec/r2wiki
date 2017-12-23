@@ -20,7 +20,7 @@ modifier:
 
   - Screenshot
 
-    ![Untitled](/uploads/untitled "Untitled")
+    ![Untitled](../uploads/untitled "Untitled")
 
 - **`&`** all words must match to grep the line
 - **`$[n]`** sort numerically / alphabetically the Nth column
