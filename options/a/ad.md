@@ -1,3 +1,4 @@
+<!-- TITLE: ad -->
 #  `ad[?]`   analyze data trampoline (wip)
 
 
