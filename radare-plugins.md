@@ -33,7 +33,7 @@
   [gast04/r4ge](https://github.com/gast04/r4ge)
 
 ## `diaphora` (binary diffing)
-  > _Binary diffing powered by diaphora (originally for IDA Pro)_ {.is-info}
+   > _Binary diffing powered by diaphora (originally for IDA Pro)_ {.is-info}
 
   [radare/diaphora](https://github.com/radare/diaphora)
 
