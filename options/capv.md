@@ -4,7 +4,7 @@
 
 > **(V! = panels, VV = fcngraph, VVV = callgraph)**  {.is-info}
 
-> [Visual mode help](./Visual-mode-help-644118cc-baed-4188-bae7-c56ef3d64288.md) {.is-warning}
+> [Visual mode help](/options/capv/Visual-mode) {.is-danger}
 
 
 ## **Tips**
@@ -29,29 +29,29 @@
   > Use `??` in visual mode to get a HUD style panel (easier for beginners)
 
 
-- Panels `V!`
+## Panels `V!`
 
-  ![](https://static.notion-static.com/c0c6a460c0c34bd1a4e08ff201894559/panels.png)
+  ![Panels](/uploads/cap-v/panels.png "Panels")
 
-- Hex view `V`
+## Hex view `V`
 
-   [ `V` Help](https://www.notion.so/722c6fa4-64ac-452a-aa17-6c1719836dff) 
+  - [ `V` Help](/options/capv/Visual-mode) 
 
   - After loading hex view, use `p` to see this view
 
-    ![](https://static.notion-static.com/30c641b0eae8477980783f73bba72830/Untitled)
+    ![Hex View](/uploads/cap-v/hex-view.png "Hex View")
 
   - Pressing `p` twice in this mode will show the stack and the registers in the same view. This is very helpful during debugging.
   - In this mode, you can navigate and scroll through the stack/registers/assembly by using `c` (cursor) and **TAB**
 
-    ![](https://static.notion-static.com/a5dcd953bf7e4909a50c3077970ca4d8/Untitled)
+    ![Hex View Cap P](/uploads/cap-v/hex-view-cap-p "Hex View Cap P")
 
-- `vv`
+## `vv`
 
-  ![](https://static.notion-static.com/b6dcbb25c7c5479792e0adc2f0c70be5/vv.png)
+  ![Vv](/uploads/cap-v/vv.png "vv")
 
 - Callgraph `VVV` or `VV` (Can use `-` or `+` to zoom)
 
-   [ `VV` Help](https://www.notion.so/ded91547-3ff7-4553-a37d-03bdf4bd63ad) 
+   [ `VV` Help](/options/capv/Visual-mode) 
 
-  ![](https://static.notion-static.com/430653c848444fa9a63bd38e88dc7b2b/VVV.png)
+  ![Cap Vvv Png](/uploads/cap-v/cap-vvv-png.png "Cap Vvv Png")
