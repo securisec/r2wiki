@@ -144,14 +144,12 @@
 
 ## `r2scylla` scylla for radare2
 
-  [zlowram/r2scylla](undefined)
+  [zlowram/r2scylla](https://github.com/zlowram/r2scylla)
 
 ## Plugins Errors/Installation Help
-
-  Plugins listed under [Radare Plugins](https://www.notion.so/8fc9a9d1-dea8-4417-bae5-c4dccde5d273) 
 
   - Error: `checking pkg-config flags for r_core... no`
     - `sudo apt install pkg-config` (tested on Ubuntu 16.04)
   - Installing the latest NodeJS
 
-    [Installing Node.js via package manager | Node.js](undefined)
+    [Installing Node.js via package manager | Node.js](https://nodejs.org/en/download/package-manager/)
