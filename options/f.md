@@ -28,7 +28,7 @@ Usage: f [?] [flagname] # Manage offset-name flags
 - **`f= [glob]`** list range bars graphics with flag offsets and sizes
   - Screenshot
 
-    ![F Equals](/uploads/small-f/f-equals.png "F Equals")
+    <img src="/uploads/small-f/f-equals.png" width="50%">
 
 - **`fa [name] [alias]`** alias a flag to evaluate an expression
 - **`fb [addr]`** set base address for new flags
@@ -62,3 +62,5 @@ Usage: f [?] [flagname] # Manage offset-name flags
 - **`fq`** list flags in quiet mode
 
 - [ **`fz[?][name]`** add named flag zone -name to delete. see fz?[name]](/options/f/fz)
+
+<p hidden>f+ f- f= fC fe fe- fg fj fl fla fm fn fo fr fR fs fS fV fx fq fz</p>
