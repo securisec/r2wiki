@@ -14,7 +14,7 @@ Usage: ae[idesr?] [arg]ESIL code emulation
 - `ae?`   show this help
 - `ae??`   show ESIL help
 [ `ae[aA][f] [count]`   analyse esil accesses (regs, mem..)](/options/a/ae/aea)
-[ `aec[?]`   continue until ^C](./aec-continue-until-C-b869f7ef-ef9c-47c0-a848-2b95fb267a78.md)
+[ `aec[?]`   continue until ^C](/options/a/ae/aec)
 - `aef [addr]`   emulate function
 - `aei`   initialize ESIL VM state (aei- to deinitialize)
 - `aeim [addr] [size] [name]`   initialize ESIL VM stack (aeim- remove)
