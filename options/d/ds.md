@@ -15,7 +15,7 @@ Usage: ds Step commands
 - **`dsf`** Step until end of frame
 - dsi **`dsi <cond>`** Continue/Step until condition matches
   > _Example:`dsi eax==3,ecx>0`_
-- **`dsl`** Step one source line
+- **`dsl`** Step one source line <p hidden>dsl</p>
 - **`dsl <num>`** Step <num> source lines
 - **`dso <num>`** Step over <num> instructions
 - **`dsp`** Step into program (skip libs)
