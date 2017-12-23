@@ -29,7 +29,7 @@ modifier:
 - **`^`** words must be placed at the beginning of line
 - **`!`** negate grep
 
-   > _grep -v_ {.is-info}
+   > grep -v {.is-info}
 
 - **`?`** count number of matching lines
 - **`?.`** count number chars
@@ -37,22 +37,22 @@ modifier:
 - **`:[s]-[e]`** show lines s-e
 - **`..`** internal 'less'
 
-   > _Example: _ _`pdf ~..`_ _ _ {.is-info}
+   > _Example: `pdf ~..` {.is-info}
 
 - **`...`** internal 'hud' (like V_)
   - Screenshot
 
     ![](https://static.notion-static.com/30522cb0-5953-48ea-b16e-7ef88084d0d0/Untitled)
 
-   > _This is take any commands output and overlay a HUD on top of it for string type searching. Example: _ _`pdf ~...`_ _ and then search for call_ {.is-info}
+   > This is take any commands output and overlay a HUD on top of it for string type searching. Example: `pdf ~...` and then search for call {.is-info}
 
 - **`{}`** json indentation
 
-   > _Example: _ _`iij ~{}`_ _ for pretty printing json output. Can be combine with .. for less_ {.is-info}
+   > Example: `iij ~{}` for pretty printing json output. Can be combine with .. for less_ {.is-info}
 
 - **`{path}`** json grep
 
-   > _The path is a json key. If the json output is an array, then use [array position]key. If the keys are nested, then use key.secondkey etc. Example _ _`ij~{bin.pic}`_ _ _ {.is-info}
+   > The path is a json key. If the json output is an array, then use [array position]key. If the keys are nested, then use key.secondkey etc. Example `ij~{bin.pic}` {.is-info}
 
 - **`{}..`** less json indentation
 - `**endmodifier**` ** **
