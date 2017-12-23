@@ -19,3 +19,5 @@ Usage: wao [op]performs a modification on current opcode
 - **`wao un-cjmp`** remove conditional operation to branch
 - **`wao trap`** make the current opcode a trap
 - **`wao swap-cjmp`** swap conditional branch
+
+<p hidden>wao</p>
