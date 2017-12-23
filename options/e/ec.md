@@ -31,3 +31,5 @@ Usage ec[s?] [key][[=| ]fg] [bg]
 - **`e scr.rgbcolor=1|0`** for 256 color cube (boolean)
 - **`e scr.truecolor=1|0`** for 256 _256_ 256 colors (boolean)
 - **`$DATADIR/radare2/cons`** ~/.config/radare2/cons ./
+
+<p hidden>ec ec* ecd ecr ecs ecj ecc eco ecp ecn ecH</p>
