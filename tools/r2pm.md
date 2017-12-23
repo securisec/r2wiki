@@ -4,9 +4,9 @@
 
 Radare package manager
 
-- Error: `checking pkg-config flags for r_core... no`
+## Error: `checking pkg-config flags for r_core... no`
   - `sudo apt install pkg-config` (tested on Ubuntu 16.04)
-- Help
+## Help
 
       Usage: r2pm [init|update|cmd] [...]
       Commands:
