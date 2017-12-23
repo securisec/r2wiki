@@ -62,7 +62,7 @@ modifier:
   - **`[n-m]`** show column n to m
   - **`[n-]`** show all columns starting from column n
   - **`[i,j,k]`** show the columns i, j and k
-- **`examples:`**
+- `**examples**:`
   - **`i~:0`** show first line of 'i' output
   - **`i~:-2`** show first three lines of 'i' output
   - **`pd~mov`** disasm and grep for mov
