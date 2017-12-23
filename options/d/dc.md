@@ -26,3 +26,5 @@ Usage: dc Execution continuation commands
 - **`dct <len>`** Traptrace from curseek to len, no argument to list
 
 - [ **`dcu[?] [..end|addr] ([end])`** Continue until address (or range)](/options/d/dc/dcu)
+
+<p hidden>dc dca dcb dcc dccu dcf dck dco dcp dcr dcs dct dcu</p>
