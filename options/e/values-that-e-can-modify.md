@@ -9,6 +9,8 @@
 
   - > To get valid values, use `=?` . Example `e dbg.bep =?`
 
+---
+
 - [anal](/options/e/values-that-e-can-modify/anal)
 
 - [asm](/options/e/values-that-e-can-modify/asm)
