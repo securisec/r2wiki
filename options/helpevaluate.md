@@ -14,7 +14,7 @@ Usage: ?[?[?]] expression
 ---
 - **`? eip-0x804800`** show hex and dec result for this math expr
 
-[ **`?:`** list core cmd plugins](evaluate/core_plugins)
+- [ **`?:`** list core cmd plugins](evaluate/core_plugins)
 
 - **`[cmd]?*`** Recursive help for the given cmd
 - **`?! [cmd]`** run cmd if $? == 0
