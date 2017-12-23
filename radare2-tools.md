@@ -30,8 +30,8 @@
    [radare](http://rada.re/r/arch.html)
    - `rasm2 -L`
 
-
-      `_dAe 8 16 6502 LGPL3 6502/NES/C64/Tamagotchi/T-1000 CPU
+			```
+      _dAe 8 16 6502 LGPL3 6502/NES/C64/Tamagotchi/T-1000 CPU
       _dA_ 8 8051 PD 8051 Intel CPU
       _dA_ 16 32 arc GPL3 Argonaut RISC Core
       a___ 16 32 64 arm.as LGPL3 as ARM Assembler (use ARM_AS environment)
@@ -89,7 +89,8 @@
       _dA_ 32 xcore BSD Capstone XCore disassembler
       _dAe 32 xtensa GPL3 XTensa CPU
       adA_ 8 z80 GPL Zilog Z80
-      _d__ 32 propeller LGPL3 propeller disassembly plugin`
+      _d__ 32 propeller LGPL3 propeller disassembly plugin
+			```
 
 ## Valid file formats supported 
    - `rabin2 -L`
