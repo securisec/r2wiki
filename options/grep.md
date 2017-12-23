@@ -29,7 +29,7 @@ modifier:
 - **`^`** words must be placed at the beginning of line
 - **`!`** negate grep
 
-   _grep -v_ 
+   > _grep -v_ {.is-info}
 
 - **`?`** count number of matching lines
 - **`?.`** count number chars
