@@ -20,7 +20,7 @@ modifier:
 
   - Screenshot
 
-    ![Grep Hud](/uploads/grep-hud.png "Grep Hud")
+    ![Grep Hud](/uploads/grep-hud.png "Grep Hud"){.pagelogo}
 
 - **`&`** all words must match to grep the line
 - **`$[n]`** sort numerically / alphabetically the Nth column
