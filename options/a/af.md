@@ -12,7 +12,7 @@
 
 - `afB [bits]`   set current function as thumb (change asm.bits)
 
-[ `afC[lc] ([addr])@[addr]`   calculate the Cycles (afC) or Cyclomatic Complexity (afCc)](./afC-lc-addr-addr-calculate-the-Cycles-afC-or-Cyclomatic-Complexity-afCc-91d06140-5ace-4faf-a50e-25f27693890f.md)
+[ `afC[lc] ([addr])@[addr]`   calculate the Cycles (afC) or Cyclomatic Complexity (afCc)](/options/a/af/afC)
 
 [ `afc[?] type @[addr]`   set calling convention for function](./afc-type-addr-set-calling-convention-for-function-de18fce7-8ce3-4612-8357-7f86bb0d2506.md)
 
