@@ -48,7 +48,7 @@ modifier:
 
 - **`{}`** json indentation
 
-   > Example: `iij ~{}` for pretty printing json output. Can be combine with .. for less_ {.is-info}
+    > Example: `iij ~{}` for pretty printing json output. Can be combine with .. for less_ {.is-info}
 
 - **`{path}`** json grep
 
