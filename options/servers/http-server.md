@@ -9,3 +9,5 @@
 - **`=h& port`** start http server in background)
 - **`=H port`** launch browser and listen for http
 - **`=H& port`** launch browser and listen for http in background stop foreground webserver
+
+<p hidden>=h- =h* =h& =H&</p>
