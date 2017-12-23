@@ -19,7 +19,7 @@ Usage: a[abdefFghoprxstc] [...]
 
 - `ac [cycles]` analyze which op could be executed in [cycles]
 
-[ `ad[?]` analyze data trampoline (wip)](/options/a/ad-analyze-data-trampoline-wip-4b5852b1-88d4-49d1-9e38-cc1f150e0605.md)
+[ `ad[?]` analyze data trampoline (wip)](/options/a/ad)
 
 - `ad [from] [to]` analyze data pointers to (from-to)
 
