@@ -34,5 +34,5 @@
 - `afS[stack_size]`   set stack frame size for function at current address
 - `afu [addr]`   resize and analyze function from current address until addr
 [ `aft[?]`   type matching, type propagation](/options/a/af/aft)
-[ `afv[bsra]?`   manipulate args, registers and variables in](/options/a/af/afv-bsra-manipulate-args-registers-and-variables-in-ec2e1b96-8f41-4fe1-8d9d-7a124cec6133.md)
-[ `afx[cCd-] src dst`   add/remove code/Call/data/string reference](/options/a/af/afx-cCd-src-dst-add-remove-code-Call-data-string-reference-b61b2a06-a498-42e7-a0c2-ccd14afe7940.md)
+[ `afv[bsra]?`   manipulate args, registers and variables in](/options/a/af/afv)
+[ `afx[cCd-] src dst`   add/remove code/Call/data/string reference](/options/a/af/afx)
