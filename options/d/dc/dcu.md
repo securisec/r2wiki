@@ -15,3 +15,5 @@ Usage: dcu Continue until address
 - **`dcu address`** Continue until address
 - **`dcu [..tail]`** Continue until the range
 - **`dcu [from] [to]`** Continue until the range
+
+<p hidden>dcu</p>
