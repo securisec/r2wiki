@@ -44,14 +44,14 @@
   - Pressing `p` twice in this mode will show the stack and the registers in the same view. This is very helpful during debugging.
   - In this mode, you can navigate and scroll through the stack/registers/assembly by using `c` (cursor) and **TAB**
 
-    ![Hex View Cap P](/uploads/cap-v/hex-view-cap-p "Hex View Cap P")
+    <img src="/uploads/cap-v/hex-view-cap-p" width="50%>
 
 ## `vv`
 
-  ![Vv](/uploads/cap-v/vv.png "vv")
+  <img src="/uploads/cap-v/vv.png " width="50%">
 
 - Callgraph `VVV` or `VV` (Can use `-` or `+` to zoom)
 
    [ `VV` Help](/options/capv/Visual-mode) 
 
-  ![Cap Vvv Png](/uploads/cap-v/cap-vvv-png.png "Cap Vvv Png")
+  <img src="/uploads/cap-v/cap-vvv-png.png " width="50%">
