@@ -10,7 +10,7 @@ Usage: e [var[=value]]Evaluable vars
 
 > [Values that `e` can modify](/options/e/Values-that-e-can-modify) {.is-danger}
 
-> Use `Ve` to enter Visual mode to modify `e` values, or use `e??[key name] to get a description. To get valid values, use `=?`. Example `e dbg.bep =?`
+> Use `Ve` to enter Visual mode to modify `e` values, or use `e??[key name]` to get a description. To get valid values, use `=?`. Example `e dbg.bep =?`
 
 - **`e?asm.bytes`** show description
 - **`e??`** list config vars with description
