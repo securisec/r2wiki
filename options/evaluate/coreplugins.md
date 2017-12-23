@@ -1,4 +1,4 @@
-<!-- TITLE: Coreplugins -->
+<!-- TITLE: Core plugins -->
 
 #  **`?:`** list core cmd plugins
 
