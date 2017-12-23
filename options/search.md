@@ -57,6 +57,6 @@ Use io.va for searching in non virtual addressing spaces
 - **`/w foo`** search for wide string 'f\0o\0o\0'
 - **`/wi foo`** search for wide string ignoring case 'f\0o\0o\0'
 
-[ `**/x ff..33**` search for hex string ignoring some nibbles](search/x)
+[ `/x ff..33` search for hex string ignoring some nibbles](search/x)
 
 - **`/z min max`** search for strings of given size
