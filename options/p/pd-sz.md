@@ -29,3 +29,5 @@ Usage: p[dD][ajbrfils] [sz] [arch] [bits] # Print Disassembly
 - **`pds[?]`** disassemble summary (strings, calls, jumps, refs) (see pdsf and pdfs)
   > _Can be used as either inside function, or assigned an offset `pds @offset[func_name]`_
 - **`pdt`** disassemble the debugger traces (see atd)
+
+<p hidden>pd pD pda pdb pdc pdC pdf pdi pdj pdk pdl pdr pdR pds pdt</p>
