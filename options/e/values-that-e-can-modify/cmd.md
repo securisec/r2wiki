@@ -27,3 +27,5 @@
 - **`cmd.visual`** Replace current print mode
 - **`cmd.vprompt`** Visual prompt commands
 - **`cmd.xterm`** xterm command to spawn with V@ _Default is xterm -bg black -fg gray -e_
+
+<p hidden>cmd.bp cmd.cprompt cmd.depth cmd.esil.intr cmd.esil.ioer cmd.esil.mdev cmd.esil.todo cmd.esil.trap cmd.fcn.delete cmd.fcn.new cmd.fcn.rename cmd.gprompt cmd.graph cmd.hit cmd.hitinfo cmd.log cmd.open cmd.prompt cmd.repeat cmd.stack cmd.times cmd.visual cmd.vprompt cmd.xterm</p>
