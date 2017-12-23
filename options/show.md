@@ -14,7 +14,7 @@ Usage: ?v [$.]
 
    > Set aliases for commands. Example `$foo=db main, dc, drr`
 
-- - **`$b`** block size
+- **`$b`** block size
 - **`$B`** base address (aligned lowest map address)
 - **`$f`** jump fail address (e.g. jz 0x10 => next instruction)
 - **`$fl`** flag length (size) at current address (fla; pD $l @ entry0)
