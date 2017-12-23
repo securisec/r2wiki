@@ -14,7 +14,7 @@
 
     ![Question Question Hud](/uploads/v-help/question-question-hud.png "Question Question Hud")
 
-  - _Makes it really easy to do various tasks in visual mode. This is different from the _ _`_`_ _ HUD mode_
+  > _Makes it really easy to do various tasks in visual mode. This is different from the `_` HUD mode_
 - **`$`** toggle asm.pseudo
 - **`%`** in cursor mode finds matching pair, otherwise toggle autoblocksz
 - **`@`** redraw screen every 1s (multi-user view), in cursor set position
@@ -22,12 +22,12 @@
 - **`_`** enter the flag/comment/functions/.. hud (same as VF_)
   - Screenshot
 
-    ![](https://static.notion-static.com/76b45d95-4b6d-4c29-9aa3-d4274a2ad787/Untitled)
+    ![Underscore Hud](/uploads/v-help/underscore-hud.png "Underscore Hud")
 
 - **`=`** set cmd.vprompt (top row)
 - **`|`** set cmd.cprompt (right column)
 - **`.`** seek to program counter
-  - _Return back to where EIP or the current seek is_
+  > _Return back to where EIP or the current seek is_
 - **`\`** toggle visual split mode
 - **`"`** toggle the column mode (uses pC..)
 - **`/`** in cursor mode search in current block
@@ -43,13 +43,13 @@
 - **`b`** browse symbols, flags, configurations, classes, ...
 - **`B`** toggle breakpoint
 - **`c/C`** toggle (c)ursor and (C)olors
-  - _Use - or + to increment or decrement opcode value while in cursor c mode_
+  > _Use - or + to increment or decrement opcode value while in cursor c mode_
 
-[ **`d[f?]`** define function, data, code, ..](./d-f-define-function-data-code-2246d84e-0170-46e0-82b4-6f401a8374b2.md)
+- [ **`d[f?]`** define function, data, code, ..](/options/capv/visual-mode/v-help/d)
 
 - **`e`** edit eval configuration variables
 - `E` Color / Theme changer. Use up or down to select what you want to change followed by RGB keys.
-  - _Use _ _`rRgGbB`_ _ keys to the RGB values_
+  > _Use `rRgGbB` keys to the RGB values_
 - **`f/F`** set/unset or browse flags. f- to unset, F to browse, ..
   - Visual flag help
 
@@ -74,9 +74,9 @@
 - **`mK/'K`** mark/go to Key (any key)
 - **`M`** walk the mounted filesystems
 - **`n/N`** seek next/prev function/flag/hit (scr.nkey)
-  - _Move down _ _`n`_ _ or up _ _`N`_ _ to the next function_
+  > _Move down `n` or up `N` to the next function_
 - **`o`** go/seek to given offset
-  - _Go to this offset and change seek to this offset._
+  > _Go to this offset and change seek to this offset._
 - **`O`** toggle asm.esil
 - **`p/P`** rotate print modes (hex, disasm, debug, words, buf)
 - **`q`** back to radare shell
@@ -92,7 +92,7 @@
 - **`xX`** show xrefs/refs of current function from/to data/code
   - Screenshot
 
-    ![](https://static.notion-static.com/f3cc0ee1-a8d6-47f5-b88e-50d7038de495/Untitled)
+    ![X Xref](/uploads/cap-v/x-xref.png "X Xref")
 
 - **`yY`** copy and paste selection
 - **`z`** fold/unfold comments in disassembly
