@@ -2,7 +2,7 @@
 ![R 2 Logo 3](/uploads/r-2-logo-3.png "R 2 Logo 3"){.pagelogo}
 This is an ongoing work in progress and reflects various material obtained during stuying how to user r2. This wiki is constantly updated. Feel free to tweet to me [@securisec](https://twitter.com/securisec) if there is a tidbit I can include in here.
 
-> To get a local copy of this wiki check out [github](https://github.com/securisec/radare2_wiki)
+> To get a local copy of this wiki check out [github](https://github.com/securisec/radare2_wiki) {.is-info}
 
     All the commands are based (started) with the following Radare version:
     radare2 2.1.0-git 16575 @ linux-x86-64 git.2.0.1-245-g48bfa50
