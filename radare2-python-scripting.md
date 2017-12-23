@@ -6,9 +6,10 @@
 
 ## Basic usage
   - Load a binary
-
+				```python
         import r2pipe
         r = r2pip.open('binary')
+				```
 
   - Disable stderr messages
 
