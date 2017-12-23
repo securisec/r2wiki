@@ -6,14 +6,23 @@
 
 ## **Tips**
   > You can use `h, j, k, l` or `H, G, K, L` to move inside the visual mode, or `TAB` to navigate
+
   > Use `c` to toggle cursor mode.
+
   > Use `p` to show different views inside visual mode. The different modes are normal, display offsets, minigraph and summary
+
   > Use `/` to highlight searches in visual mode
+
   > In hex view, press `p` to show disassembly. Pressing `c` will enable cursor mode. Use the cursor mode to set breakpoints using `F2` . Can use `B` also to set breakpoints
+
   > Use `$` to toggle psuedo code inside visual mode
+
   > In visual mode, pressing the number inside square brackets i.e `[1]` will move seek to that address. This generally applies to calls or jumps. Anything inside square brackets are used for quick navigation, i.e. `[ga]` means press ga to seek to that addressess (in `VV` mode)
+
   > Seek backwards using `u`
+
   > Use `.` in visual mode to jump back to where the seek (cursor) is.
+
   > Use `??` in visual mode to get a HUD style panel (easier for beginners)
 
 [Visual mode help](./Visual-mode-help-644118cc-baed-4188-bae7-c56ef3d64288.md)
