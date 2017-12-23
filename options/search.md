@@ -38,8 +38,7 @@ Use io.va for searching in non virtual addressing spaces
 - **`/h[t] [hash] [len]`** find block matching this hash. See /#?
 - **`/i foo`** search for string 'foo' ignoring case
 - **`/m magicfile`** search for matching magic file (use blocksize)
-
- > Use this to search for magic headers inside the binary. Similar to foremost
+  > Use this to search for magic headers inside the binary. Similar to foremost
 
 - **`/M`** search for known filesystems and mount them automatically
 - **`/o [n]`** show offset of n instructions backward
