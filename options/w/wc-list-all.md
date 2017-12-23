@@ -17,3 +17,5 @@ Usage: wc[ir+-*?] # NOTE: Uses io.cache=true
 - **`wcp [fd]`** list all cached write-operations on p-layer for specified fd or current fd
 - **`wcp* [fd]`** list all cached write-operations on p-layer in radare commands
 - **`wcpi [fd]`** commit and invalidate pcache for specified fd or current fd
+
+<p hidden>wc wc+ wc* wcr wci wcp wcp* wcpi</p>
