@@ -19,3 +19,5 @@ Usage: CC[-+!*au] [base64:..|str] @ addr
 - **`CC- @ cmt_addr`** remove comment at given address
 - **`CCu good boy @ addr`** add good boy comment at given address
 - **`CCu base64:AA== @ addr`** add comment in base64
+
+<p hidden>CC CC* CC. CCf CC+ CC! CC- CCu</p>
