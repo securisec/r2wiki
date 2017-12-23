@@ -8,23 +8,23 @@
 
 ## behelit
 
-  ![](https://static.notion-static.com/336f000b-3619-403d-bca2-5f95985fd732/Untitled){.align-center}
+  ![Behelit](/uploads/themes/behelit.png "Behelit")
 
 ## cga
 
-  ![](https://static.notion-static.com/a9c8b9c2-c749-40d8-8a8c-91a3331043ab/Untitled){.align-center}
+  ![Cga](/uploads/themes/cga.png "Cga")
 
 ## consonance
 
-  ![](https://static.notion-static.com/db0f88ee-ef6e-4038-946f-e479d10adf4a/Untitled){.align-center}
+  ![Consonance](/uploads/themes/consonance "Consonance")
 
 ## cutter
 
-  ![](https://static.notion-static.com/852e2f8e-d374-4350-bf75-a7a99c0d3353/Untitled){.align-center}
+  ![Cutter](/uploads/themes/cutter "Cutter")
 
 ## dark
 
-  ![](https://static.notion-static.com/f76c0e3d-226c-47a4-89e4-241146f7e61d/Untitled){.align-center}
+  ![Dark](/uploads/themes/dark.png "Dark")
 
 ## ogray
 
