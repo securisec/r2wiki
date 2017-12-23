@@ -2,9 +2,9 @@
 
 #  `afv[bsra]?`   manipulate args, registers and variables in
 - 
-[ `afvr[?]`   manipulate register based arguments](/options/a/af/afv/afvr)
-[ `afvb[?]`   manipulate bp based arguments/locals](/options/a/af/afv/afvb)
-[ `afvs[?]`   manipulate sp based arguments/locals](/options/a/af/afv/afvs)
+	[ `afvr[?]`   manipulate register based arguments](/options/a/af/afv/afvr)
+	[ `afvb[?]`   manipulate bp based arguments/locals](/options/a/af/afv/afvb)
+	[ `afvs[?]`   manipulate sp based arguments/locals](/options/a/af/afv/afvs)
 - `afvR [varname]`   list addresses where vars are accessed
 - `afvW [varname]`   list addresses where vars are accessed
 - `afva`   analyze function arguments/locals
