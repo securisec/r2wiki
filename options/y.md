@@ -24,3 +24,5 @@ Usage: y[ptxy] [len] [[@]addr] # See wd? for memcpy, same as 'yf'.
 - **`yf 64 0x200`** file copy 64 bytes from 0x200 from file (opens w/ io), use -1 for all bytes
 - **`yfa file copy`** copy all bytes from file (opens w/ io)
 - **`yy 0x3344`** paste clipboard
+
+<p hidden>yz yp yx ys yt ytf yf yfa yy</p>
