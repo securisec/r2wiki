@@ -1,6 +1,10 @@
 #  `ae[aA][f] [count]`   analyse esil accesses (regs, mem..)
 
+
+```text
 Examples: aea show regs used in a range
+```
+
 
 - `aea [ops]`   Show regs used in N instructions
 - `aea* [ops]`   Create mem.* flags for memory accesses
