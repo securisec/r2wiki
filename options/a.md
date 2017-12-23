@@ -25,7 +25,7 @@ Usage: a[abdefFghoprxstc] [...]
 
 [ `ae[?] [expr]` analyze opcode eval expression (see ao)](/options/a/ae)
 
-[ `af[?]` analyze Functions](/options/a/af-analyze-Functions-f7d321de-6f78-44c9-af5b-155e0fedbd48.md)
+[ `af[?]` analyze Functions](/options/a/af)
 
 - `aF` same as above, but using anal.depth=1
 
