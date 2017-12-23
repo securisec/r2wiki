@@ -6,6 +6,8 @@ Usage: (foo args,cmd1,cmd2,..)Aliases
 
 ## **Tips**
   - Example: `(abc, pd 4, ao)` . In this example, `abc` is the name, and when the macro is called, it will run the `,` seperated commands. The macro can be called with `.(abc)`
+
+---
 - **`(foo args,..,..)`** define a macro
 - **`(foo args,..,..)()`** define and call a macro
 - **`(-foo)`** remove a macro
