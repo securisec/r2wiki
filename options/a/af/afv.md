@@ -11,3 +11,5 @@
 - `afvn [old_name] [new_name]`   rename argument/local
 - `afvt [name] [new_type]`   change type for given argument/local
 - `afv-([name])`   remove all or given var
+
+<p hidden>afvr afvb afvs afvR afvW afva afvd afvn afvt afv</p>
