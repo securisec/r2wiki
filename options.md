@@ -1,7 +1,7 @@
 # Options
 
 ## **Tips**
-  - Use the back tick `\` to wrap a command to use as the input to another command. Example s axt \`str.some~[1]\` . This command will take the address xref to of somestr and seek to that address.
+  - Use the back tick `\` to wrap a command to use as the input to another command. Example `s axt \`str.some~[1]\`` . This command will take the address xref to of somestr and seek to that address.
 
 ## Options
 [ `~` Grep](options/Grep)
