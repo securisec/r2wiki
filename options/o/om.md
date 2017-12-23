@@ -30,3 +30,5 @@ Usage: om[-] [arg] # map opened files
 - **`ompb binid`** priorize maps of mapped bin with binid
 - **`omps sectionid`** priorize maps of mapped section with sectionid
 - **`om*`** show r2 commands to restore mapaddr
+
+<p hidden>om omq om* om= omj omm om. omn omn. omf omfg omb omb. omr omp ompf ompb omps om*</p>
