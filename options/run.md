@@ -37,3 +37,5 @@ Usage: !<cmd> Run given command as in system(3)
 | RABIN2_DEMANGLE demangle or not
 | RABIN2_PDBSERVER e pdb.server
 ```
+
+<p hidden>!ls</p>
