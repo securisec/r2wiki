@@ -13,7 +13,7 @@
 [ `afb[?] [addr]`   List basic blocks of given function](/options/a/af/afb)
 - `afB [bits]`   set current function as thumb (change asm.bits)
 [ `afC[lc] ([addr])@[addr]`   calculate the Cycles (afC) or Cyclomatic Complexity (afCc)](/options/a/af/afC)
-[ `afc[?] type @[addr]`   set calling convention for function](./afc-type-addr-set-calling-convention-for-function-de18fce7-8ce3-4612-8357-7f86bb0d2506.md)
+[ `afc[?] type @[addr]`   set calling convention for function](/options/a/af/af_small_c)
 
 - `aff`   re-adjust function boundaries to fit
 
