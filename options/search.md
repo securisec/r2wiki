@@ -29,7 +29,7 @@ Use io.va for searching in non virtual addressing spaces
 
 - **`/ce rsp,rbp`** search for esil expressions matching
 
-[ **`/C[ar]`** search for crypto materials](search/C)
+[ **`/C[ar]`** search for crypto materials](search/cap_c)
 
 - **`/d 101112`** search for a deltified sequence of bytes
 - **`/e /E.F/i`** match regular expression
