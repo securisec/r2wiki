@@ -32,3 +32,5 @@ Usage: c[?dfx] [argument] # Compare
 - **`cx [hexpair]`** Compare hexpair string (use '.' as nibble wildcard)
 - **`cx* [hexpair]`** Compare hexpair string (output r2 commands)
 - **`cX [addr]`** Like 'cc' but using hexdiff output
+
+<p hidden>c c* c4 c8 cat cc ccc ccd cf cg cl cu cud cv cw cx cx* cX</p>
