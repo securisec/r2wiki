@@ -2,8 +2,12 @@
 
 #  `~` Grep
 
+
+```text
 Usage: [command]~[modifier][word,word][endmodifier][[column]][:line]
-    modifier:
+modifier:
+```
+
 
 - **Tips**
   - `..` Internal less
@@ -16,7 +20,7 @@ Usage: [command]~[modifier][word,word][endmodifier][[column]][:line]
 
   - Screenshot
 
-    ![](https://static.notion-static.com/63ac8dbec0584869a1bfa4a1ad842bf0/Untitled)
+    ![Untitled](/uploads/untitled "Untitled")
 
 - **`&`** all words must match to grep the line
 - **`$[n]`** sort numerically / alphabetically the Nth column
