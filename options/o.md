@@ -28,7 +28,7 @@ Usage: o [com- ] [file] ([offset])
 
 - **`on [file] 0x4000`** map raw file at 0x4000 (no r_bin involved)
 
-- [ **`oo[?]`** reopen current file (kill+fork in debugger)](/options/o/oo)
+- [ **`oo[?]`** reopen current file (kill+fork in debugger)](/options/o/oo_question)
 
 - **`oo+`** reopen current file in read-write
   > _This is a substitute for `-w` as a paramter when opening the file_
