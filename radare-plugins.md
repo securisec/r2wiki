@@ -22,24 +22,24 @@
 
   [rarop install help](./plugins/rarop-install-help)
 
-  [jpenalbae/rarop](undefined)
+  [jpenalbae/rarop](https://github.com/jpenalbae/rarop)
 
 ## `snowman` for r2
 
-  [radare/radare2-extras](undefined)
+  [radare/radare2-extras](https://github.com/radare/radare2-extras/tree/master/r2snowman)
 
 ## `r4ge` (symbolic exectution)
 
-  [gast04/r4ge](undefined)
+  [gast04/r4ge](https://github.com/gast04/r4ge)
 
 ## `diaphora` (binary diffing)
-  - _Binary diffing powered by diaphora (originally for IDA Pro)_
+  > _Binary diffing powered by diaphora (originally for IDA Pro)_ {.is-info}
 
-  [radare/diaphora](undefined)
+  [radare/diaphora](https://github.com/radare/diaphora)
 
 ## `r2dec`
 
-  [wargio/r2dec-js](undefined)
+  [wargio/r2dec-js](https://github.com/wargio/r2dec-js)
 
 ## `ripr` for radare2
 
@@ -49,11 +49,11 @@
     - Binary Ninja
     - To install the binary ninja api, use:
 
-      [Install the Binary Ninja Python API](undefined)
+      [Install the Binary Ninja Python API](https://gist.github.com/withzombies/c9ab65b878d05fa20878d6c2bfa935d9)
 
     - Clone ripr from:
 
-      [pbiernat/ripr](undefined)
+      [pbiernat/ripr](https://github.com/pbiernat/ripr)
 
   - Seek to function - `s offset/function`
   - Run `#!pipe python ./r2pipe_run.py `s``
