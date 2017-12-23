@@ -1,3 +1,4 @@
+<!-- TITLE: /C -->
 #  **`/C[ar]`** search for crypto materials
 
 ## **Tips**
