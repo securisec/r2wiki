@@ -14,7 +14,7 @@ Usage: ds Step commands
   > _When you run dsb, reverse debugger restore previous recorded state and execute program from it until desired point_
 - **`dsf`** Step until end of frame
 - **`dsi <cond>`** Continue/Step until condition matches
-  > Example:`dsi eax==3,ecx>0`
+  > _Example:`dsi eax==3,ecx>0`_
 - **`dsl`** Step one source line
 - **`dsl <num>`** Step <num> source lines
 - **`dso <num>`** Step over <num> instructions
