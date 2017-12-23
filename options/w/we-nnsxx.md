@@ -13,3 +13,5 @@ Usage: write extend
 - **`wes <addr> <dist> <block_size>`** shift a blocksize left or write in the editor
 - **`wex <hex_bytes>`** insert bytes at current offset
 - **`weX <addr> <hex_bytes>`** insert bytes at address
+
+<p hidden>wen weN wes wex weX</p>
