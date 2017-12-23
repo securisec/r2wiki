@@ -4,13 +4,11 @@
 
 ## `r2frida`
 
-  Extended Frida documentation can be found at [Frida](https://www.notion.so/47f5eff2-027f-4d08-9f4f-8d547cf4bbe8) wiki
-
   - **Tips**
     - Trace symbols
-      - Use the following syntax to trace. Example: `\dtf write iZi` (this was tested against node)
+      - Use the following syntax to trace. Example: `\dtf write iZi` (this was tested against node. Write is the symbol being hooked)
 
-  [Frida Commands](./Frida-Commands-8b9f4cbe-d615-4494-bbde-bb59fe2fe80e.md)
+  [Frida Commands](./Frida-Commands)
 
   [nowsecure/r2frida](undefined)
 
