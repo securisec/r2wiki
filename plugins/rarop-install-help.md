@@ -1,6 +1,6 @@
 # rarop install help
 
-The r2pm install seems to be broken. Use this method instead
+> The r2pm install seems to be broken. Use this method instead {.is-danger}
 
 - Clone the rarop repository
 
