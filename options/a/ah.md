@@ -33,3 +33,5 @@ Usage: ah[lba-]Analysis Hints
 - **`ahp addr`** set pointer hint
 - **`ahs 4`** set opcode size=4
 - **`ahS jz`** set asm.syntax=jz for this opcode
+
+<p hidden>ah? ah ah. ah- ah* aha ahb ahc ahe ahf ahh ahi ahj aho ahp ahs ahS</p>
