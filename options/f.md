@@ -9,7 +9,7 @@ Usage: f [?] [flagname] # Manage offset-name flags
 
 
 ## **Tips**
-  > To show all the contents of a flag space, use `fs [space_name]; f`
+  - > To show all the contents of a flag space, use `fs [space_name]; f`
 ---
 - **`f`** list flags (will only list flags from selected flagspaces)
 - **`f?flagname`** check if flag exists or not, See ?? and ?!
