@@ -19,17 +19,17 @@ Use io.va for searching in non virtual addressing spaces
 - **`//`** repeat last search
 - `**/a jmp eax**` assemble opcode and search its bytes
 
-   _Example: _ _`/a jmp eax`_ _ _ 
+ > Example: `/a jmp eax`
 
 - **`/A jmp`** find analyzed instructions of this type _(/A? for help)_
 - **`/b`** search backwards, command modifier, followed by other command
 - **`/B`** search recognized RBin headers
 
-[ **`/c jmp [esp]`** search for asm code matching the given string](./c-jmp-esp-search-for-asm-code-matching-the-given-string-5aa1ae4b-a79f-467b-bdb0-39a8fa017ec6.md)
+[ **`/c jmp [esp]`** search for asm code matching the given string](search/c)
 
 - **`/ce rsp,rbp`** search for esil expressions matching
 
-[ **`/C[ar]`** search for crypto materials](./C-ar-search-for-crypto-materials-37c07731-611c-437b-964d-5a1bd7b0c562.md)
+[ **`/C[ar]`** search for crypto materials](search/C)
 
 - **`/d 101112`** search for a deltified sequence of bytes
 - **`/e /E.F/i`** match regular expression
@@ -40,7 +40,7 @@ Use io.va for searching in non virtual addressing spaces
 - **`/i foo`** search for string 'foo' ignoring case
 - **`/m magicfile`** search for matching magic file (use blocksize)
 
-   _Use this to search for magic headers inside the binary. Similar to foremost_ 
+ > Use this to search for magic headers inside the binary. Similar to foremost
 
 - **`/M`** search for known filesystems and mount them automatically
 - **`/o [n]`** show offset of n instructions backward
