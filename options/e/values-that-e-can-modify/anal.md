@@ -3,7 +3,7 @@
 # anal
 
 - **`anal.a2f`** Use the new WIP analysis algorithm (core/p/a2f), anal.depth ignored atm _Default is false_
-- **`anal.afterjmp`** Continue analysis after jmp/ujmp _**Default is true**_
+- **`anal.afterjmp`** Continue analysis after jmp/ujmp _Default is true_
 - **`anal.arch`** Select the architecture to use _Default is x86_
 - **`anal.armthumb`** aae computes arm/thumb changes (lot of false positives ahead) _Default is false_
 - **`anal.autoname`** Automatically set a name for the functions, may result in some false positives _Default is true_
