@@ -14,3 +14,5 @@ Examples: aea show regs used in a range
 - `aean [ops]`   Show regs not written in N instructions
 - `aeaj [ops]`   Show aea output in JSON format
 - `aeA [len]`   Show regs used in N bytes (subcommands are the same)
+
+<p hidden>aea aea* aeaf aear aeaw aean aeaj aeA</p>
