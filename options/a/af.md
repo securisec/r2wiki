@@ -11,7 +11,6 @@
 - `af- [addr]`   clean all function analysis data (or function at addr)
 
 - `afb+ fcnA bbA sz [j] [f] ([t]( [d]))`   add bb to function @ fcnaddr
-
 [ `afb[?] [addr]`   List basic blocks of given function](/options/a/af/afb)
 
 - `afB [bits]`   set current function as thumb (change asm.bits)
