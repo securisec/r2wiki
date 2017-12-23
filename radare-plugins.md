@@ -60,7 +60,7 @@
   - Follow prompts
   - Example from original [pull request](https://github.com/pbiernat/ripr/pull/9)
 
-```
+```python
         ripr $ r2 /tmp/example3 
  -- Remember that word: C H A I R
 [0x004007f0]> s sym.algo
