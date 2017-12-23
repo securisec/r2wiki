@@ -31,7 +31,7 @@ Usage: dm # Memory maps commands
 - **`dml <file>`** Load contents of file into the current map region (see Sl)
 - **`dmm[?][j*]`** List modules (libraries, binaries loaded in memory)
 
-- [ **`dmp[?] <address> <size> <perms>`** Change page at <address> with <size>, protection <perms> (rwx)](/options/d/dm/dmp)
+- [ **`dmp[?] <address> <size> <perms>`** Change page at \<address\> with \<size\>, protection \<perms\> (rwx)](/options/d/dm/dmp)
 
 - [ **`dms[?] <id> <mapaddr>`** Take memory snapshot](/options/d/dm/dms)
 
