@@ -11,7 +11,7 @@
 - **`ahi i`** set base to IP address (32)
 - **`ahi S`** set base to syscall (80)
 - **`ahi s`** set base to string (1)
-  > Example: Convert to string
+  - **Example: Convert to string**
 
      `ahi s @@=0x080485a3 0x080485ad 0x080485b7` ( `@@=` helps specify multiple offsets).
 
