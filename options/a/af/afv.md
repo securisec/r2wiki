@@ -1,7 +1,7 @@
 <!-- TITLE: afv -->
 
 #  `afv[bsra]?`   manipulate args, registers and variables in
-
+- 
 [ `afvr[?]`   manipulate register based arguments](/options/a/af/afv/afvr)
 [ `afvb[?]`   manipulate bp based arguments/locals](/options/a/af/afv/afvb)
 [ `afvs[?]`   manipulate sp based arguments/locals](/options/a/af/afv/afvs)
