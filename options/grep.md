@@ -42,7 +42,7 @@ modifier:
 - **`...`** internal 'hud' (like V_)
   - Screenshot
 
-    ![](https://static.notion-static.com/30522cb0-5953-48ea-b16e-7ef88084d0d0/Untitled)
+    ![Internal Hud](/uploads/grep/internal-hud.png "Internal Hud")
 
    > This is take any commands output and overlay a HUD on top of it for string type searching. Example: `pdf ~...` and then search for call {.is-info}
 
