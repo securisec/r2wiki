@@ -38,3 +38,5 @@ Usage: s # Help for the seek commands. See ?$? to see all variables
 - **`so [N]`** Seek to N next opcode(s)
 - **`sr pc`** Seek to register
 - **`ss`** Seek silently (without adding an entry to the seek history)
+
+<p hidden>s- s-- s+ s++ s/ sj s/x sa sb sC sf sg sG sl sn sp so sr ss</p>
