@@ -39,7 +39,7 @@
 
   - After loading hex view, use `p` to see this view
 
-    ![Hex View](/uploads/cap-v/hex-view.png "Hex View")
+    <img src="/uploads/cap-v/hex-view.png" width="50%">
 
   - Pressing `p` twice in this mode will show the stack and the registers in the same view. This is very helpful during debugging.
   - In this mode, you can navigate and scroll through the stack/registers/assembly by using `c` (cursor) and **TAB**
