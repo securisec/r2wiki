@@ -16,11 +16,11 @@
 
 ## consonance
 
-  ![Consonance](/uploads/themes/consonance "Consonance")
+  ![Consonance](/uploads/themes/consonance.png "Consonance")
 
 ## cutter
 
-  ![Cutter](/uploads/themes/cutter "Cutter")
+  ![Cutter](/uploads/themes/cutter.png "Cutter")
 
 ## dark
 
