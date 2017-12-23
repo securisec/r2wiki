@@ -40,7 +40,7 @@
 
 [ **`c`** Compare block with given data](options/c)
 
-[ **`C`** Code metadata (comments, format, hints, ..)](options/C)
+[ **`C`** Code metadata (comments, format, hints, ..)](options/cap_c)
 
 [ **`d`** Debugger commands](options/d)
 
@@ -54,7 +54,7 @@
 
 [ **`k`** Run sdb-query. see k? for help, 'k *', 'k **' ...](options/k)
 
-[ **`L`** list, unload load r2 plugins](options/L)
+[ **`L`** list, unload load r2 plugins](options/cap_l)
 
 [ **`m`** Mountpoints commands](options/m)
 
@@ -62,7 +62,7 @@
 
 [ **`p`** Print current block with format and length](options/p)
 
-[ **`P`** Project management utilities](options/P)
+[ **`P`** Project management utilities](options/cap_p)
 
 [ **`q`** Quit program with a return value](options/q)
 
@@ -70,13 +70,13 @@
 
 [ **`s`** Seek to address (also for '0x', '0x1' == 's 0x1')](options/s)
 
-[ **`S`** Io section manipulation information](options/S)
+[ **`S`** Io section manipulation information](options/cap_s)
 
 [ **`t`** Types, noreturn, signatures, C parser and more](options/t)
 
-[ **`T`** Text log utility](options/T)
+[ **`T`** Text log utility](options/cap_t)
 
-[ **`V`** Visual mode](options/V)
+[ **`V`** Visual mode](options/cap_v)
 
 [ **`w`** Multiple write operations](options/w)
 
