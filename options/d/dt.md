@@ -32,3 +32,5 @@ Usage: dt Trace commands
 - [ **`dts[?]`** Trace sessions](/options/d/dt/dts)
 
 - **`dtt [tag]`** Select trace tag (no arg unsets)
+
+<p hidden>dt dt% dt* dt+ dt- dtD dta dtc dtd dte dtg dtg* dtgi dtr dts dtt</p>
