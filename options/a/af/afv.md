@@ -8,7 +8,7 @@
 - `afvR [varname]`   list addresses where vars are accessed
 - `afvW [varname]`   list addresses where vars are accessed
 - `afva`   analyze function arguments/locals
-[ `afvd` ] show local variables during debugging(/options/a/af/afv/afvd)
+[ `afvd`  show local variables during debugging](/options/a/af/afv/afvd)
 - `afvn [old_name] [new_name]`   rename argument/local
 - `afvt [name] [new_type]`   change type for given argument/local
 - `afv-([name])`   remove all or given var
