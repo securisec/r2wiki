@@ -1,5 +1,4 @@
 <!-- TITLE: r2pm -->
-<!-- SUBTITLE: A quick summary of R 2 Pm -->
 
 # r2pm (radare2 package manager)
 
