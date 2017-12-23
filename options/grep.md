@@ -55,14 +55,14 @@ modifier:
    > The path is a json key. If the json output is an array, then use [array position]key. If the keys are nested, then use key.secondkey etc. Example `ij~{bin.pic}` {.is-info}
 
 - **`{}..`** less json indentation
-- `**endmodifier**` ** **
+- **`endmodifier`**
   - **`$`** words must be placed at the end of line
-- `**column:**` ** **
+- **`column:`**
   - **`[n]`** show only column n
   - **`[n-m]`** show column n to m
   - **`[n-]`** show all columns starting from column n
   - **`[i,j,k]`** show the columns i, j and k
-- `**examples:**` ** **
+- **`examples:`**
   - **`i~:0`** show first line of 'i' output
   - **`i~:-2`** show first three lines of 'i' output
   - **`pd~mov`** disasm and grep for mov
