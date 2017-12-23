@@ -19,3 +19,5 @@ Usage: pz [len] print zoomed blocks (filesize/N)
 - **`pzF`** number of bytes with value 0xFF
 - **`pze`** calculate entropy and expand to 0-255 range
 - **`pzh`** head (first byte value); This is the default mode
+
+<p hidden>pzp pzf pzs pz0 pzF pze pzh</p>
