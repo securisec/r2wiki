@@ -16,11 +16,11 @@
 
 ## `r2pm` package manager
 
-  [radare/radare2-pm](undefined)
+  [radare/radare2-pm](https://github.com/radare/radare2-pm/tree/master/db)
 
 ## `rarop`
 
-  [rarop install help](./rarop-install-help-f1a74c9d-70b2-4415-b8f8-dad7ca27137f.md)
+  [rarop install help](./plugins/rarop-install-help)
 
   [jpenalbae/rarop](undefined)
 
