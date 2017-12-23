@@ -19,3 +19,5 @@ Usage: g[wcilper] [arg]Go compile shellcodes
 - **`ge xor`** Specify an encoder
 - **`gr`** Reset r_egg
 - **`EVAL VARS:`** asm.arch, asm.bits, asm.os
+
+<p hidden>gw gc gl gs gi gp ge gr</p>
