@@ -10,24 +10,41 @@ This is an ongoing work in progress and reflects various material obtained durin
 
 # Sections
 
-## Options   [Options](./Options)
+## Options
+[Options](./Options)
 
+## Radare2 Python scripting
 [Radare2 Python scripting](./Radare2-Python-scripting)
 
+## Radare2 tools
 [Radare2 tools](./Radare2-tools)
 
+
+## Radare Plugins
 [Radare Plugins](./Radare-Plugins)
 
+
+## Pwn helper
 [Pwn helper](./Pwn-helper)
 
+
+## CTF solving
 [CTF solving using radare2](./CTF-solving-using-radare2)
 
+
+## Tips
 [Tips](./Tips)
 
+
+## Code samples
 [Code samples](./Code-samples)
 
+
+## Debugger help
 [Debugger help](./Debugger-help)
 
+
+## Analysis
 [Analysis Help (go, arm, ios etc)](./Analysis-Help)
 
 # Books / Resources
