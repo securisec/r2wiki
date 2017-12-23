@@ -16,14 +16,14 @@ Usage: px[0afoswqWqQ][f] # Print heXadecimal
 - **`px`** show hexdump
   - Screenshot
 
-    ![Px](/uploads/small-p/px.png "Px")
+    <img src="/uploads/small-p/px.png" width="50%">
 
 - **`px/`** same as x/ in gdb (help x)
 - **`px0`** 8bit hexpair list of bytes until zero byte
 - **`pxa`** show annotated hexdump
   - Screenshot
 
-    ![Pxa](/uploads/small-p/pxa.png "Pxa")
+    <img src="/uploads/small-p/pxa.png" width="50%">
 
 - **`pxA`** show op analysis color map
 - **`pxb`** dump bits in hexdump form
@@ -45,19 +45,22 @@ Usage: px[0afoswqWqQ][f] # Print heXadecimal
 
      **Green/Blue** is executable, **Red** is data **White** is value?
 
-    ![Pxr](/uploads/small-p/pxr.png "Pxr")
+    <img src="/uploads/small-p/pxr.png" width="50%">
 
 - **`pxs`** show hexadecimal in sparse mode
 - **`pxt[*.] [origin]`** show delta pointer table in r2 commands
 - **`pxw`** show hexadecimal words dump (32bit)
   - Screenshot
 
-    ![Pxw](/uploads/small-p/pxw.png "Pxw")
+    <img src="/uploads/small-p/pxw.png "Pxw")
 
 - **`pxW`** same as above, but one per line
   - Screenshot
 
-    ![Px Cap W](/uploads/small-p/px-cap-w.png "Px Cap W")
+    <img src="/uploads/small-p/px-cap-w.png" width="50%">
 
 - **`pxx`** show N bytes of hex-less hexdump
 - **`pxX`** show N words of hex-less hexdump
+
+
+<p hidden>px px0 pxa pxA pxb pxc pxd pxe pxf pxh pxH pxi pxl pxo pxq pxQ pxr pxs pxt pxw pxW pxx pxX</p>
