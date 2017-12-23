@@ -24,3 +24,5 @@ Usage: dp # Process commands
 - **`dpt`** List threads of current pid
 - **`dpt <pid>`** List threads of process
 - **`dpt=<thread>`** Attach to thread
+
+<p hidden>dp dp* dp- dp= dpa dpc dpc* dpe dpf dpk dpn dptn dpt dpt=</p>
