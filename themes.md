@@ -12,7 +12,7 @@
 
 ## cga
 
-  ![Cga](/uploads/themes/cga.png "Cga")
+  ![Cga](/uploads/themes/cga-png.png "Cga")
 
 ## consonance
 
