@@ -89,8 +89,7 @@
       _dA_ 32 xcore BSD Capstone XCore disassembler
       _dAe 32 xtensa GPL3 XTensa CPU
       adA_ 8 z80 GPL Zilog Z80
-      _d__ 32 propeller LGPL3 propeller disassembly plugin
-			```
+      _d__ 32 propeller LGPL3 propeller disassembly plugin```
 
 ## Valid file formats supported 
    - `rabin2 -L`
