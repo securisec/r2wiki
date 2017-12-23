@@ -6,7 +6,7 @@ This wiki can be used either from the online version or locally.
 
 #### Credits:
 Tons of great youtube videos, the radare2 irc channel, twitter, too many to list.
-Wiki is powered by [wiki.js](https://wiki.js.org/)
+Wiki is powered by [wiki.js](https://wiki.js.org/) <img src="https://beta.requarks.io/svg/logo.svg" width="48">
 
 ## Online
 The wiki is available online at [https://radare2.securisec.com](https://radare2.securisec.com)
