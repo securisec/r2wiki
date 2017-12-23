@@ -11,7 +11,7 @@ This is an ongoing work in progress and reflects various material obtained durin
 # Sections
 
 ## Options
-[Options](./Options)
+[Radare2 console options](./Options)
 
 ## Radare2 Python scripting
 [Radare2 Python scripting](./Radare2-Python-scripting)
