@@ -13,9 +13,9 @@ Usage: ds Step commands
 - **`dsb`** Step back one instruction
   > _When you run dsb, reverse debugger restore previous recorded state and execute program from it until desired point_
 - **`dsf`** Step until end of frame
-- dsi **`dsi <cond>`** Continue/Step until condition matches
+- **`dsi <cond>`** Continue/Step until condition matches
   > _Example:`dsi eax==3,ecx>0`_
-- **`dsl`** Step one source line <p hidden>dsl</p>
+- **`dsl`** Step one source line
 - **`dsl <num>`** Step <num> source lines
 - **`dso <num>`** Step over <num> instructions
 - **`dsp`** Step into program (skip libs)
@@ -26,3 +26,5 @@ Usage: ds Step commands
 - **`dsui[r] <instr>`** Step until an instruction that matches `instr` , use dsuir for regex match
 - **`dsue <esil>`** Step until esil expression matches
 - **`dsuf <flag>`** Step until pc == flag matching name
+
+<p hidden>ds dsb dsf dsi dsl dso dsp dss dsu dsui dsue dsuf</p>
