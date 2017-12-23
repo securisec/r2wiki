@@ -35,3 +35,5 @@ Usage: C[-LCvsdfm*?][*?] [...] # Metadata management
 
 - **`CF[sz] [fcn-sign..] [@addr]`** function signature
 - **`Cm[-] [sz] [fmt..] [@addr]`** magic parse (see pm?)
+
+<p hidden>C C* C- CL CC. CC! CCa CCu Cv Cs Cz Ch Cd Cf CF Cm</p>
