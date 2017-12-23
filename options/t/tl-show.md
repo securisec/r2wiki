@@ -1,0 +1,12 @@
+<!-- TITLE: tl -->
+
+#  **`tl[?]`** Show/Link type to an address
+
+- **`tl`** list all links in readable format
+- **`tl[typename]`** link a type to current address.
+- **`tl[typename] = [address]`** link type to given address.
+- **`tls[address]`** show link at given address
+- **`tl-*`** delete all links.
+- **`tl-[address]`** delete link at given address.
+- **`tl*`** list all links in radare2 command format
+- **`tl?`** print this help.
