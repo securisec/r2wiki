@@ -22,7 +22,7 @@ Usage: e [var[=value]]Evaluable vars
 - **`e*`** dump config vars in r commands
 - **`e!a`** invert the boolean value of 'a' var
 
-- [ **`ec [k] \[color\]`** set color for given key (prompt, offset, ...)](/options/e/ec)
+- [ **`ec [k] [color]`** set color for given key (prompt, offset, ...)](/options/e/ec)
 
 - **`eevar`** open editor to change the value of var
 - **`ej`** list config vars in JSON
