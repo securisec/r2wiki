@@ -5,3 +5,5 @@
 - **`=:port`** listen on given port using rap protocol (o rap://9999)
 - **`=&:port`** start rap server in background
 - **`=:host:port cmd`** run 'cmd' command on remote server
+
+<p hidden>=:port =&:port =:host:port</p>
