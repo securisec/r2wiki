@@ -11,3 +11,5 @@
 - **`zign.offset`** Use original offset for matching _Default is true_
 - **`zign.prefix`** Default prefix for zignatures matches _Default is sign_
 - **`zign.refs`** Use references for matching _Default is true_
+
+<p hidden>zign.autoload zign.bytes zign.graph zign.maxsz zign.mincc zign.minsz zign.offset zign.prefix zign.refs</p>
