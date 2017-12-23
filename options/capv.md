@@ -31,7 +31,7 @@
 
 ## Panels `V!`
 
-  ![Panels](/uploads/cap-v/panels.png "Panels")
+  <img src="/uploads/cap-v/panels.png" width="200">
 
 ## Hex view `V`
 
