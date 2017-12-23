@@ -24,3 +24,5 @@ Usage: fs [*] [+-][flagspace|addr] # Manage flagspaces
 - **`fss*`** display flagspaces stack in r2 commands
 - **`fssj`** display flagspaces stack in JSON
 - **`fsr newname`** rename selected flagspace
+
+<p hidden>fs fs* fsj fs0 fs+ fsq fsm fss fssj fsr</p>
