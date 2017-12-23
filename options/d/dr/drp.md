@@ -15,3 +15,5 @@ Usage: drp # Register profile commands
 - **`drp.`** Show the current fake size
 - **`drpj`** Show the current register profile (JSON)
 - **`drps [new fake size]`** Set the fake size
+
+<p hidden>drp drpi drp. drpj drps</p>
