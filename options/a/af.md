@@ -27,7 +27,7 @@
 
 
 - `afM name`   print functions map
-[ `afn[?] name [addr]`   rename name for function at address (change flag too)](./afn-name-addr-rename-name-for-function-at-address-change-flag-too-a378ab1c-eb3d-4763-aaaa-e2a706bbed3e.md)
+[ `afn[?] name [addr]`   rename name for function at address (change flag too)](/options/a/af/afn)
 
 - `afna`   suggest automatic name for current offset
 - `afs [addr] [fcnsign]`   get/set function signature at current address
