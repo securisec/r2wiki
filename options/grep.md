@@ -20,7 +20,7 @@ modifier:
 
   - Screenshot
 
-    ![Grep Hud](/uploads/grep-hud.png "Grep Hud")
+    <img src="/uploads/grep-hud.png width="50%">
 
 - **`&`** all words must match to grep the line
 - **`$[n]`** sort numerically / alphabetically the Nth column
@@ -42,7 +42,7 @@ modifier:
 - **`...`** internal 'hud' (like V_)
   - Screenshot
 
-    ![Internal Hud](/uploads/grep/internal-hud.png "Internal Hud")
+    <img src="/uploads/grep/internal-hud.png" width="50%">
 
   > This is take any commands output and overlay a HUD on top of it for string type searching. Example: `pdf ~...` and then search for call
 
