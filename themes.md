@@ -4,7 +4,7 @@
 
 ## basic
 
-  ![](https://static.notion-static.com/0f33e22b-3940-4561-bf96-d52acff0d169/Untitled){.align-center}
+  ![Base](/uploads/themes/base.png "Base")
 
 ## behelit
 
