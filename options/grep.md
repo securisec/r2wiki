@@ -44,7 +44,7 @@ modifier:
 
     ![Internal Hud](/uploads/grep/internal-hud.png "Internal Hud")
 
-	 > This is take any commands output and overlay a HUD on top of it for string type searching. Example: `pdf ~...` and then search for call {.is-info}
+	> This is take any commands output and overlay a HUD on top of it for string type searching. Example: `pdf ~...` and then search for call {.is-info}
 
 - **`{}`** json indentation
 
