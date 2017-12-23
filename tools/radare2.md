@@ -76,7 +76,7 @@
 ## Debuggers supported 
    - `radare2 -L`
 
-  Those that have a **d ** in the first column support debugging
+  Those that have a **d** in the first column support debugging
 
   - _rw_ _ **`ar`** Open ar/lib files [ar|lib]://[file//path] (LGPL3)
   - _rw_ _ **`bfdbg`** BrainFuck Debugger (bfdbg://path/to/file) (LGPL3)
