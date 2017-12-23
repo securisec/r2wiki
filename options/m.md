@@ -26,5 +26,5 @@ Usage: m[-?*dgy] [...] Mountpoints management
 - **`mp`** List all supported partition types
 - **`mp msdos 0`** Show partitions in msdos format at offset 0
 - **`ms /mnt`** Open filesystem prompt at /mnt
-  - _Shell prompt inside the mounted directory_
+  > Shell prompt inside the mounted directory
 - **`my`** Yank contents of file into clipboard
