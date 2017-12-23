@@ -26,7 +26,7 @@ Usage: ah[lba-]Analysis Hints
 - **`ahf 0x804840`** override fallback address for call
 - **`ahh 0x804840`** highlight this adrress offset in disasm
 
-- [ **`ahi[?] 10`** define numeric base for immediates (1, 8, 10, 16, s)](./ahi-10-define-numeric-base-for-immediates-1-8-10-16-s-826711e4-6f9a-49df-9029-37a7b1a36aa4.md)
+- [ **`ahi[?] 10`** define numeric base for immediates (1, 8, 10, 16, s)](/options/a/ah/ahi)
 
 - **`ahj`** list hints in JSON
 - **`aho foo a0,33`** replace opcode string
