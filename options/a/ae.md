@@ -21,7 +21,7 @@ Usage: ae[idesr?] [arg]ESIL code emulation
 - `aeip`   initialize ESIL program counter to curseek
 - `aek [query]`   perform sdb query on ESIL .info
 - `aek-`   resets the ESIL .info sdb instance
-[ `aep[?] [addr]`   manage esil pin hooks](./aep-addr-manage-esil-pin-hooks-660fc309-f990-499a-912e-a374f04bf9f2.md)
+[ `aep[?] [addr]`   manage esil pin hooks](/options/a/ae/aep)
 - `aepc [addr]`   change esil PC to this address
 - `aer [..]`   handle ESIL registers like 'ar' or 'dr' does
 [ `aets[?]`   ESIL Trace session](./aets-ESIL-Trace-session-ba8fedcb-9540-4831-a85a-b64e9e698242.md)
