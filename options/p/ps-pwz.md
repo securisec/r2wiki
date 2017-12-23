@@ -21,3 +21,5 @@ Usage: ps[zpw+] [N]Print String
 - **`psx`** show string with escaped chars
 - **`psz`** print zero-terminated string
 - **`ps+`** print libc++ std::string (same-endian, ascii, zero-terminated)
+
+<p hidden>ps psb psi psj psp pss psu psw psW psx psz ps+</p>
