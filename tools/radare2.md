@@ -73,7 +73,8 @@
        -x open without exec-flag (asm.emu will not work), See io.exec
        -z, -zz do not load strings or load them even in raw
 
-## Debuggers supported ( `radare2 -L` )
+## Debuggers supported 
+   - `radare2 -L`
 
   Those that have a **d ** in the first column support debugging
 
