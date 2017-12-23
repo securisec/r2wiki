@@ -3,11 +3,11 @@
 # Values that `e` can modify
 
 ### **Tips**
-  > Use `Ve` to see the headless mode for these keys.
+  - > Use `Ve` to see the headless mode for these keys.
 
-  > These values can also be set in `~./radare2.rc` as `e key=value` pairs seperated by newlines
+  - > These values can also be set in `~./radare2.rc` as `e key=value` pairs seperated by newlines
 
-  > To get valid values, use `=?` . Example `e dbg.bep =?`
+  - > To get valid values, use `=?` . Example `e dbg.bep =?`
 
 - [anal](/options/e/values-that-e-can-modify/anal)
 
