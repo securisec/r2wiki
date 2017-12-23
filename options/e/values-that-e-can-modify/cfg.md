@@ -9,7 +9,7 @@
 - **`cfg.fortunes`** If enabled show tips at start _Default is true_
 - **`cfg.fortunes.clippy`** Use ?E instead of ?e _Default is false_
 
-  Custom clippy message
+  - Custom clippy message
 
    > _Can have some fun with this by setting this on ~/.radare2rc. Example: `?E your_message_here`_ 
 
