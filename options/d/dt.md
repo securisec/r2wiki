@@ -7,6 +7,7 @@
 Usage: dt Trace commands
 ```
 
+> To enable tracing, set `e asm.trace=1; e dbg.trace=1` {.is-info}
 
 - **`dt`** List all traces
 - **`dt [addr]`** Show trace info at address
@@ -21,6 +22,7 @@ Usage: dt Trace commands
 - [ **`dtc[?][addr]|([from] [to] [addr])`** Trace call/ret](/options/d/dt/dtc)
 
 - **`dtd`** List all traced disassembled
+	> Show disasm of each instruction traced 
 
 - [ **`dte[?]`** Show esil trace logs](/options/d/dt/dte)
 
@@ -32,5 +34,9 @@ Usage: dt Trace commands
 - [ **`dts[?]`** Trace sessions](/options/d/dt/dts)
 
 - **`dtt [tag]`** Select trace tag (no arg unsets)
+
+- Screenshot
+	<img src=/uploads/small-d/tracing-visual-mode.png" width="50%">
+	  > The numbers in the red box indicates the order of the trace count as each instruction is stepped into, and the green box indicates how many times that instruction has run
 
 <p hidden>dt dt% dt* dt+ dt- dtD dta dtc dtd dte dtg dtg* dtgi dtr dts dtt</p>
