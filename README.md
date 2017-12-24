@@ -17,11 +17,11 @@ The wiki is available online at [https://radare2.securisec.com](https://radare2.
 ```git clone https://github.com/securisec/radare2_wiki.git repo/``` from inside your wiki directory.
 - Allow some time for the search to finish indexing.
 
-#### Update local installation
+## Update local installation
 - To update to the latest **(this wiki will be updated frequently :stuck_out_tongue_winking_eye:)**, simply run  
 `git pull origin master` from inside the repo directory.
 
-#### Tips
+### Tips
 To style your local wiki in a manner similar to the online version, add the following to the `/wiki_installation_dir/server/views/layout.pug` under the section marked as `//- JS / CSS`  
 ```css
     style(type='text/css').
