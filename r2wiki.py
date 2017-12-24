@@ -27,11 +27,15 @@ try:
 						if re.search(pattern, lines):
 							if not any(filter in lines for filter in ['<p hidden>',
 																	  '<!--',
-                                                                      '<img src']):
+																	  '<img src']):
 								match = ((re.sub('\*\*', '', lines)).lstrip() + '\n')#.replace('`', "'")
 								if match.startswith('- ['):
-									found += '[.](https://radare2.securisec.com%s' % match.split(']')[-1].strip('(')
+									split = match.split(']')
+									found += max(split, key=len).replace('[', '') + \
+											 ' [.](https://radare2.securisec.com%s' % split[-1].strip('(')
 								else:
+									if match.startswith('>'):
+										match = match.strip('>')
 									found += match
 
 	pydoc.pipepager(highlight(found, MarkdownLexer(), TerminalFormatter()), cmd='less -r')
