@@ -9,12 +9,15 @@ modifier:
 ```
 
 
-- **Tips**
-  - `..` Internal less
-  - `[commandj]~{}` json indentation
-  - `...` HUD style navigation. really nice!
-  - Multiple grep patterns can be set by seperating them with a `,` . Example: `i~canary,nx,pic`
-- HUD style views / grepping
+## **Tips**
+  > `..` Internal less
+  
+  > `[commandj]~{}` json indentation
+  
+  > `...` HUD style navigation. really nice!
+  
+  > Multiple grep patterns can be set by seperating them with a `,` . Example: `i~canary,nx,pic`
+## HUD style views / grepping
 
   Use [somecommand] plus `~...` for HUD style naviation and searching. Example screenshot shows HUD style grepping for mov operands
 
