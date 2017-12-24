@@ -4,9 +4,9 @@
 Access the radare2 wiki from inside the r2 shell
 > In order for this to work, you need a local copy of the wiki. You can get it from [github](https://github.com/securisec/radare2_wiki)
 > The argument supports regex and the output is in less format
-
-> /path/to/repo/r2wiki.py needs to be absolute path {.is-warning}
 {.is-info}
+> /path/to/repo/r2wiki.py needs to be absolute path {.is-warning}
+
 - This can be accessed multiple ways. 
 	- Method 1: Set an alias in your `~/.radare2rc` file		
     ```sh
