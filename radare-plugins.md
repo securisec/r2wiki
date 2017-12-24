@@ -155,3 +155,7 @@
   - Installing the latest NodeJS
 
     [Installing Node.js via package manager | Node.js](https://nodejs.org/en/download/package-manager/)
+		
+# External plugins
+## jupyter-radare2
+[jupyter-radare2](https://github.com/guedou/jupyter-radare2)
