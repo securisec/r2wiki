@@ -34,3 +34,6 @@ Radare package manager
 - `r2pm init` to initialize the package control
 - `r2pm update` to update git
 - `r2pm -i all` to install all packages
+- `r2pm suicide` to self remove r2 from system and home
+
+<p hidden>suicide</p>
