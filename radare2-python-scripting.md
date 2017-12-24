@@ -2,7 +2,7 @@
 
 # Radare2 Python scripting
 
-> Python: r2pip `pip install r2pipe` {.is-danger}
+> Python: r2pipe `pip install r2pipe` {.is-danger}
 
 ## Basic usage
   - Load a binary
