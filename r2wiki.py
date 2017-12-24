@@ -20,9 +20,18 @@ try:
 				with open(md_path, 'r') as f:
 					for lines in f.readlines():
 						if re.search(pattern, lines):
-							if not '<p hidden>' in lines and not '<!--' in lines:
-								found += (re.sub('\*\*', '', lines)).lstrip()
+							if not any(filter in lines for filter in ['<p hidden>',
+																	  '<!--',
+																	  'LGPL3',
+																	  'DCPU']):
+								match = ((re.sub('\*\*', '', lines)).lstrip() + '\n').replace('`', "'")
+								if match.startswith('- ['):
+									found += 'https://radare2.securisec.com%s' % match.split(']')[-1].strip('(')
+								else:
+									found += match
 
 	pydoc.pager(found)
 except IndexError:
 	print 'Usage: %s search_param' % sys.argv[0]
+
+# TODO: add color highlight on matches
