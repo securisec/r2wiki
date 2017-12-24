@@ -14,7 +14,7 @@ This is an ongoing work in progress and reflects various material obtained while
 [Radare2 console options :heart_eyes:](./Options)
 
 ## Radare2 Python scripting
-[Radare2 Python scripting](./Radare2-Python-scripting)
+[Radare2 Python scripting :snake:](./Radare2-Python-scripting)
 
 ## Radare2 tools
 [Radare2 tools](./Radare2-tools)
