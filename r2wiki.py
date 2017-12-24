@@ -2,7 +2,12 @@ import os
 import re
 import sys
 import pydoc
-
+try:
+	from pygments import highlight
+	from pygments.lexers import MarkdownLexer
+	from pygments.formatters import TerminalFormatter
+except ImportError:
+	print 'Pygments dependency not met. pip install Pygments'
 """
 Directions on how to setup is in the wiki itself
 """
@@ -21,17 +26,13 @@ try:
 					for lines in f.readlines():
 						if re.search(pattern, lines):
 							if not any(filter in lines for filter in ['<p hidden>',
-																	  '<!--',
-																	  'LGPL3',
-																	  'DCPU']):
-								match = ((re.sub('\*\*', '', lines)).lstrip() + '\n').replace('`', "'")
+																	  '<!--',]):
+								match = ((re.sub('\*\*', '', lines)).lstrip() + '\n')#.replace('`', "'")
 								if match.startswith('- ['):
-									found += 'https://radare2.securisec.com%s' % match.split(']')[-1].strip('(')
+									found += '[.](https://radare2.securisec.com%s' % match.split(']')[-1].strip('(')
 								else:
 									found += match
 
-	pydoc.pager(found)
+	pydoc.pipepager(highlight(found, MarkdownLexer(), TerminalFormatter()), cmd='less -r')
 except IndexError:
 	print 'Usage: %s search_param' % sys.argv[0]
-
-# TODO: add color highlight on matches
