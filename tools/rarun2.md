@@ -50,6 +50,8 @@
       # setegid=2001
       # nice=5
 
+  > Example: `rarun2 stdin=somefile.txt program=/path/to/binary`
+
 ## Examples of using rarun2 to debug a binary
   - `r2 -d rarun2 program=./<program_name> arg0=foo stdin=./<some_file> setenv=ENV_VAR=<value>`
   - Create a script file (script.rr2) with rarun2 config options
