@@ -3,6 +3,10 @@ import re
 import sys
 import pydoc
 
+"""
+Directions on how to setup is in the wiki itself
+"""
+
 try:
 	src_dir = os.path.dirname(os.path.realpath(__file__))
 	pattern = re.compile (sys.argv[1])
