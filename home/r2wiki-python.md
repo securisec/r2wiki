@@ -23,6 +23,8 @@ Access the radare2 wiki from inside the r2 shell
     ```text
     #!pipe python /path/to/repo/r2wiki.py
     ```
+		
+<a href="https://asciinema.org/a/zdywkTDDqJGH3tNe1usv1TCBE?autoplay=1" target="_blank"><img src="https://asciinema.org/a/zdywkTDDqJGH3tNe1usv1TCBE.png" width="50%"/></a>
 
 
 <p hidden>python wiki</p>
