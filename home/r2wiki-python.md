@@ -15,7 +15,7 @@ Access the radare2 wiki from inside the r2 shell
 	```text
 	$wiki='#!pipe python /path/to/r2wiki.py'
 	```
-	  > invoke as `$wiki arg`
+	 > invoke as `$wiki arg`
 	- Method 3: 
     ```text
     #!pipe python /path/to/repo/r2wiki.py
