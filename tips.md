@@ -32,6 +32,7 @@
 - Set `?E `fo`` in `~/.radare2rc` to show clippy style fortune messages
 - [Floss](https://github.com/fireeye/flare-floss/releases) has a radare2 output using `-r`
 - When commenting out a line in `~/.radare2rc` , dont do `#foo` . Use `# foo` . That space is important
+- To pass arguments to a python script inside r2 shell, use #!pipe python script.py args
 
 
 ## **Tips from fortunes**
