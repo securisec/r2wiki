@@ -42,6 +42,8 @@ Usage: f [?] [flagname] # Manage offset-name flags
 
 - **`fe-`** resets the enumerator counter
 - **`fe [name]`** create flag name.#num# enumerated flag. See fe?
+- **`ff ([glob])`** distance in bytes to reach the next flag (see sn/sp)
+- **`ffs`** nothing documented
 - **`fi [size] | [from] [to]`** show flags in current block or range
 - **`fg`** bring visual mode to foreground
 - **`fj`** list flags in JSON format
@@ -63,4 +65,4 @@ Usage: f [?] [flagname] # Manage offset-name flags
 
 - [ **`fz[?][name]`** add named flag zone -name to delete. see fz?[name]](/options/f/fz)
 
-<p hidden>f+ f- f= fC fe fe- fg fj fl fla fm fn fo fr fR fs fS fV fx fq fz</p>
+<p hidden>f+ f- f= fC fe fe- fg fj fl fla fm fn fo fr fR fs fS fV fx fq fz ff ffs</p>
