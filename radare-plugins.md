@@ -2,7 +2,7 @@
 
 **_This a list of plugins that I find interesting._** 
 
-## `r2frida`
+## r2frida
 
   - **Tips**
     - Trace symbols
@@ -14,34 +14,34 @@
 
   [r2con2017 - r2frida /by @mrmacete](https://www.youtube.com/watch?list=PLjIhlLNy_Y9Oe-nfcPEpaki0_En5dhQ5S&time_continue=15&v=URyd4bcV-Ik){.youtube}
 
-## `r2pm` package manager
+## r2pm package manager
 
   [radare/radare2-pm](https://github.com/radare/radare2-pm/tree/master/db)
 
-## `rarop`
+## rarop
 
   [rarop install help](./plugins/rarop-install-help)
 
   [jpenalbae/rarop](https://github.com/jpenalbae/rarop)
 
-## `snowman` for r2
+## snowman for r2
 
   [radare/radare2-extras](https://github.com/radare/radare2-extras/tree/master/r2snowman)
 
-## `r4ge` (symbolic exectution)
+## r4ge (symbolic exectution)
 
   [gast04/r4ge](https://github.com/gast04/r4ge)
 
-## `diaphora` (binary diffing)
+## diaphora (binary diffing)
    > _Binary diffing powered by diaphora (originally for IDA Pro)_ {.is-info}
 
   [radare/diaphora](https://github.com/radare/diaphora)
 
-## `r2dec`
+## r2dec
 
   [wargio/r2dec-js](https://github.com/wargio/r2dec-js)
 
-## `ripr` for radare2
+## ripr for radare2
 
   ripr is a tool that helps you rip out functionality from binary code and use it from python. It accomplishes this by pairing the Unicorn-Engine with Binary Ninja
 
@@ -144,7 +144,7 @@
 					return self.mu.reg_read(UC_X86_REG_RAX)
 	```
 
-## `r2scylla` scylla for radare2
+## r2scylla scylla for radare2
 
   [zlowram/r2scylla](https://github.com/zlowram/r2scylla)
 
