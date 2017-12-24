@@ -24,3 +24,4 @@
 - [Defeating ioli with radare2](https://dustri.org/b/defeating-ioli-with-radare2.html)
 
 - [CMU Binary bomb solving with radare2](https://unlogic.co.uk/2016/04/14/Binary%20Bomb%20with%20Radare2%20-%20Phase%201/index.html)
+- [Solving game2 from the badge of Black Alps 2017 with radare2](https://dustri.org/b/solving-game2-from-the-badge-of-black-alps-2017-with-radare2.html)
