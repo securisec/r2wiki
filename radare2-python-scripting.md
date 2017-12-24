@@ -57,6 +57,13 @@
 	```python
 	r.cmd('dr eax') # gets the value of the eax register as a hex string
 	```
+	
+## Open a binary in write mode
+  - To open a file in write mode, pass the `-w` switch to the flags
+  ```python
+	r = r2pipe.open('binary', flags=['-w', '-d']
+	# In this example, we are opening the binary in write and debug mode
+	```
 
 ## User input via stdin (debugging mode)
   - Method 1
