@@ -47,7 +47,7 @@ modifier:
   - Screenshot
 
     <img src="/uploads/grep/internal-hud.png" width="50%">
-    > This is take any commands output and overlay a HUD on top of it for string type searching. Example: `pdf ~...` and then search for call
+   > This is take any commands output and overlay a HUD on top of it for string type searching. Example: `pdf ~...` and then search for call
 
 ## Modifiers
 
