@@ -100,6 +100,12 @@
 r.cmd('doo arg') # could be any number of args
 ```
 
+## Other ways of user input with debugging
+```python
+r.cmd('dor arg1=some_arg ...')
+```
+  > `dor` will take any keypair that can be passed via rabin2
+
 ## Blogs
 
   [Scripting r2 with pipes - pancake - Medium](https://medium.com/@trufae/scripting-r2-with-pipes-47a7e14c50aa)
