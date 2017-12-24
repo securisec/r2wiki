@@ -38,6 +38,7 @@ Usage: db # Breakpoints commands
 - **`dbn [<name>]`** Show or set name for current breakpoint
 - **`dbi`** List breakpoint indexes
 - **`dbic <index> <cmd>`** Run command at breakpoint index
+	> `dbi` and `dbic` can be used to run a command once a break point hits similar to `db` and `dbc`
 - **`dbie <index>`** Enable breakpoint by index
 - **`dbid <index>`** Disable breakpoint by index
 - **`dbis <index>`** Swap Nth breakpoint
