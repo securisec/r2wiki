@@ -25,6 +25,7 @@ modifier:
 
     <img src="/uploads/grep-hud.png width="50%">
 
+
 - **`&`** all words must match to grep the line
 - **`$[n]`** sort numerically / alphabetically the Nth column
 - **`$!`** sort in inverse order
@@ -46,8 +47,9 @@ modifier:
   - Screenshot
 
     <img src="/uploads/grep/internal-hud.png" width="50%">
+    > This is take any commands output and overlay a HUD on top of it for string type searching. Example: `pdf ~...` and then search for call
 
-  > This is take any commands output and overlay a HUD on top of it for string type searching. Example: `pdf ~...` and then search for call
+## Modifiers
 
 - **`{}`** json indentation
 
