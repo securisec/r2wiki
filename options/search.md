@@ -10,7 +10,7 @@ Use io.va for searching in non virtual addressing spaces
 
 
 ## **Tips**
-  - To search for hexadecimal representation of a string, prepend the string with a `\x` . For example, `/ \xELF` will search for the hexademical represenation of ELF
+  - To search for hexadecimal representation of a string, prepend the string with a `\x` . For example, `/ \xELF` will search for the hexadecimal represenation of ELF
 - **`/ foo\x00`** search for string 'foo\0'
 - `**/j foo\x00**` search for string 'foo\0' (json output)
 - **`/! ff`** search for first occurrence not matching, command modifier
