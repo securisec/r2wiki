@@ -1,15 +1,19 @@
-# Radare
+# Radare2 wiki
 ![R 2 Logo 3](/uploads/r-2-logo-3.png "R 2 Logo 3"){.pagelogo}
 This is an ongoing work in progress and reflects various material obtained while stuying how to user radare2. This wiki is constantly updated. Feel free to tweet to me [![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/securisec) if there is a tidbit I can include in here.
 
-> To get a local copy of this wiki check out [github](https://github.com/securisec/radare2_wiki) {.is-danger}
 
-> Radare2 wiki can also be used right from the r2 shell. See directions [here](/home/r2wiki-python) {.is-danger}
+```text
+All the commands are based (started) with the following Radare version:
+radare2 2.1.0-git 16575 @ linux-x86-64 git.2.0.1-245-g48bfa50
+commit: 48bfa5087bed71be501e4c37933c0fe1298d817e build: 2017-11-14__02:43:49
+```
 
-    All the commands are based (started) with the following Radare version:
-    radare2 2.1.0-git 16575 @ linux-x86-64 git.2.0.1-245-g48bfa50
-    commit: 48bfa5087bed71be501e4c37933c0fe1298d817e build: 2017-11-14__02:43:49
 
+## Local web app
+  > To get a local copy of this wiki check out [github](https://github.com/securisec/radare2_wiki) {.is-danger}
+## r2wiki.py
+  > Radare2 wiki can also be used right from the r2 shell. See directions [here](/home/r2wiki-python) {.is-danger}
 # Sections
 
 ## Console options
