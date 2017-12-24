@@ -10,8 +10,8 @@ This is an ongoing work in progress and reflects various material obtained while
 
 # Sections
 
-## :heart_eyes: Console options
-[Radare2 console options](./Options)
+## Console options
+[Radare2 console options :heart_eyes:](./Options)
 
 ## Radare2 Python scripting
 [Radare2 Python scripting](./Radare2-Python-scripting)
