@@ -18,11 +18,12 @@ Usage: i Get info from opened file (see rabin2's manpage)
   - **`icc`** List classes, methods and fields in Header Format
   - **`iC`** Show signature info (entitlements, ...)
 
-  - [ `**id[?]**` Debug information (source lines)](/options/i/id)
+  - [ `id[?]` Debug information (source lines)](/options/i/id)
 
   - **`idp`** Load pdb file information
   - **`iD lang sym`** demangle symbolname for given language
   - **`ie`** Entrypoint
+  - **`iee`** shows entrypoint and endpoint. Shows init and fini 
   - **`iE`** Exports (global symbols)
   - **`ih`** Headers (alias for iH)
   - **`iHH`** Verbose Headers in raw text
@@ -43,4 +44,4 @@ Usage: i Get info from opened file (see rabin2's manpage)
   - **`izz`** Search for Strings in the whole binary
   - **`iZ`** Guess size of binary program
 
-<p hidden>ij iA ia ib ic icc iC idp iD ie iE ih iHH ii iI ik il iL im iM io ir iR is iS iV iz izj izz iZ</p>
+<p hidden>ij iA ia ib ic icc iC idp iD ie iE ih iHH ii iI ik il iL im iM io ir iR is iS iV iz izj izz iZ iee</p>
