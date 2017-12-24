@@ -7,3 +7,5 @@
 - **`"wa nop;nop"`** assemble more than one instruction (note the quotes)
 - **`waffoo.asm`** assemble file and write bytes
 - **`wao?`** show help for assembler operation on current opcode (hack)
+
+<p hidden>wa wa* wao</p>

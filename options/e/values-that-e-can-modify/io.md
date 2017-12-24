@@ -20,3 +20,5 @@
 - **`io.pcache.read`** Enable read-cache _Default is false_
 - **`io.pcache.write`** Enable write-cache _Default is false_
 - **`io.va`** Use virtual address layout _Default is true_
+
+<p hidden>io.0xff io.aslr io.autofd io.buffer io.buffer.from io.buffer.to io.cache io.cache.read io.cache.write io.exec io.ff io.pcache io.pcache.read io.pcache.write io.va</p>

@@ -11,7 +11,7 @@ Usage: dm # Memory maps commands
 - **`dm`** List memory maps of target process
   - Screenshot
 
-    ![Dm](/uploads/small-d/dm.png "Dm")
+    <img src="/uploads/small-d/dm.png" width="50%">
 
 - **`dm address size`** Allocate <size> bytes at <address> (anywhere if address is -1) in child process
 - **`dm=`** List memory maps of target process (ascii-art bars)
@@ -38,3 +38,5 @@ Usage: dm # Memory maps commands
 - **`dms- <id> <mapaddr>`** Restore memory snapshot
 - **`dmS [addr|libname] [sectname]`** List sections of target lib
 - **`dmS* [addr|libname] [sectname]`** List sections of target lib in radare commands
+
+<p hidden>dm dm. dm* dm- dmd dmh dmi dmi. dmiv dmj dml dmm dmp dms dms- dmS dmS*</p>

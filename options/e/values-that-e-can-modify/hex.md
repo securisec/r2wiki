@@ -12,3 +12,5 @@
 - **`hex.pairs`** Show bytes paired in 'px' hexdump _Default is true_
 - **`hex.pcols`** Number of pixel columns for prc _Default is 40_
 - **`hex.stride`** Line stride in hexdump (default is 0) _Default is 0_
+
+<p hidden>hex.cols hex.comments hex.compact hex.depth hex.flagsz hex.header hex.onechar hex.pairs hex.pcols hex.stride</p>

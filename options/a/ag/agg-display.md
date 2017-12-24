@@ -8,3 +8,5 @@
 - `aggd`   print the current graph in GRAPHVIZ dot format
 - `aggv`   run graphviz + viewer (see 'e cmd.graph')
 - `agg*`   in r2 commands, to save in projects, etc
+
+<p hidden>agg aggk aggi aggd aggv agg*</p>

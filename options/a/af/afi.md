@@ -6,3 +6,5 @@
 - `afi*`   function, variables and arguments
 - `afij`   function info in json format
 - `afil`   verbose function info
+
+<p hidden>afi afi. afi* afij afil</p>

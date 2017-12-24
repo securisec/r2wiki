@@ -14,3 +14,5 @@
 - **`Tm [idx]`** Display log messages without index
 - **`Ts`** List files in current directory (see pwd, cd)
 - **`TT`** Enter into the text log chat console
+
+<p hidden>T* T- Tl Tj Tm Ts TT</p>

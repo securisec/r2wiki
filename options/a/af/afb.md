@@ -12,3 +12,5 @@
 - `afbj`   show basic blocks information in json
 - `afbe bbfrom bbto`   add basic-block edge for switch-cases
 - `afB [bits]`   define asm.bits for the given function
+
+<p hidden>afbr afb afb+ .afbr afbi afbj afbe afB</p>

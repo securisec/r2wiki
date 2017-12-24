@@ -27,3 +27,5 @@ Usage: z[*j-aof/cs] [args] # Manage zignatures
 - [ **`zs[?]`** manage zignspaces](/options/z/zs-manage)
 
 - **`zi`** show zignatures matching information
+
+<p hidden>z* zj z- za zg zo zf z/ zc zs zi</p>

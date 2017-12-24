@@ -15,3 +15,5 @@ Usage: r[+-][ size]Resize file
 - **`rm [file]`** remove file
 - **`rh`** show size in human format
 - **`r2 [file]`** launch r2
+
+<p hidden>rm rh</p>

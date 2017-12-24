@@ -1,11 +1,14 @@
 # Analysis Help (go, arm, ios, windows etc)
-## Windows
-[video](https://www.youtube.com/watch?v=2gcqLDGnKMc){.youtube}
+
+## Android
+  - [Android malware analysis with Radare: Dissecting the Triada Trojan](https://www.nowsecure.com/blog/2016/11/21/android-malware-analysis-radare-triada-trojan/)
 
 
-## iOS apps
+## ARM reversing with radare2
+  - Videos
 
-  [Loading iOS binaries](http://radare.today/posts/loading-ios-binaries/)
+    [video](https://www.youtube.com/watch?v=oXSx0Qo2Upk){.youtube}
+
 
 ## Go reversing with radare2
   - Videos  
@@ -36,7 +39,14 @@
             0x0047bd10 5 119 type..hash._3_interface___
             0x0047bd90 8 176 type..eq._3_interface___
 
-## ARM reversing with radare2
-  - Videos
 
-    [video](https://www.youtube.com/watch?v=oXSx0Qo2Upk){.youtube}
+## iOS apps
+
+  [Loading iOS binaries](http://radare.today/posts/loading-ios-binaries/)
+
+
+## Misc
+  - [Reversing EVM bytecode with radare2](https://blog.positive.com/reversing-evm-bytecode-with-radare2-ab77247e5e53)
+
+## Windows
+[video](https://www.youtube.com/watch?v=2gcqLDGnKMc){.youtube}

@@ -14,3 +14,5 @@ Usage: ad[kt] [...]
 - `adfg`   analyze data in function gaps
 - `adt`   analyze data trampolines (wip)
 - `adk`   analyze data kind (code, text, data, invalid, ...)
+
+<p hidden>ad ad4 ad8 adf adfg adt adk</p>

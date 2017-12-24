@@ -33,3 +33,5 @@ Usage: ae[idesr?] [arg]ESIL code emulation
 - `aesue [esil]`   step until esil expression match
 - `aetr[esil]`   Convert an ESIL Expression to REIL
 - `aex [hex]`   evaluate opcode expression
+
+<p hidden>ae ae? ae?? aea aec aef aei aeim aeip aek aek- aep aepc aer aets aes aesp aesb aeso aesu aesue aetr aex</p>

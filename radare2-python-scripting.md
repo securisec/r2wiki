@@ -2,81 +2,103 @@
 
 # Radare2 Python scripting
 
-> Python: r2pip `pip install r2pipe` {.is-danger}
+> Python: r2pipe `pip install r2pipe` {.is-danger}
 
 ## Basic usage
   - Load a binary
-
-        import r2pipe
-        r = r2pip.open('binary')
+	```python
+	import r2pipe
+	r = r2pip.open('binary')
+	```
+				
 
   - Disable stderr messages
-
-        r = r2pipe.open('binary', flags=['-2']) # pass any options from radare2 as a list in the flags parameter. -2 signifies disable stderr
+	```python
+	r = r2pipe.open('binary', flags=['-2']) # pass any options from radare2 as a list in the flags parameter. -2 signifies disable stderr
+	```
 
   - Run multiple commands (effeciently)
-
-        r.cmd('doo; db main; dc') # multiple commands can be passed using a semicolon. In the example; doo (open in debug mode), db main (set breakpoint in main, dc (continue (will hit breakpoint))
+	```python
+	r.cmd('doo; db main; dc') # multiple commands can be passed using a semicolon. In the example; doo (open in debug mode), db main (set breakpoint in main, dc (continue (will hit breakpoint))
+	```
 
   - Run a command (any command that one runs in the r2 shell can be passed to the cmd method)
-
-        import r2pipe
-        r = r2pipe.open('binary')
-        print r.cmd('pdf') # disassamble funtion 
+	```python
+	import r2pipe
+	r = r2pipe.open('binary')
+	print r.cmd('pdf') # disassamble funtion 
+	```
 
   - Run a command multiple times
-
-        r.cmd('3dc') # the 3 represents how many times dc will run. Can be any value
+	```python
+	r.cmd('3dc') # the 3 represents how many times dc will run. Can be any value
+	```
 
 ## Json output
   - Most commands in r2pipe supports json output by including a `j` at the end of the command
-
-        import r2pipe
-        r = r2pipe.open('binary')
-        json_out = r.cmd('iij') # get import table as json
+	```python
+	import r2pipe
+	r = r2pipe.open('binary')
+	json_out = r.cmd('iij') # get import table as json
+	```
 
   - Instead of using python `json` module to parse the json data, use `cmdj` instead which does the parsing of json objects for you
-
-        json = r.cmdj('iij') # parse json output as json objects
+	```python
+	json = r.cmdj('iij') # parse json output as json objects
+	```
 
 ## Working with registers
   - Get values of all registers
-
-        r.cmd('drj') # dumps values of all registers in json format
+	```python
+	r.cmd('drj') # dumps values of all registers in json format
+	```
 
   - Get value of single register
+	```python
+	r.cmd('dr eax') # gets the value of the eax register as a hex string
+	```
+	
+## Open a binary in write mode
+  - To open a file in write mode, pass the `-w` switch to the flags
+	
+	```python
+	r = r2pipe.open('binary', flags=['-w', '-d']
+	# In this example, we are opening the binary in write and debug mode
+	```
 
-        r.cmd('dr eax') # gets the value of the eax register as a hex string
 
 ## User input via stdin (debugging mode)
   - Method 1
-
-        import r2pipe
-        r = r2pipe.open(
-        filename='', flags=['-d', 'rarun2', 'program=binary', 'stdin="AAA"..."any rarun2 key/value pairs"'])
-        r.cmd('doo') # initially you are debuggign rarun2
+	```python
+	import r2pipe
+	r = r2pipe.open(
+	filename='', flags=['-d', 'rarun2', 'program=binary', 'stdin="AAA"..."any rarun2 key/value pairs"'])
+	r.cmd('doo') # initially you are debuggign rarun2
+	```
 
   - Method 2
-
-        import r2pipe
-        with open('profile.rr2', 'w+') as f:
-        	f.write('#!/path/to/rarun2\nstdin="AAA"')
-        r = r2pipe.open('binary', flags=['-e', 'dbg.profile=profile.rr2'])
-        # This method is untested. Use method 1 or 3
+	```python
+	import r2pipe
+	with open('profile.rr2', 'w+') as f:
+			f.write('#!/path/to/rarun2\nstdin="AAA"')
+	r = r2pipe.open('binary', flags=['-e', 'dbg.profile=profile.rr2'])
+	# This method is untested. Use method 1 or 3
+	```
 
   - Method 3
-
-        import r2pipe
-        r = r2pipe.open('binary')
-        r.cmd('e dbg.profile=profile.rr2')
-        # Contents of profile.rr2
-        # #!/path/to/rarun2
-        # program=binary
-        # stdin="AAA"
-
+	```python
+	import r2pipe
+	r = r2pipe.open('binary')
+	r.cmd('e dbg.profile=profile.rr2')
+	# Contents of profile.rr2
+	# #!/path/to/rarun2
+	# program=binary
+	# stdin="AAA"
+	```
 ## User input as args (debugging mode)
-
-      r.cmd('doo arg') # could be any number of args
+```python
+r.cmd('doo arg') # could be any number of args
+```
 
 ## Blogs
 

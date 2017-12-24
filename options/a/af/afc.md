@@ -4,3 +4,5 @@
 - `afC`   function cycles cost
 - `afCc`   cyclomatic complexity
 - `afCl`   loop count (backward jumps)
+
+<p hidden>afC afCc afCl</p>

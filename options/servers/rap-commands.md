@@ -11,3 +11,5 @@
 - **`==[fd]`** open remote session with host 'fd', 'q' to quit
 - **`=!=`** disable remote cmd mode
 - **`!=!`** enable remote cmd mode
+
+<p hidden>!=!</p>

@@ -39,3 +39,5 @@ Usage: t # cparse types commands
 - [ **`ts[?]`** print loaded struct types](/options/t/ts-print)
 
 - **`tu[?]`** print loaded union types
+
+<p hidden>t- ta tb tc te td tf tk tl tn to tos tp ts tu</p>

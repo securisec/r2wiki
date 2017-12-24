@@ -24,3 +24,5 @@
 - **`bin.strings`** Load strings from rbin on startup _Default is true_
 - **`bin.strpurge`** Try to purge false positive strings _Default is false_
 - **`bin.verbose`** Show RBin warnings when loading binaries _Default is true_
+
+<p hidden>bin.b64str bin.baddr bin.classes bin.dbginfo bin.debase64 bin.demangle bin.demanglecmd bin.filter bin.force bin.laddr bin.lang bin.libs bin.maxstr bin.maxstrbuf bin.minstr bin.prefix bin.rawstr bin.relocs bin.strfilter bin.strings bin.strpurge bin.verbose</p>

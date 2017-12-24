@@ -12,3 +12,5 @@ Usage: dmi # List/Load Symbols
 - **`dmi*`** List symbols of target lib in radare commands
 - **`dmi.`** List closest symbol to the current address
 - **`dmiv`** Show address of given symbol for given lib
+
+<p hidden>dmi dmi* dmi. dmiv</p>

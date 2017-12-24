@@ -16,3 +16,5 @@ Usage: dbt # Backtrace commands
 - **`dbte <addr>`** Enable Breakpoint Trace
 - **`dbtd <addr>`** Disable Breakpoint Trace
 - **`dbts <addr>`** Swap Breakpoint Trace
+
+<p hidden>dbt dbt* dbt= dbtj dbta dbte dbtd dbts</p>

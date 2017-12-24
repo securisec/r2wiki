@@ -35,3 +35,5 @@
 - `ags [addr]`   output simple graphviz call graph of function (only bb offset)
 - `agt [addr]`   find paths from current offset to given address
 - `agv`   Show function graph in web/png (see graph.web and cmd.graph) or agf for asciiart
+
+<p hidden>ag ag- aga agr agc agC agd age agf agg agj agk agl agn ags agt agv</p>

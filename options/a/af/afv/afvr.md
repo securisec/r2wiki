@@ -9,3 +9,5 @@
 - `afvr- [name]`   delete register arguments at the given index
 - `afvrg [reg] [addr]`   define argument get reference
 - `afvrs [reg] [addr]`   define argument set reference
+
+<p hidden>afvr afvr* afvr afvrj afvr- afvrg afvrs</p>

@@ -8,3 +8,5 @@
 - **`aos [esil]`** show sdb representation of esil expression (TODO)
 - **`ao 5`** display opcode analysis of 5 opcodes
 - **`ao*`** display opcode in r commands
+
+<p hidden>aoj aoe aor aos ao ao*</p>

@@ -15,3 +15,5 @@ Usage: pi[bdefrj] [num]
 - **`pif`** print instructions of function
 - **`pij`** print N instructions in JSON
 - **`pir`** like 'pdr' but with 'pI' output
+
+<p hidden>pia pib pid pie pif pij pir</p>

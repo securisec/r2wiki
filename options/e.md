@@ -32,3 +32,5 @@ Usage: e [var[=value]]Evaluable vars
 - **`et [key]`** show type of given config variable
 - **`ev [key]`** list config vars in verbose format
 - **`evj [key]`** list config vars in verbose format in JSON
+
+<p hidden>e!a eevar ej env er es et ev evj</p>

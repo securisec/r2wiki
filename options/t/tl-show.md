@@ -10,3 +10,5 @@
 - **`tl-[address]`** delete link at given address.
 - **`tl*`** list all links in radare2 command format
 - **`tl?`** print this help.
+
+<p hidden>tl tls tl- tl*</p>

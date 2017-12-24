@@ -16,3 +16,5 @@ Usage: zs[+-*] [namespace] # Manage zignspaces
 - **`zs+zignspace`** push previous zignspace and set
 - **`zs-`** pop to the previous zignspace
 - **`zsr newname`** rename selected zignspace
+
+<p hidden>zs zsr</p>

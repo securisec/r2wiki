@@ -2,7 +2,11 @@
 
 #  **`db[?]`** Breakpoints commands
 
+
+```text
 Usage: db # Breakpoints commands
+```
+
 
 - **`db`** List breakpoints
 - **`db sym.main`** Add breakpoint into sym.main
@@ -14,7 +18,7 @@ Usage: db # Breakpoints commands
   - > Use this to run a command everytime a breakpoint hits. Example: `db sym.imp.strcmp; dbc sym.imp.strcmp drr` . This till print out the registers everytime the debugger breaks at strcmp
   - Screenshot
 
-    ![Dbc](/uploads/small-d/dbc.png "Dbc")
+    <img src="/uploads/small-d/dbc.png" width="50%">
 
 - **`dbC <addr> <cmd>`** Set breakpoint condition on command
 - **`dbd <addr>`** Disable breakpoint
@@ -45,3 +49,5 @@ Usage: db # Breakpoints commands
 - **`dbw <addr> <rw>`** Add watchpoint
 - **`drx number addr len rwx`** Modify hardware breakpoint
 - **`drx-number`** Clear hardware breakpoint
+
+<p hidden>db dbj dbc dbC dbd dbe dbs dbf dbt dbt* dbt=dbtj dbta dbtv dbte dbtd dbts dbm dbn dbi dbic dbie dbid dbis dbite dbitd dbits dbh dbh- dbw drx</p>

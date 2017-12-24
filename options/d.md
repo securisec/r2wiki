@@ -38,3 +38,5 @@
 - **`dw <pid>`** Block prompt until pid dies
 
 - [ **`dx[?]`** Inject and run code on target process (See gs)](/options/d/dx)
+
+<p hidden>db dbt dc dd de dg dH di dk dL dm do doo dp dr ds dt dw dx</p>

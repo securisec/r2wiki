@@ -9,3 +9,5 @@
 - `aflq`   list functions in quiet mode
 - `aflqj`   list functions in json quiet mode
 - `afls`   print sum of sizes of all functions
+
+<p hidden>afl aflc aflj afll aflq aflqj afls</p>

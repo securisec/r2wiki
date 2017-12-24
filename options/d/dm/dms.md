@@ -20,3 +20,5 @@ Usage: dms # Memory map snapshots
 - **`dmsa`** Full snapshot of all `dm` maps
 - **`dmsf [file] @ addr`** Read snapshot from disk
 - **`dmst [file] @ addr`** Dump snapshot to disk
+
+<p hidden>dms dmsj dms* dms- dmsA dmsC dmsd dmsw dmsa dmsf dmst</p>

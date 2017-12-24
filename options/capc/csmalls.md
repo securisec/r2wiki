@@ -19,3 +19,5 @@ Usage: Cs[ga-*.] [size] [@addr]
 - **`Cs- [@addr]`** remove string
 - **`Cs.`** show string at current address
 - **`Cs..`** show string + info about it at current address
+
+<p hidden>Cs Cs* Csg Cz Csa Cs8 Cs- Cs.. Cs.</p>

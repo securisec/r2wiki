@@ -34,3 +34,5 @@
 - **`dbg.trace.libs`** Trace library code too _Default is true_
 - **`dbg.trace.tag`** Trace tag _Default is 0_
 - **`dbg.unlibs`** If set stop when unloading matching libname
+
+<p hidden>dbg.aftersyscall dbg.args dbg.backend dbg.bep dbg.bpinmaps dbg.bpsize dbg.bpsysign dbg.btalgo dbg.btdepth dbg.clone dbg.consbreak dbg.exe.path dbg.execs dbg.exitkills dbg.follow dbg.follow.child dbg.forks dbg.gdb.page_size dbg.gdb.retries dbg.hwbp dbg.libs dbg.malloc dbg.profile dbg.slow dbg.status dbg.swstep dbg.threads dbg.trace dbg.trace.inrange dbg.trace.libs dbg.trace.tag dbg.unlibs</p>

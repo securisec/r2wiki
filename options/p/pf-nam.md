@@ -29,3 +29,5 @@
 - **`pf.fmt_name.field_name=33`** Set new value for the specified field in named format
 - **`pfv.fmt_name[.field]`** Print value(s) only for named format. Useful for one-liners
 - **`pfs fmt_name|fmt`** Print the size of (named) format in bytes
+
+<p hidden>pf pf?? pf??? pf. pfj pf* pfd pfo pf? pfv pfs</p>

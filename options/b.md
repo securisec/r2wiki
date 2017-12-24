@@ -16,3 +16,5 @@ Usage: b[f] [arg]
 - **`b eip+4`** numeric argument can be an expression
 - **`bf foo`** set block size to flag size
 - **`bm 1M`** set max block size
+
+<p hidden>b b- b+ bf bm</p>

@@ -11,3 +11,5 @@
 - **`oon+`** reopen in read-write mode without loading rbin info
 - **`oonn`** reopen without loading rbin info, but with header flags
 - **`oonn+`** reopen in read-write mode without loading rbin info, but with
+
+<p hidden>oo oo+ oob ood oom oon oon+ oonn oonn+</p>

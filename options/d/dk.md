@@ -17,3 +17,5 @@ Usage: dk Signal commands
 
 - **`dko <signal> [|skip|cont]`** On signal SKIP handler or CONT into
 - **`dkj`** List all signal handlers in JSON
+
+<p hidden>dk dk? dko dkj</p>

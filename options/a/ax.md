@@ -21,3 +21,5 @@ Usage: ax[?d-l*] # see also 'afx?'
 - **`ax`** list refs
 - **`axk [query]`** perform sdb query
 - **`ax*`** output radare commands
+
+<p hidden>ax axc axC axg axd axq axj axF axt axf ax- axk ax*</p>

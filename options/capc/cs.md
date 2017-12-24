@@ -16,3 +16,5 @@ Usage: CS [*] [+-][metaspace|addr] # Manage metaspaces
 - **`CS+foo`** push previous metaspace and set
 - **`CS-`** pop to the previous metaspace
 - **`CSr newname`** rename selected metaspace
+
+<p hidden>CS CS- CS+ CSr</p>

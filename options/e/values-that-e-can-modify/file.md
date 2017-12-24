@@ -14,3 +14,5 @@
 - **`file.path`** Path of current file _Default is /private/tmp/unknown_
 - **`file.sha1`** SHA1 hash of current file _Default is 3e9d32016be9343e749049c24a402a5d1d31a85a_
 - **`file.type`** Type of current file _Default is elf_
+
+<p hidden>file.desc file.info file.lastpath file.loadalign file.location file.md5 file.nowarn file.offset file.openmany file.path file.sha1 file.type</p>

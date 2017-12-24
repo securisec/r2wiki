@@ -24,3 +24,5 @@ Usage: S[?-.*=adlr] [...]
 - **`Sr [name]`** rename section on current seek
 
 - [ **`SR[?]`** Remap sections with different mode of operation](/options/caps/SR)
+
+<p hidden>S. S- S= Sa Sd Sf Sj Sl Sr SR</p>

@@ -10,3 +10,5 @@
 - **`/cj instr`** json output
 - **`/c/j instr`** regex search with json output
 - **`/c* instr`** r2 command output
+
+<p hidden>/ce /ca /c/ /c/a /cj /c/j /c*</p>

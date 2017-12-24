@@ -13,3 +13,5 @@ Usage: dsu[fei] [arg] . step until address ' ', 'f'lag, 'e'sil or 'i'nstruction 
 - **`dsui [instruction]`** Step until instruction
 - **`dsuf [flag]`** Step until flag
 - **`dsue [esil]`** Step until esil
+
+<p hidden>dsui dsuir dsuf dsue</p>

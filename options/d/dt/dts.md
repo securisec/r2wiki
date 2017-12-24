@@ -9,3 +9,5 @@
 - **`dtsf [file]`** Read trace sessions from disk
 - **`dtst [file]`** Save trace sessions to disk
 - **`dtsC id comment`** Add comment for given trace session
+
+<p hidden>dts dts+ dts-id dtsf dtst dtsC</p>

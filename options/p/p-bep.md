@@ -23,3 +23,5 @@ Usage: p=[=bep?][qj] [nblocks] ([len]) ([offset]) show entropy/printable chars/c
 - **`p=s`** print number of syscall and priviledged instructions
 - **`p=z`** print number of chars in strings in block
 - **`p=0`** print number of 0x00 bytes for each filesize/blocksize
+
+<p hidden>p= p== p=b p=c p=d p=e p=F p=i p=j p=m p=p p=s p=z p=0</p>

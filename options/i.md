@@ -42,3 +42,5 @@ Usage: i Get info from opened file (see rabin2's manpage)
   - **`iz|izj`** Strings in data sections (in JSON/Base64)
   - **`izz`** Search for Strings in the whole binary
   - **`iZ`** Guess size of binary program
+
+<p hidden>ij iA ia ib ic icc iC idp iD ie iE ih iHH ii iI ik il iL im iM io ir iR is iS iV iz izj izz iZ</p>

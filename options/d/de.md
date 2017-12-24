@@ -16,3 +16,5 @@ Usage: de[-sc] [rwx] [rm] [expr]
 - [ **`des[?] [N]`** Step-in N instructions with esildebug](/options/d/de/des)
 
 - **`desu [addr]`** Esildebug until specific address
+
+<p hidden>de de- dec des desu</p>

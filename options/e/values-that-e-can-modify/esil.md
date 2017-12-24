@@ -16,3 +16,5 @@
 - **`esil.stack.size`** Number of elements that can be pushed on the esilstack _Default is 0x000f0000_
 - **`esil.stats`** Statistics from ESIL emulation stored in sdb _Default is false_
 - **`esil.verbose`** Show ESIL verbose level (0, 1, 2) _Default is 0_
+
+<p hidden>esil.exectrap esil.fillstack esil.gotolimit esil.iotrap esil.mdev.range esil.nonull esil.prestep esil.romem esil.stack.addr esil.stack.depth esil.stack.pattern esil.stack.size esil.stats esil.verbose</p>

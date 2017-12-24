@@ -5,3 +5,5 @@
 - `afn [name]`   rename the function
 - `afna`   construct a function name for the current offset
 - `afns`   list all strings associated with the current function
+
+<p hidden>afn afna afns</p>

@@ -14,3 +14,5 @@ Usage: f [?|-name| name] [@addr] # Manage flagzones
 - **`fz.`** show around flagzone context
 - **`fz:`** show what's in scr.flagzone for visual
 - **`fz*`** dump into r2 commands, for projects
+
+<p hidden>fz fz- fz. fz: fz*</p>

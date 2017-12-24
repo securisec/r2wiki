@@ -34,7 +34,7 @@ Usage: dr Registers commands
 - **`drr`** Show registers references (telescoping)
   - Screenshot
 
-    ![Drr](/uploads/small-d/drr.png "Drr")
+    <img src="/uploads/small-d/drr.png" width="50%">
 
 - [ **`drs[?]`** Stack register states](/options/d/dr/drs)
 
@@ -54,3 +54,5 @@ Usage: dr Registers commands
 - **`drx-number`** Clear hardware breakpoint
 - **`.dr*`** Include common register values in flags
 - **`.dr-`** Unflag all registers
+
+<p hidden>dr dr8 dr= dr? drb drc drC drd drf drl drm drn dro drpdrpi drps drpj drr drs drt drw drX drx .dr</p>

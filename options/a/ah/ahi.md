@@ -15,6 +15,8 @@
 
      `ahi s @@=0x080485a3 0x080485ad 0x080485b7` ( `@@=` helps specify multiple offsets).
 
-    ![Ahi](/uploads/a-afvd/ahi.png "Ahi")
+    <img src="/uploads/a-afvd/ahi.png" width="50%">
 
-     _Forcefully convert value to string_
+    >  _Forcefully convert value to string_
+
+<p hidden>ahi</p>

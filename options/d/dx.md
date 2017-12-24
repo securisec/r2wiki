@@ -20,3 +20,5 @@ Examples:
 		| dx 9090 Inject two x86 nop
 		| "dxa mov eax,6;mov ebx,0;int 0x80" Inject and restore state
 ```
+
+<p hidden>dx dxa dxe dxr dxs</p>

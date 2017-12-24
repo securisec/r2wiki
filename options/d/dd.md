@@ -16,3 +16,5 @@ Usage: dd Descriptors commands
 - **`ddd <fd1> <fd2>`** Dup2 from fd1 to fd2
 - **`ddr <fd> <size>`** Read N bytes from fd
 - **`ddw <fd> <hexpairs>`** Write N bytes to fd
+
+<p hidden>dd dd* dds ddd ddr ddw</p>

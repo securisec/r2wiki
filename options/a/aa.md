@@ -23,3 +23,5 @@
 - `aau [len]` list mem areas (larger than len bytes) not covered by functions
 - `aav [sat]` find values referencing a specific section or map
   - Looks for values in the text section that are pointing to the text section. Shows hardcoded pointers in program memory.
+
+<p hidden>aa aa* aaa aab aac aac* aad aae aaE aai aan aap aar aas aat aaT aau aav</p>

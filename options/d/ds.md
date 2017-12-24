@@ -8,7 +8,7 @@ Usage: ds Step commands
 ```
 
 
-- **`ds`** Step one instruction
+- **`ds`** Step one instruction <p hidden>ds</p>
 - **`ds <num>`** Step <num> instructions
 - **`dsb`** Step back one instruction
   > _When you run dsb, reverse debugger restore previous recorded state and execute program from it until desired point_
@@ -26,3 +26,5 @@ Usage: ds Step commands
 - **`dsui[r] <instr>`** Step until an instruction that matches `instr` , use dsuir for regex match
 - **`dsue <esil>`** Step until esil expression matches
 - **`dsuf <flag>`** Step until pc == flag matching name
+
+<p hidden>ds dsb dsf dsi dsl dso dsp dss dsu dsui dsue dsuf</p>

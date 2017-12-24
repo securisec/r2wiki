@@ -24,3 +24,5 @@
 - **`http.uproot`** Path where files are uploaded _Default is /var/folders/0p/cg2hs8993252s07qwc1816s00000gn/T/_
 - **`http.uri`** Address of HTTP proxy
 - **`http.verbose`** Output server logs to stdout _Default is true_
+
+<p hidden>http.allow http.bind http.browser http.cors http.dietime http.dirlist http.homeroot http.log http.logfile http.maxport http.maxsize http.port http.referer http.root http.sandbox http.timeout http.ui http.upget http.upload http.uproot http.uri http.verbose</p>
