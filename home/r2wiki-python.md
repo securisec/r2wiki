@@ -10,7 +10,7 @@ Access the radare2 wiki from inside the r2 shell
     ```sh
     echo "\#\!pipe python /path/to/repo/r2wiki.py" >> ~/.radare2rc
     ```
-	  > Invoke as `$wiki arg`
+	 > Invoke as `$wiki arg`
 	- Method 2: Set an alias from inside r2 shell:
 		
 		```text
