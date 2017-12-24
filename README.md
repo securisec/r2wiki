@@ -9,7 +9,8 @@ Tons of great youtube videos, the radare2 irc channel, twitter, too many to list
 Wiki is powered by [wiki.js](https://wiki.js.org/) <img src="https://beta.requarks.io/svg/logo.svg" width="48">
 
 ## Online
-The wiki is available online at [https://radare2.securisec.com](https://radare2.securisec.com)
+The wiki is available online at [https://radare2.securisec.com](https://radare2.securisec.com)  
+Both the online version and local version supports full search capability. The online version is always upto date. 
 
 ## Local Installation
 - Install wiki.js by following [these instructions](https://docs.requarks.io/wiki/install)
