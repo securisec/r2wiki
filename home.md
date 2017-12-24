@@ -10,7 +10,7 @@ This is an ongoing work in progress and reflects various material obtained while
 
 # Sections
 
-## Console options
+## :heart_eyes: Console options
 [Radare2 console options](./Options)
 
 ## Radare2 Python scripting
