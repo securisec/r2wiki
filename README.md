@@ -2,7 +2,9 @@
 The goal of this wiki is to make a searchable collection of documents which can be used to find various use cases and help regarding using r2. This is a live wiki and the 
  goal is to updated frequently. If you have a tip, use case or plugin you would like to suggest, either create an issue, or tweet to me at [@securisec](https://twitter.com/securisec)
 
-This wiki can be used either from the online version or locally.
+This wiki can be used either from the online version or locally. 
+
+**Make sure to update the local version everytime before using. The wiki is updated frequently**
 
 #### Credits:
 Tons of great youtube videos, the radare2 irc channel, twitter, too many to list.
