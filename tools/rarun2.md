@@ -66,7 +66,7 @@
 		
 ## Preload
   - You can preload r2 inside a process.
-		> Example: `rarun2 r2preload=yes program=/bin/cat` followed by the kill command that rarun2 generates
+	 > Example: `rarun2 r2preload=yes program=/bin/cat` followed by the kill command that rarun2 generates
 	- Screenshot:
 		<img src="/uploads/tools/rarun-2-preload.png" width="50%">
 	- Available commands inside preload are:
