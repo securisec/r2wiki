@@ -21,7 +21,7 @@ Usage: wo[asmdxoArl24] [hexpairs] @ addr[!bsize]
 - **`wol [val]`** <<= shift left
 - **`wom [val]`** *= multiply
 - **`woo [val]`** |= or
-- **`wop[DO] [arg]`** De Bruijn Patterns
+- [**`wop[DO] [arg]`** De Bruijn Patterns](/options/w/wo-hex-write/wop)
 - **`wor [val]`** >>= shift right
 - **`woR`** random bytes (alias for 'wr $b')
 - **`wos [val]`** -= substraction
