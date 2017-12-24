@@ -32,3 +32,95 @@
 - Set `?E `fo`` in `~/.radare2rc` to show clippy style fortune messages
 - [Floss](https://github.com/fireeye/flare-floss/releases) has a radare2 output using `-r`
 - When commenting out a line in `~/.radare2rc` , dont do `#foo` . Use `# foo` . That space is important
+
+
+## **Tips from fortunes
+  > These tips are from the radare2 fortunes
+
+ - Add comments using the `;` key in visual mode or the `CC` command from the radare2 shell
+ - Add custom Have you setup your ~/.radare2rc today?
+ - Analyze socket connections with the socket plugin: `radare2 socket://www.foo.com:80`. Use `w` to send data
+ - Assemble opcodes with the `a` and `A` keys in visual mode, which are bindings to the `wa` and `wA` commands
+ - Bindiff two files with `$ radiff2 /bin/true /bin/false`
+ - Calculate checksums for the current block with the commands starting with `#` (#md5, #crc32, #all, ..)
+ - Change the block size with `b <block-size>`. In visual mode you can also enter radare2 command pressing the `:` key (like vi does)
+ - Change the graph block definition with graph.callblocks, graph.jmpblocks, graph.flagblocks
+ - Change the registers of the child process in this way: `dr eax=0x333`
+ - Change the size of the file with the `r` (resize) command
+ - Change the UID of the debugged process with child.uid (requires root)
+ - Change your fortune types with `e cfg.fortunes.type = fun,tips,nsfw` in your ~/.radare2rc
+ - Check your IO plugins with `r2 -L`
+ - Command layout is: <repeat><command><bytes>@<offset>.  For example: 3x20@0x33 will show 3 hexdumps of 20 bytes at 0x33
+ - Control the height of the terminal on serial consoles with e scr.height
+ - Control the signal handlers of the child process with the `dk` command
+ - Disable these messages with `e cfg.fortunes = false` in your ~/.radare2rc
+ - Disassemble in intel syntax with `e asm.syntax = intel`.
+ - Emulate the base address of a file with e file.baddr.
+ - Enable ascii-art jump lines in disassembly by setting `e asm.lines=true`. asm.linesout and asm.linestyle may interest you as well
+ - Enable asm.trace to see the tracing information inside the disassembly
+ - Enable the PAGER with `e scr.pager=less -R`
+ - Enhance your graphs by increasing the size of the block and graph.depth eval variable.
+ - Execute a command every time a breakpoint is hit with `e cmd.bp = !my-program`
+ - Execute a command on the visual prompt with cmd.vprompt
+ - Execute commands on a temporary offset by appending `@ offset` to your command.
+ - Find expanded AES keys in memory with `/Ca`
+ - Find hexpairs with `/x a0 cc 33`
+ - Find wide-char strings with the `/w <string>` command
+ - For a full list of commands see `strings /dev/urandom`
+ - Get a free shell with `ragg2 -i exec -x`
+ - give | and > a try piping and redirection
+ - If you want to open the file in read-write mode, invoke r2 with `-w`
+ - In visual mode press `c` to toggle the cursor mode. Use tab to navigate
+ - Interpret radare2 scripts with `. <path-to-script>`. Similar to the bash source alias command.
+ - Invert the block bytes using the `I` key in visual mode
+ - Most of commands accept `?` as a suffix. Use it to understand how they work :)
+ - Move around the bytes with h,j,k,l! Arrow keys are neither portable nor efficient
+ - Move between your search hits in visual mode using the `f` and `F` keys
+ - Move the comments to the right changing their margin with asm.cmtmargin
+ - Pass `-j` to rabin2 to get the information of the binary in JSON format.
+ - Press `C` in visual mode to toggle colors
+ - Press `c` in visual mode to toggle the cursor mode
+ - Print the contents of the current block with the `p` command
+ - Reduce the delta where flag resolving by address is used with cfg.delta
+ - Remember to maintain your ~/.radare_history
+ - Rename a function using the `afr <newname> @ <offset>` command.
+ - Review all the subcommands of aa to see better ways to analyze your targets.
+ - Run .dmm* to load the flags of the symbols of all modules loaded in the debugger
+ - Run your own r2 scripts in awk using the r2awk program.
+ - Save your projects with `Ps <project-filename>` and restore then with `Po <project-filename>`
+ - Seek at relative offsets with `s +<offset>` or `s -<offset>`
+ - Select your architecture with: `e asm.arch=<arch>` or r2 -a from the shell
+ - Set `e bin.dbginfo=true` to load debug information at startup.
+ - Set color to your screen with `e scr.color=true`
+ - Setup dbg.fpregs to true to visualize the fpu registers in the debugger view.
+ - Show offsets in graphs with `e graph.offset = true`
+ - Step through your seek history with the commands `u` (undo) and `U` (redo)
+ - Switch between print modes using the `p` and `P` keys in visual mode
+ - Temporally drop the verbosity prefixing the commands with `:`
+ - Thanks for using radare2!
+ - The `?` command can be used to evaluate math expressions. Like this: `? (0x34+22)*4`
+ - The more `a` you add after `aa` the more analysis steps are executed.
+ - The unix-like reverse engineering framework.
+ - This code was intentionally left blank, try `e asm.arch = ws`
+ - To debug a program, you can call r2 with `dbg://<path-to-program>` or `-d <path..>`
+ - Toggle between disasm and graph with the space key
+ - Trace register changes while debugging with `e trace.cmtregs=true`
+ - Use `-e bin.strings=false` to disable automatic string search when loading the binary.
+ - Use `e asm.offset=true` to show offsets in 16bit segment addressing mode.
+ - Use `e` and `t` in Visual mode to edit configuration and track flags.
+ - Use `rabin2 -ris` to get the import/export symbols of any binary.
+ - Use `zoom.byte=printable` in zoom mode (`z` in Visual mode) to find strings
+ - Use +,-,*,/ to change the size of the block
+ - Use /m to carve for known magic headers. speedup with search.
+ - Use hasher to calculate hashes of portion blocks of a file
+ - Use rarun2 to launch your programs with a predefined environment.
+ - Use scr.accel to browse the file faster!
+ - Use the `[` and `]` keys in visual mode to adjust the screen width
+ - Use the `id` command to see the source line related to the current seek
+ - Use V! to enter into the visual panels mode (dwm style)
+ - Use zoom.byte=entropy and press `z` in visual mode to zoom out to see the entropy of the whole file
+ - You are probably using an old version of r2, go checkout the git!
+ - You can `copy/paste` bytes using the cursor in visual mode `c` and using the `y` and `Y` keys
+ - You can debug a program from the graph view (`ag`) using standard radare2 commands
+ - You can mark an offset in visual mode with the cursor and the `,` key. Later press `.` to go back
+ - You can redefine descriptive commands in the hud file and using the `V_` command.
