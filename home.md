@@ -79,9 +79,11 @@ This is an ongoing work in progress and reflects various material obtained durin
 
     [Pre-packaged binaries](http://radare.mikelloc.com/get/)
 
-[Resources](./Resources-09912c2c-cfe9-4e26-8f7b-25e7a6268f34.md)
+## Resources
+[Resources](/home/resources)
 
-[Videos](./Videos-f6209288-e2bf-4623-ad81-e577e8e71def.md)
+## Videos
+[Videos](/home/videos)
 
 # Stuff
 
@@ -99,4 +101,4 @@ This is an ongoing work in progress and reflects various material obtained durin
 
 [radare (@radareorg) | Twitter](https://twitter.com/radareorg)
 
-![](https://static.notion-static.com/754c9573-76a3-4f3f-9aa6-f3326ae85b1a/r2_learning_curve.png){.align-center}
+![R 2 Learning Curve](/uploads/r-2-learning-curve.png "R 2 Learning Curve"){.align-center}
