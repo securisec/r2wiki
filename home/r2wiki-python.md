@@ -22,5 +22,5 @@ Access the radare2 wiki from inside the r2 shell
     ```
 
 
-
+<p hidden>python wiki</p>
 		
