@@ -36,7 +36,7 @@ Usage: dt Trace commands
 - **`dtt [tag]`** Select trace tag (no arg unsets)
 
 - Screenshot
-	<img src=/uploads/small-d/tracing-visual-mode.png" width="50%">
+- <img src=/uploads/small-d/tracing-visual-mode.png" width="50%">
 	  > The numbers in the red box indicates the order of the trace count as each instruction is stepped into, and the green box indicates how many times that instruction has run
 
 <p hidden>dt dt% dt* dt+ dt- dtD dta dtc dtd dte dtg dtg* dtgi dtr dts dtt</p>
