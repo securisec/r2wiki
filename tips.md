@@ -33,6 +33,7 @@
 - [Floss](https://github.com/fireeye/flare-floss/releases) has a radare2 output using `-r`
 - When commenting out a line in `~/.radare2rc` , dont do `#foo` . Use `# foo` . That space is important
 - To pass arguments to a python script inside r2 shell, use #!pipe python script.py args
+- Most commands accept `-` as argument-prefix as an indication to delete something
 
 
 ## **Tips from fortunes**
