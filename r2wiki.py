@@ -26,7 +26,8 @@ try:
 					for lines in f.readlines():
 						if re.search(pattern, lines):
 							if not any(filter in lines for filter in ['<p hidden>',
-																	  '<!--',]):
+																	  '<!--',
+                                                                      '<img src']):
 								match = ((re.sub('\*\*', '', lines)).lstrip() + '\n')#.replace('`', "'")
 								if match.startswith('- ['):
 									found += '[.](https://radare2.securisec.com%s' % match.split(']')[-1].strip('(')
