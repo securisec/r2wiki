@@ -1,4 +1,6 @@
 # Radare2 Wiki
+![repo size](https://img.shields.io/github/repo-size/securisec/radare2_wiki.svg) 
+
 The goal of this wiki is to make a searchable collection of documents which can be used to find various use cases and help regarding using r2. This is a live wiki and the 
  goal is to updated frequently. If you have a tip, use case or plugin you would like to suggest, either create an issue, or tweet to me at [@securisec](https://twitter.com/securisec)
 
