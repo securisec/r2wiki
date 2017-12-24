@@ -22,11 +22,10 @@
 - Set environment variables as `setenv=foo=bar` in the .rr file and load it along with the binary
 - Equivalent of "set-follow-fork-mode" gdb command. First, `dcf` until a fork happens, and then `dp` to see all child processes
 - When debugging a binary, use `e dbg.bep=main` or entry to bypass the loader. This can be made persistant in `~/.radare2rc`
-- Use the back tick ``` to wrap a command to use as the input to another command. Example 
+- Use the back tick ``` to wrap a command to use as the input to another command. Example. This command will take the address xref to of somestr and seek to that address. 
 	```text
 	s axt `str.some~[1]`
-	```
- . This command will take the address xref to of somestr and seek to that address.
+	``` 
 - The `$$` represents here (current seek)
 - Press **space bar** to switch between `V` and `VV`
 - Use `agv` to open a grapviz flow graph
