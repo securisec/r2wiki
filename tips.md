@@ -34,7 +34,7 @@
 - When commenting out a line in `~/.radare2rc` , dont do `#foo` . Use `# foo` . That space is important
 
 
-## **Tips from fortunes
+## **Tips from fortunes**
   > These tips are from the radare2 fortunes
 
  - Add comments using the `;` key in visual mode or the `CC` command from the radare2 shell
