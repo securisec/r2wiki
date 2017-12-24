@@ -24,16 +24,21 @@ Both the online version and local version supports full search capability. The o
 - To update to the latest **(this wiki will be updated frequently :stuck_out_tongue_winking_eye:)**, simply run  
 `git pull origin master` from inside the repo directory.
 
-### Tips
+## Tips (applies to wiki.js version 1.0.12)
 To style your local wiki in a manner similar to the online version, add the following to the `/wiki_installation_dir/server/views/layout.pug` under the section marked as `//- JS / CSS`  
-```css
-    style(type='text/css').
-      .mkcontent {
-        font-family: Arial;
-      }
+ ```css
+     style(type='text/css').
+       .mkcontent {
+         font-family: Arial;
+       }
 
-    style(type='text/css').
-      .mkcontent {
-        font-size: 16px;
-      }
-```
+     style(type='text/css').
+       .mkcontent {
+         font-size: 16px;
+       }
+ ```
+To change the search behaviour of your local wiki similar to that of the online version, change the following lines in `server/libs/search.js`
+  - Line 73 to 1
+  - Line 78 to 0
+  - Line 88 to 3
+  - Line 175 to 20
