@@ -35,7 +35,11 @@ try:
 											 ' [.](https://radare2.securisec.com%s' % split[-1].strip('(')
 								else:
 									if match.startswith('>'):
-										match = match.strip('>')
+										match = ''.join(list(match)[1:])
+									if match.startswith('#'):
+										match = ''.join(list(match)[1:])
+									if match.startswith(' _'):
+										match = re.sub('_', '', ''.join(list(match)[1:]))
 									found += match
 
 	pydoc.pipepager(highlight(found, MarkdownLexer(), TerminalFormatter()), cmd='less -r')
