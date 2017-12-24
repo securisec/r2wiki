@@ -40,10 +40,11 @@ Usage: o [com- ] [file] ([offset])
 - **`o 4`** Switch to open file on fd 4
 - **`o-1`** close file descriptor 1
 - **`o-*`** close all opened files
+- **`o-!`** close all files except the current one
 - **`o--`** close all files, analysis, binfiles, flags, same as !r2 --
 - **`o [file]`** open [file] file in read-only
 - **`o+ [file]`** open file in read-write mode
 - **`o [file] 0x4000`** map file at 0x4000
 - **`ox fd fdx`** exchange the descs of fd and fdx and keep the mapping
 
-<p hidden>oa oq o=ob oc oi oj oL om on oo oo+ ood op ox</p>
+<p hidden>oa oq o=ob oc oi oj oL om on oo oo+ ood op ox o-!</p>
