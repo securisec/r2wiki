@@ -69,7 +69,7 @@
 	 > Example: `rarun2 r2preload=yes program=/bin/cat` followed by the kill command that rarun2 generates
 	- Screenshot:
 		<img src="/uploads/tools/rarun-2-preload.png" width="50%">
-		  > The red box indicates the kill command to run in another shell
+		 > The red box indicates the kill command to run in another shell
 	- Available commands inside preload are:
 		
 		```text
