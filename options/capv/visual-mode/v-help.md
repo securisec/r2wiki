@@ -23,7 +23,7 @@
 - **`_`** enter the flag/comment/functions/.. hud (same as VF_)
   - Screenshot
 
-    <img src="/uploads/v-help/underscore-hud.png" width="50%">
+    <img src="/uploads/v-help/underscore-hud.png" width="30%">
 
 - **`=`** set cmd.vprompt (top row)
 - **`|`** set cmd.cprompt (right column)
