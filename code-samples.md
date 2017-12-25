@@ -29,3 +29,17 @@
 	
 ## Automation
 ### Set a breakpoint in every call inside a function
+	
+	```python
+	import r2pipe
+	from sys import argv
+
+	r = r2pipe.open(argv[1], flags=['-N', '-2'])
+	r.cmd('aa')
+	json = r.cmdj('pdfj @ $$')
+
+	for i in json['ops']:
+			if i['type'] == 'call':
+					r.cmd('db @ %s' %hex(i['offset']))
+	```
+		> To invoke, simply call the function with `#!pipe python /path/to/script.py dpe` (dpe will automatically get the binaries path)
