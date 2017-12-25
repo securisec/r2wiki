@@ -12,7 +12,7 @@
 - **`??`** show the user-friendly hud
   - Screenshot
 
-    <img src="/uploads/v-help/question-question-hud.png" width="50%">
+    <img src="/uploads/v-help/question-question-hud.png" width="30%">
 
   > _Makes it really easy to do various tasks in visual mode. This is different from the `_` HUD mode_
 - **`$`** toggle asm.pseudo
