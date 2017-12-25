@@ -51,7 +51,7 @@
 
 - **`e`** edit eval configuration variables
 - `E` Color / Theme changer. Use up or down to select what you want to change followed by RGB keys.
-  > _Use `rRgGbB` keys to the RGB values_
+  > _Theme editor: Use `rRgGbB` keys to the RGB values_
 - **`f/F`** set/unset or browse flags. f- to unset, F to browse, ..
   - Visual flag help
 
