@@ -42,4 +42,4 @@
 			if i['type'] == 'call':
 					r.cmd('db @ %s' %hex(i['offset']))
 	```
-		> To invoke, simply call the function with `#!pipe python /path/to/script.py dpe` (dpe will automatically get the binaries path)
+	> To invoke, simply call the function with `#!pipe python /path/to/script.py dpe` (dpe will automatically get the binaries path)
