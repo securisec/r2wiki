@@ -9,6 +9,7 @@ Usage ec[s?] [key][[=| ]fg] [bg]
 
 
 - **`ec`** list all color keys
+	> `ec usrcmt color` to change comment color
 - **`ec*`** same as above, but using r2 commands
 - **`ecd`** set default palette
 - **`ecr`** set random palette (see also scr.randpal)
@@ -32,4 +33,4 @@ Usage ec[s?] [key][[=| ]fg] [bg]
 - **`e scr.truecolor=1|0`** for 256 _256_ 256 colors (boolean)
 - **`$DATADIR/radare2/cons`** ~/.config/radare2/cons ./
 
-<p hidden>ec ec* ecd ecr ecs ecj ecc eco ecp ecn ecH</p>
+<p hidden>ec ec* ecd ecr ecs ecj ecc eco ecp ecn ecH usrcmt</p>
