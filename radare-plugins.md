@@ -2,6 +2,9 @@
 
 **_This a list of plugins that I find interesting._** 
 
+## Tips
+> Sometimes, a plugin installation using r2pm will fail with a Directory nonexistant error. To prevent this, simply run `mkdir -p $HOME/.config/radare2/prefix/bin/`
+
 ## r2frida
 
   - **Tips**
