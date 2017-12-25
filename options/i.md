@@ -30,7 +30,7 @@ Usage: i Get info from opened file (see rabin2's manpage)
   - **`ii`** Imports
   - **`iI`** Binary info
   - **`ik [query]`** Key-value database from RBinObject
-  - **`il`** Libraries
+  - **`il`** Libraries _information libraries_
   - **`iL [plugin]`** List all RBin plugins loaded or plugin details
   - **`im`** Show info about predefined memory allocation
   - **`iM`** Show main address
