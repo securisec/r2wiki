@@ -1,6 +1,6 @@
 # Code samples
 ## Bruteforce
-#### My version of the solver for Unknown from TUCTF 2017 (this is just a placeholder for now)
+### My version of the solver for Unknown from TUCTF 2017 (this is just a placeholder for now)
 
 	```python
 	# -*- coding: utf-8 -*-
