@@ -3,11 +3,10 @@
 #  `ag[?] [options]`   output Graphviz code
 
 ## Tips
-  - Dependencies include `xdot` . To install, `sudo apt install xdot`
+  > Dependencies include `xdot` . To install, `sudo apt install xdot` {.is-info}
 
+	> To print a grapviz, `use a[options] | xdot -` . Example: `ag $$ | xdot -` . `$$` means here (at current seek). `agv` does the same thing.
 ---
-
-> To print a grapviz, `use a[options] | xdot -` . Example: `ag $$ | xdot -` . `$$` means here (at current seek). `agv` does the same thing.
 
 - `ag [addr]`   output graphviz code (bb at addr and children)
 - `ag-`   Reset the current ASCII art graph (see agn, age, agg?)
