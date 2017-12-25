@@ -6,7 +6,7 @@
 - **`aa*`** analyze all flags starting with sym. (af @@ sym.*)
 - **`aaa[?]`** autoname functions after aa (see afna)
 - **`aab`** aab across io.sections.text
-  - Looks for executable sections and looks for calls. when it finds a call, it looks for the destination of the call. Splits up basic blocks, and tries to remove all the false positives
+  > `aab` Looks for executable sections and looks for calls. when it finds a call, it looks for the destination of the call. Splits up basic blocks, and tries to remove all the false positives
 - `aac [len]` analyze function calls (af @@ \`pi len~call[1]\` ) _Identify functions by following calls_
 - `aac* [len]` flag function calls without performing a complete analysis
 - `aad [len]` analyze data references to code
