@@ -11,6 +11,7 @@
 - **`search.from`** Search start address _Default is 0xffffffffffffffff_
 - **`search.in`** Specify search boundaries _Default is io.maps_
 	> Example: `e search.in = dbg.maps`
+	{.is-info}
 
 	> To see available options, use `e search.in=?` Available sections are:
 			- raw
