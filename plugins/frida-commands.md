@@ -18,7 +18,7 @@ The commands here can be found using `\?` or `=!` when a binary is loaded using 
 - **`\dd[-][fd] ([newfd])`** List, dup2 or close filedescriptors
 - **`\dm[.|j|*]`** Show memory regions
 - **`\dma <size>`** Allocate <size> bytes on the heap, address is returned
-- **`\dmas <string>`** Allocate a string inited with <string> on the heap
+- **`\dmas <string>`** Allocate a string inited with \<string\> on the heap
 - **`\dmad <addr> <size>`** Allocate <size> bytes on the heap, copy contents from <addr>
 - **`\dmal`** List live heap allocations created with dma[s]
 - **`\dma- (<addr>...)`** Kill the allocations at <addr> (or all of them without param)
