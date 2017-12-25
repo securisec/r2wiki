@@ -87,3 +87,5 @@
 [ **`y`** Yank/paste bytes from/to memory](options/y)
 
 [ **`z`** Zignatures management](options/z)
+
+[ **`java`** Java help](options/java)
