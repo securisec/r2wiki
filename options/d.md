@@ -19,21 +19,21 @@
 
 - [ **`dk[?]`** List, send, get, set, signal handlers of child](/options/d/dk)
 
-- **`dL [handler]`** List or set debugger handler
+- **`dL [handler]`** List or set debugger handler _debug handler_
 
-- [ **`dm[?]`** Show memory maps](/options/d/dm)
+- [ **`dm[?]`** Show memory maps](/options/d/dm) _debug memory maps_
 
-- [ **`do[?]`** Open process (reload, alias for 'oo')](/options/d/do)
+- [ **`do[?]`** Open process (reload, alias for 'oo')](/options/d/do) _debug open_
 
-- **`doo[args]`** Reopen in debugger mode with args (alias for 'ood')
+- **`doo[args]`** Reopen in debugger mode with args (alias for 'ood') _debug open args_
 
 - [ **`dp[?]`** List, attach to process or thread id](/options/d/dp)
 
-- [ **`dr[?]`** Cpu registers](/options/d/dr)
+- [ **`dr[?]`** Cpu registers](/options/d/dr) _debug registers_
 
-- [ **`ds[?]`** Step, over, source line](/options/d/ds)
+- [ **`ds[?]`** Step, over, source line](/options/d/ds) _debug step_
 
-- [ **`dt[?]`** Display instruction traces (dtr=reset)](/options/d/dt)
+- [ **`dt[?]`** Display instruction traces (dtr=reset)](/options/d/dt) _debug traces_
 
 - **`dw <pid>`** Block prompt until pid dies
 
