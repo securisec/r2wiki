@@ -9,6 +9,7 @@ Usage: p-[hj] [pieces]bar|json|histogram blocks
 
 
 - **`p-`** show ascii-art bar of metadata in file boundaries
+	- <img src="/uploads/small-p/p-minus.png">
 - **`p-h`** show histogram analysis of metadata per block
 - **`p-j`** show json format
 
