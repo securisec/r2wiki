@@ -16,6 +16,7 @@
 
   > _Makes it really easy to do various tasks in visual mode. This is different from the `_` HUD mode_
 - **`$`** toggle asm.pseudo
+- `(` snow in visual mode
 - **`%`** in cursor mode finds matching pair, otherwise toggle autoblocksz
 - **`@`** redraw screen every 1s (multi-user view), in cursor set position
 - **`!`** enter into the visual panels mode
