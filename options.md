@@ -23,6 +23,7 @@
 [ **`#`** Hashbang to run an rlang script](options/Hashbang)
 
 [ `(` Macros](options/Macros)
+
 [ `|` Pipe](options/pipe)
 
 [ **`?`** Help or evaluate math expression](options/Help_evaluate)
