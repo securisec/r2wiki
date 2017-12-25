@@ -31,7 +31,7 @@
 			- dbg.maps.readonly
 			- anal.fcn
 			- anal.bb
-	{.is-info}
+{.is-info}
 - **`search.kwidx`** Store last search index count _Default is 0_
 - **`search.maxhits`** Maximum number of hits (0 _Default is 0_
 - **`search.overlap`** Look for overlapped search hits _Default is false_
