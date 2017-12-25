@@ -36,7 +36,7 @@
   - Changes the color of the offset based on the value of the offset. Allows one to easily remember where they were or functions by color.
   - Screenshot
 
-    <img src="/uploads/small-e/rainbow.png" width="50%">
+    > <img src="/uploads/small-e/rainbow.png" width="50%">
 
 - **`scr.randpal`** Random color palete or just get the next one from 'eco' _Default is false_
 - **`scr.responsive`** Auto-adjust Visual depending on screen (e.g. unset asm.bytes) _Default is false_
