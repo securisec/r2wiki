@@ -25,8 +25,6 @@
 					sys.stdout.flush()
 					if eax == 0:
 							break
-
-		 @securisec
 	```
 	
 ## Automation
