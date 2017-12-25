@@ -31,6 +31,7 @@
 ### Set a breakpoint in every call inside a function
 	
 ```python
+# make sure the binary is being debugged
 import r2pipe
 from sys import argv
 
