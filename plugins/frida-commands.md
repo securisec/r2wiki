@@ -36,13 +36,13 @@ The commands here can be found using `\?` or `=!` when a binary is loaded using 
 
       
 	```text
-			Usage: dtf [format] || dtf [addr] [fmt]
-				 ^ = trace onEnter instead of onExit
-				 + = show backtrace on trace
-				 x = show hexadecimal argument
-				 i = show decimal argument
-				 z = show pointer to string
-				 O = show pointer to ObjC object
+		Usage: dtf [format] || dtf [addr] [fmt]
+			 ^ = trace onEnter instead of onExit
+			 + = show backtrace on trace
+			 x = show hexadecimal argument
+			 i = show decimal argument
+			 z = show pointer to string
+			 O = show pointer to ObjC object
 	```
 
 
