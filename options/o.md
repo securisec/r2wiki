@@ -22,7 +22,7 @@ Usage: o [com- ] [file] ([offset])
 
 - [ **`oj[?]`** list opened files in JSON format](/options/o/oj)
 
-- **`oL`** list all IO plugins registered
+- **`oL[j]`** list all IO plugins registered
 
 - [ **`om[?]`** create, list, remove IO maps](/options/o/om)
 
