@@ -28,3 +28,6 @@
 
 		 @securisec
 	```
+	
+## Automation
+### Set a breakpoint in every call inside a function
