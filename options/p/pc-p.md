@@ -9,7 +9,7 @@
 - `pcw` C words (4 byte)
 - `pcd` C dwords (8 byte)
 - `pca` GAS .byte blob
-- `pcA .bytes with instructions in comments
+- `pcA` .bytes with instructions in comments
 - `pcs` string
 - `pcS` shellscript that reconstructs the bin
 - `pcj` json
