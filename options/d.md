@@ -2,15 +2,15 @@
 
 #  **`d`** Debugger commands
 
-- [ **`db[?]`** Breakpoints commands](/options/d/db)
+- [ **`db[?]`** Breakpoints commands](/options/d/db) _debug breakpoint_
 
-- [ **`dbt[?]`** Display backtrace based on dbg.btdepth and dbg.btalgo](/options/d/dbt)
+- [ **`dbt[?]`** Display backtrace based on dbg.btdepth and dbg.btalgo](/options/d/dbt) _debug backtrace_
 
-- [ **`dc[?]`** Continue execution](/options/d/dc)
+- [ **`dc[?]`** Continue execution](/options/d/dc) _debug continue_
 
-- [ **`dd[?]`** File descriptors (!fd in r1)](/options/d/dd)
+- [ **`dd[?]`** File descriptors (!fd in r1)](/options/d/dd) _debug descriptors_
 
-- [ **`de[-sc] [rwx] [rm] [e]`** Debug with ESIL (see de?)](/options/d/de)
+- [ **`de[-sc] [rwx] [rm] [e]`** Debug with ESIL (see de?)](/options/d/de) _debug esil_
 
 - **`dg <file>`** Generate a core-file (WIP)
 - **`dH [handler]`** Transplant process to a new handler
