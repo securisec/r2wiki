@@ -1,4 +1,5 @@
 <!-- TITLE: p -->
+<!-- SUBTITLE: All printing functions are handled by p and its sub options -->
 
 #  **`p`** Print current block with format and length
 
