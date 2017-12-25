@@ -12,17 +12,17 @@ The commands here can be found using `\?` or `=!` when a binary is loaded using 
 - **`\il`** List libraries
 - **`\is[*] <lib>`** List exports/entrypoints of lib
 - **`\isa[*] (<lib>) <sym>`** Show address of symbol
-- **`\ic <class>`** List Objective-C classes or methods of <class>
-- **`\ip <protocol>`** List Objective-C protocols or methods of <protocol>
+- **`\ic <class>`** List Objective-C classes or methods of \<class\>
+- **`\ip <protocol>`** List Objective-C protocols or methods of \<protocol\>
 - **`\fd[*j] <address>`** Inverse symbol resolution
 - **`\dd[-][fd] ([newfd])`** List, dup2 or close filedescriptors
 - **`\dm[.|j|*]`** Show memory regions
-- **`\dma <size>`** Allocate <size> bytes on the heap, address is returned
+- **`\dma <size>`** Allocate \<size\> bytes on the heap, address is returned
 - **`\dmas <string>`** Allocate a string inited with \<string\> on the heap
-- **`\dmad <addr> <size>`** Allocate <size> bytes on the heap, copy contents from <addr>
+- **`\dmad <addr> <size>`** Allocate \<size\> bytes on the heap, copy contents from \<addr\>
 - **`\dmal`** List live heap allocations created with dma[s]
 - **`\dma- (<addr>...)`** Kill the allocations at <addr> (or all of them without param)
-- **`\dmp <addr> <size> <perms>`** Change page at <address> with \<size\>, protection \<perms\> (rwx)
+- **`\dmp <addr> <size> <perms>`** Change page at \<address\> with \<size\>, protection \<perms\> (rwx)
 - **`\dp`** Show current pid
 - **`\dpt`** Show threads
 - **`\dr`** Show thread registers (see dpt)
