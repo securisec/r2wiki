@@ -109,5 +109,5 @@
 ## Custom visual mode
 - Pressing the `=` sign inside visual mode brings up cmd.vprompt. Any command executed in this prompt shows up at the top of the visual mode.
 - Pressing the `|` sign inside visual mode brings up cmd.cprompt. Any command executed in this prompt shows up at the right of the visual mode.
-	<img src="/uploads/capv/visual-mode/v-help/custom-visual-mode.png" width="50%">
+	<img src="/uploads/v-help/custom-visual-mode.png" width="50%">
 		> The red boxing is showing the command `pxr @$$!50` while the green box is show the output of `dr`
