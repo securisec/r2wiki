@@ -20,7 +20,7 @@
 - **`scr.histsave`** Always save history on exit _Default is true_
 - **`scr.html`** Disassembly uses HTML syntax _Default is false_
 	> `scr.html` Enabling this will output any command in html format. Useful when working with a web ui in radare2.
-		<img src="/uploads/small-e/scr-html.png" width="50%">
+		<img src="/uploads/small-e/scr-html.png" width="30%">
 - **`scr.interactive`** Start in interactive mode _Default is true_
 - **`scr.linesleep`** Flush sleeping some ms in every line _Default is 0_
 - **`scr.nkey`** Select visual seek mode (affects n/N visual commands) _Default is flag_
