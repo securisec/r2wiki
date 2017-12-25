@@ -20,6 +20,8 @@
 
 ## Pattern generator / Offset finder
   - `wop` . Example: `wop 100 @ eax`
+  - To find the length of a pattern before overwrite (white overwritten using a debruijin pattern, use `wopO eip`
+  - Genereate raw debruijin patterns using `ragg2 -P [length] -r`
 
 ---
 
