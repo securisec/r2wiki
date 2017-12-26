@@ -3,6 +3,8 @@
 A lot of the examples from this section has been obtained following examples from the youtube video linked below
 > [nowsecure/r2frida](https://github.com/nowsecure/r2frida) {.is-info}
 
+> Api documentation can be found on the [Frida site](https://www.frida.re/docs/javascript-api/) {.is-info}
+
 ## Tips
 > Use the following syntax to trace. Example: `\dtf write iZi` (this was tested against node. Write is the symbol being hooked) {.is-info}
 
