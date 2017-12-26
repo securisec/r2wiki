@@ -37,7 +37,7 @@
        If the last argument is '-' reads from stdin
 
 ## rasm2 -L (list of valid architectures)
-  > A list of valid architectures can also be obtained using `e asm.arch=?`
+  > A list of valid architectures can also be obtained using `e asm.arch=?` {.is-info}
 
       _dAe 8 16 6502 LGPL3 6502/NES/C64/Tamagotchi/T-1000 CPU
       _dA_ 8 8051 PD 8051 Intel CPU
