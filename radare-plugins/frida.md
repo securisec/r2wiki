@@ -79,5 +79,8 @@
 - **`\eval code..`** Evaluate Javascript code in agent side
 - **`\dc`** Continue
 
+## Resources, writeups etc
+[Spearing data in mobile memory: Building a better R2Frida memory search](https://www.nowsecure.com/blog/2017/03/14/spearing-data-mobile-memory-building-better-r2frida-memory-search/)
+
 ## Videos
 [r2con2017 - r2frida /by @mrmacete](https://www.youtube.com/watch?list=PLjIhlLNy_Y9Oe-nfcPEpaki0_En5dhQ5S&time_continue=15&v=URyd4bcV-Ik){.youtube}
