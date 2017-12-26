@@ -40,7 +40,7 @@ A lot of the examples from this section has been obtained following examples fro
 - **`\/[j] <string|hexpairs>`** Search hex/string pattern in memory ranges (see search.in=?)
 	> The regions to be searched can be modied using `e search.in=?`
 
-	> `\/` search in memory. Example: [asciinema](https://asciinema.org/a/EsgKekwKyHgSCMg3zkI627yFh) 🚀
+	> `\/` search in memory. Example: [asciinema](https://asciinema.org/a/EsgKekwKyHgSCMg3zkI627yFh) 🚀:termi
 - **`\/w[j] string`** Search wide string
 - **`\/v[1248][j] value`** Search for a value honoring `e cfg.bigendian` of given width
 - **`\e search.in=?`** r2fridas own search configuration
@@ -56,7 +56,7 @@ A lot of the examples from this section has been obtained following examples fro
 - **`\i`** Show target information
 	> `\i` To make sure that r2 is configured properly, run `.\i*`
 - **`\ii[*]`** List imports
-	> `\ii*`_Use this along with `e asm.emustr=1` to conduct better analysis_ [asciinema](https://asciinema.org/a/X3MHbWVCpjAmH19EeCcbmwGok) 
+	> `\ii*`Use this along with `e asm.emustr=1` to conduct better analysis [asciinema](https://asciinema.org/a/X3MHbWVCpjAmH19EeCcbmwGok) 
 - **`\il`** List libraries
 	> Use `\il.` to show current location
 - **`\is[*] <lib>`** List exports/entrypoints of lib
@@ -66,7 +66,7 @@ A lot of the examples from this section has been obtained following examples fro
 
 	> `\isaj` shows more information in its output. Use `~{}` to pretty print
 - **`\ic <class>`** List Objective-C classes or methods of \<class\>
-	> `\ic` _helps you analyze classes and methods._ [asciinema](https://asciinema.org/a/3H4xbEeaBAbgqHX1YvaTk34Tb)
+	> `\ic` helps you analyze classes and methods. [asciinema](https://asciinema.org/a/3H4xbEeaBAbgqHX1YvaTk34Tb)
 
 	> In the output for `\ic`, the `+` is for class methods, `-` for instance methods
 - **`\ip <protocol>`** List Objective-C protocols or methods of \<protocol\>
@@ -75,12 +75,16 @@ A lot of the examples from this section has been obtained following examples fro
 	- `\fd` will reverse resolve a symbol.
 - **`\dd[-][fd] ([newfd])`** List, dup2 or close filedescriptors
 - **`\dm[.|j|*]`** Show memory regions
+	> `\dm` Show memory maps. [asciinema](https://asciinema.org/a/HHbaELaB5wocFiKnlOyDRftAn)
+
+	> `\dm.` Show the map containing the current offset 
 - **`\dma <size>`** Allocate \<size\> bytes on the heap, address is returned
 - **`\dmas <string>`** Allocate a string inited with \<string\> on the heap
 - **`\dmad <addr> <size>`** Allocate \<size\> bytes on the heap, copy contents from \<addr\>
 - **`\dmal`** List live heap allocations created with dma[s]
 - **`\dma- (<addr>...)`** Kill the allocations at <addr> (or all of them without param)
 - **`\dmp <addr> <size> <perms>`** Change page at \<address\> with \<size\>, protection \<perms\> (rwx)
+	> `\dmp` Change page permissions
 - **`\dp`** Show current pid
 - **`\dpt`** Show threads
 - **`\dr`** Show thread registers (see dpt)
@@ -101,14 +105,16 @@ A lot of the examples from this section has been obtained following examples fro
 			 z = show pointer to string
 			 O = show pointer to ObjC object
 	```
-	> `\dtf` _Lets us trace functions, methods etc._ [asciinema](https://asciinema.org/a/nGaa3eayXKRL5dlm0WycDGL6w)
+	> `\dtf` Lets us trace functions, methods etc. [asciinema](https://asciinema.org/a/nGaa3eayXKRL5dlm0WycDGL6w)
 
 - **`\dtSf[*j] [sym|addr]`** Trace address or symbol using the stalker (Frida >= 10.3.13)
 - **`\dtS[*j] seconds`** Trace all threads for given seconds using the stalker
 - **`\di[0,1,-1] [addr]`** Intercept and replace return value of address
+	> `\di` Highjack program execution
 - **`\dx [hexpairs]`** Inject code and execute it (TODO)
 - **`\dxc [sym|addr] [args..]`** Call the target symbol with given args
 - **`\e[?] [a[=b]]`** List/get/set config evaluable vars
+	> `\e patch.code=true` Can also be used to patch code dynamically. Followed by `wx [something] @ offset`
 
 	
 	```text
@@ -122,7 +128,7 @@ A lot of the examples from this section has been obtained following examples fro
 	```
 
 - **`\. script`** Run script
-- **`\<space> code..`** Evaluate Cycript code
+- **`\<space\> code..`** Evaluate Cycript code
 - **`\eval code..`** Evaluate Javascript code in agent side
 	> `\eval` _Example:_ [asciinema](https://asciinema.org/a/irpAaaeFhdbzKIrqge5lmj5NH)
 - **`\dc`** Continue
