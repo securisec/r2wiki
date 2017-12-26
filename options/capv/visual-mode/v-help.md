@@ -12,17 +12,18 @@
 - **`??`** show the user-friendly hud
   - Screenshot
 
-    <img src="/uploads/v-help/question-question-hud.png" width="50%">
+    <img src="/uploads/v-help/question-question-hud.png" width="30%">
 
   > _Makes it really easy to do various tasks in visual mode. This is different from the `_` HUD mode_
 - **`$`** toggle asm.pseudo
+- `(` snow in visual mode
 - **`%`** in cursor mode finds matching pair, otherwise toggle autoblocksz
 - **`@`** redraw screen every 1s (multi-user view), in cursor set position
 - **`!`** enter into the visual panels mode
 - **`_`** enter the flag/comment/functions/.. hud (same as VF_)
   - Screenshot
 
-    <img src="/uploads/v-help/underscore-hud.png" width="50%">
+    <img src="/uploads/v-help/underscore-hud.png" width="30%">
 
 - **`=`** set cmd.vprompt (top row)
 - **`|`** set cmd.cprompt (right column)
@@ -41,6 +42,7 @@
 - **`a`** assemble code
 - `A` visual Assembler
 - **`b`** browse symbols, flags, configurations, classes, ...
+	<img src="/uploads/v-help/visual-b.png" width="25%">
 - **`B`** toggle breakpoint
 - **`c/C`** toggle (c)ursor and (C)olors
   > _Use - or + to increment or decrement opcode value while in cursor c mode_
@@ -49,7 +51,7 @@
 
 - **`e`** edit eval configuration variables
 - `E` Color / Theme changer. Use up or down to select what you want to change followed by RGB keys.
-  > _Use `rRgGbB` keys to the RGB values_
+  > _Theme editor: Use `rRgGbB` keys to the RGB values_
 - **`f/F`** set/unset or browse flags. f- to unset, F to browse, ..
   - Visual flag help
 
@@ -103,3 +105,9 @@
 - **`F7`** single step
 - **`F8`** step over
 - **`F9`** continue
+
+## Custom visual mode
+- Pressing the `=` sign inside visual mode brings up cmd.vprompt. Any command executed in this prompt shows up at the top of the visual mode.
+- Pressing the `|` sign inside visual mode brings up cmd.cprompt. Any command executed in this prompt shows up at the right of the visual mode.
+	<img src="/uploads/v-help/custom-visual-mode.png" width="50%">
+	> The red boxing is showing the command `pxr @$$!50` while the green box is show the output of `dr`

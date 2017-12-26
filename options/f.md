@@ -12,6 +12,7 @@ Usage: f [?] [flagname] # Manage offset-name flags
   - > To show all the contents of a flag space, use `fs [space_name]; f`
 ---
 - **`f`** list flags (will only list flags from selected flagspaces)
+	> To create a new flag, use `f flag_name @ offset`
 - **`f?flagname`** check if flag exists or not, See ?? and ?!
 - **`f. [*[*]]`** list local per-function flags (*) as r2 commands
 - **`f.blah=$$+12`** set local function label named 'blah'

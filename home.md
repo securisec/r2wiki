@@ -61,7 +61,7 @@ commit: 48bfa5087bed71be501e4c37933c0fe1298d817e build: 2017-11-14__02:43:49
 
   [Introduction · Radare2 Explorations](https://monosource.gitbooks.io/radare2-explorations/content/)
 
-  - > _Tutorial 3, memory manipulation is really good_ {.is-info}
+   > _Tutorial 3, memory manipulation is really good_ {.is-info}
 
   [Plugins · Radare2 Book](https://radare.gitbooks.io/radare2book/content/plugins/plugins.html)
 

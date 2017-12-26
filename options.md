@@ -24,6 +24,8 @@
 
 [ `(` Macros](options/Macros)
 
+[ `|` Pipe](options/pipe)
+
 [ **`?`** Help or evaluate math expression](options/Help_evaluate)
 
 [ **`@`** Misc help for '@' (seek), '~' (grep) (see ~??)](options/Misc)
@@ -85,3 +87,5 @@
 [ **`y`** Yank/paste bytes from/to memory](options/y)
 
 [ **`z`** Zignatures management](options/z)
+
+[ **`java`** Java help](options/java)

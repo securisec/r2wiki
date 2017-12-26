@@ -17,6 +17,6 @@
 
     <img src="/uploads/a-afvd/ahi.png" width="50%">
 
-    >  _Forcefully convert value to string_
+    > `ahi` _Forcefully convert value to string_
 
 <p hidden>ahi</p>

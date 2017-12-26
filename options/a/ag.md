@@ -3,11 +3,10 @@
 #  `ag[?] [options]`   output Graphviz code
 
 ## Tips
-  - Dependencies include `xdot` . To install, `sudo apt install xdot`
-
+  > Dependencies include `xdot` . To install, `sudo apt install xdot`
+	> To print a grapviz, `use a[options] | xdot -` . Example: `ag $$ | xdot -` . `$$` means here (at current seek). `agv` does the same thing.
+	{.is-info}
 ---
-
-> To print a grapviz, `use a[options] | xdot -` . Example: `ag $$ | xdot -` . `$$` means here (at current seek). `agv` does the same thing.
 
 - `ag [addr]`   output graphviz code (bb at addr and children)
 - `ag-`   Reset the current ASCII art graph (see agn, age, agg?)
@@ -36,4 +35,4 @@
 - `agt [addr]`   find paths from current offset to given address
 - `agv`   Show function graph in web/png (see graph.web and cmd.graph) or agf for asciiart
 
-<p hidden>ag ag- aga agr agc agC agd age agf agg agj agk agl agn ags agt agv</p>
+<p hidden>ag ag- aga agr agc agC agd age agf agg agj agk agl agn ags agt agv xdot</p>

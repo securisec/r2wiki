@@ -40,7 +40,7 @@
 - **`anal.sleep`** Sleep N usecs every so often during analysis. Avoid 100% CPU usage _Default is 0_
 - **`anal.split`** Split functions into basic blocks in analysis _Default is true_
 - **`anal.strings`** Identify and register strings during analysis (aar only) _Default is false_
-  - _Disables bin.strings option. Only gets strings that are referenced by code_
+  > _Disables bin.strings option. Only gets strings that are referenced by code_
 - **`anal.timeout`** Stop analyzing after a couple of seconds _Default is 0_
 - **`anal.to`** Upper limit on the address range for analysis Default is 0xffffffffffffffff
 - **`anal.vars`** Analyze local variables and arguments _Default is true_
@@ -48,4 +48,4 @@
 - **`anal.vinfunrange`** Search values outside function ranges (requires anal.vinfun=false) _Default is false_
 
 
-<p hidden>anal.a2f anal.afterjmp anal.arch anal.armthumb anal.autoname anal.bb.align anal.bb.maxsize anal.bb.split anal.brokenrefs anal.calls anal.cjmpref anal.cpu anal.datarefs anal.depth anal.eobjmp anal.esil anal.fcnprefix anal.from anal.gp anal.hasnext anal.hpskip** Skip mov reg, reg and  anal.jmpabove anal.jmpref anal.jmptbl anal.limits anal.maxreflines anal.noncode anal.nopskip anal.prelude anal.ptrdepth anal.pushret anal.recont anal.refstr anal.sleep anal.split anal.strings anal.timeout anal.to anal.vars anal.vinfun anal.vinfunrange</p>
+<p hidden>anal.a2f anal.afterjmp anal.arch anal.armthumb anal.autoname anal.bb.align anal.bb.maxsize anal.bb.split anal.brokenrefs anal.calls anal.cjmpref anal.cpu anal.datarefs anal.depth anal.eobjmp anal.esil anal.fcnprefix anal.from anal.gp anal.hasnext anal.hpskip** Skip mov reg, reg and  anal.jmpabove anal.jmpref anal.jmptbl anal.limits anal.maxreflines anal.noncode anal.nopskip anal.prelude anal.ptrdepth anal.pushret anal.recont anal.refstr anal.sleep anal.split anal.strings anal.timeout anal.to anal.vars anal.vinfun anal.vinfunrange jump table</p>

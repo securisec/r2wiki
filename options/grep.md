@@ -9,18 +9,22 @@ modifier:
 ```
 
 
-- **Tips**
-  - `..` Internal less
-  - `[commandj]~{}` json indentation
-  - `...` HUD style navigation. really nice!
-  - Multiple grep patterns can be set by seperating them with a `,` . Example: `i~canary,nx,pic`
-- HUD style views / grepping
+## **Tips**
+  > `..` Internal less
+  
+  > `[commandj]~{}` json indentation
+  
+  > `...` HUD style navigation. really nice!
+  
+  > Multiple grep patterns can be set by seperating them with a `,` . Example: `i~canary,nx,pic`
+## HUD style views / grepping
 
   Use [somecommand] plus `~...` for HUD style naviation and searching. Example screenshot shows HUD style grepping for mov operands
 
   - Screenshot
 
     <img src="/uploads/grep-hud.png width="50%">
+
 
 - **`&`** all words must match to grep the line
 - **`$[n]`** sort numerically / alphabetically the Nth column
@@ -43,12 +47,13 @@ modifier:
   - Screenshot
 
     <img src="/uploads/grep/internal-hud.png" width="50%">
+   > This is take any commands output and overlay a HUD on top of it for string type searching. Example: `pdf ~...` and then search for call
 
-  > This is take any commands output and overlay a HUD on top of it for string type searching. Example: `pdf ~...` and then search for call
+## Modifiers
 
 - **`{}`** json indentation
 
-    > Example: `iij ~{}` for pretty printing json output. Can be combine with .. for less_ {.is-info}
+    > Example: `iij ~{}` for pretty printing json output. Can be combine with `..` for less. Example: `iij~{}..` {.is-info}
 
 - **`{path}`** json grep
 

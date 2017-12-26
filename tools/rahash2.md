@@ -28,3 +28,55 @@
        -t to stop hashing at given address
        -x hexstr hash this hexpair string instead of files
        -v show version information
+			 
+## Available Hashes
+
+```text
+Available Hashes: 
+  md5
+  sha1
+  sha256
+  sha384
+  sha512
+  crc16
+  crc32
+  md4
+  xor
+  xorpair
+  parity
+  entropy
+  hamdist
+  pcprint
+  mod255
+  xxhash
+  adler32
+  luhn
+  crc8smbus
+  crc15can
+  crc16hdlc
+  crc16usb
+  crc16citt
+  crc24
+  crc32c
+  crc32ecma267
+
+Available Encoders/Decoders: 
+  base64
+  base91
+  punycode
+
+Available Crypto Algos: 
+  rc2
+  rc4
+  rc6
+  aes-ecb
+  aes-cbc
+  ror
+  rol
+  rot
+  blowfish
+  cps2
+  des-ecb
+  xor
+  serpent-ecb
+```

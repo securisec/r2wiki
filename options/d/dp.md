@@ -16,7 +16,7 @@ Usage: dp # Process commands
 - **`dpa <pid>`** Attach and select pid
 - **`dpc`** Select forked pid (see dbg.forks)
 - **`dpc*`** Display forked pid (see dbg.forks)
-- **`dpe`** Show path to executable
+- **`dpe`** Show path to executable. Show file path
 - **`dpf`** Attach to pid like file fd // HACK
 - **`dpk <pid> [<signal>]`** Send signal to process (default 0)
 - **`dpn`** Create new process (fork)

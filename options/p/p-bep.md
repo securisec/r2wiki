@@ -14,7 +14,7 @@ Usage: p=[=bep?][qj] [nblocks] ([len]) ([offset]) show entropy/printable chars/c
 - **`p=c`** print number of calls per block
 - **`p=d`** print different bytes from block
 - **`p=e`** print entropy for each filesize/blocksize
-  > _Entropy computation_
+  > `p=e` _Entropy computation_
 - **`p=F`** print number of 0xFF bytes for each filesize/blocksize
 - **`p=i`** print number of invalid instructions per block
 - **`p=j`** print number of jumps and conditional jumps in block

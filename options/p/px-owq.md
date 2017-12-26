@@ -57,7 +57,7 @@ Usage: px[0afoswqWqQ][f] # Print heXadecimal
 - **`pxW`** same as above, but one per line
   - Screenshot
 
-    <img src="/uploads/small-p/px-cap-w.png" width="50%">
+    <img src="/uploads/small-p/px-cap-w.png" width="30%">
 
 - **`pxx`** show N bytes of hex-less hexdump
 - **`pxX`** show N words of hex-less hexdump

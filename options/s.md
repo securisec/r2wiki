@@ -20,6 +20,7 @@ Usage: s # Help for the seek commands. See ?$? to see all variables
 - **`s+ n`** Seek n bytes forward
 - **`s++[n]`** Seek blocksize bytes forward (/=n)
 - **`s[j*=!]`** List undo seek history (JSON, =list, *r2, !=names, s==)
+	- `sj` to retrive seek history in json format
 - **`s/ DATA`** Search for next occurrence of 'DATA'
   > This will also seek to the address of the first match
 - **`s/x 9091`** Search for next occurrence of \x90\x91

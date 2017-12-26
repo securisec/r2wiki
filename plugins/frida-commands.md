@@ -12,17 +12,17 @@ The commands here can be found using `\?` or `=!` when a binary is loaded using 
 - **`\il`** List libraries
 - **`\is[*] <lib>`** List exports/entrypoints of lib
 - **`\isa[*] (<lib>) <sym>`** Show address of symbol
-- **`\ic <class>`** List Objective-C classes or methods of <class>
-- **`\ip <protocol>`** List Objective-C protocols or methods of <protocol>
+- **`\ic <class>`** List Objective-C classes or methods of \<class\>
+- **`\ip <protocol>`** List Objective-C protocols or methods of \<protocol\>
 - **`\fd[*j] <address>`** Inverse symbol resolution
 - **`\dd[-][fd] ([newfd])`** List, dup2 or close filedescriptors
 - **`\dm[.|j|*]`** Show memory regions
-- **`\dma <size>`** Allocate <size> bytes on the heap, address is returned
-- **`\dmas <string>`** Allocate a string inited with <string> on the heap
-- **`\dmad <addr> <size>`** Allocate <size> bytes on the heap, copy contents from <addr>
+- **`\dma <size>`** Allocate \<size\> bytes on the heap, address is returned
+- **`\dmas <string>`** Allocate a string inited with \<string\> on the heap
+- **`\dmad <addr> <size>`** Allocate \<size\> bytes on the heap, copy contents from \<addr\>
 - **`\dmal`** List live heap allocations created with dma[s]
 - **`\dma- (<addr>...)`** Kill the allocations at <addr> (or all of them without param)
-- **`\dmp <addr> <size> <perms>`** Change page at <address> with <size>, protection <perms> (rwx)
+- **`\dmp <addr> <size> <perms>`** Change page at \<address\> with \<size\>, protection \<perms\> (rwx)
 - **`\dp`** Show current pid
 - **`\dpt`** Show threads
 - **`\dr`** Show thread registers (see dpt)
@@ -34,13 +34,17 @@ The commands here can be found using `\?` or `=!` when a binary is loaded using 
 - **`\dtr <addr> (<regs>...)`** Trace register values
 - **`\dtf <addr> [fmt]`** Trace address with format (^ixzO) (see dtf?)
 
-      Usage: dtf [format] || dtf [addr] [fmt]
-       ^ = trace onEnter instead of onExit
-       + = show backtrace on trace
-       x = show hexadecimal argument
-       i = show decimal argument
-       z = show pointer to string
-       O = show pointer to ObjC object
+      
+	```text
+		Usage: dtf [format] || dtf [addr] [fmt]
+			 ^ = trace onEnter instead of onExit
+			 + = show backtrace on trace
+			 x = show hexadecimal argument
+			 i = show decimal argument
+			 z = show pointer to string
+			 O = show pointer to ObjC object
+	```
+
 
 - **`\dtSf[*j] [sym|addr]`** Trace address or symbol using the stalker (Frida >= 10.3.13)
 - **`\dtS[*j] seconds`** Trace all threads for given seconds using the stalker

@@ -10,6 +10,29 @@
 - **`search.flags`** All search results are flagged, otherwise only printed _Default is true_
 - **`search.from`** Search start address _Default is 0xffffffffffffffff_
 - **`search.in`** Specify search boundaries _Default is io.maps_
+	> Example: `e search.in = dbg.maps`
+	{.is-info}
+
+	> To see available options, use `e search.in=?` Available sections are:
+			- raw
+			- block
+			- io.map
+			- io.maps
+			- io.sections
+			- io.sections.write
+			- io.sections.exec
+			- io.sections.readonly
+			- dbg.stack
+			- dbg.heap
+			- dbg.map
+			- dbg.maps
+			- dbg.maps.exec
+			- dbg.maps.write
+			- dbg.maps.readonly
+			- anal.fcn
+			- anal.bb
+
+
 - **`search.kwidx`** Store last search index count _Default is 0_
 - **`search.maxhits`** Maximum number of hits (0 _Default is 0_
 - **`search.overlap`** Look for overlapped search hits _Default is false_

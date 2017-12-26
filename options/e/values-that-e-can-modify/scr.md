@@ -19,6 +19,8 @@
 - **`scr.highlight`** Highlight that word at RCons level
 - **`scr.histsave`** Always save history on exit _Default is true_
 - **`scr.html`** Disassembly uses HTML syntax _Default is false_
+	> `scr.html` Enabling this will output any command in html format. Useful when working with a web ui in radare2.
+		<img src="/uploads/small-e/scr-html.png" width="30%">
 - **`scr.interactive`** Start in interactive mode _Default is true_
 - **`scr.linesleep`** Flush sleeping some ms in every line _Default is 0_
 - **`scr.nkey`** Select visual seek mode (affects n/N visual commands) _Default is flag_
@@ -31,9 +33,7 @@
 - **`scr.promptflag`** Show flag name in the prompt _Default is false_
 - **`scr.promptsect`** Show section name in the prompt _Default is false_
 - **`scr.rainbow`** Shows rainbow colors depending of address _Default is false_
-  - Changes the color of the offset based on the value of the offset. Allows one to easily remember where they were or functions by color.
-  - Screenshot
-
+  > `scr.rainbow` Changes the color of the offset based on the value of the offset. Allows one to easily remember where they were or functions by color.
     <img src="/uploads/small-e/rainbow.png" width="50%">
 
 - **`scr.randpal`** Random color palete or just get the next one from 'eco' _Default is false_

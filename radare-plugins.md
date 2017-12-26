@@ -2,18 +2,13 @@
 
 **_This a list of plugins that I find interesting._** 
 
+## Tips
+> Sometimes, a plugin installation using r2pm will fail with a Directory nonexistant error. To prevent this, simply run `mkdir -p $HOME/.config/radare2/prefix/bin/`
+
 ## r2frida
+[r2frida](/radare-plugins/frida)
 
-  - **Tips**
-    - Trace symbols
-      - Use the following syntax to trace. Example: `\dtf write iZi` (this was tested against node. Write is the symbol being hooked)
-
-  [Frida Commands](plugins/Frida-Commands)
-
-  [nowsecure/r2frida](https://github.com/nowsecure/r2frida)
-
-  [r2con2017 - r2frida /by @mrmacete](https://www.youtube.com/watch?list=PLjIhlLNy_Y9Oe-nfcPEpaki0_En5dhQ5S&time_continue=15&v=URyd4bcV-Ik){.youtube}
-
+ 
 ## r2pm package manager
 
   [radare/radare2-pm](https://github.com/radare/radare2-pm/tree/master/db)
