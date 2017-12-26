@@ -74,6 +74,7 @@
 			 z = show pointer to string
 			 O = show pointer to ObjC object
 	```
+	> `\dtf` _Lets us trace functions, methods etc._ [asciinema](https://asciinema.org/a/nGaa3eayXKRL5dlm0WycDGL6w)
 
 - **`\dtSf[*j] [sym|addr]`** Trace address or symbol using the stalker (Frida >= 10.3.13)
 - **`\dtS[*j] seconds`** Trace all threads for given seconds using the stalker
