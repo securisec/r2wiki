@@ -1,47 +1,50 @@
+"""
+Directions on how to setup is in the wiki itself
+"""
 import os
 import re
 import sys
 import pydoc
+
 try:
-	from pygments import highlight
-	from pygments.lexers import MarkdownLexer
-	from pygments.formatters import TerminalFormatter
+    from pygments import highlight
+    from pygments.lexers import MarkdownLexer
+    from pygments.formatters import TerminalFormatter
 except ImportError:
-	print 'Pygments dependency not met. pip install Pygments'
-"""
-Directions on how to setup is in the wiki itself
-"""
+    print 'Pygments dependency not met. pip install Pygments'
+
+black_list = ['<p hidden>', '<!--', '<img src']
 
 try:
-	src_dir = os.path.dirname(os.path.realpath(__file__))
-	pattern = re.compile (sys.argv[1])
+    src_dir = os.path.dirname(os.path.realpath(__file__))
+    pattern = re.compile(sys.argv[1])
 
-	found = ''
+    found = ''
 
-	for path, subdirs, files in os.walk(src_dir):
-		for name in files:
-			md_path = os.path.join(path, name)
-			if not '.git' in md_path and md_path.endswith('.md'):
-				with open(md_path, 'r') as f:
-					for lines in f.readlines():
-						if re.search(pattern, lines):
-							if not any(filter in lines for filter in ['<p hidden>',
-																	  '<!--',
-																	  '<img src']):
-								match = ((re.sub('\*\*', '', lines)).lstrip() + '\n')#.replace('`', "'")
-								if match.startswith('- ['):
-									split = match.split(']')
-									found += max(split, key=len).replace('[', '') + \
-											 ' [.](https://radare2.securisec.com%s' % split[-1].strip('(')
-								else:
-									if match.startswith('>'):
-										match = ''.join(list(match)[1:])
-									if match.startswith('#'):
-										match = ''.join(list(match)[1:])
-									if match.startswith(' _'):
-										match = re.sub('_', '', ''.join(list(match)[1:]))
-									found += match
+    for path, subdirs, files in os.walk(src_dir):
+        for name in files:
+            md_path = os.path.join(path, name)
+            if not '.git' in md_path and md_path.endswith('.md'):
+                with open(md_path, 'r') as f:
+                    for lines in f.readlines():
+                        if re.search(pattern, lines):
+                            if not any(filter in lines for filter in black_list):
+                                match = ((re.sub('\*\*', '', lines)).lstrip() + '\n')  # .replace('`', "'")
+                                if match.startswith('- ['):
+                                    split = match.split(']')
+                                    found += max(split, key=len).replace('[', '') + \
+                                             ' [.](https://radare2.securisec.com%s' % split[-1].strip('(')
+                                else:
+                                    if match.startswith('>'):
+                                        match = ''.join(list(match)[1:])
+                                    if match.startswith('#'):
+                                        match = ''.join(list(match)[1:])
+                                    if match.startswith(' _'):
+                                        match = re.sub('_', '', ''.join(list(match)[1:]))
+                                    found += match
 
-	pydoc.pipepager(highlight(found, MarkdownLexer(), TerminalFormatter()), cmd='less -r')
+    pydoc.pipepager(highlight(found, MarkdownLexer(), TerminalFormatter()), cmd='less -R')
 except IndexError:
-	print 'Usage: %s search_param' % sys.argv[0]
+    print 'Usage: %s search_param' % sys.argv[0]
+except NameError:
+    print 'pip install Pygments'
