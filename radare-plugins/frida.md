@@ -3,8 +3,8 @@
 > [nowsecure/r2frida](https://github.com/nowsecure/r2frida) {.is-info}
 
 ## Tips
-> Use the following syntax to trace. Example: `\dtf write iZi` (this was tested against node. Write is the symbol being hooked) {.is-info}
-> `af` Analyze function while using r2frida. [asciinema](https://asciinema.org/a/rDfyFskNxvnguJCQu6AiehUd0)
+- > Use the following syntax to trace. Example: `\dtf write iZi` (this was tested against node. Write is the symbol being hooked) {.is-info}
+- > `af` Analyze function while using r2frida. [asciinema](https://asciinema.org/a/rDfyFskNxvnguJCQu6AiehUd0)
 
 ## Load a binary
 ### Attach to a running process
