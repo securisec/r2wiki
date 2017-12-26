@@ -80,12 +80,14 @@ A lot of the examples from this section has been obtained following examples fro
 	> `\dm.` Show the map containing the current offset 
 - **`\dma <size>`** Allocate \<size\> bytes on the heap, address is returned
 - **`\dmas <string>`** Allocate a string inited with \<string\> on the heap
+	> `\dmas` Example of writing strings to the heap [asciinema](https://asciinema.org/a/2QO9LqTbtnFJF8sOjHVet9i3K)
 - **`\dmad <addr> <size>`** Allocate \<size\> bytes on the heap, copy contents from \<addr\>
 - **`\dmal`** List live heap allocations created with dma[s]
 - **`\dma- (<addr>...)`** Kill the allocations at <addr> (or all of them without param)
 - **`\dmp <addr> <size> <perms>`** Change page at \<address\> with \<size\>, protection \<perms\> (rwx)
 	> `\dmp` Change page permissions
 - **`\dp`** Show current pid
+	> Example showing `\dp`, `\dpt` and `\dr`. [asciinema](https://asciinema.org/a/vife8ECCTTCJvsDALKGgEvvtc) 🚀
 - **`\dpt`** Show threads
 - **`\dr`** Show thread registers (see dpt)
 - **`\env [k[=v]]`** Get/set environment variable
