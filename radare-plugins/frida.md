@@ -42,9 +42,11 @@ A lot of the examples from this section has been obtained following examples fro
 - **`\/w[j] string`** Search wide string
 - **`\/v[1248][j] value`** Search for a value honoring `e cfg.bigendian` of given width
 - **`\i`** Show target information
+	> `\i` To make sure that r2 is configured properly, run `.\i*`
 - **`\ii[*]`** List imports
 	> `\ii*`_Use this along with `e asm.emustr=1` to conduct better analysis_ [asciinema](https://asciinema.org/a/X3MHbWVCpjAmH19EeCcbmwGok) 
 - **`\il`** List libraries
+	> Use `\il.` to show current location
 - **`\is[*] <lib>`** List exports/entrypoints of lib
 - **`\isa[*] (<lib>) <sym>`** Show address of symbol
 - **`\ic <class>`** List Objective-C classes or methods of \<class\>
