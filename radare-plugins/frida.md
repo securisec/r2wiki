@@ -35,6 +35,7 @@
 - **`\/v[1248][j] value`** Search for a value honoring `e cfg.bigendian` of given width
 - **`\i`** Show target information
 - **`\ii[*]`** List imports
+	> `\ii*`_Use this along with `e asm.emustr=1` to conduct better analysis_ [asciinema](https://asciinema.org/a/X3MHbWVCpjAmH19EeCcbmwGok) 
 - **`\il`** List libraries
 - **`\is[*] <lib>`** List exports/entrypoints of lib
 - **`\isa[*] (<lib>) <sym>`** Show address of symbol
