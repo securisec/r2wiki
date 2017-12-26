@@ -3,8 +3,8 @@
 > [nowsecure/r2frida](https://github.com/nowsecure/r2frida) {.is-info}
 
 ## Tips
-	- Trace symbols
-		- Use the following syntax to trace. Example: `\dtf write iZi` (this was tested against node. Write is the symbol being hooked)
+> Trace symbols
+>		- Use the following syntax to trace. Example: `\dtf write iZi` (this was tested against node. Write is the symbol being hooked)
 
 ## Frida commands
 [Frida Commands](plugins/Frida-Commands)
