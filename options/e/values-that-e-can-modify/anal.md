@@ -22,7 +22,7 @@
 - **`anal.from`** Lower limit on the address range for analysis _Default is 0xffffffffffffffff_
 - **`anal.gp`** Set the value of the GP register (MIPS) _Default is 0_
 - **`anal.hasnext`** Continue analysis after each function _Default is false_
-  > _Forces to find a function, after the end of a function._
+  > `anal.hasnext` _Forces to find a function, after the end of a function._
 - **`anal.hpskip`** Skip `mov reg, reg` and `lea reg, [reg] at the beginning of functions _Default is false_
 - **`anal.jmpabove`** Jump above function pointer _Default is true_
 - **`anal.jmpref`** Create references for unconditional jumps _Default is true_
@@ -41,7 +41,7 @@
 - **`anal.sleep`** Sleep N usecs every so often during analysis. Avoid 100% CPU usage _Default is 0_
 - **`anal.split`** Split functions into basic blocks in analysis _Default is true_
 - **`anal.strings`** Identify and register strings during analysis (aar only) _Default is false_
-  > _Disables bin.strings option. Only gets strings that are referenced by code_
+  > `anal.strings` _Disables bin.strings option. Only gets strings that are referenced by code_
 - **`anal.timeout`** Stop analyzing after a couple of seconds _Default is 0_
 - **`anal.to`** Upper limit on the address range for analysis Default is 0xffffffffffffffff
 - **`anal.vars`** Analyze local variables and arguments _Default is true_
