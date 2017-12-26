@@ -1,5 +1,6 @@
 <!-- TITLE: r2frida -->
 # r2frida
+A lot of the examples from this section has been obtained following examples from the youtube video linked below
 > [nowsecure/r2frida](https://github.com/nowsecure/r2frida) {.is-info}
 
 ## Tips
@@ -8,6 +9,8 @@
 > `af` Analyze function while using r2frida. [asciinema](https://asciinema.org/a/rDfyFskNxvnguJCQu6AiehUd0)
 
 > _Example: Find classname from method_ [asciinema](https://asciinema.org/a/5GrmFmJ0R2tizXNVI5A6G7aVY)
+
+> _Example: Interact with an applicaiton_ [asciinema](https://asciinema.org/a/irpAaaeFhdbzKIrqge5lmj5NH)
 
 ## Load a binary
 ### Attach to a running process
@@ -97,6 +100,7 @@
 - **`\. script`** Run script
 - **`\<space> code..`** Evaluate Cycript code
 - **`\eval code..`** Evaluate Javascript code in agent side
+	> `\eval` _Example:_ [asciinema](https://asciinema.org/a/irpAaaeFhdbzKIrqge5lmj5NH)
 - **`\dc`** Continue
 
 ## Resources, writeups etc
