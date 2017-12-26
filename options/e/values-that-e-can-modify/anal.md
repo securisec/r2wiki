@@ -28,7 +28,7 @@
 - **`anal.jmpref`** Create references for unconditional jumps _Default is true_
 - **`anal.jmptbl`** Analyze jump tables in switch statements _Default is false_
   > `anal.jmptbl` _Helps in analyzing jump tables. Creates a new flags called switch and jmptbl_
-  > `anal.jmptbl` _Set value to true before analysis to analyze jump tables. [asciinema](https://asciinema.org/a/OPQxOl3OGIb63m2au6KvHXuVZ)_
+  > `anal.jmptbl` _Set value to true before analysis to analyze jump tables._ [asciinema](https://asciinema.org/a/OPQxOl3OGIb63m2au6KvHXuVZ)
 - **`anal.limits`** Restrict analysis to address range [anal.from _Default is false_
 - **`anal.maxreflines`** Maximum number of reflines to be analyzed and displayed in asm.lines with pd _Default is 0_
 - **`anal.noncode`** Analyze data as code _Default is false_
