@@ -39,7 +39,7 @@ Use io.va for searching in non virtual addressing spaces
 - **`/i foo`** search for string 'foo' ignoring case
 - **`/m magicfile`** search for matching magic file (use blocksize)
   > Use this to search for magic headers inside the binary. Similar to foremost
-- `/me` nothing documented 👎
+- `/me` Doesnt really do anything 😕
 - **`/M`** search for known filesystems and mount them automatically
 - **`/o [n]`** show offset of n instructions backward
 - **`/p patternsize`** search for pattern of given size
