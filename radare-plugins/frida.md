@@ -4,6 +4,7 @@
 
 ## Tips
 > Use the following syntax to trace. Example: `\dtf write iZi` (this was tested against node. Write is the symbol being hooked) {.is-info}
+> `af` Analyze function while using r2frida. [asciinema](https://asciinema.org/a/rDfyFskNxvnguJCQu6AiehUd0)
 
 ## Load a binary
 ### Attach to a running process
@@ -38,6 +39,7 @@
 - **`\is[*] <lib>`** List exports/entrypoints of lib
 - **`\isa[*] (<lib>) <sym>`** Show address of symbol
 - **`\ic <class>`** List Objective-C classes or methods of \<class\>
+	> `\ic` _helps you analyze classes and methods._ [asciinema](https://asciinema.org/a/3H4xbEeaBAbgqHX1YvaTk34Tb)
 - **`\ip <protocol>`** List Objective-C protocols or methods of \<protocol\>
 - **`\fd[*j] <address>`** Inverse symbol resolution
 - **`\dd[-][fd] ([newfd])`** List, dup2 or close filedescriptors
