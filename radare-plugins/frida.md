@@ -29,6 +29,7 @@
 - **`\?`** Show this help
 - **`\?V`** Show target Frida version
 - **`\/[j] <string|hexpairs>`** Search hex/string pattern in memory ranges (see search.in=?)
+	> The regions to be searched can be modied using `e search.in=?`
 - **`\/w[j] string`** Search wide string
 - **`\/v[1248][j] value`** Search for a value honoring `e cfg.bigendian` of given width
 - **`\i`** Show target information
