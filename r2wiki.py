@@ -1,5 +1,5 @@
 """
-Directions on how to setup is in the wiki itself
+Directions on how to setup is in the wiki itself.
 """
 import os
 import re
