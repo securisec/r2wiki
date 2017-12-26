@@ -74,6 +74,18 @@
 - **`\dx [hexpairs]`** Inject code and execute it (TODO)
 - **`\dxc [sym|addr] [args..]`** Call the target symbol with given args
 - **`\e[?] [a[=b]]`** List/get/set config evaluable vars
+
+	
+	```text
+	Usage: e [var[=value]]Evaluable vars
+		patch.code      = true
+		search.in       = perm:r--
+		search.quiet    = false
+		stalker.event   = compile
+		stalker.timeout = 300
+		stalker.in      = raw
+	```
+
 - **`\. script`** Run script
 - **`\<space> code..`** Evaluate Cycript code
 - **`\eval code..`** Evaluate Javascript code in agent side
