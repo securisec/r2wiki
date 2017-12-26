@@ -51,6 +51,8 @@ A lot of the examples from this section has been obtained following examples fro
 - **`\isa[*] (<lib>) <sym>`** Show address of symbol
 - **`\ic <class>`** List Objective-C classes or methods of \<class\>
 	> `\ic` _helps you analyze classes and methods._ [asciinema](https://asciinema.org/a/3H4xbEeaBAbgqHX1YvaTk34Tb)
+
+	> In the output for `\ic`, the `+` is for class methods, `-` for instance methods
 - **`\ip <protocol>`** List Objective-C protocols or methods of \<protocol\>
 - **`\fd[*j] <address>`** Inverse symbol resolution
 - **`\dd[-][fd] ([newfd])`** List, dup2 or close filedescriptors
