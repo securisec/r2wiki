@@ -39,6 +39,8 @@ A lot of the examples from this section has been obtained following examples fro
 - **`\?V`** Show target Frida version
 - **`\/[j] <string|hexpairs>`** Search hex/string pattern in memory ranges (see search.in=?)
 	> The regions to be searched can be modied using `e search.in=?`
+
+	> `\/` search in memory. Example: [asciinema](https://asciinema.org/a/EsgKekwKyHgSCMg3zkI627yFh) 🚀
 - **`\/w[j] string`** Search wide string
 - **`\/v[1248][j] value`** Search for a value honoring `e cfg.bigendian` of given width
 - **`\e search.in=?`** r2fridas own search configuration
