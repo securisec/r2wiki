@@ -41,22 +41,36 @@ A lot of the examples from this section has been obtained following examples fro
 	> The regions to be searched can be modied using `e search.in=?`
 - **`\/w[j] string`** Search wide string
 - **`\/v[1248][j] value`** Search for a value honoring `e cfg.bigendian` of given width
+- **`\e search.in=?`** r2fridas own search configuration
+	
+	```text
+	Specify which memory ranges to search in, possible values:
+
+			perm:---        filter by permissions (default: 'perm:r--')
+			current         search the range containing current offset
+			path:pattern    search ranges mapping paths containing 'pattern'
+	```
+
 - **`\i`** Show target information
 	> `\i` To make sure that r2 is configured properly, run `.\i*`
 - **`\ii[*]`** List imports
-	> `\ii*`_Use this along with `e asm.emustr=1` to conduct better analysis_ [asciinema](https://asciinema.org/a/X3MHbWVCpjAmH19EeCcbmwGok)
-
-	> Use `.\ii*` to have radare2 set the flags
+	> `\ii*`_Use this along with `e asm.emustr=1` to conduct better analysis_ [asciinema](https://asciinema.org/a/X3MHbWVCpjAmH19EeCcbmwGok) 
 - **`\il`** List libraries
 	> Use `\il.` to show current location
 - **`\is[*] <lib>`** List exports/entrypoints of lib
-- **`\isa[*] (<lib>) <sym>`** Show address of symbol
+	> Use `.\is*` to import all exported symbols of a library as flags
+- **`\isa[*][j] (<lib>) <sym>`** Show address of symbol
+	> `\isa` if exported multiple times with different addresses, all of them are shown
+
+	> `\isaj` shows more information in its output. Use `~{}` to pretty print
 - **`\ic <class>`** List Objective-C classes or methods of \<class\>
 	> `\ic` _helps you analyze classes and methods._ [asciinema](https://asciinema.org/a/3H4xbEeaBAbgqHX1YvaTk34Tb)
 
 	> In the output for `\ic`, the `+` is for class methods, `-` for instance methods
 - **`\ip <protocol>`** List Objective-C protocols or methods of \<protocol\>
+	> `\ip` is similar to `\ic` but for Objective-C protocols
 - **`\fd[*j] <address>`** Inverse symbol resolution
+	- `\fd` will reverse resolve a symbol.
 - **`\dd[-][fd] ([newfd])`** List, dup2 or close filedescriptors
 - **`\dm[.|j|*]`** Show memory regions
 - **`\dma <size>`** Allocate \<size\> bytes on the heap, address is returned
