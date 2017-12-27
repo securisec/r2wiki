@@ -74,6 +74,7 @@ A lot of the examples from this section has been obtained following examples fro
 - **`\fd[*j] <address>`** Inverse symbol resolution
 	- `\fd` will reverse resolve a symbol.
 - **`\dd[-][fd] ([newfd])`** List, dup2 or close filedescriptors
+	> `\dd` Useful for getting data from STDIN or write STDOUT to a file. Useful for debugging applications that take input from STDIN. Spawn the process for this so that the process is suspended. To resume a suspended process, use `\resume` [video](https://youtu.be/URyd4bcV-Ik?t=1609)
 - **`\dm[.|j|*]`** Show memory regions
 	> `\dm` Show memory maps. [asciinema](https://asciinema.org/a/HHbaELaB5wocFiKnlOyDRftAn)
 
@@ -91,7 +92,9 @@ A lot of the examples from this section has been obtained following examples fro
 - **`\dpt`** Show threads
 - **`\dr`** Show thread registers (see dpt)
 - **`\env [k[=v]]`** Get/set environment variable
+	> `\env` can be used to manipulate or override environment variables. [asciinema](https://asciinema.org/a/4chw3eHN1xtEhqvgnXpB3QEHK)
 - **`\dl libname`** Dlopen a library
+	> `\dl` Can be used to inject libraries. [youtube](https://youtu.be/URyd4bcV-Ik?t=1521)
 - **`\dl2 libname [main]`** Inject library using Frida's >= 8.2 new API
 - **`\dt <addr> ..`** Trace list of addresses
 - **`\dt-`** Clear all tracing
@@ -115,6 +118,7 @@ A lot of the examples from this section has been obtained following examples fro
 	> `\di` Highjack program execution
 - **`\dx [hexpairs]`** Inject code and execute it (TODO)
 - **`\dxc [sym|addr] [args..]`** Call the target symbol with given args
+	> `\dxc` Call function by a symbol name or address passing the given arguments. The result can be inspected using r2. [video](https://youtu.be/URyd4bcV-Ik?t=1553)
 - **`\e[?] [a[=b]]`** List/get/set config evaluable vars
 	> `\e patch.code=true` Can also be used to patch code dynamically. Followed by `wx [something] @ offset`
 
