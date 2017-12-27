@@ -15,7 +15,7 @@ Repeat a command over a list of offsets
   > Run query over multiple offsets
 
 - **`x @@/x 9090`** temporary set cmd.hit to run a command on each search result
-	> `@@/` Can be used to search and replace something. Usage in this case is `w mystring_replace @@/ mystring_to_search`
+	> ⭐ `@@/` Can be used to search and replace something. Usage in this case is `w mystring_replace @@/ mystring_to_search`
 - **`x @@k sdbquery`** run 'x' on all offsets returned by that sdbquery
 - **`x @@t`** run 'x' on all threads (see dp)
 - **`x @@b`** run 'x' on all basic blocks of current function (see afb)
