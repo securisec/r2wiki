@@ -6,6 +6,8 @@ A lot of the examples from this section has been obtained following examples fro
 
 > Api documentation can be found on the [Frida site](https://www.frida.re/docs/javascript-api/) {.is-info}
 
+> You can run js normally by `\. ./path/to/script.js`
+
 ## Tips
 ### Misc tips
 > Use the following syntax to trace. Example: `\dtf write iZi` (this was tested against node. Write is the symbol being hooked) {.is-info}
@@ -168,4 +170,8 @@ A lot of the examples from this section has been obtained following examples fro
 ## Videos
 ### r2con2017 - r2frida /by @mrmacete
 [r2con2017 - r2frida /by @mrmacete](https://www.youtube.com/watch?list=PLjIhlLNy_Y9Oe-nfcPEpaki0_En5dhQ5S&time_continue=15&v=URyd4bcV-Ik){.youtube}
+
+## Extending r2frida
+### Plugins
+[Some details can be found here](https://youtu.be/URyd4bcV-Ik?t=2495)
 
