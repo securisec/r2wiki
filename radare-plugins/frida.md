@@ -140,17 +140,17 @@ A lot of the examples from this section has been obtained following examples fro
 		stalker.in      = raw
 	```
 
-	### `\e stalker.event=?`
+	> `\e stalker.event=?`
 		
-		```text
-		Specify the event to use when stalking, possible values:
+	```text
+	Specify the event to use when stalking, possible values:
 
-				call            trace calls
-				ret             trace returns
-				exec            trace every instruction
-				block           trace basic block execution (every time)
-				compile         trace basic blocks once (this is the default)
-		```
+			call            trace calls
+			ret             trace returns
+			exec            trace every instruction
+			block           trace basic block execution (every time)
+			compile         trace basic blocks once (this is the default)
+	```
 
 - **`\. script`** Run script
 - **`\<space\> code..`** Evaluate Cycript code
