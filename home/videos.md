@@ -9,11 +9,20 @@
 ## Radare2 demystified
 [video](https://www.youtube.com/watch?v=fnpBy3wWabA){.youtube}
 
+## Radare2 hidden gems
+[video](https://www.youtube.com/watch?v=mvr7cHOUxlU&t){.youtube}
+
 ## Go reversing with radare2
 [video](https://www.youtube.com/watch?v=PRLOlY4IKeA){.youtube}
+
+## Radare2 windows reversing
+[video](https://www.youtube.com/watch?v=2gcqLDGnKMc){.youtube}
 
 ## Mips tricks by Travis Goodspeed
 [video](https://www.youtube.com/watch?v=tywqg-rIfic&list=PLjIhlLNy_Y9Oe-nfcPEpaki0_En5dhQ5S&index=3){.youtube}
 
 ## Diaphora binary diffing
 [video](https://www.youtube.com/watch?v=dAwXrUKaUsw&index=6&list=PLjIhlLNy_Y9Oe-nfcPEpaki0_En5dhQ5S){.youtube}
+
+## Reversing ARM embedded devides
+[vide](https://www.youtube.com/watch?v=oXSx0Qo2Upk){.youtube)
