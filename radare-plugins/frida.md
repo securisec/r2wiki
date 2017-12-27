@@ -74,7 +74,7 @@ A lot of the examples from this section has been obtained following examples fro
 - **`\fd[*j] <address>`** Inverse symbol resolution
 	- `\fd` will reverse resolve a symbol.
 - **`\dd[-][fd] ([newfd])`** List, dup2 or close filedescriptors
-	> `\dd` Useful for getting data from STDIN or write STDOUT to a file. Useful for debugging applications that take input from STDIN. Spawn the process for this so that the process is suspended. To resume a suspended process, use `\resume` [video](https://youtu.be/URyd4bcV-Ik?t=1609)
+	> `\dd` Useful for getting data from STDIN or write STDOUT to a file. Useful for debugging applications that take input from STDIN. Spawn the process for this so that the process is suspended. To resume a suspended process, use `\resume` [video](https://youtu.be/URyd4bcV-Ik?t=1609) 🚀
 - **`\dm[.|j|*]`** Show memory regions
 	> `\dm` Show memory maps. [asciinema](https://asciinema.org/a/HHbaELaB5wocFiKnlOyDRftAn)
 
