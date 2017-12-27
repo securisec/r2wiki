@@ -33,9 +33,8 @@
 ```python
 # make sure the binary is being debugged
 import r2pipe
-from sys import argv
 
-r = r2pipe.open(argv[1], flags=['-N', '-2'])
+r = r2pipe.open()
 r.cmd('aa')
 json = r.cmdj('pdfj @ $$')
 
@@ -44,3 +43,20 @@ for i in json['ops']:
 				r.cmd('db @ %s' %hex(i['offset']))
 ```
 > To invoke, simply call the function with `#!pipe python /path/to/script.py dpe` (dpe will automatically get the binaries path)
+
+## Lazy scripts
+> Copy the output of any r2 command. Invoke with `. ./script.py`
+```python
+import r2pipe
+from pyperclip import copy
+from sys import argv
+import re
+
+r = r2pipe.open()
+data = r.cmd(argv[1])
+print data
+ansi_escape = re.compile(r'\x1B\[[0-?]*[ -/]*[@-~]')
+data = ansi_escape.sub('', data)
+copy(data)
+print 'Copied'
+```
