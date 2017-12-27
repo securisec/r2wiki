@@ -16,7 +16,7 @@
 	> *TUCTF 2017 Unknown writeup. This is an example of brute forcing strings based on a returned true statement using by patching on the fly* {.is-warning}
 
 - [Write-ups from RHME3 pre-qualifications at RADARE2 conference - Riscure](https://www.riscure.com/blog/write-ups-rhme3-pre-qualifications-radare2-conference/)
-	> Three different writeups for the same challenge all using radare2
+	> _Three different writeups for the same challenge all using radare2_
 
 - [ROPEmporium: Pivot 32-bit CTF Walkthrough With Radare2](http://radiofreerobotron.net/blog/2017/11/23/ropemporium-pivot-ctf-walkthrough/)
 
