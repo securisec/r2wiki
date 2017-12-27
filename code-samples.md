@@ -45,18 +45,18 @@ for i in json['ops']:
 > To invoke, simply call the function with `#!pipe python /path/to/script.py dpe` (dpe will automatically get the binaries path)
 
 ## Lazy scripts
-> Copy the output of any r2 command. Invoke with `. ./script.py`
-```python
-import r2pipe
-from pyperclip import copy
-from sys import argv
-import re
+### Copy the output of any r2 command. Invoke with `. ./script.py`
+	```python
+	import r2pipe
+	from pyperclip import copy
+	from sys import argv
+	import re
 
-r = r2pipe.open()
-data = r.cmd(argv[1])
-print data
-ansi_escape = re.compile(r'\x1B\[[0-?]*[ -/]*[@-~]')
-data = ansi_escape.sub('', data)
-copy(data)
-print 'Copied'
-```
+	r = r2pipe.open()
+	data = r.cmd(argv[1])
+	print data
+	ansi_escape = re.compile(r'\x1B\[[0-?]*[ -/]*[@-~]')
+	data = ansi_escape.sub('', data)
+	copy(data)
+	print 'Copied'
+	```
