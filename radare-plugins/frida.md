@@ -117,7 +117,7 @@ A lot of the examples from this section has been obtained following examples fro
 	> `\dtf` can be used to trace a symbol, a function, or an address (could be middle of a function). By default it prints backtrace, but can also get values of specified registers. 
 
 - **`\dtSf[*j] [sym|addr]`** Trace address or symbol using the stalker (Frida >= 10.3.13)
-	> 📼 `dtSf` Helpful in tracing a function and any other functions it calls. [Solving the RHME3 qualifier whitebox challenge using `dtSf`](https://youtu.be/URyd4bcV-Ik?t=1802){.youtube}
+	> 📼 `dtSf` Helpful in tracing a function and any other functions it calls. [Solving the RHME3 qualifier whitebox challenge using `dtSf`](https://youtu.be/URyd4bcV-Ik?t=1802)
 - **`\dtS[*j] seconds`** Trace all threads for given seconds using the stalker
 - **`\di[0,1,-1] [addr]`** Intercept and replace return value of address
 	> `\di` Highjack program execution
