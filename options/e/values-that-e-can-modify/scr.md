@@ -26,6 +26,7 @@
 - **`scr.nkey`** Select visual seek mode (affects n/N visual commands) _Default is flag_
 - **`scr.null`** Show no output _Default is false_
 - **`scr.pager`** Select pager program (when output overflows the window)
+	> 🚀 `scr.pager` can be configured to address output overflow. Example, `scr.pager = less -R` [asciinema](https://asciinema.org/a/A1JPpRTjLOhKbJeVAHtrGxy3J)
 - **`scr.pagesize`** Flush in pages when scr.linesleep is != 0 _Default is 1_
 - **`scr.pipecolor`** Enable colors when using pipes _Default is false_
 - **`scr.prompt`** Show user prompt (used by r2 -q) _Default is true_
