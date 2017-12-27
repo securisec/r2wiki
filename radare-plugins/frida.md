@@ -117,7 +117,9 @@ A lot of the examples from this section has been obtained following examples fro
 	> `\dtf` can be used to trace a symbol, a function, or an address (could be middle of a function). By default it prints backtrace, but can also get values of specified registers. 
 
 - **`\dtSf[*j] [sym|addr]`** Trace address or symbol using the stalker (Frida >= 10.3.13)
-	> 📼 `dtSf` Helpful in tracing a function and any other functions it calls. [Solving the RHME3 qualifier whitebox challenge using `dtSf`](https://youtu.be/URyd4bcV-Ik?t=1802)
+	> 📼 `\dtSf` Helpful in tracing a function and any other functions it calls. [Solving the RHME3 qualifier whitebox challenge using `dtSf`](https://youtu.be/URyd4bcV-Ik?t=1802)
+
+	> `.\dtSf* [sym|addr]` to save all the output into the radare2 trace sdb. This can then be accessed using the `dt` command. 
 
 	> `dtSf` to only stalk code from the program, and not any other extended libraries, configure `\e stalker.in = app`
 - **`\dtS[*j] seconds`** Trace all threads for given seconds using the stalker
