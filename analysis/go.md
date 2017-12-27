@@ -4,7 +4,7 @@
 [zlowram/radare2-scripts](https://github.com/zlowram/radare2-scripts/tree/master/go_helpers)
 	> *To run, from inside r2 console, use `#!pipe python ./file.py` or `. ./file.py`* {.is-info}
 
-    - _load_pclntab_info.py_
+	- _load_pclntab_info.py_
       - Before
 
             0x00478460 312 11720 fcn.00478460
@@ -13,7 +13,7 @@
             0x0047b760 5 177 fcn.0047b760
             0x0047b820 5 125 fcn.0047b820
 
-      - After
+		- After
 
             0x0047b8a0 19 947 main.main
             0x0047bc60 3 72 main.mapanic.func1
