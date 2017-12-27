@@ -114,6 +114,8 @@ A lot of the examples from this section has been obtained following examples fro
 	```
 	> 🚀 `\dtf` Lets us trace functions, methods etc. [asciinema](https://asciinema.org/a/nGaa3eayXKRL5dlm0WycDGL6w)
 
+	> `\dtf` can be used to trace a symbol, a function, or an address (could be middle of a function). By default it prints backtrace, but can also get values of specified registers. 
+
 - **`\dtSf[*j] [sym|addr]`** Trace address or symbol using the stalker (Frida >= 10.3.13)
 - **`\dtS[*j] seconds`** Trace all threads for given seconds using the stalker
 - **`\di[0,1,-1] [addr]`** Intercept and replace return value of address
@@ -140,6 +142,8 @@ A lot of the examples from this section has been obtained following examples fro
 - **`\eval code..`** Evaluate Javascript code in agent side
 	> 🚀 `\eval` _Example:_ [asciinema](https://asciinema.org/a/irpAaaeFhdbzKIrqge5lmj5NH)
 - **`\dc`** Continue
+- `\db` Breakpoints
+	> 🚀 `\db` does not set a real break point, but instead uses frida probes to suspend when that particular place is reached. [asciinema](https://asciinema.org/a/kO1jbCcFxAbozwcaEw3Jmn4o6)
 
 ## Resources, writeups etc
 [Spearing data in mobile memory: Building a better R2Frida memory search](https://www.nowsecure.com/blog/2017/03/14/spearing-data-mobile-memory-building-better-r2frida-memory-search/)
