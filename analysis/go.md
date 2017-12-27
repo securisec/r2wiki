@@ -5,7 +5,7 @@
 	> *To run, from inside r2 console, use `#!pipe python ./file.py` or `. ./file.py`* {.is-info}
 
 - _load_pclntab_info.py_
-		- Before
+	- Before
 
 					0x00478460 312 11720 fcn.00478460
 					0x0047b230 19 512 fcn.0047b230
