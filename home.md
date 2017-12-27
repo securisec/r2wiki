@@ -53,8 +53,24 @@ Visual cues:
 [Debugger help](./Debugger-help)
 
 
-## Analysis
-[Analysis Help (go, arm, ios, windows etc)](./Analysis-Help)
+# Analyzing different architectures / platforms
+## Android
+[Android reversing](./analysis/android)
+
+## ARM
+[ARM reversing](./analysis/arm)
+
+## Go reversing
+[Go reversing](./analysis/go)
+
+## iOS
+[iOS reversing](./analysis/ios)
+
+## Misc
+[Misc reversing](./analysis/misc)
+
+## Windows
+[Windows reversing](./analysis/windows)
 
 # Books / Resources
 
@@ -91,7 +107,7 @@ Visual cues:
 ## Resources
 [Resources](/home/resources)
 
-## Videos
+## 📼 Videos
 [Videos](/home/videos)
 
 # Stuff
