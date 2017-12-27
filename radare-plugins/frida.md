@@ -118,6 +118,8 @@ A lot of the examples from this section has been obtained following examples fro
 
 - **`\dtSf[*j] [sym|addr]`** Trace address or symbol using the stalker (Frida >= 10.3.13)
 	> 📼 `dtSf` Helpful in tracing a function and any other functions it calls. [Solving the RHME3 qualifier whitebox challenge using `dtSf`](https://youtu.be/URyd4bcV-Ik?t=1802)
+
+	> `dtSf` to only stalk code from the program, and not any other extended libraries, configure `\e stalker.in = app`
 - **`\dtS[*j] seconds`** Trace all threads for given seconds using the stalker
 - **`\di[0,1,-1] [addr]`** Intercept and replace return value of address
 	> `\di` Highjack program execution
@@ -137,6 +139,18 @@ A lot of the examples from this section has been obtained following examples fro
 		stalker.timeout = 300
 		stalker.in      = raw
 	```
+
+	> `\e stalker.event=?`
+		
+		```text
+		Specify the event to use when stalking, possible values:
+
+				call            trace calls
+				ret             trace returns
+				exec            trace every instruction
+				block           trace basic block execution (every time)
+				compile         trace basic blocks once (this is the default)
+		```
 
 - **`\. script`** Run script
 - **`\<space\> code..`** Evaluate Cycript code
