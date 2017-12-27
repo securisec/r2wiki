@@ -173,5 +173,5 @@ A lot of the examples from this section has been obtained following examples fro
 
 ## Extending r2frida
 ### Plugins
-[Some details can be found here](https://youtu.be/URyd4bcV-Ik?t=2495)
+📼 [Some details can be found here](https://youtu.be/URyd4bcV-Ik?t=2495)
 
