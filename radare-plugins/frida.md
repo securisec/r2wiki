@@ -121,7 +121,7 @@ A lot of the examples from this section has been obtained following examples fro
 
 	> `.\dtSf* [sym|addr]` to save all the output into the radare2 trace sdb. This can then be accessed using the `dt` command. 
 
-	> `dtSf` to only stalk code from the program, and not any other extended libraries, configure `\e stalker.in = app`
+	> `\dtSf` to only stalk code from the program, and not any other extended libraries, configure `\e stalker.in = app`
 - **`\dtS[*j] seconds`** Trace all threads for given seconds using the stalker
 - **`\di[0,1,-1] [addr]`** Intercept and replace return value of address
 	> `\di` Highjack program execution
