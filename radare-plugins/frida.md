@@ -4,9 +4,9 @@
 A lot of the examples from this section has been obtained following examples from the youtube video linked below
 > [nowsecure/r2frida](https://github.com/nowsecure/r2frida) {.is-info}
 
-> Api documentation can be found on the [Frida site](https://www.frida.re/docs/javascript-api/) {.is-info}
+> Api documentation can be found on the [Frida site](https://www.frida.re/docs/javascript-api/) {.is-danger}
 
-> You can run js normally by `\. ./path/to/script.js`
+> You can run js normally by `\. ./path/to/script.js` {.is-info}
 
 ## Tips
 ### Misc tips
