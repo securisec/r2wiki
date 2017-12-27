@@ -140,7 +140,7 @@ A lot of the examples from this section has been obtained following examples fro
 		stalker.in      = raw
 	```
 
-	> `\e stalker.event=?`
+	#### `\e stalker.event=?`
 		
 		```text
 		Specify the event to use when stalking, possible values:
