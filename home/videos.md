@@ -1,13 +1,15 @@
 <!-- TITLE: Videos -->
 # Videos
-###
+### r2con 2017 playlist.
 [video](https://www.youtube.com/watch?v=URyd4bcV-Ik&list=PLjIhlLNy_Y9Oe-nfcPEpaki0_En5dhQ5S){.youtube}
 
-- [video](https://www.youtube.com/watch?v=URyd4bcV-Ik&list=PLjIhlLNy_Y9Oe-nfcPEpaki0_En5dhQ5Shttps://www.youtube.com/watch?v=fnpBy3wWabA){.youtube}
-	> Great video and a must watch
+### Intro to reversing with r2 usage thrown in
+[video](https://www.youtube.com/watch?v=LAkYW5ixvhg){.youtube}
 
-- [video](https://www.youtube.com/watch?v=LAkYW5ixvhg){.youtube}
-	> Really good introduction to reversing overall while using radare2
+### Radare2 demystified
+[video](https://www.youtube.com/watch?v=fnpBy3wWabA){.youtube}
 
+### Go reversing with radare2
+[video](https://www.youtube.com/watch?v=PRLOlY4IKeA){.youtube}
 
 
