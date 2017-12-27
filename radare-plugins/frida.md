@@ -76,7 +76,7 @@ A lot of the examples from this section has been obtained following examples fro
 - **`\fd[*j] <address>`** Inverse symbol resolution
 	- `\fd` will reverse resolve a symbol.
 - **`\dd[-][fd] ([newfd])`** List, dup2 or close filedescriptors
-	> 🚀 `\dd` Useful for getting data from STDIN or write STDOUT to a file. Useful for debugging applications that take input from STDIN. Spawn the process for this so that the process is suspended. To resume a suspended process, use `\resume` [video](https://youtu.be/URyd4bcV-Ik?t=1609)
+	> 📼 `\dd` Useful for getting data from STDIN or write STDOUT to a file. Useful for debugging applications that take input from STDIN. Spawn the process for this so that the process is suspended. To resume a suspended process, use `\resume` [video](https://youtu.be/URyd4bcV-Ik?t=1609)
 - **`\dm[.|j|*]`** Show memory regions
 	> 🚀 `\dm` Show memory maps. [asciinema](https://asciinema.org/a/HHbaELaB5wocFiKnlOyDRftAn)
 
@@ -96,7 +96,7 @@ A lot of the examples from this section has been obtained following examples fro
 - **`\env [k[=v]]`** Get/set environment variable
 	> 🚀 `\env` can be used to manipulate or override environment variables. [asciinema](https://asciinema.org/a/4chw3eHN1xtEhqvgnXpB3QEHK)
 - **`\dl libname`** Dlopen a library
-	> `\dl` Can be used to inject libraries. [youtube](https://youtu.be/URyd4bcV-Ik?t=1521)
+	> 📼 `\dl` Can be used to inject libraries. [youtube](https://youtu.be/URyd4bcV-Ik?t=1521)
 - **`\dl2 libname [main]`** Inject library using Frida's >= 8.2 new API
 - **`\dt <addr> ..`** Trace list of addresses
 - **`\dt-`** Clear all tracing
@@ -117,7 +117,7 @@ A lot of the examples from this section has been obtained following examples fro
 	> `\dtf` can be used to trace a symbol, a function, or an address (could be middle of a function). By default it prints backtrace, but can also get values of specified registers. 
 
 - **`\dtSf[*j] [sym|addr]`** Trace address or symbol using the stalker (Frida >= 10.3.13)
-	> `dtSf` Helpful in tracing a function and any other functions it calls. [Solving the RHME3 qualifier whitebox challenge using `dtSf`](https://youtu.be/URyd4bcV-Ik?t=1802){.youtube}
+	> 📼 `dtSf` Helpful in tracing a function and any other functions it calls. [Solving the RHME3 qualifier whitebox challenge using `dtSf`](https://youtu.be/URyd4bcV-Ik?t=1802){.youtube}
 - **`\dtS[*j] seconds`** Trace all threads for given seconds using the stalker
 - **`\di[0,1,-1] [addr]`** Intercept and replace return value of address
 	> `\di` Highjack program execution
@@ -150,5 +150,6 @@ A lot of the examples from this section has been obtained following examples fro
 [Spearing data in mobile memory: Building a better R2Frida memory search](https://www.nowsecure.com/blog/2017/03/14/spearing-data-mobile-memory-building-better-r2frida-memory-search/)
 
 ## Videos
+### r2con2017 - r2frida /by @mrmacete
 [r2con2017 - r2frida /by @mrmacete](https://www.youtube.com/watch?list=PLjIhlLNy_Y9Oe-nfcPEpaki0_En5dhQ5S&time_continue=15&v=URyd4bcV-Ik){.youtube}
 
