@@ -7,13 +7,14 @@ A lot of the examples from this section has been obtained following examples fro
 > Api documentation can be found on the [Frida site](https://www.frida.re/docs/javascript-api/) {.is-info}
 
 ## Tips
-> Use the following syntax to trace. Example: `\dtf write iZi` (this was tested against node. Write is the symbol being hooked) {.is-info}
+### Misc tips
+	> Use the following syntax to trace. Example: `\dtf write iZi` (this was tested against node. Write is the symbol being hooked) {.is-info}
 
-> `af` Analyze function while using r2frida. [asciinema](https://asciinema.org/a/rDfyFskNxvnguJCQu6AiehUd0)
+	> `af` Analyze function while using r2frida. [asciinema](https://asciinema.org/a/rDfyFskNxvnguJCQu6AiehUd0) 🚀
 
-> _Example: Find classname from method_ [asciinema](https://asciinema.org/a/5GrmFmJ0R2tizXNVI5A6G7aVY)
+	> _Example: Find classname from method_ [asciinema](https://asciinema.org/a/5GrmFmJ0R2tizXNVI5A6G7aVY) 🚀
 
-> _Example: Interact with an applicaiton_ [asciinema](https://asciinema.org/a/irpAaaeFhdbzKIrqge5lmj5NH)
+	> _Example: Interact with an applicaiton_ [asciinema](https://asciinema.org/a/irpAaaeFhdbzKIrqge5lmj5NH) 🚀
 
 ## Load a binary
 ### Attach to a running process
@@ -41,7 +42,7 @@ A lot of the examples from this section has been obtained following examples fro
 - **`\/[j] <string|hexpairs>`** Search hex/string pattern in memory ranges (see search.in=?)
 	> The regions to be searched can be modied using `e search.in=?`
 
-	> `\/` search in memory. Example: [asciinema](https://asciinema.org/a/EsgKekwKyHgSCMg3zkI627yFh) 🚀:termi
+	> `\/` search in memory. Example: [asciinema](https://asciinema.org/a/EsgKekwKyHgSCMg3zkI627yFh) 🚀
 - **`\/w[j] string`** Search wide string
 - **`\/v[1248][j] value`** Search for a value honoring `e cfg.bigendian` of given width
 - **`\e search.in=?`** r2fridas own search configuration
@@ -57,7 +58,7 @@ A lot of the examples from this section has been obtained following examples fro
 - **`\i`** Show target information
 	> `\i` To make sure that r2 is configured properly, run `.\i*`
 - **`\ii[*]`** List imports
-	> `\ii*`Use this along with `e asm.emustr=1` to conduct better analysis [asciinema](https://asciinema.org/a/X3MHbWVCpjAmH19EeCcbmwGok) 
+	> `\ii*`Use this along with `e asm.emustr=1` to conduct better analysis [asciinema](https://asciinema.org/a/X3MHbWVCpjAmH19EeCcbmwGok) 🚀
 - **`\il`** List libraries
 	> Use `\il.` to show current location
 - **`\is[*] <lib>`** List exports/entrypoints of lib
@@ -67,7 +68,7 @@ A lot of the examples from this section has been obtained following examples fro
 
 	> `\isaj` shows more information in its output. Use `~{}` to pretty print
 - **`\ic <class>`** List Objective-C classes or methods of \<class\>
-	> `\ic` helps you analyze classes and methods. [asciinema](https://asciinema.org/a/3H4xbEeaBAbgqHX1YvaTk34Tb)
+	> `\ic` helps you analyze classes and methods. [asciinema](https://asciinema.org/a/3H4xbEeaBAbgqHX1YvaTk34Tb) 🚀
 
 	> In the output for `\ic`, the `+` is for class methods, `-` for instance methods
 - **`\ip <protocol>`** List Objective-C protocols or methods of \<protocol\>
@@ -77,12 +78,12 @@ A lot of the examples from this section has been obtained following examples fro
 - **`\dd[-][fd] ([newfd])`** List, dup2 or close filedescriptors
 	> `\dd` Useful for getting data from STDIN or write STDOUT to a file. Useful for debugging applications that take input from STDIN. Spawn the process for this so that the process is suspended. To resume a suspended process, use `\resume` [video](https://youtu.be/URyd4bcV-Ik?t=1609) 🚀
 - **`\dm[.|j|*]`** Show memory regions
-	> `\dm` Show memory maps. [asciinema](https://asciinema.org/a/HHbaELaB5wocFiKnlOyDRftAn)
+	> `\dm` Show memory maps. [asciinema](https://asciinema.org/a/HHbaELaB5wocFiKnlOyDRftAn) 🚀
 
 	> `\dm.` Show the map containing the current offset 
 - **`\dma <size>`** Allocate \<size\> bytes on the heap, address is returned
 - **`\dmas <string>`** Allocate a string inited with \<string\> on the heap
-	> `\dmas` Example of writing strings to the heap [asciinema](https://asciinema.org/a/2QO9LqTbtnFJF8sOjHVet9i3K)
+	> `\dmas` Example of writing strings to the heap [asciinema](https://asciinema.org/a/2QO9LqTbtnFJF8sOjHVet9i3K) 🚀
 - **`\dmad <addr> <size>`** Allocate \<size\> bytes on the heap, copy contents from \<addr\>
 - **`\dmal`** List live heap allocations created with dma[s]
 - **`\dma- (<addr>...)`** Kill the allocations at <addr> (or all of them without param)
@@ -93,7 +94,7 @@ A lot of the examples from this section has been obtained following examples fro
 - **`\dpt`** Show threads
 - **`\dr`** Show thread registers (see dpt)
 - **`\env [k[=v]]`** Get/set environment variable
-	> `\env` can be used to manipulate or override environment variables. [asciinema](https://asciinema.org/a/4chw3eHN1xtEhqvgnXpB3QEHK)
+	> `\env` can be used to manipulate or override environment variables. [asciinema](https://asciinema.org/a/4chw3eHN1xtEhqvgnXpB3QEHK) 🚀
 - **`\dl libname`** Dlopen a library
 	> `\dl` Can be used to inject libraries. [youtube](https://youtu.be/URyd4bcV-Ik?t=1521)
 - **`\dl2 libname [main]`** Inject library using Frida's >= 8.2 new API
@@ -111,7 +112,7 @@ A lot of the examples from this section has been obtained following examples fro
 			 z = show pointer to string
 			 O = show pointer to ObjC object
 	```
-	> `\dtf` Lets us trace functions, methods etc. [asciinema](https://asciinema.org/a/nGaa3eayXKRL5dlm0WycDGL6w)
+	> `\dtf` Lets us trace functions, methods etc. [asciinema](https://asciinema.org/a/nGaa3eayXKRL5dlm0WycDGL6w) 🚀
 
 - **`\dtSf[*j] [sym|addr]`** Trace address or symbol using the stalker (Frida >= 10.3.13)
 - **`\dtS[*j] seconds`** Trace all threads for given seconds using the stalker
@@ -137,7 +138,7 @@ A lot of the examples from this section has been obtained following examples fro
 - **`\. script`** Run script
 - **`\<space\> code..`** Evaluate Cycript code
 - **`\eval code..`** Evaluate Javascript code in agent side
-	> `\eval` _Example:_ [asciinema](https://asciinema.org/a/irpAaaeFhdbzKIrqge5lmj5NH)
+	> `\eval` _Example:_ [asciinema](https://asciinema.org/a/irpAaaeFhdbzKIrqge5lmj5NH) 🚀
 - **`\dc`** Continue
 
 ## Resources, writeups etc
