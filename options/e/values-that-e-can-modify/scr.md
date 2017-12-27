@@ -34,7 +34,7 @@
 - **`scr.promptflag`** Show flag name in the prompt _Default is false_
 - **`scr.promptsect`** Show section name in the prompt _Default is false_
 - **`scr.rainbow`** Shows rainbow colors depending of address _Default is false_
-  > `scr.rainbow` Changes the color of the offset based on the value of the offset. Allows one to easily remember where they were or functions by color.
+  > 🚀 `scr.rainbow` Changes the color of the offset based on the value of the offset. Allows one to easily remember where they were or functions by color. [asciinema](https://asciinema.org/a/isswUcNtyFP4pFujVlZXMpz9Z)
     <img src="/uploads/small-e/rainbow.png" width="50%">
 
 - **`scr.randpal`** Random color palete or just get the next one from 'eco' _Default is false_
