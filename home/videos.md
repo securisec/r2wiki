@@ -25,4 +25,7 @@
 [video](https://www.youtube.com/watch?v=dAwXrUKaUsw&index=6&list=PLjIhlLNy_Y9Oe-nfcPEpaki0_En5dhQ5S){.youtube}
 
 ## Reversing ARM embedded devides
-[vide](https://www.youtube.com/watch?v=oXSx0Qo2Upk){.youtube)
+[video](https://www.youtube.com/watch?v=oXSx0Qo2Upk){.youtube)
+
+## Heap analysis using radare2
+[video](https://www.youtube.com/watch?v=Svm5V4leEho){.youtube}
