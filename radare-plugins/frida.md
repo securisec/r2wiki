@@ -1,5 +1,6 @@
 <!-- TITLE: r2frida -->
 # r2frida 😃
+![Frida](/uploads/plugins/frida.png "Frida"){.pagelogo}
 A lot of the examples from this section has been obtained following examples from the youtube video linked below
 > [nowsecure/r2frida](https://github.com/nowsecure/r2frida) {.is-info}
 
