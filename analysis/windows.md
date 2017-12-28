@@ -23,7 +23,10 @@
 
 - 🚀 Use `idpi` to show show debug information about a file. [asciinema](https://asciinema.org/a/BOQUwqIJO497zhFDY037uNf6W)
 - Use `idpd` to download available files
+- 🚀 Use `.idpi*` to populate the flag space `fs`. [asciinema](https://asciinema.org/a/mBKmRaszDXe8C55as7Oo2cVVf)
 - `e pdb.server` can be used to configure differnt pdb server. Default is Microsoft. `e pdb.autoload` can be set to 1 to automatically download pdb files if available. 
 
 ## Videos
 [video](https://www.youtube.com/watch?v=2gcqLDGnKMc){.youtube}
+
+<p hidden>idp idpd idpi</p>
