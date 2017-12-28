@@ -13,10 +13,14 @@
 > To compile radare2, simply run `meson.bat` {.is-info}
 - `meson.bat -p` outputs a Visual Studio project file
 
+### Using an installer
+To get the latest installer, [go to this site](https://ci.appveyor.com/project/radare/radare2-shvdd) and click the appropiate job name (32 vs 64bit) and then click artifacts to download the installer. **The installer adds right click context for any file**
+
 ## DLL support
 ### dll support using rarun2
 > Syntax is `rarun2.exe runlib=[path\to\library] runlib.fcn=[function_name] [arg1=argument1 arg2=argument2...]`. {.is-info}
 - Example: `rarun2.exe runlib=C:\Windows\System32\user32.dll runlib.fcn=MessageBoxA arg1=%0 arg2=Body arg3=Title arg4=%1`
+- It should be possible to use a rarun2 profile to debug a dll in this manner. 
 
 ## PDB support
 > Helpful: `cabextract` in linux
