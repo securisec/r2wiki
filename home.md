@@ -2,8 +2,6 @@
 ![R 2 Logo 3](/uploads/r-2-logo-3.png "R 2 Logo 3"){.pagelogo}
 This is an ongoing work in progress and reflects various material obtained while stuying how to user radare2. This wiki is constantly updated. Feel free to tweet to me [![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/securisec) if there is a tidbit I can include in here.
 
-**This is a work in progress and is updated frequently** {.align-center}
-
 
 ```text
 All the commands are based (started) with the following Radare version:
@@ -18,41 +16,41 @@ Visual cues:
 ## Local web app
   > To get a local copy of this wiki check out [github](https://github.com/securisec/radare2_wiki) {.is-danger}
 ## r2wiki.py
-  > Radare2 wiki can also be used right from the r2 shell. See directions [here](/home/r2wiki-python) {.is-danger}
+  > Radare2 wiki can also be used right from the r2 shell. See directions [here](./home/r2wiki-python) {.is-danger}
 # Sections
 
 ## Console options
-[Radare2 console options :heart_eyes:](./Options)
+[Radare2 console options :heart_eyes:](./home/Options)
 
 ## Radare2 Python scripting
-[Radare2 Python scripting :snake:](./Radare2-Python-scripting)
+[Radare2 Python scripting :snake:](./home/Radare2-Python-scripting)
 
 ## Radare2 tools
-[Radare2 tools](./Radare2-tools)
+[Radare2 tools](./home/Radare2-tools)
 
 
 ## Radare Plugins
-[Radare Plugins](./Radare-Plugins)
+[Radare Plugins](./home/Radare-Plugins)
 
 
 ## Pwn helper
-[Pwn helper](./Pwn-helper)
+[Pwn helper](./home/Pwn-helper)
 
 
 ## CTF solving
-[CTF solving using radare2](./CTF-solving-using-radare2)
+[CTF solving using radare2](./home/CTF-solving-using-radare2)
 
 
 ## Tips
-[Tips](./Tips)
+[Tips](./home/Tips)
 
 
 ## Code samples
-[Code samples](./Code-samples)
+[Code samples](./home/Code-samples)
 
 
 ## Debugger help
-[Debugger help](./Debugger-help)
+[Debugger help](./home/Debugger-help)
 
 
 # Analyzing different architectures / platforms
@@ -122,12 +120,9 @@ Visual cues:
 
 ## Radare2 themes
 
-  See previews of all the [Themes](./themes) 
+  See previews of all the [Themes](./home/themes) 
 
 ## **IRC: irc.freenode.net #radare** 
 
 [radare (@radareorg) | Twitter](https://twitter.com/radareorg)
 
-## Ongoing
-- More asciinema's
-- More usage examples
