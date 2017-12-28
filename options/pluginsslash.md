@@ -4,4 +4,4 @@
 
 - r2frida
 
-   [Frida Commands](/plugins/frida-commands)
+   [Frida Commands](/radare-plugins/frida-commands)
