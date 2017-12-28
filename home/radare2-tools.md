@@ -1,3 +1,4 @@
+<!-- TITLE: radare2 tools -->
 # Radare2 tools
 
 ## Command line tools
