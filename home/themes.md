@@ -1,3 +1,4 @@
+<!-- TITLE: Themes -->
 # Themes
 
 **Set these themes by using ** `**eco theme_name**` **. The themes will probably look different in your terminal. ** 
