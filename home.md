@@ -1,7 +1,7 @@
 # Radare2 wiki
 ![R 2 Logo 3](/uploads/r-2-logo-3.png "R 2 Logo 3"){.pagelogo}
 This is an ongoing work in progress and reflects various material obtained while stuying how to user radare2. This wiki is constantly updated. Feel free to tweet to me [![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/securisec) if there is a tidbit I can include in here.
-![R 2 Learning Curve](/uploads/r-2-learning-curve.png "R 2 Learning Curve"){.align-center}
+
 
 ```text
 All the commands are based (started) with the following Radare version:
@@ -12,7 +12,7 @@ Visual cues:
 ⭐ Great command to remember
 ```
 
-
+![R 2 Learning Curve](/uploads/r-2-learning-curve.png "R 2 Learning Curve"){.align-center}
 ## Local web app
   > To get a local copy of this wiki check out [github](https://github.com/securisec/radare2_wiki) {.is-danger}
 ## r2wiki.py
