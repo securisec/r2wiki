@@ -47,6 +47,7 @@ for i in json['ops']:
 ## Lazy scripts
 ### Copy the output of any r2 command. Invoke with `. ./script.py`
 ```python
+# To use, simply make an alias and pass the desired command as an argument
 import r2pipe
 from pyperclip import copy
 from sys import argv
