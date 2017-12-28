@@ -3,11 +3,10 @@
 #  **`.`** Define macro or load r2, cparse or rlang file
 
 Usage: .[r2cmd] | [file] | [!command] | [(macro)] # define macro or load r2, cparse or rlang file
-
+> The 
 - **`.`** repeat last command backward
-- `. foo.r2` Run the commands found in foo.r2. Works with .py files also.
-
- > In case of a .py file, it will run and interpret commands set using `r2pip` {.is-info}
+- `. foo.r2` Run the commands found in foo.r2. Works with .py files also. 
+> In case of a .py file, it will run and interpret commands set using `r2pipe`
 
 - **`.r2cmd`** interpret the output of the command as r2 commands
 - **`.. [file]`** run the output of the execution of a script as r2 commands
