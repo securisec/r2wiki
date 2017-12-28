@@ -13,21 +13,22 @@ from pygments.formatters import TerminalFormatter
 def arg_parse():
     parse = ArgumentParser()
     parse.add_argument('what_to_search_for', metavar='what_to_search_for',
-                       help='What to search for. Supports regex')
-    parse.add_argument('-i', action='store_true', dest='case_insensitive',
-                       help='Case insensitve search')
+                       help='What to search for. Supports regex . Triple escape escapes. \\\ ')
+    parse.add_argument('-a', action='store_true', dest='match_any',
+                       help='Match exactly. Will ignore case.')
     a = parse.parse_args()
     return a
 
 args = arg_parse()
 
+if args.match_any:
+    pattern = re.compile('|'.join(args.what_to_search_for.split()), flags=re.IGNORECASE)
+else:
+    pattern = re.compile(''.join('(?=.*{})'.format(arg) for arg in args.what_to_search_for.split()),
+                         flags=re.IGNORECASE)
+
 black_list = ['<p hidden>', '<!--', '<img src']
 src_dir = os.path.dirname(os.path.realpath(__file__))
-
-if args.case_insensitive:
-    pattern = re.compile(args.what_to_search_for, flags=re.IGNORECASE)
-else:
-    pattern = re.compile(args.what_to_search_for)
 
 try:
 
