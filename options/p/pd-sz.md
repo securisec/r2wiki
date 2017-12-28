@@ -17,7 +17,7 @@ Usage: p[dD][ajbrfils] [sz] [arch] [bits] # Print Disassembly
 - **`pD N`** disassemble N bytes
 - **`pda`** disassemble all possible opcodes (byte per byte)
 - **`pdb`** disassemble basic block
-- **`pdc`** pseudo disassembler output in C-like syntax
+- **`pdc`** 🚀 pseudo disassembler output in C-like syntax [asciinema](https://asciinema.org/a/B5GTvDyOpRPn488Da6mkGcBgC)
 - **`pdC`** show comments found in N instructions
 - **`pdf`** disassemble function
 - **`pdi`** like 'pi', with offset and bytes
