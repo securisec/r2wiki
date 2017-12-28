@@ -14,6 +14,9 @@
 - `meson.bat -p` outputs a Visual Studio project file
 
 ## DLL support
+### dll support using rarun2
+> Syntax is `rarun2.exe runlib=[path\to\library] runlib.fcn=[function_name] [arg1=argument1 arg2=argument2...]`. {.is-info}
+- Example: `rarun2.exe runlib=C:\Windows\System32\user32.dll runlib.fcn=MessageBoxA arg1=%0 arg2=Body arg3=Title arg4=%1`
 
 ## Videos
 [video](https://www.youtube.com/watch?v=2gcqLDGnKMc){.youtube}
