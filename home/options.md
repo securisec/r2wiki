@@ -1,4 +1,4 @@
-<-- TITLE: Options -->
+<!-- TITLE: Options -->
 # Options
 
 ## **Tips**
