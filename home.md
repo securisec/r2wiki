@@ -120,7 +120,7 @@ Visual cues:
 
 ## Radare2 themes
 
-  See previews of all the [Themes](./home/themes) 
+  See previews of all the [Themes](./themes) 
 
 ## **IRC: irc.freenode.net #radare** 
 
