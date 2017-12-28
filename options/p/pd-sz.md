@@ -20,6 +20,7 @@ Usage: p[dD][ajbrfils] [sz] [arch] [bits] # Print Disassembly
 - **`pdc`** 🚀 pseudo disassembler output in C-like syntax [asciinema](https://asciinema.org/a/B5GTvDyOpRPn488Da6mkGcBgC)
 - **`pdC`** show comments found in N instructions
 - **`pdf`** disassemble function
+- `pdf[sj]`  - disassemble function (summary+cjmp), json)
 - **`pdi`** like 'pi', with offset and bytes
 - **`pdj`** disassemble to json
 - **`pdk`** disassemble all methods of a class
