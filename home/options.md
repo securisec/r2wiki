@@ -1,3 +1,4 @@
+<-- TITLE: Options -->
 # Options
 
 ## **Tips**
