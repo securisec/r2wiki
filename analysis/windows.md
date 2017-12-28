@@ -19,9 +19,9 @@
 - Example: `rarun2.exe runlib=C:\Windows\System32\user32.dll runlib.fcn=MessageBoxA arg1=%0 arg2=Body arg3=Title arg4=%1`
 
 ## PDB support
-> Dependencies: `cabextract` in linux
+> Helpful: `cabextract` in linux
 
-- Use `idp` to show show debug information about a file.
+- 🚀 Use `idpi` to show show debug information about a file. [asciinema](https://asciinema.org/a/BOQUwqIJO497zhFDY037uNf6W)
 - Use `idpd` to download available files
 - `e pdb.server` can be used to configure differnt pdb server. Default is Microsoft. `e pdb.autoload` can be set to 1 to automatically download pdb files if available. 
 
