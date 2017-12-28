@@ -12,5 +12,7 @@
 > To compile radare2, simply run `meson.bat` {.is-info}
 - `meson.bat -p` outputs a Visual Studio project file
 
+## DLL support
+
 ## Videos
 [video](https://www.youtube.com/watch?v=2gcqLDGnKMc){.youtube}
