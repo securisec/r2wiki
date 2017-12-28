@@ -108,7 +108,7 @@ r.cmd('dor arg1=some_arg ...')
   > `dor` will take any keypair that can be passed via rabin2
 
 ## radare2-ctypes
-> [radare2 ctypes bindings](https://pypi.python.org/pypi/radare2-ctypes)
+> [radare2 ctypes bindings](https://pypi.python.org/pypi/radare2-ctypes) {.is-danger}
 
 ```python
 from r2.r_core import *
