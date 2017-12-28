@@ -1,6 +1,7 @@
 <!-- TITLE: Radare 2 Python Scripting -->
 
 # Radare2 Python scripting
+> [radare2 ctypes bindings](https://pypi.python.org/pypi/radare2-ctypes)
 
 > Python: r2pipe `pip install r2pipe` {.is-danger}
 
