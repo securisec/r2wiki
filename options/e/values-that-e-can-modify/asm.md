@@ -22,6 +22,7 @@
 - **`asm.cmtright`** Show comments at right of disassembly if they fit in screen _Default is true_
 - **`asm.comments`** Show comments in disassembly view _Default is true_
 - **`asm.cpu`** Set the kind of asm.arch cpu _Default is x86_
+	> Example: `asm.cpu=cortex` when architecture is ARM.
 - **`asm.cycles`** Show CPU-cycles taken by instruction at disassembly _Default is false_
 - **`asm.cyclespace`** Indent instructions depending on CPU-cycles _Default is false_
 - **`asm.decode`** Use code analysis as a disassembler _Default is false_
