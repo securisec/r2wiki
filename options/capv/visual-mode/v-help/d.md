@@ -6,7 +6,7 @@
 - **`d`** → **`1`** edit bits
   - Screenshot
 
-    ![Visual Mode V D Key](/uploads/cap-v/visual-mode-v-d-key.png "Visual Mode V D Key")
+    <img src="/uploads/cap-v/visual-mode-v-d-key.png" width="50%">
 
 - **`d`** → **`b`** set as byte B set as short word (2 bytes) c set as code C define flag color (fc)
 - **`d`** → **`d`** set as data
