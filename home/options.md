@@ -27,6 +27,8 @@
 
 [ `|` Pipe](/options/pipe)
 
+[`-` Dash](/options/dash)
+
 [ **`?`** Help or evaluate math expression](/options/Help_evaluate)
 
 [ **`@`** Misc help for '@' (seek), '~' (grep) (see ~??)](/options/Misc)
