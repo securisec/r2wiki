@@ -1,7 +1,7 @@
 <!-- TITLE: Radare 2 Python Scripting -->
 
 # Radare2 Python scripting
-> [radare2 ctypes bindings](https://pypi.python.org/pypi/radare2-ctypes)
+## r2pipe
 
 > Python: r2pipe `pip install r2pipe` {.is-danger}
 
@@ -106,6 +106,17 @@ r.cmd('doo arg') # could be any number of args
 r.cmd('dor arg1=some_arg ...')
 ```
   > `dor` will take any keypair that can be passed via rabin2
+
+## radare2-ctypes
+> [radare2 ctypes bindings](https://pypi.python.org/pypi/radare2-ctypes)
+
+```python
+from r2.r_core import *
+r = RCore()
+r.cmd0("?V")
+r.cons.flush() 
+```
+
 
 ## Blogs
 
