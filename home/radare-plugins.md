@@ -1,3 +1,4 @@
+<!-- TITLE: radare2 plugins -->
 # Radare Plugins
 
 **_This a list of plugins that I find interesting._** 
