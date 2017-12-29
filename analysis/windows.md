@@ -3,6 +3,7 @@
 # Windows support / reversing
 ## Installing / Building
 ### Installing from pre packaged binaries
+[Instructions on building for Windows **OLD**](https://github.com/radare/radare2/blob/master/doc/windows.md)
 [These pre packaged binaries/installers are not always up to date](http://radare.mikelloc.com/get/)
 ### Building
 - Requirements
