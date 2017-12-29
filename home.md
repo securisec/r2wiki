@@ -25,7 +25,7 @@ Visual cues:
 ## Radare2 Python scripting 🐍
 [Radare2 Python scripting 🐍](./home/Radare2-Python-scripting)
 
-## Radare2 tools
+## Radare2 tools ⚙️
 [Radare2 tools](./home/Radare2-tools)
 
 
