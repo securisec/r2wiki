@@ -125,6 +125,9 @@ Visual cues:
 ## Radare2 themes
 
   See previews of all the [Themes](./home/themes) 
+	
+## Yara
+[Some information about yara](https://github.com/radare/radare2/blob/master/doc/yara.md)
 
 ## **IRC: irc.freenode.net #radare** 
 
