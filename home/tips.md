@@ -37,6 +37,7 @@
 - Most commands accept `-` as argument-prefix as an indication to delete something
 - Set `e cfg.newtab = 1` to enable command autocompletion
 - Use `!` at the end of an offset followed by the number of bytes to limit the amount of bytes that are shown. Example `pxr @ esp!32`
+- To set conditional breakpoints, see the example [here](/home/misc/usage-examples#debug)
 
 
 ## **Tips from fortunes**
