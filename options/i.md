@@ -31,7 +31,7 @@ Usage: i Get info from opened file (see rabin2's manpage)
   - **`iI`** Binary info
   - **`ik [query]`** Key-value database from RBinObject
   - **`il`** Libraries _information libraries_
-		> :rocket: `il` can be used to show linked libraries [asciinema](https://asciinema.org/a/NYgYqTer5PAyoTLbOWp5UUqtP)
+		> 🚀 `il` can be used to show linked libraries [asciinema](https://asciinema.org/a/NYgYqTer5PAyoTLbOWp5UUqtP)
   - **`il.`** nothing documented 👎
   - **`iL [plugin]`** List all RBin plugins loaded or plugin details
   - **`im`** Show info about predefined memory allocation
