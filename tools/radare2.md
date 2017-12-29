@@ -26,6 +26,7 @@
     Run `radare2 -e dbg.profile=profile.rr2 -d binary` 
 
   - To attach to a remote debugger, use the `-D debugger_type` . Example `r2 -D gdb gdb://host:port`
+  - Use `-B` to set the base address
 ## Help
 
       Usage: r2 [-ACdfLMnNqStuvwzX] [-P patch] [-p prj] [-a arch] [-b bits] [-i file]
