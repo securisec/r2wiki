@@ -14,4 +14,4 @@ Usage: $alias[=cmd] [args...]Alias commands
 - **`$dis=`** undefine alias
 - **`$dis`** execute the previously defined alias
 - **`$dis?`** show commands aliased by 'analyze'
-	> Example `$somevar?` will show the value assigned to somevar
+	> Example `$somevar?` will show the value assigned to somevar variable
