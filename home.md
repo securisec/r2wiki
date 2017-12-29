@@ -107,6 +107,9 @@ Visual cues:
 ## Resources
 [Resources](/home/resources)
 
+## Usage examples
+[Usage examples directly from radare2 git](/home/misc/usage-examples)
+
 ## 📼 Videos
 [Videos](/home/videos)
 
