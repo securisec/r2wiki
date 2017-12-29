@@ -19,7 +19,7 @@ Visual cues:
   > Radare2 wiki can also be used right from the r2 shell. See directions [here](./home/r2wiki-python) {.is-danger}
 # Sections
 
-## Console options
+## Console options 😍
 [Radare2 console options :heart_eyes:](./home/Options)
 
 ## Radare2 Python scripting
