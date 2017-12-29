@@ -49,7 +49,7 @@ PDB usage
 =========
 
 - To get information about functions, structures, unions, enumerates etc:
-````
+----
 rabin2 -P some_pdb_file
 For example:
 rabin2 -P Project1.pdb
@@ -73,15 +73,15 @@ TEST_STRUCT: size 0x8
 0x000192c0  0  .idata  __imp__system
 0x000113e0  2  .text  ?test_func@@YAHHH@Z
 ...
-````
+----
 
 - To display all mentioned above information in json format:
-````
+----
 rabin2 -Pj some_pdb_file
-````
+----
 
 - To export information about types, functions:
-````
+----
 rabin2 -Pr some_pdb_file
 For example:
 rabin2 -P Project1.pdb
@@ -97,10 +97,10 @@ f pdb.__imp__system = 0x192c0 # 0 .idata
 f pdb._test_func__YAHHH_Z = 0x113e0 # 2 .text
 ...
 Check out this post for more information about pf: http://radare.today/types/
-````
+----
 
 - To download PDB file for some binary (.exe, .dll):
-````
+----
 rabin2 -PP path_to_binary
 For example:
 rabin2 -PP ~/Downloads/libs/user32.dll
@@ -109,7 +109,7 @@ rabin2 -PP ~/Downloads/libs/user32.dll
 Extracting cabinet: /home/inisider/Downloads/libs/user32.pd_
 extracting /home/inisider/Downloads/libs/user32.pdb
 All done, no errors.
-````
+----
 The following dependencies are required for PDB downloader:
 * curl
 * cabextract (non-Windows only, optional)
