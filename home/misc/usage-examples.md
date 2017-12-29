@@ -437,3 +437,135 @@ Other operations that require bindings to external functionalities to work. In t
    Mov eax, ds:[ebp+8]
    Ebp,8,+,:ds,eax,=
 ```
+
+## FLIRT
+
+```text
+FLIRT
+=====
+At the  moment of  writing r2  supports  loading  and finding  FLIRT
+patterns, those files can be generated with the FLIRT tools from IDA.
+R2 doesn't  yet supports creating  those files.  But it supports its
+own signature format  which can be used  to generate signatures  and
+find them.
+
+This document will focus on FLIRT, not the native r2 'Zignatures'.
+
+You need the flair tools/ida utilities. Those tools are closed source
+and privative, so you should not distribute them. It is probable that
+it is  not possible  to redistribute the  .pat or the .sig files.  It
+doesn't  seems to  have watermarks.  However it's  a bit unclear  what
+licence the file generated should have.  Mentioning the files should
+be free of copyrighted material  (the original libs bytes). That said,
+there's a paragraph in the flirt paper:
+
+	https://www.hex-rays.com/products/ida/tech/flirt/in_depth.shtml
+
+
+Create the .pat file
+--------------------
+
+	cd flair/bin/linux
+	./pelf -p64 /usr/lib/x86_64-linux-gnu/libc.a libc.pat
+
+Create the .sig file (possible collisions):
+--------------------
+
+	./sigmake -n <libname> libc.pat libc.sig
+
+There's little chance libc.sig will  be compatible across systems and
+libc versions. If libc.exc exists, you need to resolve some functions
+conflicts.  Prepend a '+' on the lines  you're sure you  want to keep
+(see end of flair/sigmake.txt).  Then redo the  sigmake command.  The
+.sig is now ready to be used with r2.
+
+Using it with r2:
+-----------------
+
+    $ r2 -c 'zF libc.sig' staticbin
+
+PROFIT.
+
+refs:
+    flair/sigmake.txt
+    flair/pat.txt
+
+```
+
+## gdb
+
+```text
+Connecting r2 with gdb
+======================
+
+Running gdbserver
+-----------------
+        $ gdbserver :2345 /bin/ls
+        (gdb) target remote localhost:2345
+
+Connecting from r2
+------------------
+        $ r2 -D gdb gdb://127.0.0.1:2345
+
+
+Supported implementations
+=========================
+r2 have support for connecting to remote GDB instances:
+
+                x86-32   x86-64   arm    arm64   sh
+    winedbg       x        x       -      -      -
+    qemu          x        x       ?      x      -
+    gdbserver     x        x       ?      ?      ?
+
+    x = supported
+    ? = untested
+    - = not supported
+
+Supported Commands
+------------------
+- read/write memory
+
+Writing or reading memory is implemented through the m/M packet.
+
+- read registers
+
+Reading registers is currently implemented through the <g> packet of the gdb protocol.
+It returns the whole register profile at once. 
+
+- write registers
+
+There are two ways of writing registers. The first one is through the P packet.
+It works like this: `P<register_index>=<register_value>`
+The second one is the G packet, that writes the whole register Profile at once.
+The implementation first tries to use the newer P packet and if it receives a $00# packet (that says not implemented), it tries to write through the G packet.
+
+- stepping (but this is still the softstep mode and for an unknown reason it sill does not call th gdb_write_register function)
+
+Supported Packets:
+- g : Reads the whole register Profile at once
+- G : Writes the whole register Profile at once
+- m : Reads memory 
+- M : Writes memory
+- vCont,v : continues execution of the binary
+- P : Write one register
+
+TODO
+----
+- Implement GDBserver to allow other apps use r2 debugger 
+- Fix that usese the gdb internal stepping version
+- Fix softstep, that it finally recoils correct (it just have to reset the eip/rip)
+- Add Breakpoints (should be an easy add of the function, because its already implemented in the gdb lib)
+
+```
+
+## IDA
+
+```text
+IDA
+======
+
+You can find conversion scripts to work between radare2 and IDA files (IDC, IDB...) in the repo:
+
+* https://github.com/radare/radare2ida
+```
+
