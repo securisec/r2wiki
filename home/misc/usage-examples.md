@@ -569,3 +569,231 @@ You can find conversion scripts to work between radare2 and IDA files (IDC, IDB.
 * https://github.com/radare/radare2ida
 ```
 
+## RAP Remote Access Protocol
+
+```text
+RAP protocol
+============
+
+RAP stands for the Remote Access Protocol of Radare2, it is compatible with radare1
+and it simply defines a communication between a client and a server to simulate IO
+operations.
+
+There are two different implementations, one in C and another in Python.
+
+Usage example
+-------------
+
+Start in one terminal the following command to wait for incoming connections:
+
+	r2 rap://:9999
+
+In another machine or terminal connect it:
+
+	r2 rap://localhost:9999//bin/ls
+
+As you see, the path of the remote file to load must be specified, and this handled
+by the open() packet.
+
+Known Bugs
+----------
+
+* Read/Write operations ignore the filedescriptor completely because it is supposed to be handled by the IO layer and it is redundant, but it introduces a bug that breaks support for multiple files.
+* This can be fixed with a new packet type RAP_SETFD.
+* Read lengths should be only 2 bytes, there's no sense in read > 64K of memory in a shot.
+* Seek does not returns anything
+* System vs Cmd - the first should have a return value as well as string result
+* Filedescriptors are assumed to be 32bit
+
+
+Operations
+----------
+
+The protocol is designed to be bidirectional, but right now, only one way is supported.
+The client sends a byte specifying the operation and the server will reply the same byte
+masked with the RMT_REPLY value (0x80 | op)
+
+	RAP_OPEN   = 1
+	RAP_READ   = 2
+	RAP_WRITE  = 3
+	RAP_SEEK   = 4
+	RAP_CLOSE  = 5
+	RAP_SYSTEM = 6
+	RAP_CMD    = 7
+	RAP_REPLY  = 0x80
+
+This is how are constructed the packets:
+
+	RAP_OPEN
+		struct packed RapOpen {
+			ut8 op = 1;
+			ut8 rw = 0; // 0 = read-only, 1 = read-write
+			ut8 len = 15; // length of filename
+		}
+		>> 01 RW LN [....]
+		<< 81 FD=(.. .. .. ..)
+
+	RAP_READ
+		>> 02 LN=(.. .. .. ..)
+		<< 82 LN=(.. .. .. ..) [..LN..]
+
+	RAP_WRITE
+		>> 03 LN=(.. .. .. ..) [..LN..]
+		<< 83 LN=(.. .. .. ..)
+
+	RAP_SEEK
+		>> 04 FLAG=(..) OFFSET=(.. 8 bytes ..)
+		<< 84
+
+	RAP_CLOSE
+		>> 05 FD=(4 bytes) 
+		<< 85 RET=(4 bytes)
+
+	RAP_SYSTEM
+		>> 06 LEN=(4 bytes) STR[LEN bytes]
+		<< 86 LN=(.. .. .. ..) STR[ LEN bytes]
+
+	RAP_CMD_
+		>> 07 LEN=(4 bytes) STR[LEN bytes]
+		<< 87 LN=(.. .. .. ..) STR[ LEN bytes]
+
+
+Examples
+--------
+
+Python:
+
+	See radare2-bindings/python/remote.py and test-rap-*.py
+
+C:
+
+	Server: libr/socket/rap_server.c
+	Client: libr/io/p/io_rap.c
+```
+
+## Strings
+
+```text
+Loading strings from binaries
+=============================
+
+TODO: explain bin.minstr
+
+Config vars
+-----------
+bin.strings  =  [true]  - load strings from file
+bin.rawstr   =  [false] - load strings from unknown rbin
+
+Program args
+------------
+rabin2 -z   # list strings
+rabin2 -zz  # list strings from raw binary (unknown rbin type)
+
+Examples
+--------
+
+r2 -e bin.rawstr=true
+r2 -z   # do not load strings (same as bin.strings=false)
+r2 -zz  # load strings even if unknown bin (same as bin.rawstr=true)
+r2 -n   # do not load symbols or anything
+r2 -e bin.strings=false # load symbols but not strings
+if (bin.strings) {
+  if RBin.format(isKnown) {
+    loadStrings()
+  } else {
+    if (bin.rawstr)
+      loadStrings()
+  }
+}
+
+```
+
+## Types
+[Types](https://github.com/radare/radare2/blob/master/doc/types.md)
+
+## windbg
+
+```text
+WinDBG
+======
+
+The WinDBG support for r2 allows you to attach to VM running Windows
+using a named socket file (will support more IOs in the future) to
+debug a windows box using the KD interface over serial port.
+
+Bear in mind that WinDBG support is still work-in-progress, and this is
+just an initial implementation which will get better in time.
+
+It is also possible to use the remote GDB interface to connect and
+debug Windows kernels without depending on Windows capabilities.
+
+------8<--------------8<------------------8<------------------------
+
+Enable WinDBG support on Windows Vista and higher like this:
+
+    bcdedit /debug on
+    bcdedit /dbgsettings serial debugport:1 baudrate:115200
+
+Or like this for Windows XP:
+    Open boot.ini and add /debug /debugport=COM1 /baudrate=115200:
+
+    [boot loader]
+    timeout=30
+    default=multi(0)disk(0)rdisk(0)partition(1)\WINDOWS
+    [operating systems]
+    multi(0)disk(0)rdisk(0)partition(1)\WINDOWS="Debugging with Cable" /fastdetect /debug /debugport=COM1 /baudrate=57600
+
+
+Configure the VirtualBox Machine like this:
+
+    Preferences -> Serial Ports -> Port 1
+
+    [V] Enable Serial Port
+    Port Number: [_COM1_______[v]]
+    Port Mode:   [_Host_Pipe__[v]]
+                 [v] Create Pipe
+    Port/File Path: [_/tmp/windbg.pipe____]
+
+Or just spawn the VM with qemu like this:
+
+    $ qemu-system-x86_64 -chardev socket,id=serial0,\
+           path=/tmp/windbg.pipe,nowait,server \
+           -serial chardev:serial0 -hda Windows7-VM.vdi
+
+
+Radare2 will use the 'windbg' io plugin to connect to a socket file
+created by virtualbox or qemu. Also, the 'windbg' debugger plugin and
+we should specify the x86-32 too. (32 and 64 bit debugging is supported)
+
+    $ r2 -a x86 -b 32 -D windbg windbg:///tmp/windbg.pipe
+
+On Windows you should run the following line:
+
+    $ radare2 -D windbg windbg://\\.\pipe\com_1
+
+At this point, we will get stuck here:
+
+    [0x828997b8]> pd 20
+           ;-- eip:
+           0x828997b8    cc           int3
+           0x828997b9    c20400       ret 4
+           0x828997bc    cc           int3
+           0x828997bd    90           nop
+           0x828997be    c3           ret
+           0x828997bf    90           nop
+
+In order to skip that trap we will need to change eip and run 'dc' twice:
+
+    dr eip=eip+1
+    dc
+    dr eip=eip+1
+    dc
+
+Now the Windows VM will be interactive again. We will need to kill r2 and
+attach again to get back to control the kernel.
+
+In addition, the `dp` command can be used to list all processes, and
+`dpa` or `dp=` to attach to the process. This will display the base
+address of the process in the physical memory layout.
+```
+
