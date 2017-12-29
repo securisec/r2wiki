@@ -20,7 +20,7 @@ Usage: db # Breakpoints commands
 
     <img src="/uploads/small-d/dbc.png" width="50%">
 
-- **`dbC <addr> <cmd>`** Set breakpoint condition on command
+- **`dbC <addr> <cmd>`** Run command when breakpoint is hit, but continue until condition on command returns zero
 	> `dbC` If the command returns a value different from zero, execution continue, otherwise, execution is stopped at the breakpoint
 - **`dbd <addr>`** Disable breakpoint
 - **`dbe <addr>`** Enable breakpoint
