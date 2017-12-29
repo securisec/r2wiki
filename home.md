@@ -85,6 +85,7 @@ Visual cues:
   [Plugins · Radare2 Book](https://radare.gitbooks.io/radare2book/content/plugins/plugins.html)
 
 ## Cheatsheets
+	[Local copy of cheatsheet (obtained from radare2)](/home/misc/cheatsheet)
 
   [Radare2 Debugger Complete Cheat Sheet Flashcards | Quizlet](https://quizlet.com/182492323/radare2-debugger-complete-cheat-sheet-flash-cards/)
 
