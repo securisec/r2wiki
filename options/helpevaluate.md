@@ -53,7 +53,7 @@ Usage: ?[?[?]] expression
 - **`?T`** show loading times
 - **`?u num`** get value in human units (KB, MB, GB, TB)
 - **`?v eip-0x804800`** show hex value of math expr
-- **`?vi rsp-rbp`** show decimal value of math expr
+- [**`?vi rsp-rbp`** show decimal value of math expr](/options/helpevaluate/vi)
 - **`?V`** show library version of r_core
 - **`?w addr`** show what's in this address (like pxr/pxq does)
 - **`?x str`** returns the hexpair of number or string
