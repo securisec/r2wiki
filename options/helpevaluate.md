@@ -51,7 +51,7 @@ Usage: ?[?[?]] expression
 - **`?r [from] [to]`** generate random number between from-to
 - **`?s from to step`** sequence of numbers from to by steps
 - **`?S addr`** return section name of given address
-- **`?t cmd`** returns the time to run a command
+- **`?t cmd`** 🚀 returns the time to run a command [asciinema](https://asciinema.org/a/GJhqTgd9OiWEXA0RcmzWHrCH2)
 - **`?T`** show loading times
 - **`?u num`** get value in human units (KB, MB, GB, TB)
 - **`?v eip-0x804800`** show hex value of math expr
