@@ -9,6 +9,8 @@
 - `afva`   analyze function arguments/locals
 - [ `afvd [name]` output r2 command for displaying the value of args/locals in the debugger](/options/a/af/afv/afvd)
 	> 🚀 ⭐ `afvd` shows how the local variables are being set up. [asciinema](https://asciinema.org/a/2udrCGW9OCrhsaKAdIUfQHbvT)
+
+  > 🚀 `afvd somevarname` will return the r2 command. Prefixing a `.` will run that command directly. Example `.afvd somevarname`[asciinema](https://asciinema.org/a/BXT3vqvqOmBTnwsOs8H6DyEdj)
 - `afvn [old_name] [new_name]`   rename argument/local
 - `afvt [name] [new_type]`   change type for given argument/local
 - `afv-([name])`   remove all or given var
