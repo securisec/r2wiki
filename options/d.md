@@ -1,6 +1,7 @@
 <!-- TITLE: d -->
 
 #  **`d`** Debugger commands
+## `d` commands
 
 - [ **`db[?]`** Breakpoints commands](/options/d/db) _debug breakpoint_
 
@@ -38,5 +39,8 @@
 - **`dw <pid>`** Block prompt until pid dies
 
 - [ **`dx[?]`** Inject and run code on target process (See gs)](/options/d/dx)
+
+## Examples
+- [Helpful debug usage examples](/home/misc/usage-examples#debug)
 
 <p hidden>db dbt dc dd de dg dH di dk dL dm do doo dp dr ds dt dw dx</p>
