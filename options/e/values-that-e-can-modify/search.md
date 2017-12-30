@@ -9,7 +9,7 @@
 - **`search.esilcombo`** Stop search after N consecutive hits _Default is 8_
 - **`search.flags`** All search results are flagged, otherwise only printed _Default is true_
 - **`search.from`** Search start address _Default is 0xffffffffffffffff_
-	- 🚀 `search.from` and `search.to` can be used to set search boundaries. Helpful when searching inside a function only. [asciinema](https://asciinema.org/a/ocs63PnJwuto9e0VzCQXX1q4V)
+	> 🚀 `search.from` and `search.to` can be used to set search boundaries. Helpful when searching inside a function only. [asciinema](https://asciinema.org/a/ocs63PnJwuto9e0VzCQXX1q4V)
 - **`search.in`** Specify search boundaries _Default is io.maps_
 	> Example: `e search.in = dbg.maps`
 	{.is-info}
