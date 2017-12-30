@@ -54,7 +54,10 @@ try:
                                         match = ''.join(list(match)[1:])
                                     if match.startswith(' _'):
                                         match = re.sub('_', '', ''.join(list(match)[1:]))
-                                    found += match
+
+                                    match = re.sub('<U\+1F680>', '', match)
+
+                                    found += match.strip('<U+1F680>')
 
     pydoc.pipepager(highlight(found, MarkdownLexer(), TerminalFormatter()), cmd='less -R')
 
