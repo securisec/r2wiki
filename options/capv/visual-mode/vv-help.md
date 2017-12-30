@@ -9,6 +9,7 @@
 - **`.`** 	center graph to the current node
 - **`:cmd`** 	run radare command
 - **`'`** 	toggle graph.comments
+- `=` 🚀 toggle graph.layout. Enable horizontal view [asciinema](https://asciinema.org/a/6Mvr8akO7Lm4rrvJTEv71ecAT)
 - **`\"`** 	toggle graph.refs
 - **`/`** 	highlight text
 - **`|`** 	set cmd.gprompt
