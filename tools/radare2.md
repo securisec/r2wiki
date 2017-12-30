@@ -107,3 +107,6 @@
   - _rwd_ **`windbg`** Attach to a KD debugger (windbg://socket) (LGPL3)
   - _rwd_ **`winedbg`** Wine-dbg io and debug.io plugin for r2 (MIT)
   - _rw_ _ **`zip`** Open zip files [apk|ipa|zip|zipall]://[file//path] (BSD)
+
+
+<p hidden>ar bfdbg bochs debug default gdb gzip http ihex mach malloc mmap null procpid ptrace qnx r2k r2pipe r2web rap rbuf self shm sparse tcp windbg winedbg zip</p>
