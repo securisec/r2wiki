@@ -115,7 +115,7 @@ Visual cues:
 ## 📼 Videos
 [Videos](/home/videos)
 
-# Stuff
+# Misc
 
 ## IDA to radare2
 
