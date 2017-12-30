@@ -112,6 +112,9 @@ Visual cues:
 ## Usage examples
 [Usage examples directly from radare2 git](/home/misc/usage-examples)
 
+## Plugin creation
+[Help regarding plugin creation](https://radare.gitbooks.io/radare2book/content/plugins/plugins.html)
+
 ## 📼 Videos
 [Videos](/home/videos)
 
