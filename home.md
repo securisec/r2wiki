@@ -21,37 +21,37 @@ Visual cues:
 # Sections
 
 ## Console options 😓
-[Radare2 console options :heart_eyes:](./home/Options)
+[Radare2 console options :heart_eyes:](./home/options)
 
 ## Radare2 Python scripting 🐍
-[Radare2 Python scripting 🐍](./home/Radare2-Python-scripting)
+[Radare2 Python scripting 🐍](./home/radare2-python-scripting)
 
 ## Radare2 tools ⚙️
-[Radare2 tools](./home/Radare2-tools)
+[Radare2 tools](./home/radare2-tools)
 
 
 ## Radare Plugins
-[Radare Plugins](./home/Radare-Plugins)
+[Radare Plugins](./home/radare-plugins)
 
 
 ## Pwn helper
-[Pwn helper](./home/Pwn-helper)
+[Pwn helper](./home/pwn-helper)
 
 
 ## CTF solving
-[CTF solving using radare2](./home/CTF-solving-using-radare2)
+[CTF solving using radare2](./home/ctf-solving-using-radare2)
 
 
 ## Tips
-[Tips](./home/Tips)
+[Tips](./home/tips)
 
 
 ## Code samples
-[Code samples](./home/Code-samples)
+[Code samples](./home/code-samples)
 
 
 ## Debugger help
-[Debugger help](./home/Debugger-help)
+[Debugger help](./home/debugger-help)
 
 
 # Analyzing different architectures / platforms
