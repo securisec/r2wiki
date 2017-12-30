@@ -122,7 +122,7 @@ Visual cues:
   - [radare/radare2ida](https://github.com/radare/radare2ida)
 
    - _To convert IDA pro .idc or .idb files to be used in radare2, You can use `idc2r.py file.idc > file.r2` to convert IDA database to r2 format. This can then be loaded into radare2 using `. file.r2` inside the radare2 shell. Alternate method is to use `.!idc2r.py < file.idc` inside the radare2 shell_
-		 > IDA pro .idb files can be converted using `idb2r2.py` [asciinema](https://asciinema.org/a/kTKHNVUa3ocnGhNYCv73Xh4Uk)
+		> IDA pro .idb files can be converted using `idb2r2.py` [asciinema](https://asciinema.org/a/kTKHNVUa3ocnGhNYCv73Xh4Uk)
 			 - Dependencies: idb `pip install python-idb`
 
 ## Radare2 themes
