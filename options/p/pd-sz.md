@@ -17,9 +17,10 @@ Usage: p[dD][ajbrfils] [sz] [arch] [bits] # Print Disassembly
 - **`pD N`** disassemble N bytes
 - **`pda`** disassemble all possible opcodes (byte per byte)
 - **`pdb`** disassemble basic block
-- **`pdc`** pseudo disassembler output in C-like syntax
+- **`pdc`** 🚀 pseudo disassembler output in C-like syntax [asciinema](https://asciinema.org/a/B5GTvDyOpRPn488Da6mkGcBgC)
 - **`pdC`** show comments found in N instructions
 - **`pdf`** disassemble function
+- `pdfs[j]`  - disassemble function (summary+cjmp), json)
 - **`pdi`** like 'pi', with offset and bytes
 - **`pdj`** disassemble to json
 - **`pdk`** disassemble all methods of a class
@@ -28,6 +29,8 @@ Usage: p[dD][ajbrfils] [sz] [arch] [bits] # Print Disassembly
 - **`pdR`** recursive disassemble block size bytes without analyzing functions
 - **`pds[?]`** disassemble summary (strings, calls, jumps, refs) (see pdsf and pdfs)
   > `pds` _Can be used as either inside function, or assigned an offset `pds @offset[func_name]`_
+
+- `pdsf`  sumarize N bytes or function (pdfs)
 - **`pdt`** disassemble the debugger traces (see atd)
 
 <p hidden>pd pD pda pdb pdc pdC pdf pdi pdj pdk pdl pdr pdR pds pdt</p>

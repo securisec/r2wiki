@@ -15,12 +15,13 @@ Usage: db # Breakpoints commands
 - **`db.`** Show breakpoint info in current offset
 - **`dbj`** List breakpoints in JSON format
 - **`dbc <addr> <cmd>`** Run command when breakpoint is hit
-  - > Use this to run a command everytime a breakpoint hits. Example: `db sym.imp.strcmp; dbc sym.imp.strcmp drr` . This till print out the registers everytime the debugger breaks at strcmp
+  > Use this to run a command everytime a breakpoint hits. Example: `db sym.imp.strcmp; dbc sym.imp.strcmp drr` . This till print out the registers everytime the debugger breaks at strcmp
   - Screenshot
 
     <img src="/uploads/small-d/dbc.png" width="50%">
 
-- **`dbC <addr> <cmd>`** Set breakpoint condition on command
+- **`dbC <addr> <cmd>`** Run command when breakpoint is hit, but continue until condition on command returns zero
+	> `dbC` If the command returns a value different from zero, execution continue, otherwise, execution is stopped at the breakpoint
 - **`dbd <addr>`** Disable breakpoint
 - **`dbe <addr>`** Enable breakpoint
 - **`dbs <addr>`** Toggle breakpoint

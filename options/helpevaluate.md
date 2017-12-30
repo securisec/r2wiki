@@ -30,6 +30,7 @@ Usage: ?[?[?]] expression
 - **`?btw num|(expr) num|(expr) num|(expr)`** returns boolean value of a <= b <= c
 - **`?B [elem]`** show range boundaries like 'e?search.in
 - **`?d[.] opcode`** describe opcode for asm.arch
+	> Use: `?d[.] [opcode]`    to get the description of the opcode
 - **`?e[nbgc] string`** echo string (nonl, gotoxy, column, bars)
 - **`?E string`** ** ** clippy messages.
 - **`?f [num] [str]`** map each bit of the number as flag string index
@@ -44,17 +45,18 @@ Usage: ?[?[?]] expression
 - **`?l str`** returns the length of string
 - **`?o num`** get octal value
 - **`?O [id]`** List mnemonics for current asm.arch / asm.bits
+	> Usage: `?O[jd] [arg]` .. list all mnemonics for asm.arch (d = describe, j=json)
 - **`?p vaddr`** get physical address for given virtual address
 - **`?P paddr`** get virtual address for given physical one
 - **`?r [from] [to]`** generate random number between from-to
 - **`?s from to step`** sequence of numbers from to by steps
 - **`?S addr`** return section name of given address
-- **`?t cmd`** returns the time to run a command
+- **`?t cmd`** 🚀 returns the time to run a command [asciinema](https://asciinema.org/a/GJhqTgd9OiWEXA0RcmzWHrCH2)
 - **`?T`** show loading times
 - **`?u num`** get value in human units (KB, MB, GB, TB)
 - **`?v eip-0x804800`** show hex value of math expr
-- **`?vi rsp-rbp`** show decimal value of math expr
-- **`?V`** show library version of r_core
+- [**`?vi rsp-rbp`** show decimal value of math expr](/options/helpevaluate/vi)
+- [**`?V`** show library version of r_core](/options/helpevaluate/cap-v)
 - **`?w addr`** show what's in this address (like pxr/pxq does)
 - **`?x str`** returns the hexpair of number or string
 - **`?x+num`** like ?v, but in hexpairs honoring cfg.bigendian

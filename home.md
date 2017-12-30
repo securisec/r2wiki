@@ -1,3 +1,4 @@
+<!-- TITLE: r2iki --> 
 # Radare2 wiki
 ![R 2 Logo 3](/uploads/r-2-logo-3.png "R 2 Logo 3"){.pagelogo}
 This is an ongoing work in progress and reflects various material obtained while stuying how to user radare2. This wiki is constantly updated. Feel free to tweet to me [![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/securisec) if there is a tidbit I can include in here.
@@ -19,13 +20,13 @@ Visual cues:
   > Radare2 wiki can also be used right from the r2 shell. See directions [here](./home/r2wiki-python) {.is-danger}
 # Sections
 
-## Console options
+## Console options 😓
 [Radare2 console options :heart_eyes:](./home/Options)
 
-## Radare2 Python scripting
-[Radare2 Python scripting :snake:](./home/Radare2-Python-scripting)
+## Radare2 Python scripting 🐍
+[Radare2 Python scripting 🐍](./home/Radare2-Python-scripting)
 
-## Radare2 tools
+## Radare2 tools ⚙️
 [Radare2 tools](./home/Radare2-tools)
 
 
@@ -63,7 +64,7 @@ Visual cues:
 ## Go reversing
 [Go reversing](./analysis/go)
 
-## iOS
+## iOS 
 [iOS reversing](./analysis/ios)
 
 ## Misc
@@ -85,6 +86,7 @@ Visual cues:
   [Plugins · Radare2 Book](https://radare.gitbooks.io/radare2book/content/plugins/plugins.html)
 
 ## Cheatsheets
+  [Local copy of cheatsheet (obtained from radare2)](/home/misc/cheatsheet)
 
   [Radare2 Debugger Complete Cheat Sheet Flashcards | Quizlet](https://quizlet.com/182492323/radare2-debugger-complete-cheat-sheet-flash-cards/)
 
@@ -107,20 +109,28 @@ Visual cues:
 ## Resources
 [Resources](/home/resources)
 
+## Usage examples
+[Usage examples directly from radare2 git](/home/misc/usage-examples)
+
 ## 📼 Videos
 [Videos](/home/videos)
 
-# Stuff
+# Misc
 
 ## IDA to radare2
 
   - [radare/radare2ida](https://github.com/radare/radare2ida)
 
-    > _You can use `idc2r.py file.idc > file.r2` to convert IDA database to r2 format. This can then be loaded into radare2 using `. file.r2` inside the radare2 shell. Alternate method is to use `.!idc2r.py < file.idc` inside the radare2 shell_
+   - _To convert IDA pro .idc or .idb files to be used in radare2, You can use `idc2r.py file.idc > file.r2` to convert IDA database to r2 format. This can then be loaded into radare2 using `. file.r2` inside the radare2 shell. Alternate method is to use `.!idc2r.py < file.idc` inside the radare2 shell_
+		> 🚀 IDA pro .idb files can be converted using `idb2r2.py` [asciinema](https://asciinema.org/a/kTKHNVUa3ocnGhNYCv73Xh4Uk)
+			 - Dependencies: idb `pip install python-idb`
 
 ## Radare2 themes
 
   See previews of all the [Themes](./home/themes) 
+	
+## Yara
+[Some information about yara](https://github.com/radare/radare2/blob/master/doc/yara.md)
 
 ## **IRC: irc.freenode.net #radare** 
 
