@@ -1,5 +1,6 @@
 <!-- TITLE: Debugger help -->
 # Debugger help
+## gdbserver
 
 ## windbg
 
