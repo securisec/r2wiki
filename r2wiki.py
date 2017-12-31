@@ -10,12 +10,19 @@ from pygments import highlight
 from pygments.lexers import MarkdownLexer
 from pygments.formatters import TerminalFormatter
 
+black_list = ['<p hidden>', '<!--', '<img src']
+src_dir = os.path.dirname(os.path.realpath(__file__))
+
 def arg_parse():
     parse = ArgumentParser()
     parse.add_argument('what_to_search_for', metavar='what_to_search_for',
                        help='What to search for. Supports regex . Triple escape escapes. \\\ ')
     parse.add_argument('-a', action='store_true', dest='match_any',
                        help='Will match any of the words.')
+
+    parse.add_argument('-l', action='store_true', dest='show_link',
+                       help='Show the corresponding r2wiki link')
+    a = parse.parse_args()
     a = parse.parse_args()
     return a
 
@@ -26,9 +33,6 @@ if args.match_any:
 else:
     pattern = re.compile(''.join('(?=.*{})'.format(arg) for arg in args.what_to_search_for.split()),
                          flags=re.IGNORECASE)
-
-black_list = ['<p hidden>', '<!--', '<img src']
-src_dir = os.path.dirname(os.path.realpath(__file__))
 
 try:
 
@@ -55,13 +59,16 @@ try:
                                     if match.startswith(' _'):
                                         match = re.sub('_', '', ''.join(list(match)[1:]))
 
-                                    match = re.sub('<U\+1F680>|'
-                                                   '{\.is-warning}|'
+                                    match = re.sub('{\.is-warning}|'
                                                    '{\.is-info}', '', match)
 
-                                    found += match.strip('<U+1F680>')
+                                    link = '[.](https://radare2.securisec.com/%s)' % md_path.strip(src_dir).strip('.md')
+                                    if args.show_link:
+                                        found += '%s\n%s' % (link, match)
+                                    else:
+                                        found += match
 
-    pydoc.pipepager(highlight(found, MarkdownLexer(), TerminalFormatter()), cmd='less -R')
+    pydoc.pipepager(highlight(found, MarkdownLexer(), TerminalFormatter()), cmd='less -r')
 
 except IndexError:
     print 'Usage: %s search_param' % sys.argv[0]
