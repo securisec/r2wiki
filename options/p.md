@@ -14,9 +14,9 @@ Usage: p[=68abcdDfiImrstuxz] [arg|len] [@addr]
 - [ **`p=[?][bep] [blks] [len] [blk]`** show entropy/printable chars/chars bars](/options/p/p-bep)
 
 - **`p2 [len]`** 8x8 2bpp-tiles
-- **`p3 [file]`** print stereogram (3D)
+- **`p3 [file]`** 🚀 print stereogram (3D) [asciinema](https://asciinema.org/a/tMwTJ5McX5vVsSwH21gBDXNTp)
 - **`p6[de] [len]`** base64 decode/encode
-- **`p8[?][j] [len]`** 8bit hexpair list of bytes
+- **`p8[?][j] [len]`** 🚀 8bit hexpair list of bytes [asciinema](https://asciinema.org/a/NiBOmL4HjzsMgYlIMiZxHAwGv)
 
 - [ **`pa[edD] [arg]`** pa:assemble pa[dD]:disasm or pae: esil from hexpairs](/options/p/pa-ed)
 
