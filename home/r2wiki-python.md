@@ -1,6 +1,22 @@
 <!-- TITLE: r2wiki.py -->
 
 # r2wiki python
+## Help
+
+```text
+usage: r2wiki.py [-h] [-a] [-l] what_to_search_for
+
+positional arguments:
+  what_to_search_for  What to search for. Supports regex . Triple escape
+                      escapes. \\
+
+optional arguments:
+  -h, --help          show this help message and exit
+  -a                  Will match any of the words.
+  -l                  Show the corresponding r2wiki link
+```
+
+## Installation
 <a href="https://asciinema.org/a/zdywkTDDqJGH3tNe1usv1TCBE?autoplay=1" target="_blank"><img src="https://asciinema.org/a/zdywkTDDqJGH3tNe1usv1TCBE.png" width="50%" align="middle"/></a>
 Access the radare2 wiki from inside the r2 shell
 > In order for this to work, you need a local copy of the wiki. You can get it from [github](https://github.com/securisec/radare2_wiki)
