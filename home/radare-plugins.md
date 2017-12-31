@@ -35,7 +35,8 @@
 
 ## r2dec
 
-  [wargio/r2dec-js](https://github.com/wargio/r2dec-js)
+  [wargio/r2dec-js](https://github.com/wargio/r2dec-js)  
+	> 🚀 [r2dec installation help and demo](https://asciinema.org/a/0Ncb0iVwwNaXFP6qkpO1hvFVI)
 
 ## ripr for radare2
 
