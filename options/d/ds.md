@@ -11,7 +11,7 @@ Usage: ds Step commands
 - **`ds`** Step one instruction <p hidden>ds</p>
 - **`ds <num>`** Step <num> instructions
 - **`dsb`** Step back one instruction
-  > _When you run dsb, reverse debugger restore previous recorded state and execute program from it until desired point_
+  > `dsb` _When you run dsb, reverse debugger restore previous recorded state and execute program from it until desired point. Sessions are saved by `dts+`_
 - **`dsf`** Step until end of frame
 - **`dsi <cond>`** Continue/Step until condition matches
   > _Example: `dsi eax==3,ecx>0`_
