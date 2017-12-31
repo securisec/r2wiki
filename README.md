@@ -28,6 +28,28 @@ Both the online version and local version supports full search capability. The o
 
 ## From r2 shell
 - Directions can be found in the [r2wiki.py](https://radare2.securisec.com/home/r2wiki-python)
+> In order for this to work, you need a local copy of the wiki. You can get it from [github](https://github.com/securisec/radare2_wiki)
+- The argument supports regex and the output is in less format
+
+- Because the output is using less, you can highlight/search using `/` or show only matching lines by using `&`
+
+- /path/to/repo/r2wiki.py needs to be absolute path {.is-warning}
+
+- This can be accessed multiple ways. 
+	- Method 1: Set an alias in your `~/.radare2rc` file		
+    ```sh
+    echo '$'wiki="#"'!'"pipe python /path/to/repo/r2wiki.py" >> ~/.radare2rc
+    ```
+	 > Invoke as `$wiki arg`
+	- Method 2: Set an alias from inside r2 shell:
+	```text
+	$wiki=#!pipe python /path/to/r2wiki.py
+	```
+	 > invoke as `$wiki arg`
+	- Method 3: 
+    ```text
+    #!pipe python /path/to/repo/r2wiki.py
+    ```
 
 ## Tips for local wiki (applies to wiki.js version 1.0.12)
 To style your local wiki in a manner similar to the online version, add the following to the `/wiki_installation_dir/server/views/layout.pug` under the section marked as `//- JS / CSS`  
