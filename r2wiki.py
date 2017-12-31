@@ -55,7 +55,9 @@ try:
                                     if match.startswith(' _'):
                                         match = re.sub('_', '', ''.join(list(match)[1:]))
 
-                                    match = re.sub('<U\+1F680>', '', match)
+                                    match = re.sub('<U\+1F680>|'
+                                                   '{\.is-warning}|'
+                                                   '{\.is-info}', '', match)
 
                                     found += match.strip('<U+1F680>')
 
