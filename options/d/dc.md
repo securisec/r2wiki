@@ -13,6 +13,7 @@ Usage: dc Execution continuation commands
 - **`dc[-pid]`** Stop execution of pid
 - **`dca [sym] [sym].`** Continue at every hit on any given symbol
 - **`dcb`** Continue back until breakpoint _debug continue breakpoint_
+	> `dcb` Similar to `dsb` but instead of setting back, it will continue back till breakpoint
 - **`dcc`** Continue until call (use step into) _debug continue call_
 - **`dccu`** Continue until unknown call (call reg)
 - **`dcf`** Continue until fork (TODO) _debug continue fork_
