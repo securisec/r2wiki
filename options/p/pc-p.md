@@ -3,7 +3,7 @@
 #  **`pc[?][p] [len]`** output C (or python) format
 
 ## Valid print code formats are: JSON, C, Python, Cstring (pcj, pc, pcp, pcs) 
-- `pc` C
+- `pc` 🚀 C [asciinema](https://asciinema.org/a/Zpz2IX4UYUvpMZPmRoXbvatYn)
 - `pc*` print 'wx' r2 commands
 - `pch` C half-words (2 byte)
 - `pcw` C words (4 byte)
