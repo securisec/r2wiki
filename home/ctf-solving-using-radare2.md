@@ -26,5 +26,7 @@
 - [Defeating ioli with radare2](https://dustri.org/b/defeating-ioli-with-radare2.html)
 
 - [CMU Binary bomb solving with radare2](https://unlogic.co.uk/2016/04/14/Binary%20Bomb%20with%20Radare2%20-%20Phase%201/index.html)
+- [CMU Binary bomb phase 2 by ctfsolver](http://ctfhacker.com/ctf/python/symbolic/execution/reverse/radare/2015/11/28/cmu-binary-bomb-flag2.html)
+	> Using radare2 and angr to solve the challenge
 - [Solving game2 from the badge of Black Alps 2017 with radare2](https://dustri.org/b/solving-game2-from-the-badge-of-black-alps-2017-with-radare2.html)
 - [TUMCTF Zwiebel](https://losfuzzys.github.io/writeup/2016/10/03/tumctf-zwiebel50/)
