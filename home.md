@@ -19,6 +19,21 @@ Visual cues:
   > To get a local copy of this wiki check out [github](https://github.com/securisec/radare2_wiki) {.is-danger}
 ## r2wiki.py
   > Radare2 wiki can also be used right from the r2 shell. See directions [here](./home/r2wiki-python) {.is-danger}
+
+
+	```text
+	usage: r2wiki.py [-h] [-a] [-l] what_to_search_for
+
+	positional arguments:
+		what_to_search_for  What to search for. Supports regex . Triple escape
+												escapes. \\
+
+	optional arguments:
+		-h, --help          show this help message and exit
+		-a                  Will match any of the words.
+		-l                  Show the corresponding r2wiki link
+	```
+
 # Sections
 
 ## Console options 😓
