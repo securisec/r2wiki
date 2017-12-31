@@ -18,10 +18,7 @@ Visual cues:
 ## Local web app
   > To get a local copy of this wiki check out [github](https://github.com/securisec/radare2_wiki) {.is-danger}
 ## r2wiki.py
-  > Radare2 wiki can also be used right from the r2 shell. See directions [here](./home/r2wiki-python) {.is-danger}
-
-[More information about r2wiki.py usage](./home/r2wiki)
-
+  > ⭐ [Radare2 wiki can also be used right from the r2 shell. See directions here](./home/r2wiki-python) {.is-danger}
 # Sections
 
 ## Console options 😓
