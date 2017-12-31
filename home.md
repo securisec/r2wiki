@@ -116,6 +116,9 @@ Visual cues:
 ## Plugin creation
 [Help regarding plugin creation](https://radare.gitbooks.io/radare2book/content/plugins/plugins.html)
 
+## Downloads
+[Radare2 can be downloaded from here](http://radare.org/r/down.html)
+
 ## 📼 Videos
 [Videos](/home/videos)
 
