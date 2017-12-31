@@ -11,7 +11,7 @@ Usage: dt Trace commands
 
 - **`dt`** List all traces
 - **`dt [addr]`** Show trace info at address
-  > _To count instructions, use `e asm.trace=1 / e dbg.trace=1` followed by`dt`_
+  > 🚀 _To count instructions, use `e asm.trace=1 / e dbg.trace=1` followed by`dt`_ [asciinema](https://asciinema.org/a/AAxcyuprERjhJwutaOR0fdGun)
 - **`dt%`** TODO
 - **`dt*`** List all traced opcode offsets
 - **`dt+ [addr] [times]`** Add trace for address N times
