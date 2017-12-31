@@ -11,6 +11,7 @@ Usage: (foo args,cmd1,cmd2,..)Aliases
 
 ---
 - **`(foo args,..,..)`** define a macro
+	> Example for loop in macro `(loop_macro,f cnt=3,loop:,?e hello `?vi cnt`,f cnt=`?vi cnt-1`,?= cnt,?!(),.loop:)`
 - **`(foo args,..,..)()`** define and call a macro
 - **`(-foo)`** remove a macro
 - **`.(foo)`** to call it
