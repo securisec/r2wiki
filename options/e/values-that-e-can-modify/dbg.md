@@ -14,7 +14,7 @@
 - **`dbg.clone`** Stop execution if new thread is created _Default is false_
 - **`dbg.consbreak`** SIGINT handle for attached processes _Default is false_
 - **`dbg.exe.path`** Path to binary being debugged
-	> `dbg.exe.path` Helpful for when debugging a remote binary. May help loading symbols properly
+	> `dbg.exe.path` Helpful for when debugging a remote binary. May help loading symbols properly. Need to specify the base address with `-B` while loading with r2.
 - **`dbg.execs`** Stop execution if new thread is created _Default is false_
 - **`dbg.exitkills`** Kill process on exit _Default is true_
 - **`dbg.follow`** Follow program counter when pc > core->offset + dbg.follow _Default is 32_
