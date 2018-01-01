@@ -18,6 +18,6 @@ Usage: wao [op]performs a modification on current opcode
 - **`wao retn`** make the current opcode return -1
 - **`wao un-cjmp`** remove conditional operation to branch
 - **`wao trap`** make the current opcode a trap
-- **`wao swap-cjmp`** swap conditional branch
+- **`wao swap-cjmp`** 🚀 swap conditional branch. Invert conditional jump [asciinema](https://asciinema.org/a/Oiht2V7aKAcRbRYfMa7eejvVk)
 
 <p hidden>wao</p>
