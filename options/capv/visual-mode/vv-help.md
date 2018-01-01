@@ -58,5 +58,5 @@
 - **`x/X`** 	jump to xref/ref
 - **`y`** 	toggle node folding/minification
   > _Fold a block in visual graph mode_
-- **`Y`** 	toggle tiny graph
+- **`Y`** 🚀 toggle tiny graph minigraph [asciinema](https://asciinema.org/a/gwGABUr8DMXCZiV3Qzta18DVp)
 - **`Z`** 	follow parent node
