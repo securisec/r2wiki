@@ -1,8 +1,7 @@
 <!-- TITLE: r2wiki --> 
 # Radare2 wiki
 ![R 2 Logo 3](/uploads/r-2-logo-3.png "R 2 Logo 3"){.pagelogo}
-
-> This is an ongoing work in progress and reflects various material obtained while stuying how to user radare2. This wiki is constantly updated. Feel free to tweet to me [![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/securisec) if there is a tidbit I can include in here. {.is-warning}
+#### > This is an ongoing work in progress and reflects various material obtained while stuying how to user radare2. This wiki is constantly updated. Feel free to tweet to me [![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/securisec) if there is a tidbit I can include in here. {.is-warning}
 
 
 ```text
