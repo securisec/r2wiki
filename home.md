@@ -1,3 +1,6 @@
+---
+layout: page
+---
 <!-- TITLE: r2iki --> 
 # Radare2 wiki
 ![R 2 Logo 3](/uploads/r-2-logo-3.png "R 2 Logo 3"){.pagelogo}
