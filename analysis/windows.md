@@ -31,6 +31,9 @@ To get the latest installer, [go to this site](https://ci.appveyor.com/project/r
 - 🚀 Use `.idpi*` to populate the flag space `fs`. [asciinema](https://asciinema.org/a/mBKmRaszDXe8C55as7Oo2cVVf)
 - `e pdb.server` can be used to configure differnt pdb server. Default is Microsoft. `e pdb.autoload` can be set to 1 to automatically download pdb files if available. 
 
+## Resources
+### CTF Windows binaries
+[flareon 2015 2nd challenge](https://fevral.github.io/2017/08/13/flareon2015-2.html)
 ## Videos
 [video](https://www.youtube.com/watch?v=2gcqLDGnKMc){.youtube}
 
