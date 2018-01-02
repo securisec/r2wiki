@@ -39,6 +39,8 @@ Use io.va for searching in non virtual addressing spaces
 - **`/i foo`** search for string 'foo' ignoring case
 - **`/m magicfile`** search for matching magic file (use blocksize)
   > Use this to search for magic headers inside the binary. Similar to foremost
+
+	> Use `/m` to look for magic signatures at every offset. This can be defined with `search.in`. `/m` can be used to identify files in memory as an example.
 - `/me` Doesnt really do anything 😕
 - **`/M`** search for known filesystems and mount them automatically
 - **`/o [n]`** show offset of n instructions backward
