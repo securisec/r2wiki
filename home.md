@@ -62,6 +62,9 @@ Visual cues:
 ## ARM
 [ARM reversing](./analysis/arm)
 
+## AVR
+[AVR reversing](./analysis/avr)
+
 ## Go reversing
 [Go reversing](./analysis/go)
 
