@@ -21,6 +21,7 @@
 
 # Resources
 [Android malware analysis with Radare: Dissecting the Triada Trojan](https://www.nowsecure.com/blog/2016/11/21/android-malware-analysis-radare-triada-trojan/)
+[Oneplus backdoor analysis](https://www.nowsecure.com/blog/2017/11/14/oneplus-device-root-exploit-backdoor-engineermode-app-diagnostics-mode/)
 
 # Installing
 [Documents around installing r2 on android](/home/misc/usage-examples#android)
