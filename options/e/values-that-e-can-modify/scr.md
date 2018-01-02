@@ -42,6 +42,7 @@
 - **`scr.rgbcolor`** Use RGB colors (not available on Windows) _Default is true_
 - **`scr.rows`** Force console row count (height) (duplicate?) _Default is 0_
 - **`scr.seek`** Seek to the specified address on startup
+	> Use `sec.seek = main` to automatically seek to main at startup
 - **`scr.tee`** Pipe output to file of this name
 - **`scr.truecolor`** Manage color palette (0 _Default is false_
 - **`scr.tts`** Use tts if available by a command (see ic) _Default is false_
