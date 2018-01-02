@@ -6,6 +6,7 @@
 -	[ `afvs[?]`   manipulate sp based arguments/locals](/options/a/af/afv/afvs)
 - `afvR [varname]`   list addresses where vars are accessed
 - `afvW [varname]`   list addresses where vars are accessed
+	> 🚀 `afvW` can be used to show all addresses where local variables are accessed. [asciinema](https://asciinema.org/a/SHszmEf7H6iqliyML3ElNznEQ)
 - `afva`   analyze function arguments/locals
 - [ `afvd [name]` output r2 command for displaying the value of args/locals in the debugger](/options/a/af/afv/afvd)
 	> 🚀 ⭐ `afvd` shows how the local variables are being set up. [asciinema](https://asciinema.org/a/2udrCGW9OCrhsaKAdIUfQHbvT)
