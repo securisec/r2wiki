@@ -11,15 +11,17 @@ commit: 48bfa5087bed71be501e4c37933c0fe1298d817e build: 2017-11-14__02:43:49
 Visual cues:
 🚀 Means there is an asciinema
 ⭐ Great command to remember
+
 ```
 
 <div style="text-align: center;">
-<a class="twitter-timeline"  href="https://twitter.com/hashtag/radare2" data-widget-id="948039834395914241">#radare2 Tweets</a>
+<a class="twitter-timeline"  href="https://twitter.com/hashtag/radare2" data-widget-id="948041099557396480">#radare2 Tweets</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
 </div>
           
 
-![R 2 Learning Curve](/uploads/r-2-learning-curve.png "R 2 Learning Curve"){.align-center}
+<!--![R 2 Learning Curve](/uploads/r-2-learning-curve.png "R 2 Learning Curve"){.align-center}-->
 ## Local web app
   > To get a local copy of this wiki check out [github](https://github.com/securisec/radare2_wiki) {.is-danger}
 ## r2wiki.py
