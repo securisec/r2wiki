@@ -10,6 +10,7 @@ Usage ec[s?] [key][[=| ]fg] [bg]
 
 - **`ec`** list all color keys
 	> [Values that can be modifed using `ec`](/options/e/ec/ec-values). Colors can be changed to create custom themes. Custom themes can be placed in `radare2/libr/cons/d/` folder.
+	
 	> `ec usrcmt color` to change comment color
 - **`ec*`** same as above, but using r2 commands
 - **`ecd`** set default palette
