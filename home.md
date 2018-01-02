@@ -13,7 +13,7 @@ Visual cues:
 ⭐ Great command to remember
 ```
 <br>
-<div style="text-align: center;">
+<div style="text-align: right;">
 <a class="twitter-timeline"  href="https://twitter.com/hashtag/radare2" data-widget-id="948041099557396480">#radare2 Tweets</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
