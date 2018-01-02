@@ -7,6 +7,7 @@
 
 ## iOS compilation
 [From radare2 git](https://github.com/radare/radare2/blob/master/doc/iphone.md)
+[Cydia repository](http://cydia.radare.org/)
 
 ## Videos
 [r2clutch r2con 2016](https://www.youtube.com/watch?v=OlzUdbvDLuA){.youtube}
