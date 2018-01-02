@@ -38,6 +38,7 @@
 - **`search.maxhits`** Maximum number of hits (0 _Default is 0_
 - **`search.overlap`** Look for overlapped search hits _Default is false_
 - **`search.prefix`** Prefix name in search hits label _Default is hit_
+	> 🚀 Set the value of `search.prefix` to group different searches together. This is helpful when a binary can contain many different searches, and reduces confusion when looking through the results of different searches. [asciinema](https://asciinema.org/a/wZee6E7YgB5fuJ2jD47Pm4H8N)
 - **`search.show`** Show search results _Default is true_
 - **`search.to`** Search end address _Default is 0xffffffffffffffff_
 
