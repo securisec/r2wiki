@@ -19,7 +19,7 @@ Usage ec[s?] [key][[=| ]fg] [bg]
 - **`eco dark|white`** load white color scheme template
   > _Use eco to see a list of themes_
 
-    - [Themes](/themes)
+    - [Themes](/home/themes)
 
 - **`ecp`** load previous color theme
 - **`ecn`** load next color theme
