@@ -19,9 +19,6 @@ Visual cues:
   > To get a local copy of this wiki check out [github](https://github.com/securisec/radare2_wiki) {.is-danger}
 ## r2wiki.py
   > ⭐ [Radare2 wiki can also be used right from the r2 shell. See directions here](./home/r2wiki-python) {.is-danger}
-
-## radare twitter feeds
-[Twitter feed](./home/twitter-feed)
 # Sections
 
 ## Console options 😓
@@ -126,6 +123,9 @@ Visual cues:
 [Videos](/home/videos)
 
 # Misc
+
+## radare twitter feeds
+[Twitter feed](./home/twitter-feed)
 
 ## IDA to radare2
 
