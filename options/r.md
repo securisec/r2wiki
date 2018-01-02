@@ -13,7 +13,7 @@ Usage: r[+-][ size]Resize file
 - **`r-num`** remove num bytes, move following data down
 - **`r+num`** insert num bytes, move following data up
 - **`rm [file]`** remove file
-- **`rh`** show size in human format
+- **`rh`** show file size in human format
 - **`r2 [file]`** launch r2
 
 <p hidden>rm rh</p>
