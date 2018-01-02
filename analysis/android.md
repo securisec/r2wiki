@@ -10,6 +10,7 @@
 
 ## General Tips
 - Use `V_` to seach through strings (including classes and methods) in the visual mode HUD mode. 
+- r2pm supports installation of dex2jar. dex2jar can be used to convert dex files into jar files. `r2pm -i dex2jar`
 
 
 ## Resources
