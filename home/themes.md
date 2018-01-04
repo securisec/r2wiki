@@ -46,6 +46,9 @@
 ## matrix
 
   ![Matrix](/uploads/themes/matrix.png "Matrix")
+	
+## monokai
+  ![Monokai](/uploads/themes/monokai.png "Monokai")
 
 ## rasta
 
