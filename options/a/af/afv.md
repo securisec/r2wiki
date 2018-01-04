@@ -13,7 +13,8 @@
 
   > 🚀 `afvd somevarname` will return the r2 command. Prefixing a `.` will run that command directly. Example `.afvd somevarname`[asciinema](https://asciinema.org/a/BXT3vqvqOmBTnwsOs8H6DyEdj)
 - `afvn [old_name] [new_name]`   rename argument/local
+	> Use `afvn` to rename local variables and arguments
 - `afvt [name] [new_type]`   change type for given argument/local
 - `afv-([name])`   remove all or given var
 
-<p hidden>afvr afvb afvs afvR afvW afva afvd afvn afvt afv</p>
+<p hidden>afvr afvb afvs afvR afvW afva afvd afvn afvt afv variable</p>
