@@ -12,11 +12,11 @@ Usage: ax[?d-l*] # see also 'afx?'
 - **`axq`** list refs in quiet/human-readable format
 - **`axj`** list refs in json format
 - **`axF [flg-glob]`** find data/code references of flags
-- **`axt [addr]`** find data/code references to this address
+- **`axt [addr]`** find data/code references to this address xref to
 
    > Example use case is `axt @@ str.*` to look for xrefs to all strings_ 
 
-- **`axf [addr]`** find data/code references from this address
+- **`axf [addr]`** find data/code references from this address xref from
 - **`ax- [at]`** clean all refs (or refs from addr)
 - **`ax`** list refs
 - **`axk [query]`** perform sdb query
