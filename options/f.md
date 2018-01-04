@@ -35,18 +35,20 @@ Usage: f [?] [flagname] # Manage offset-name flags
 - **`fb [addr]`** set base address for new flags
 - **`fb [addr] [flag*]`** move flags matching 'flag' to relative addr
 
-- [ **`fc[?][name] [color]`** set color for given flag](/options/f/fc)
+- [ **`fc[?][name] [color]`** 🚀 set color for given flag](/options/f/fc) [asciinema](https://asciinema.org/a/RQeQkWUPYpKCONJQtLAOuvUAI)
 
-- **`fC [name] [cmt]`** set comment for given flag
+- **`fC [name] [cmt]`** 🚀 set comment for given flag [asciinema](https://asciinema.org/a/RQeQkWUPYpKCONJQtLAOuvUAI)
 
 - [ **`fd addr`** return flag+delta](/options/f/fd)
 
 - **`fe-`** resets the enumerator counter
 - **`fe [name]`** create flag name.#num# enumerated flag. See fe?
+	> 🚀 `fe` can be used to iterate in a loop and create numbered flags. [asciinema](https://asciinema.org/a/CcRKt9q90c12nSooYxWdHhtyg)
 - **`ff ([glob])`** distance in bytes to reach the next flag (see sn/sp)
 - **`ffs`** nothing documented
 - **`fi [size] | [from] [to]`** show flags in current block or range
 - **`fg`** bring visual mode to foreground
+	> `fg` appears to do exactly what `V` does
 - **`fj`** list flags in JSON format
 - **`fl (@[flag]) [size]`** show or set flag length (size)
 - **`fla [glob]`** automatically compute the size of all flags matching glob
