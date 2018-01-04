@@ -43,10 +43,7 @@ modifier:
 
    > _Example: `pdf ~..` {.is-info}
 
-- **`...`** internal 'hud' (like V_)
-  - Screenshot
-
-    <img src="/uploads/grep/internal-hud.png" width="50%">
+- **`...`** 🚀 internal 'hud' (like V_) [asciinema](https://asciinema.org/a/KdW2Lh8hjyHytcqGnyN9bXNDY)
    > This is take any commands output and overlay a HUD on top of it for string type searching. Example: `pdf ~...` and then search for call
 
 ## Modifiers
