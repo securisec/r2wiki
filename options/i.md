@@ -12,7 +12,7 @@ Usage: i Get info from opened file (see rabin2's manpage)
 
   - **`i|ij`** Show info of current file (in JSON)
   - **`iA`** List archs
-  - **`ia`** Show all info (imports, exports, sections..)
+  - **`ia`** 🚀 Show all info (imports, exports, sections..)[asciinema](https://asciinema.org/a/rlo9BQBzPMQYktEAncjXcL9Dv)
   - **`ib`** Reload the current buffer for setting of the bin (use once only)
   - **`ic`** List classes, methods and fields
   - **`icc`** List classes, methods and fields in Header Format
@@ -24,12 +24,12 @@ Usage: i Get info from opened file (see rabin2's manpage)
   - **`iD lang sym`** demangle symbolname for given language
   - **`ie`** Entrypoint
   - **`iee`** shows entrypoint and endpoint. Shows init and fini 
-  - **`iE`** Exports (global symbols)
-  - **`ih`** Headers (alias for iH)
+  - **`iE`** 🚀 Exports (global symbols)[asciinema](https://asciinema.org/a/v9Etp2ogAiAs7eQ48t0MFo2vn)
+  - **`ih`** 🚀 Headers (alias for iH)[asciinema](https://asciinema.org/a/gLPP1N62lTB6D6TYqkpiyDpWu)
   - **`iHH`** Verbose Headers in raw text
   - **`ii`** Imports
   - **`iI`** Binary info
-  - **`ik [query]`** Key-value database from RBinObject
+  - **`ik [query]`** 🚀 Key-value database from RBinObject [asciinema](https://asciinema.org/a/YRHebE7kO6N90U9BKMfsQeLFr)
   - **`il`** Libraries _information libraries_
 	  > 🚀 `il` can be used to show linked libraries [asciinema](https://asciinema.org/a/NYgYqTer5PAyoTLbOWp5UUqtP)
   - **`il.`** nothing documented 👎
