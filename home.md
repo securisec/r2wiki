@@ -71,6 +71,9 @@ Visual cues:
 ## iOS 
 [iOS reversing](./analysis/ios)
 
+## Macho
+[Macho reversing](./analysis/macho)
+
 ## Misc
 [Misc reversing](./analysis/misc)
 
