@@ -17,7 +17,7 @@ optional arguments:
 ```
 
 ## Installation
-<a href="https://asciinema.org/a/zdywkTDDqJGH3tNe1usv1TCBE?autoplay=1" target="_blank"><img src="https://asciinema.org/a/zdywkTDDqJGH3tNe1usv1TCBE.png" width="50%" align="middle"/></a>
+<a href="https://asciinema.org/a/e9jU79M8c8cdMsgsyREfDH5qm" target="_blank"><img src="https://asciinema.org/a/e9jU79M8c8cdMsgsyREfDH5qm.png" width="50%" align="middle"/></a>
 Access the radare2 wiki from inside the r2 shell
 > In order for this to work, you need a local copy of the wiki. You can get it from [github](https://github.com/securisec/radare2_wiki)
 > The argument supports regex and the output is in less format
