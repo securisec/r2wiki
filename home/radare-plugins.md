@@ -39,7 +39,7 @@
 > 🚀 [r2dec installation help and demo](https://asciinema.org/a/0Ncb0iVwwNaXFP6qkpO1hvFVI)
 
 ## ripr for radare2
-/radare-plugins/ripr
+[ripr for radare2](/radare-plugins/ripr)
   
 ## r2scylla scylla for radare2
 
