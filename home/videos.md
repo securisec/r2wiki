@@ -29,3 +29,6 @@
 
 ## Heap analysis using radare2
 [video](https://www.youtube.com/watch?v=Svm5V4leEho){.youtube}
+
+## Call graph visualization with r2
+[](https://www.youtube.com/watch?v=ofRP2PorryU){.youtube}
