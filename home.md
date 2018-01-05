@@ -128,7 +128,7 @@ Visual cues:
 ## 📼 Videos
 [Videos](/home/videos)
 
-# Misc
+# Misc_
 
 ## radare twitter feeds
 [Twitter feed](./home/twitter-feed)
@@ -146,9 +146,10 @@ Visual cues:
 > See previews of all the [Themes](./home/themes) 
 
 > [Theme modification options](/options/e/ec)
+
+## Misc r2 helpers
+[Misc r2 helpers](/home/misc_helpers)
 	
-## Yara
-[Some information about yara](https://github.com/radare/radare2/blob/master/doc/yara.md)
 
 ## **IRC: irc.freenode.net #radare** 
 
