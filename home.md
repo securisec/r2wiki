@@ -128,7 +128,7 @@ Visual cues:
 ## 📼 Videos
 [Videos](/home/videos)
 
-# Misc_
+# Misc_help
 
 ## radare twitter feeds
 [Twitter feed](./home/twitter-feed)
