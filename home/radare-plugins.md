@@ -6,9 +6,6 @@
 ## Tips
 > Sometimes, a plugin installation using r2pm will fail with a Directory nonexistant error. To prevent this, simply run `mkdir -p $HOME/.config/radare2/prefix/bin/` (on Ubuntu)
 
-## angr and r2 (symbolic exectution)
-[angr and r2](/radare-plugins/angr)
-
 ## diaphora (binary diffing)
    > _Binary diffing powered by diaphora (originally for IDA Pro)_ {.is-info}
 
@@ -43,6 +40,8 @@
 ## snowman for r2
   [radare/radare2-extras](https://github.com/radare/radare2-extras/tree/master/r2snowman)
 
+## Symbolic exectution
+[Symbolic execution](/radare-plugins/angr)
 
 # Plugins Errors/Installation Help
 
