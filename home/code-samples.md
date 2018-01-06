@@ -1,7 +1,7 @@
 <!-- TITLE: Code samples -->
 # Code samples
-## Bruteforce
-### My version of the solver for Unknown from TUCTF 2017 (this is just a placeholder for now)
+# Bruteforce
+## My version of the solver for Unknown from TUCTF 2017 (this is just a placeholder for now)
 
 	```python
 	# -*- coding: utf-8 -*-
@@ -28,8 +28,8 @@
 							break
 	```
 	
-## Automation
-### Set a breakpoint in every call inside a function
+# Automation
+## Set a breakpoint in every call inside a function
 	
 ```python
 # make sure the binary is being debugged
@@ -45,20 +45,6 @@ for i in json['ops']:
 ```
 > To invoke, simply call the function with `#!pipe python /path/to/script.py dpe` (dpe will automatically get the binaries path)
 
-## Lazy scripts
-### Copy the output of any r2 command. Invoke with `. ./script.py`
-```python
-# To use, simply make an alias and pass the desired command as an argument
-import r2pipe
-from pyperclip import copy
-from sys import argv
-import re
-
-r = r2pipe.open()
-data = r.cmd(argv[1])
-print data
-ansi_escape = re.compile(r'\x1B\[[0-?]*[ -/]*[@-~]')
-data = ansi_escape.sub('', data)
-copy(data)
-print 'Copied'
-```
+# Helper scripts
+## Find args and addresses in stack
+[r2args](https://github.com/gast04/r2args)
