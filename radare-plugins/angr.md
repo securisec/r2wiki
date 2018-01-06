@@ -39,5 +39,15 @@
 
 - `(callFunction retval)` call a function and specifiy the return value (currently in development mode)
 
+## ipython shell variables
+
+```text
+proj          ... angr project
+start_state   ... start state
+pg            ... path_group
+state_found   ... result state of exploration
+```
+
+
 ## Usage example
-- 🚀 Usage example [asciinema](https://asciinema.org/a/155856) from the repo
+- 🚀 Usage example from the repo [asciinema](https://asciinema.org/a/155856)
