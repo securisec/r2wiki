@@ -22,3 +22,4 @@
 		(createScript name, #!pipe python2.7 /pathToFile/createScript.py $0)
 		(callFunction retval, #!pipe python2.7 /pathToFile/callFunction.py $0)
 		```
+	- Replace `/pathToFile` as needed
