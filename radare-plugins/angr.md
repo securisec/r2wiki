@@ -11,7 +11,7 @@
 - Clone the repository
 > Dependencies: `[sudo] pip install -U r2pipe termcolor IPython angr simuvex` {.is-warning}
 - Echo the following to the `~/.radare2rc` file. They can be used inside radare2 shell independantly also.
-	- To invoke the macros, run them with `.(marcoName [args])
+	- To invoke the macros, run them with `.(marcoName [args])`
 	
 		```text
 		(r4ge, #!pipe python2.7 /pathToClone/src/r4ge.py)
