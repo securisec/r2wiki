@@ -9,7 +9,7 @@
 
 ## Installation
 - Clone the repository
-- `[sudo] pip install -U r2pipe termcolor IPython angr simuvex`
+> Dependencies: `[sudo] pip install -U r2pipe termcolor IPython angr simuvex` {.is-warning}
 - Echo the following to the `~/.radare2rc` file. They can be used inside radare2 shell independantly also.
 	- To invoke the macros, run them with `.(marcoName [args])
 	
