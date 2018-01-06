@@ -1,13 +1,15 @@
 <!-- TITLE: ( -->
 
 #  `(` Macros
-
+```sh
 Usage: (foo args,cmd1,cmd2,..)Aliases
-
+```
 ## **Tips**
   > Example: `(abc, pd 4, ao)` . In this example, `abc` is the name, and when the macro is called, it will run the `,` seperated commands. The macro can be called with `.(abc)`
 
   > More macro usage examples can be found [here](/home/misc/usage-examples#macros)
+
+	> [Macro chapter from r2 book](https://radare.gitbooks.io/radare2book/content/scripting/macros.html)
 
 ---
 - **`(foo args,..,..)`** define a macro
