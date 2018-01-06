@@ -9,7 +9,7 @@ Usage: (foo args,cmd1,cmd2,..)Aliases
 
   > More macro usage examples can be found [here](/home/misc/usage-examples#macros)
 
-	> [Macro chapter from r2 book](https://radare.gitbooks.io/radare2book/content/scripting/macros.html)
+ > [Macro chapter from r2 book](https://radare.gitbooks.io/radare2book/content/scripting/macros.html)
 
 ---
 - **`(foo args,..,..)`** define a macro
