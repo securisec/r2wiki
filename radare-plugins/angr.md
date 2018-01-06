@@ -24,7 +24,7 @@
 		```
 	- Replace `/pathToFile` as needed
 
-## Command description and usage example
+## Command description
 - `(r4ge)` main plugin file, performs static and dynamic analysis
 
 - `(markMemSymbolic addr bytes name)` mark a specific memory region as symbolic (addr: start address, bytes: how many bytes, name: name the variable)
@@ -38,3 +38,6 @@
 - `(createScript name)` create an angr script out of the current r2 session
 
 - `(callFunction retval)` call a function and specifiy the return value (currently in development mode)
+
+## Usage example
+- 🚀 Usage example [asciinema](https://asciinema.org/a/155856) from the repo
