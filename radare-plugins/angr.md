@@ -14,13 +14,13 @@
 	- To invoke the macros, run them with `.(marcoName [args])
 	
 		```text
-		(r4ge, #!pipe python2.7 /pathToFile/r4ge.py)
-		(markMemSymbolic addr bytes name, #!pipe python2.7 /pathToFile/createVariable.py symb $0 $1 $2)
-		(addHook addr instructions bytes comment, #!pipe python2.7 /pathToFile/createVariable.py hook $0 $1 $2 $3)
-		(addAssert addr assertions comment, #!pipe python2.7 /pathToFile/createVariable.py assert $0 $1 $2)
-		(checkStdout content,  #!pipe python2.7 /pathToFile/createVariable.py checkstdout $0)
-		(createScript name, #!pipe python2.7 /pathToFile/createScript.py $0)
-		(callFunction retval, #!pipe python2.7 /pathToFile/callFunction.py $0)
+		(r4ge, #!pipe python2.7 /pathToClone/src/r4ge.py)
+		(markMemSymbolic addr bytes name, #!pipe python2.7 /pathToClone/src/createVariable.py symb $0 $1 $2)
+		(addHook addr instructions bytes comment, #!pipe python2.7 /pathToClone/src/createVariable.py hook $0 $1 $2 $3)
+		(addAssert addr assertions comment, #!pipe python2.7 /pathToClone/src/createVariable.py assert $0 $1 $2)
+		(checkStdout content,  #!pipe python2.7 /pathToClone/src/createVariable.py checkstdout $0)
+		(createScript name, #!pipe python2.7 /pathToClone/src/createScript.py $0)
+		(callFunction retval, #!pipe python2.7 /pathToClone/src/callFunction.py $0)
 		```
 	- Replace `/pathToFile` as needed
 
