@@ -4,7 +4,7 @@
 [github/pimp](https://github.com/kamou/pimp)
 # r2angr
 [github/r2angr](https://github.com/radare/radare2-extras/tree/master/r2angr)
-# r4ge
+# ⭐ r4ge
 [github/r4ge](https://github.com/gast04/r4ge)
 
 ## Installation
@@ -25,16 +25,16 @@
 	- Replace `/pathToFile` as needed
 
 ## Command description and usage example
-`(r4ge)` main plugin file, performs static and dynamic analysis
+- `(r4ge)` main plugin file, performs static and dynamic analysis
 
-`(markMemSymbolic addr bytes name)` mark a specific memory region as symbolic (addr: start address, bytes: how many bytes, name: name the variable)
+- `(markMemSymbolic addr bytes name)` mark a specific memory region as symbolic (addr: start address, bytes: how many bytes, name: name the variable)
 
-`(addHook addr instructions bytes comment)` create hooks in r2 and patch function calls or other statements (syntax of the instructions: rax=0x4 or rax=0x4;rbx=0x10)
+- `(addHook addr instructions bytes comment)` create hooks in r2 and patch function calls or other statements (syntax of the instructions: rax=0x4 or rax=0x4;rbx=0x10)
 
-`(addAssert addr assertions comment)` create asserts to check register values during exploration (syntax of the instructions: rax==0x3 or rax#=0x3;rax<=0x10) Note: # is used instead of >, cause r2 uses > as pipe operator.
+- `(addAssert addr assertions comment)` create asserts to check register values during exploration (syntax of the instructions: rax==0x3 or rax#=0x3;rax<=0x10) Note: # is used instead of >, cause r2 uses > as pipe operator.
 
-`(checkStdout content)` it is also possible to search for a specific string in stdout, just call the makro below. this will ignore find flags, but will consider hooks and asserts. (r2 has many special characters so it may not be possible to put arbitrary strings in the makro but you can modify the r2-variable by your own)
+- `(checkStdout content)` it is also possible to search for a specific string in stdout, just call the makro below. this will ignore find flags, but will consider hooks and asserts. (r2 has many special characters so it may not be possible to put arbitrary strings in the makro but you can modify the r2-variable by your own)
 
-`(createScript name)` create an angr script out of the current r2 session
+- `(createScript name)` create an angr script out of the current r2 session
 
-`(callFunction retval)` call a function and specifiy the return value (currently in development mode)
+- `(callFunction retval)` call a function and specifiy the return value (currently in development mode)
