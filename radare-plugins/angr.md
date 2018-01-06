@@ -1,4 +1,7 @@
 <!-- TITLE: angr and r2 -->
+
+# pimp (triton)
+[github/pimp](https://github.com/kamou/pimp)
 # r2angr
 [github/r2angr](https://github.com/radare/radare2-extras/tree/master/r2angr)
 # r4ge
