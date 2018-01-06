@@ -35,7 +35,7 @@
 
 - `(checkStdout content)` it is also possible to search for a specific string in stdout, just call the makro below. this will ignore find flags, but will consider hooks and asserts. (r2 has many special characters so it may not be possible to put arbitrary strings in the makro but you can modify the r2-variable by your own)
 
-- 🚀 `(createScript name)` create an angr script out of the current r2 session [asciinema](https://asciinema.org/a/s3u2ZFxoDysXcAgPMIVjAhMfK)
+- `(createScript name)` 🚀 create an angr script out of the current r2 session [asciinema](https://asciinema.org/a/s3u2ZFxoDysXcAgPMIVjAhMfK)
 
 - `(callFunction retval)` call a function and specifiy the return value (currently in development mode)
 
