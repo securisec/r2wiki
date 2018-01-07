@@ -38,7 +38,7 @@ Usage: [.][#]<cmd>[*] [`cmd`] [@ addr] [~grep] [|syscmd] [>[>]file]
 - **`@o:fd`** temporary switch to another fd
 - **`@s:string`** same as above but from a string
 - **`@x:909192`** from hex pairs string
-- **`@..from to`** temporary set from and to for commands supporting ranges
+- **`@..from to`** temporary set from and to for commands supporting ranges temporary partial address seek (see s..)
 - **`@@=1 2 3`** run the previous command at offsets 1, 2 and 3
 - **`@@ hit*`** run the command on every flag matching 'hit*'
 - **`@@?[ktfb..]`** show help for the iterator operator
