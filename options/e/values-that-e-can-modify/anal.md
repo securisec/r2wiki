@@ -24,6 +24,7 @@
 - **`anal.hasnext`** Continue analysis after each function _Default is false_
   > `anal.hasnext` _Forces to find a function, after the end of a function._
 - **`anal.hpskip`** Skip `mov reg, reg` and `lea reg, [reg] at the beginning of functions _Default is false_
+-  `anal.in` Specify search boundaries for analysis _Default is io.maps_
 - **`anal.jmpabove`** Jump above function pointer _Default is true_
 - **`anal.jmpref`** Create references for unconditional jumps _Default is true_
 - **`anal.jmptbl`** Analyze jump tables in switch statements _Default is false_
@@ -38,7 +39,7 @@
 - **`anal.pushret`** Analyze push+ret as jmp _Default is false_
 - **`anal.recont`** End block after splitting a basic block instead of error _Default is false_
 - **`anal.refstr`** Search string references in data references _Default is false_
-- `anal.rnr` (Recursive no return checks (EXPERIMENTAL))
+- `anal.rnr` (Recursive no return checks (EXPERIMENTAL)) _Default is false_
 - **`anal.sleep`** Sleep N usecs every so often during analysis. Avoid 100% CPU usage _Default is 0_
 - **`anal.split`** Split functions into basic blocks in analysis _Default is true_
 - **`anal.strings`** Identify and register strings during analysis (aar only) _Default is false_
