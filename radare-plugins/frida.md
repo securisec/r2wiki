@@ -22,11 +22,11 @@ A lot of the examples from this section has been obtained following examples fro
 ### Attach to a running process
 #### On the host
 - `r2 frida://Twitter`
-- `r2 frida://\<pid\>`
+- `r2 frida://<pid>`
 
 #### On the device
-- `r2 frida://\<device_id\>Twitter`
-- `r2 frida://\<device_id\>\<pid\>`
+- `r2 frida://<device_id>Twitter`
+- `r2 frida://<device_id><pid>`
 
 ### Spawn a process
 #### On the host
@@ -34,7 +34,7 @@ A lot of the examples from this section has been obtained following examples fro
 - `r2 "frida:///bin/ls -la"` _supply arguments_
 
 #### On a device
-- `r2 frida://\<device_id\>//your.package.name`
+- `r2 frida://<device_id>//your.package.name`
 
 ## Frida commands
 > The commands here can be found using `\?` or `=!` when a binary is loaded using frida.
