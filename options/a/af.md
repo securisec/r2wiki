@@ -14,7 +14,7 @@
 - `afB [bits]`   set current function as thumb (change asm.bits)
 - [ `afC[lc] ([addr])@[addr]`   calculate the Cycles (afC) or Cyclomatic Complexity (afCc)](/options/a/af/afC)
 - [ `afc[?] type @[addr]`   set calling convention for function](/options/a/af/af_small_c)
-
+- `afd [addr]` show function + delta for given offset
 - `aff`   re-adjust function boundaries to fit
 
 - `afF[1|0|]`   fold/unfold/toggle
