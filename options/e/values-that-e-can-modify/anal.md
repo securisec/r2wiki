@@ -38,6 +38,7 @@
 - **`anal.pushret`** Analyze push+ret as jmp _Default is false_
 - **`anal.recont`** End block after splitting a basic block instead of error _Default is false_
 - **`anal.refstr`** Search string references in data references _Default is false_
+- `anal.rnr` (Recursive no return checks (EXPERIMENTAL))
 - **`anal.sleep`** Sleep N usecs every so often during analysis. Avoid 100% CPU usage _Default is 0_
 - **`anal.split`** Split functions into basic blocks in analysis _Default is true_
 - **`anal.strings`** Identify and register strings during analysis (aar only) _Default is false_
