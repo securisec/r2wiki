@@ -25,3 +25,6 @@ Usage: (foo args,cmd1,cmd2,..)Aliases
 - **Iterations:**
   - **`.(foo,() $@)`** define iterator returning iter index
   - **`x @@ .(foo)`** iterate over them
+
+## Examples
+`(changeStackView , e cmd.stack = pxr 40@r:SP, e dbg.slow=false)` This will change how the stack looks in visual debug mode. `@NistelbergerK`
