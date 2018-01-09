@@ -11,6 +11,7 @@
 - **`scr.columns`** Force console column count (width) _Default is 0_
 - **`scr.echo`** Show rcons output in realtime to stderr and buffer _Default is false_
 - **`scr.feedback`** Set visual feedback level (1=arrow on jump, 2=every key (useful for videos)) _Default is 1_
+	> 🚀 Set `scr.feedback` to 2 to see what button was pressed in visual mode. _does slow down the screen a bit_ [asciinema](https://asciinema.org/a/Jep3mJKIWTAWwldZ4Nwct3UAc)
 - **`scr.fgets`** Use fgets() instead of dietline for prompt input _Default is false_
 - **`scr.fix.columns`** Workaround for Prompt iOS SSH client _Default is 0_
 - **`scr.fix.rows`** Workaround for Linux TTY _Default is 0_
