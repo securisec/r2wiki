@@ -111,7 +111,7 @@ r.cmd('doo arg') # could be any number of args
 ```python
 r.cmd('dor arg1=some_arg ...')
 ```
-  > `dor` will take any keypair that can be passed via rabin2
+  > `dor` will take any keypair that can be passed via rarun2
 
 ## radare2-ctypes
 > pip install radare2-ctypes [radare2 ctypes bindings](https://pypi.python.org/pypi/radare2-ctypes) {.is-danger}
