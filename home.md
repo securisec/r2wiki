@@ -107,9 +107,9 @@ Visual cues:
 
 ## Install
 
-  - > If you are one a *nix system, install using github. {.is-info}
+  - > If you are one a *nix system, install using github.
 
-  - Pre packaged binaries
+  - Pre packaged binaries for windows and other archs. 
 
     [Pre-packaged binaries](http://radare.mikelloc.com/get/)
 
