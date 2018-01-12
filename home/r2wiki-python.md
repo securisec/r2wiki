@@ -14,6 +14,7 @@ optional arguments:
   -h, --help          show this help message and exit
   -a                  Will match any of the words.
   -l                  Show the corresponding r2wiki link
+	-u                  Update r2wiki with latest content
 ```
 
 ## Installation
