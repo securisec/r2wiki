@@ -22,6 +22,9 @@ To get the latest installer, [go to this site](https://ci.appveyor.com/project/r
 - Example: `rarun2.exe runlib=C:\Windows\System32\user32.dll runlib.fcn=MessageBoxA arg1=%0 arg2=Body arg3=Title arg4=%1`
 - It should be possible to use a rarun2 profile to debug a dll in this manner. 
 
+## dll resources
+[Snojan analysis](https://medium.com/@jacob16682/snojan-analysis-bb3982fb1bb9)
+
 # PDB support
 > Helpful: `cabextract` in linux
 
