@@ -13,7 +13,7 @@
 > To compile radare2, simply run `meson.bat` {.is-info}
 - `meson.bat -p` outputs a Visual Studio project file
 
-### Using an installer
+## Using an installer
 To get the latest installer, [go to this site](https://ci.appveyor.com/project/radare/radare2-shvdd) and click the appropiate job name (32 vs 64bit) and then click artifacts to download the installer. **The installer adds right click context for any file**
 
 # DLL support
