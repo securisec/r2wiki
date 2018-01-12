@@ -20,6 +20,9 @@ To update, use -u ''
 ```
 
 ## Installation
+### From r2pm
+- r2pm -i r2wiki
+### Manual installation
 <a href="https://asciinema.org/a/e9jU79M8c8cdMsgsyREfDH5qm" target="_blank"><img src="https://asciinema.org/a/e9jU79M8c8cdMsgsyREfDH5qm.png" width="50%" align="middle"/></a>
 Access the radare2 wiki from inside the r2 shell
 > In order for this to work, you need a local copy of the wiki. You can get it from [github](https://github.com/securisec/radare2_wiki)
