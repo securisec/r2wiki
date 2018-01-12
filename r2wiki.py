@@ -37,16 +37,15 @@ def arg_parse():
     parse.add_argument('-u', action='store_true', dest='update',
                        help='Update r2wiki with latest content')
     a = parse.parse_args()
-    a = parse.parse_args()
     return a
 
 
 args = arg_parse()
 check_if_up_to_date()
 
-if args.update:
+if args.what_to_search_for is None and args.update:
     Popen('git -C %s pull origin master' % src_dir, shell=True, stdout=PIPE).wait()
-    print '[+] r2wiki updated'
+    print '\n[+] r2wiki updated'
     exit(0)
 
 if args.match_any:
