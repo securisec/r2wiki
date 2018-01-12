@@ -6,12 +6,23 @@ import re
 import sys
 import pydoc
 from argparse import ArgumentParser
+from subprocess import Popen, PIPE
 from pygments import highlight
 from pygments.lexers import MarkdownLexer
 from pygments.formatters import TerminalFormatter
 
 black_list = ['<p hidden>', '<!--', '<img src']
 src_dir = os.path.dirname(os.path.realpath(__file__))
+
+
+def check_if_up_to_date():
+    status = Popen('git -C ~/tools/radare2/ remote show origin',
+                   stdout=PIPE, shell=True).stdout.readlines()[-1]
+    if 'out of date' in status:
+        print 'r2wiki out of date. Update with git pull'
+    elif 'fatal: unable to access' in status:
+        print 'Could not check for r2wiki update'
+
 
 def arg_parse():
     parse = ArgumentParser()
@@ -26,7 +37,9 @@ def arg_parse():
     a = parse.parse_args()
     return a
 
+
 args = arg_parse()
+check_if_up_to_date()
 
 if args.match_any:
     pattern = re.compile('|'.join(args.what_to_search_for.split()), flags=re.IGNORECASE)
