@@ -31,3 +31,4 @@
 - [Solving game2 from the badge of Black Alps 2017 with radare2](https://dustri.org/b/solving-game2-from-the-badge-of-black-alps-2017-with-radare2.html)
 - [TUMCTF Zwiebel](https://losfuzzys.github.io/writeup/2016/10/03/tumctf-zwiebel50/)
 - [Rootcon 2017 binforcry 350](https://medium.com/@monliclican/rootcon-2017-ctf-binforcry-350-write-up-walkthrough-part-2-of-x-5731c91c2266)
+	> Writeup using r2 is halfway into the post
