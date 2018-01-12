@@ -16,10 +16,11 @@ src_dir = os.path.dirname(os.path.realpath(__file__))
 
 
 def check_if_up_to_date():
-    status = Popen('git -C . remote show origin',
+    status = Popen('git -C %s remote show origin' % src_dir,
                    stdout=PIPE, shell=True).stdout.readlines()[-1]
     if 'out of date' in status:
-        print '[-] r2wiki out of date. Update with git -C %s pull origin master' % src_dir
+        print '[-] r2wiki out of date. Run $wiki -u or \n' \
+              'Update with git -C %s pull origin master' % src_dir
     elif 'fatal: unable to access' in status:
         print '[-] Could not check for r2wiki update'
 
@@ -33,6 +34,8 @@ def arg_parse():
 
     parse.add_argument('-l', action='store_true', dest='show_link',
                        help='Show the corresponding r2wiki link')
+    parse.add_argument('-u', action='store_true', dest='update',
+                       help='Update r2wiki with latest content')
     a = parse.parse_args()
     a = parse.parse_args()
     return a
@@ -40,6 +43,11 @@ def arg_parse():
 
 args = arg_parse()
 check_if_up_to_date()
+
+if args.update:
+    Popen('git -C %s pull origin master' % src_dir, shell=True, stdout=PIPE).wait()
+    print '[+] r2wiki updated'
+    exit(0)
 
 if args.match_any:
     pattern = re.compile('|'.join(args.what_to_search_for.split()), flags=re.IGNORECASE)
