@@ -16,7 +16,7 @@ src_dir = os.path.dirname(os.path.realpath(__file__))
 
 
 def check_if_up_to_date():
-    status = Popen('git -C ~/tools/radare2/ remote show origin',
+    status = Popen('git -C . remote show origin',
                    stdout=PIPE, shell=True).stdout.readlines()[-1]
     if 'out of date' in status:
         print 'r2wiki out of date. Update with git pull'
