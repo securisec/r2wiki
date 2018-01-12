@@ -3,7 +3,7 @@
 #  **`aa[?]`** analyze all (fcns + bbs) (aa0 to avoid sub renaming)
 
 - **`aa`** alias for 'af@@ sym.\*;af@entry0;afva'
-	> `aa` analyze all public symbols
+	> `aa` analyze all public symbols. The aa command analyzes all flags starting with sym. (symbols/function names) and entry0 (i.e. \_start, the program’s entry point)
 - **`aa*`** analyze all flags starting with sym. (af @@ sym.*)
 - **`aaa[?]`** autoname functions after aa (see afna)
 - **`aab`** aab across io.sections.text
