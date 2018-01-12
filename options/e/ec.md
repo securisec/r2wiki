@@ -9,11 +9,11 @@ Usage ec[s?] [key][[=| ]fg] [bg]
 
 
 - **`ec`** list all color keys
-	> [Values that can be modifed using `ec` and theme example can be found here](/options/e/ec/ec-values). Colors can be changed to create custom themes. Custom themes can be placed in `radare2/libr/cons/d/` folder.
+	> 🚀 [Values that can be modifed using `ec` and theme example can be found here](/options/e/ec/ec-values). Colors can be changed to create custom themes. Custom themes can be placed in `radare2/libr/cons/d/` folder. [asciinema](https://asciinema.org/a/eVDMKMAvyXYJcWwJyym1BlI5O)
 	
 	> `ec usrcmt color` to change comment color
 - **`ec*`** same as above, but using r2 commands
-- **`ecd`** set default palette
+- **`ecd`** 🚀 set default palette [asciinema](https://asciinema.org/a/ZAJTa5eO2ppMdqNwluzLXqVJY)
 - **`ecr`** set random palette (see also scr.randpal)
 - **`ecs`** show a colorful palette
 - **`ecj`** show palette in JSON
