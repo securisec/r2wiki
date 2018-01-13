@@ -13,7 +13,7 @@ Usage: px[0afoswqWqQ][f] # Print heXadecimal
 
 ---
 
-- **`px`** show hexdump
+- **`px`** ⭐ show hexdump
   - Screenshot
 
     <img src="/uploads/small-p/px.png" width="50%">
