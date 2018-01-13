@@ -19,7 +19,7 @@ def check_if_up_to_date():
     status = Popen('git -C %s remote show origin' % src_dir,
                    stdout=PIPE, shell=True).stdout.readlines()[-1]
     if 'out of date' in status:
-        print '[-] r2wiki out of date. ' \
+        print '[-] r2wiki out of date.\n ' \
               '\tRun $wiki -u or \n' \
               '\tUpdate with git -C %s pull origin master' % src_dir
     elif 'fatal: unable to access' in status:
