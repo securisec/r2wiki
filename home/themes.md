@@ -1,7 +1,9 @@
 <!-- TITLE: Themes -->
 # Themes
 
-**Set these themes by using ** `**eco theme_name**` **. The themes will probably look different in your terminal. ** 
+> Set these themes by using ** `eco theme_name`. The themes will probably look different in your terminal.
+
+> Use `ecr` to set use randomly generated themes
 
 ## basic
 
