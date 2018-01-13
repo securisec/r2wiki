@@ -23,10 +23,10 @@ Usage: i Get info from opened file (see rabin2's manpage)
   - **`idp`** Load pdb file information
   - **`iD lang sym`** demangle symbolname for given language
   - **`ie`** Entrypoint
-  - **`iee`** shows entrypoint and endpoint. Shows init and fini 
+  - **`iee`** 🚀 shows entrypoint and endpoint. Shows init and fini [asciinema](https://asciinema.org/a/F8YVvY0pdwbHv5doPwOIfpaEF)
   - **`iE`** 🚀 Exports (global symbols)[asciinema](https://asciinema.org/a/v9Etp2ogAiAs7eQ48t0MFo2vn)
   - **`ih`** 🚀 Headers (alias for iH)[asciinema](https://asciinema.org/a/gLPP1N62lTB6D6TYqkpiyDpWu)
-  - **`iHH`** Verbose Headers in raw text
+  - **`iHH`** 🚀 Verbose Headers in raw text [asciinema](https://asciinema.org/a/zUatS7zmoYg0MyNZGvFAZo7jf)
   - **`ii`** Imports
   - **`iI`** Binary info
   - **`ik [query]`** 🚀 Key-value database from RBinObject [asciinema](https://asciinema.org/a/YRHebE7kO6N90U9BKMfsQeLFr)
@@ -35,13 +35,13 @@ Usage: i Get info from opened file (see rabin2's manpage)
   - **`il.`** nothing documented 👎
   - **`iL [plugin]`** List all RBin plugins loaded or plugin details
   - **`im`** Show info about predefined memory allocation
-  - **`iM`** Show main address
+  - **`iM`** 🚀 Show main address [asciinema](https://asciinema.org/a/iXmNYJwjuhEyRK1VH9xwsdX45)
   - **`io [file]`** Load info from file (or last opened) use bin.baddr
   - **`ir`** Relocs
   - **`iR`** Resources
   - **`is`** Symbols
-  - **`iS [entropy,sha1]`** Sections (choose which hash algorithm to use)
-  - **`iV`** Display file version info
+  - **`iS [entropy,sha1]`** 🚀 Sections (choose which hash algorithm to use) [asciinema](https://asciinema.org/a/FAoHCNVqvPqZVP6sOAvEp5myR)
+  - **`iV`** 🚀 Display file version info [asciinema](https://asciinema.org/a/yJAkokc6XysYA8iBqCUxYTRBf)
   - **`iz|izj`** Strings in data sections (in JSON/Base64)
   - **`izz`** Search for Strings in the whole binary
   - **`iZ`** Guess size of binary program
