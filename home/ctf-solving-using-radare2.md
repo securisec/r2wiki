@@ -32,3 +32,5 @@
 - [TUMCTF Zwiebel](https://losfuzzys.github.io/writeup/2016/10/03/tumctf-zwiebel50/)
 - [Rootcon 2017 binforcry 350](https://medium.com/@monliclican/rootcon-2017-ctf-binforcry-350-write-up-walkthrough-part-2-of-x-5731c91c2266)
 	> Writeup using r2 is halfway into the post
+
+- [34c4 m0rph](https://www.sigflag.at/blog/2017/writeup-34c3ctf-m0rph/)
