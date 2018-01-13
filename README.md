@@ -26,6 +26,9 @@ Both the online version and local version supports full search capability. The o
 - To update to the latest **(this wiki will be updated frequently :stuck_out_tongue_winking_eye:)**, simply run  
 `git pull origin master` from inside the repo directory.
 
+## r2pm
+- This wiki can also be installed from r2pm using `r2pm -i r2wiki`
+
 ## From r2 shell
 - Directions can be found in the [r2wiki.py](https://radare2.securisec.com/home/r2wiki-python)
 > In order for this to work, you need a local copy of the wiki. You can get it from [github](https://github.com/securisec/radare2_wiki)
