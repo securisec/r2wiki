@@ -9,18 +9,18 @@ Use io.va for searching in non virtual addressing spaces
 ```
 
 
-## Tips
+## **Tips**
   - To search for hexadecimal representation of a string, prepend the string with a `\x` . For example, `/ \xELF` will search for the hexadecimal represenation of ELF
-- `/ foo\x00` search for string 'foo\0'
-- `/j foo\x00` search for string 'foo\0' (json output)
+- `/ foo\x00` 🚀 search for string 'foo\0' [asciinema](https://asciinema.org/a/Ecgm3K7peRKclEFWGM9fZyGrj)
+- `/j foo\x00` 🚀 search for string 'foo\0' (json output) [asciinema](https://asciinema.org/a/UeE0hZZxMWzni2Fgq2Mc4xIJ5)
 - `/! ff` search for first occurrence not matching, command modifier
 - `/!x 00` inverse hexa search (find first byte != 0x00)
 - `/+ /bin/sh` construct the string with chunks
 - `//` repeat last search
 - `/a jmp eax` assemble opcode and search its bytes
-  > Example: `/a jmp eax`
+  > 🚀 Example: `/a jmp eax` [asciinema](https://asciinema.org/a/r9lxscaovPgJ2nS4d7AVnr0ne)
 
-- `/A jmp` find analyzed instructions of this type _(/A? for help)_
+- `/A jmp` 🚀 find analyzed instructions of this type _(/A? for help)_ [asciinema](https://asciinema.org/a/QEjFcFC3eBjWRlUy2RseQigom)
 - `/b` search backwards, command modifier, followed by other command
 - `/B` search recognized RBin headers
 
@@ -31,12 +31,12 @@ Use io.va for searching in non virtual addressing spaces
 - [ `/C[ar]` search for crypto materials](search/cap_c)
 
 - `/d 101112` search for a deltified sequence of bytes
-- `/e /E.F/i` match regular expression
+- `/e /E.F/i` search/match regular expression
 - `/E esil-expr` offset matching given esil expressions %%= here
 - `/f` search forwards, command modifier, followed by other command
 - `/F file [off] [sz]` search contents of file with offset and size
 - `/h[t] [hash] [len]` find block matching this hash. See /#?
-- `/i foo` search for string 'foo' ignoring case
+- `/i foo` 🚀 search for string 'foo' ignoring case [asciinema](https://asciinema.org/a/JbReEd7wnDvUIHexYr97UX5BZ)
 - `/m magicfile` search for matching magic file (use blocksize)
   > 🚀 Use this to search for magic headers inside the binary. Similar to foremost. Example (pcap): [asciinema](https://asciinema.org/a/gYd0YHsXdGx2xxgjTQh9FfMWa)
 
@@ -44,8 +44,8 @@ Use io.va for searching in non virtual addressing spaces
 - `/me` Doesnt really do anything 😕
 - `/M` search for known filesystems and mount them automatically
 - `/o [n]` show offset of n instructions backward
-- `/p patternsize` search for pattern of given size
-- `/P patternsize` search similar blocks
+- `/p patternsize` 🚀 search for pattern of given size [asciinema](https://asciinema.org/a/rNuauFEXAHI11e9f6E5ByZpcS)
+- `/P patternsize` 🚀 search similar blocks [asciinema](https://asciinema.org/a/8Pofps1JKB7gSSeuUdLBrfK3U)
 
 - [ `/r[erwx][?] sym.printf` analyze opcode reference an offset (/re for esil)](search/r)
 
