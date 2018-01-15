@@ -1,5 +1,6 @@
 <!-- TITLE: Arm -->
 
+> Work in progress {.is-danger}
 # Tips
 ## General tips
 - `e asm.bits=16`  # set thumb2 mode
