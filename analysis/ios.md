@@ -7,6 +7,16 @@
 # Installation
 ## Use Cydia
 - > Most likely out of date{.is-warning}
+
+## Building from Git
+- > Dependencies: ios-sdk-gcc
+- Clone r2 from git
+- Run `sys/ios-cydia.sh`
+- Copy over `radare2/sys/cydia/radare2/radare2...dev` to device
+- Install with `dpkg -i radare2...deb`
+- Add correct entitlements (inside iOS device)
+	- `ldid -S radare.xml /usr/bin/radare2`
+- [video](https://youtu.be/OlzUdbvDLuA?t=685)
 # Resources
 - [Documentation from radare2 git](https://github.com/radare/radare2/blob/master/doc/ios.md)
 - [Loading iOS binaries](http://radare.today/posts/loading-ios-binaries/)
