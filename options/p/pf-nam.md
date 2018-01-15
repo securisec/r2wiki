@@ -9,6 +9,10 @@
 
 ---
 - **`pf?`** Show this help
+	> Use `pf` to define binary structures. Example:
+		- `pf obj=xxdz prev next size name` # define an obj struct (hexflag hexflag hex string)
+		- `pf.obj @ <addr>` # apply obj struct to addr
+		- `pf.` # list all formats
 
 - [ **`pf??`** Format characters](/options/p/pf-nam/pf-Format-characters)
 
