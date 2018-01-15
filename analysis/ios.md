@@ -22,11 +22,15 @@
 - [Loading iOS binaries](http://radare.today/posts/loading-ios-binaries/)
 - [Handling encrypted iOS files](https://youtu.be/OlzUdbvDLuA?t=544)
 	- Struct type of encrpyted iOS binaries with `pf`. `pf macho0_cmd_enc=didid cmd cmdsize cryptoff cryptsize cryptid`
+	- [Steps to decrypt a binary](https://youtu.be/OlzUdbvDLuA?t=822)
+- Use `rabin2 -x [file]` to extract the Mach-O file from the package.
 
 ## Plugins
 - [r2clutch](https://github.com/as0ler/r2clutch)
+	- r2clutch is used to decrypt an iOS binary
 	- Dependencies
 		- Needs r2 in iOS device
+		- Python in iOS device (not tested)
 
 # iOS compilation
 [From radare2 git](https://github.com/radare/radare2/blob/master/doc/iphone.md)
