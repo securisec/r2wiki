@@ -5,8 +5,12 @@
 [r2lldb](https://github.com/nowsecure/r2lldb)
 
 # Installation
+- [From radare2 git](https://github.com/radare/radare2/blob/master/doc/iphone.md)
+- > Dependencies: jail broken iOS device
 ## Use Cydia
 - > Most likely out of date{.is-warning}
+	- [Cydia repository](http://cydia.radare.org/)
+
 
 ## Building from Git
 - > Dependencies: ios-sdk-gcc
@@ -31,11 +35,6 @@
 	- Dependencies
 		- Needs r2 in iOS device
 		- Python in iOS device (not tested)
-
-# iOS compilation
-[From radare2 git](https://github.com/radare/radare2/blob/master/doc/iphone.md)
-[Cydia repository](http://cydia.radare.org/)
-
 # Videos
 [r2clutch r2con 2016](https://www.youtube.com/watch?v=OlzUdbvDLuA){.youtube}
 [How to Start iOS Hacking | Reverse Engineering With Radare2](https://www.youtube.com/watch?v=hy81mnLMvnE){.youtube}
