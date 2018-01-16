@@ -13,7 +13,7 @@ Usage: o [com- ] [file] ([offset])
 - **`oq`** list all open files
 - **`o*`** list opened files in r2 commands
 - **`o. [len]`** open a malloc://[len] copying the bytes from current offset
-- **`o=`** list opened files (ascii-art bars)
+- **`o=`** 🚀 list opened files (ascii-art bars) [asciinema](https://asciinema.org/a/Cq5s8dAZiEa9s636trnuFMR5j)
 
 - [ **`ob[?] [lbdos] [...]`** list opened binary files backed by fd](/options/o/ob)
 
