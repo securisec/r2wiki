@@ -27,6 +27,7 @@
 
   - To attach to a remote debugger, use the `-D debugger_type` . Example `r2 -D gdb gdb://host:port`
   - Use `-B` to set the base address
+  - Use `-m` to map a binary at the provided address
 ## Help
 
       Usage: r2 [-ACdfLMnNqStuvwzX] [-P patch] [-p prj] [-a arch] [-b bits] [-i file]
