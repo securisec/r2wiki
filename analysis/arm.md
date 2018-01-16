@@ -11,7 +11,7 @@
 - `e anal.hasnext=true  `   # assume a new function is found after the last one
 
 # Environment setup (tested on Ubuntu 16.04)
-- Install qemu, gdb and its dependencies
+## Install qemu, gdb and its dependencies
 	```sh
 	##### Update #####
 	sudo apt update -y
@@ -33,5 +33,8 @@
 	sudo ln -s /usr/arm-linux-gnueabihf/lib/ld-linux-armhf.so.3 /lib/ld-linux-armhf.so.3
 	```
 
+## Debug a binary
+- Load the binary with `qemu-arm -g [port] ./[binary]`
+- `r2 -d gdb://localhost:1234`
 # Videos
 [video](https://www.youtube.com/watch?v=oXSx0Qo2Upk){.youtube}
