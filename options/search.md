@@ -15,7 +15,7 @@ Use io.va for searching in non virtual addressing spaces
 - `/j foo\x00` 🚀 search for string 'foo\0' (json output) [asciinema](https://asciinema.org/a/UeE0hZZxMWzni2Fgq2Mc4xIJ5)
 - `/! ff` search for first occurrence not matching, command modifier
 - `/!x 00` inverse hexa search (find first byte != 0x00)
-- `/+ /bin/sh` construct the string with chunks
+- `/+ /bin/sh` 🚀 construct the string with chunks [asciinema](https://asciinema.org/a/BPv5byYzyLrDoO2FxE1XR8tkX)
 - `//` repeat last search
 - `/a jmp eax` assemble opcode and search its bytes
   > 🚀 Example: `/a jmp eax` [asciinema](https://asciinema.org/a/r9lxscaovPgJ2nS4d7AVnr0ne)
