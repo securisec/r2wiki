@@ -7,17 +7,17 @@
 
 ### File
 
-	```text
-	New
-	Open
-	Close
-	.
-	Sections
-	Strings
-	Symbols
-	Imports
-	Info
-	Database
-	.
-	Quit
-	```
+```text
+New
+Open
+Close
+.
+Sections
+Strings
+Symbols
+Imports
+Info
+Database
+.
+Quit
+```
