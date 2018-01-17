@@ -1,11 +1,11 @@
 <!-- TITLE: VV Help -->
 
 #  `VV` Help
-## Sub menu help
-## Screenshot
+# Screenshot
 <img src="/uploads/v-help/v-bang.png" width="50%">
 
-### File
+# Sub menu help
+## File
 
 ```text
 New
