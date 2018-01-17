@@ -25,11 +25,11 @@ Usage: ?[?[?]] expression
 - **`?? [cmd]`** run cmd if $? != 0
 - **`??`** show value of operation
 - **`?_ hudfile`** load hud menu with given file
-- **`?b [num]`** show binary value of number
+- **`?b [num]`** 🚀 show binary value of number [asciinema](https://asciinema.org/a/4lauRRlFZHiJmpAQUv1FlxDfC)
 - **`?b64[-] [str]`** 🚀 encode/decode in base64 [asciinema](https://asciinema.org/a/xV77ADJ1jf2w43Lr9RS9fIy76)
 - **`?btw num|(expr) num|(expr) num|(expr)`** returns boolean value of a <= b <= c
 - **`?B [elem]`** show range boundaries like 'e?search.in
-- **`?d[.] opcode`** describe opcode for asm.arch
+- **`?d[.] opcode`** 🚀 describe opcode for asm.arch [asciinema](https://asciinema.org/a/F5bPaITylZ1qGTtIh8slo8xr1)
 	> Use: `?d[.] [opcode]`    to get the description of the opcode
 - **`?e[nbgc] string`** echo string (nonl, gotoxy, column, bars)
 - **`?E string`** ** ** clippy messages.
