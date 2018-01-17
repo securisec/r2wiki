@@ -24,4 +24,9 @@
 [Oneplus backdoor analysis](https://www.nowsecure.com/blog/2017/11/14/oneplus-device-root-exploit-backdoor-engineermode-app-diagnostics-mode/)
 
 # Installing
+## Installing from pre built
+- Download the latest from `http://radare.mikelloc.com/get/[version]/[android-arch]`
+- Push to android device with `adb push data/ /`
+- From `adb shell` launch `/data/data/org.radare.radare2installer/radare2/bin/r2[or any other r2 binaries]`
+## Documentation for building
 [Documents around installing r2 on android](/home/misc/usage-examples#android)
