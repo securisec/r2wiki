@@ -39,7 +39,7 @@ Usage: ?[?[?]] expression
 - **`?i`** ** ** can be used to pass stdin input
 - **`?i[ynmkp] arg`** prompt for number or Yes,No,Msg,Key,Path and store in $$?
 - **`?ik`** press any key input dialog
-- **`?im message`** show message centered in screen
+- **`?im message`** 🚀 show message centered in screen [asciinema](https://asciinema.org/a/vmSYaPY9RJfssBpN8o6JS2F6K)
 - **`?in prompt`** noyes input prompt
 - **`?iy prompt`** yesno input prompt
 - **`?l str`** returns the length of string
