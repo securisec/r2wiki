@@ -2,4 +2,4 @@
 
 #  `VV` Help
 ## Screenshot
-<img src="/uploads/v-help/v-bang.png" width="30%">
+<img src="/uploads/v-help/v-bang.png" width="50%">
