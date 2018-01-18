@@ -34,3 +34,4 @@
 	> Writeup using r2 is halfway into the post
 
 - [34c4 m0rph](https://www.sigflag.at/blog/2017/writeup-34c3ctf-m0rph/)
+- [Intro to r2 Insinuator](https://insinuator.net/2016/08/reverse-engineering-with-radare2-intro/)
