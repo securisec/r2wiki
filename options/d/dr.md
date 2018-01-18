@@ -16,8 +16,8 @@ Usage: dr Registers commands
 - **`drb[1|2|4|8] [type]`** Display hexdump of gpr arena (WIP)
 - **`drc [name]`** Related to conditional flag registers
 - **`drC`** Show register profile comments
-- **`drd`** Show only different registers
-  > _This can be used to show differences between old and new register values_
+- **`drd`**  Show only different registers
+  > 🚀 `drd` _This can be used to show differences between old and new register values_ [asciinema](https://asciinema.org/a/A0Ki2qX9DKajCU0tD5QA8N2P9)
 - **`drf`** Show fpu registers (80 bit long double)
 - **`drl[j]`** List all register names
 - **`drm`** Show multimedia packed registers
@@ -31,17 +31,17 @@ Usage: dr Registers commands
 - **`drpi`** Display current internal representation of the register profile
 - **`drps`** Fake register profile size
 - **`drpj`** Show the current register profile (JSON)
-- **`drr`** Show registers references (telescoping)
+- **`drr`** 🚀 Show registers references (telescoping) [asciinema](https://asciinema.org/a/s1bOy1oWQrKMMtPNIJ44Pr0UO)
   - Screenshot
 
     <img src="/uploads/small-d/drr.png" width="50%">
 
 - [ **`drs[?]`** Stack register states](/options/d/dr/drs)
 
-- **`drt 16`** Show 16 bit registers
-- **`drt 32`** Show 32 bit registers
+- **`drt 16`** 🚀 Show 16 bit registers [asciinema](https://asciinema.org/a/JBBPfzyiUsK34yLus1aIPK4Rk)
+- **`drt 32`** 🚀 Show 32 bit registers [asciinema](https://asciinema.org/a/JBBPfzyiUsK34yLus1aIPK4Rk)
 - **`drt 80`** Show 80 bit registers (long double)
-- **`drt all`** Show all registers
+- **`drt all`** 🚀 Show all registers [asciinema](https://asciinema.org/a/JBBPfzyiUsK34yLus1aIPK4Rk)
 - **`drt flg`** Show flag registers
 
 - [ **`drt[?]`** Show all register types](/options/d/dr/drt)
