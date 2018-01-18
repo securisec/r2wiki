@@ -11,7 +11,7 @@ Usage: dr Registers commands
 - **`dr`** Show 'gpr' registers
 - **`dr <register>=<val>`** Set register value
 - **`dr8[1|2|4|8] [type]`** Display hexdump of gpr arena (WIP)
-- **`dr=`** Show registers in columns
+- **`dr=`** 🚀 Show registers in columns [asciinema](https://asciinema.org/a/3pB3XIR48Lyz5XF9XTgbWTmWz)
 - **`dr?<register>`** Show value of given register
 - **`drb[1|2|4|8] [type]`** Display hexdump of gpr arena (WIP)
 - **`drc [name]`** Related to conditional flag registers
