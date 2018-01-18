@@ -24,7 +24,7 @@ Repeat a command over a list of offsets
 - **`x @@f:write`** run 'x' on all functions matching write in the name
 - **`x @@s:from to step`** run 'x' on all offsets from, to incrementing by step
 - **`x @@c:cmd`** the same as @@=`` without the backticks
-- **`x @@=pdf~call[0]`** run 'x' at every call offset of the current function
+- **`x @@=\`pdf~call[0]\`** run 'x' at every call offset of the current function
 	> 🚀⭐ `@@=` can be used to loop over the output of a command and run another command against it. [asciinema](https://asciinema.org/a/1Qj5SAUKbwA7lEzxsYCx6BKaL)
 
 
