@@ -20,7 +20,7 @@ Usage: ah[lba-]Analysis Hints
 - **`ah- offset [size]`** remove hints at given offset
 - **`ah* offset`** list hints in radare commands format
 - **`aha ppc 51`** set arch for a range of N bytes
-- **`ahb 16 @ $$`** force 16bit for current instruction
+- **`ahb 16 @ $$`** force 16 bit for current instruction
 	> Use `ahb` to define 16, 32 bit functions. Helpful with arm.
 - **`ahc 0x804804`** override call/jump address
 - **`ahe 3,eax,+=`** set vm analysis string
