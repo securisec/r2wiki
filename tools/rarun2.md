@@ -14,6 +14,8 @@
 
     Then run with `r2 -d rarun2 script.rr2`
 	> 🚀 Use rarun2 `preload` to preload shared objects (.so) files. [asciinema](https://asciinema.org/a/NDtyrivLmyltLRXhQ0PF7oUC5)
+
+  > Use `stdin=./path/to/file` to send multiple stdin input
 		
 ## Preload
   - You can preload r2 inside a process. This is similar to r2frida but native implementation
