@@ -24,6 +24,9 @@ Visual cues:
 ## Console options 😓
 [Radare2 console options :heart_eyes:](./home/options)
 
+## Valid architectures and cpu's
+[Valid arch's and cpu's](./home/valid-arch-cpu)
+
 ## Radare2 Python scripting 🐍
 [Radare2 Python scripting 🐍](./home/radare2-python-scripting)
 
