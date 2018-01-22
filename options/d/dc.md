@@ -9,6 +9,7 @@ Usage: dc Execution continuation commands
 
 
 - **`dc`** Continue execution of all children
+	> `dc < /path/to/multiline` to insert multiple inputs
 - **`dc <pid>`** Continue execution of pid
 - **`dc[-pid]`** Stop execution of pid
 - **`dca [sym] [sym].`** Continue at every hit on any given symbol
