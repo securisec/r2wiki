@@ -68,3 +68,63 @@ _dAe  32         xtensa      GPL3    XTensa CPU
 adA_  8          z80         GPL     Zilog Z80
 ```
 
+# CPU types
+## arm
+- v8
+- cortex
+
+## avr
+- ATmega8
+- ATmega1280
+- ATmega1281
+- ATmega168
+- ATmega2560
+- ATmega2561
+- ATmega328p
+- ATmega32u4
+- ATmega48
+- ATmega640
+- ATmega88
+- ATxmega128a4u
+
+## cris
+- v10
+- v32
+- v10+v32
+
+## m68k
+
+- 68000
+- 68010
+- 68020
+- 68030
+- 68040
+- 68060
+
+## mips
+- mips32/64
+- micro
+- r6
+- v3
+- v2
+
+## ppc
+- ppc
+- vle
+- ps
+
+## sparc
+- v9
+
+## tms320
+- c54x
+- c55x
+- c55x+
+- c64x
+
+
+
+
+
+
+<p hidden>6502/NES/C64/Tamagotchi/T-1000 CPU 8051 Intel CPU Argonaut RISC Core as ARM Assembler (use ARM_AS environment) Capstone ARM disassembler Acorn RISC Machine CPU WineDBG's ARM disassembler AVR Atmel Brainfuck (by pancake, nibble) v4.0.0 Chip8 disassembler cr16 disassembly plugin Axis Communications 32-bit embedded processor AndroidVM Dalvik Mojang's DCPU-16 EFI Bytecode GameBoy(TM) (z80-like) H8/300 disassembly plugin Qualcomm DSPv5 HP PA-RISC Intel 4004 microprocessor Intel 8080 CPU Java bytecode LANAI SHARP LH5801 disassembler disassembly plugin for Lattice Micro 32 ISA Capstone M68K disassembler Malbolge Ternary VM condrets car Capstone MIPS disassembler MIPS CPU msp430 disassembly plugin NIOS II Embedded Processor pic18c disassembler Capstone PowerPC disassembler PowerPC propeller disassembly plugin RISC-V Reality Signal Processor SuperH-4 CPU SuperNES CPU Capstone SPARC disassembler Scalable Processor Architecture spc700, snes' sound-chip SystemZ CPU disassembler TMS320 DSP family (c54x,c55x,c55x+,c64x) Siemens TriCore CPU v810 disassembly plugin v850 disassembly plugin VAX WebAssembly (by cgvwzq) v0.1.0 Whitespace esotheric VM Intel X86 GNU Assembler Capstone X86 disassembler X86 nasm assembler x86 handmade assembler udis86 x86-16,32,64 XAP4 RISC (CSR) Capstone XCore disassembler XTensa CPU Zilog Z80</p>
