@@ -10,6 +10,7 @@
    > _Binary diffing powered by diaphora (originally for IDA Pro)_ {.is-info}
 
   [radare/diaphora](https://github.com/radare/diaphora)
+	[](https://www.youtube.com/watch?v=dAwXrUKaUsw){.youtube}
 
 ## r2frida
 [r2frida](/radare-plugins/frida)
