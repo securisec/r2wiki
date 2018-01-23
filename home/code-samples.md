@@ -29,22 +29,7 @@
 	```
 	
 # Automation
-## Set a breakpoint in every call inside a function
-	
-```python
-# make sure the binary is being debugged
-import r2pipe
-
-r = r2pipe.open()
-r.cmd('aa')
-json = r.cmdj('pdfj @ $$')
-
-for i in json['ops']:
-		if i['type'] == 'call':
-				r.cmd('db @ %s' %hex(i['offset']))
-```
-> To invoke, simply call the function with `#!pipe python /path/to/script.py dpe` (dpe will automatically get the binaries path)
-
+> Place holder
 # Helper scripts
 ## Find args and addresses in stack
 [r2args](https://github.com/gast04/r2args)
