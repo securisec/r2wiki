@@ -48,7 +48,7 @@
 
   - Error: `checking pkg-config flags for r_core... no`
     - `sudo apt install pkg-config` (tested on Ubuntu 16.04)
-  - Installing the latest NodeJS
+  ## Installing the latest NodeJS
 
     [Installing Node.js via package manager | Node.js](https://nodejs.org/en/download/package-manager/)
 		
