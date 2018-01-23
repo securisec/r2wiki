@@ -9,6 +9,7 @@
 - `e asm.emu = true     `   # emulate code using ESIL
 - `e asm.emustr = true  `   # show string and method referenced in the emu comments
 - `e anal.hasnext=true  `   # assume a new function is found after the last one
+- `e dbg.dpsize = 2` # set to 2 for arm debugging. Default is 1
 
 # Environment setup (tested on Ubuntu 16.04)
 ## Install qemu, gdb and its dependencies
