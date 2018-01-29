@@ -27,11 +27,11 @@
 
   - To attach to a remote debugger, use the `-D debugger_type` . Example `r2 -D gdb gdb://host:port`
   - Use `-B` to set the base address
-		 > -B changes the base address, which is the address used by RBin to rebase all the flags , symbols, etc
+	  > -B changes the base address, which is the address used by RBin to rebase all the flags , symbols, etc
 
     > when you want to map a file at a specific address the -B creates the map at address 0 to be in sync with the PA (physical address)
   - Use `-m` to map a binary at the provided address
-		 > -m works for bootloaders, raw firmwares and such
+	  > -m works for bootloaders, raw firmwares and such
 ## Help
 
       Usage: r2 [-ACdfLMnNqStuvwzX] [-P patch] [-p prj] [-a arch] [-b bits] [-i file]
