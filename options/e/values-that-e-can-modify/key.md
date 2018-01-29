@@ -1,7 +1,9 @@
 <!-- TITLE: key -->
 
 # key
+> These key values can be changed to assign custom shortcut keys
 
+****
 - **`key.S`** override step over action
 - **`key.f1`** Run this when F1 key is pressed in visual mode
 - **`key.f10`** Run this when F10 key is pressed in visual mode
