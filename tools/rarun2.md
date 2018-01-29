@@ -16,6 +16,8 @@
 > 🚀 Use rarun2 `preload` to preload shared objects (.so) files. [asciinema](https://asciinema.org/a/NDtyrivLmyltLRXhQ0PF7oUC5)
 
   > Use `stdin=./path/to/file` to send multiple stdin input
+
+- To disable ASLR on a macho file, use `rarun2 aslr=no system=./somefile` and then follow the instructions.
 		
 ## Preload
   - You can preload r2 inside a process. This is similar to r2frida but native implementation
