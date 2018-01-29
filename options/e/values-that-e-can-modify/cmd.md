@@ -23,6 +23,7 @@
 - **`cmd.prompt`** Prompt commands
 - **`cmd.repeat`** Empty command an alias for '..' (repeat last command) _Default is false_
 - **`cmd.stack`** Command to display the stack in visual debug mode
+	> 🚀 Use a macro to change to an alternate view of the stack `(changeStackView , e cmd.stack = pxr 40@r:SP, e dbg.slow=false)` [asciinema](https://asciinema.org/a/GaXGDXx0qgmsSGMlxuwnXOCNp) _From @NistelbergerK_
 - **`cmd.times`** Run when a command is repeated (number prefix)
 - **`cmd.visual`** Replace current print mode
 - **`cmd.vprompt`** Visual prompt commands
