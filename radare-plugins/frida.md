@@ -10,13 +10,13 @@ A lot of the examples from this section has been obtained following examples fro
 
 ## Tips
 ### Misc tips
-> Use the following syntax to trace. Example: `\dtf write iZi` (this was tested against node. Write is the symbol being hooked) {.is-info}
+- Use the following syntax to trace. Example: `\dtf write iZi` (this was tested against node. Write is the symbol being hooked) {.is-info}
 
-> 🚀 `af` Analyze function while using r2frida. [asciinema](https://asciinema.org/a/rDfyFskNxvnguJCQu6AiehUd0)
+- 🚀 `af` Analyze function while using r2frida. [asciinema](https://asciinema.org/a/rDfyFskNxvnguJCQu6AiehUd0)
 
-> 🚀 Example: Find classname from method [asciinema](https://asciinema.org/a/5GrmFmJ0R2tizXNVI5A6G7aVY)
+- 🚀 Example: Find classname from method [asciinema](https://asciinema.org/a/5GrmFmJ0R2tizXNVI5A6G7aVY)
 
-> 🚀 Example: Interact with an applicaiton [asciinema](https://asciinema.org/a/irpAaaeFhdbzKIrqge5lmj5NH)
+- 🚀 Example: Interact with an applicaiton [asciinema](https://asciinema.org/a/irpAaaeFhdbzKIrqge5lmj5NH)
 
 ## Load a binary
 ### Attach to a running process
