@@ -33,7 +33,7 @@
 - **`asm.dwarf.abspath`** Show absolute path in asm.dwarf _Default is false_
 - **`asm.dwarf.file`** Show filename of asm.dwarf in pd _Default is true_
 - **`asm.emu`** Run ESIL emulation analysis on disasm _Default is false (cpu emulation)_
-  > _This can be used for instruction emulation where the register values are printed after each instruction executes (not debugger)_
+  > `asm.emu` This can be used for instruction emulation where the register values are printed after each instruction executes (not debugger)
 
   > 🚀 Set `e asm.emu =1` to emulate cpu instructions [asciinema](https://asciinema.org/a/mC610KTE8RIgGZUBMO8JhkiyV)
 
@@ -42,7 +42,7 @@
 - **`asm.emuskip`** Skip metadata of given types in asm.emu _Default is ds_
 - **`asm.emustack`** Create a temporary fake stack when emulating in disasm (asm.emu) _Default is false_
 - **`asm.emustr`** Show only strings if any in the asm.emu output _Default is false_
-  > _Handy when analyzing objective c binaries_
+  > `asm.emustr` Handy when analyzing objective c binaries
 - **`asm.emuwrite`** Allow asm.emu to modify memory (WARNING) _Default is false_
 - **`asm.esil`** Show ESIL instead of mnemonic _Default is false_
 - **`asm.family`** Show family name in disasm _Default is false_
