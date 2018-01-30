@@ -36,6 +36,9 @@
   > _This can be used for instruction emulation where the register values are printed after each instruction executes (not debugger)_
 
   > 🚀 Set `e asm.emu =1` to emulate cpu instructions [asciinema](https://asciinema.org/a/mC610KTE8RIgGZUBMO8JhkiyV)
+
+- `asm.emu.pre` Run ESIL emulation starting at the closest flag in pd _Default is false_
+	> `asm.emu.pre` this will do the emulation of the instructions before the current offset to get better disasm hints
 - **`asm.emuskip`** Skip metadata of given types in asm.emu _Default is ds_
 - **`asm.emustack`** Create a temporary fake stack when emulating in disasm (asm.emu) _Default is false_
 - **`asm.emustr`** Show only strings if any in the asm.emu output _Default is false_
