@@ -26,7 +26,7 @@ Usage: o [com- ] [file] ([offset])
 
 - [ `om[?]` create, list, remove IO maps](/options/o/om)
 
-- `on [file] 0x4000` map raw file at 0x4000 (no r_bin involved)
+- [`on [file] 0x4000` map raw file at 0x4000 (no r_bin involved)](/options/o/on)
 
 - [ `oo[?]` reopen current file (kill+fork in debugger)](/options/o/oo_question)
 
