@@ -61,7 +61,7 @@
 - `asm.indentspace` How many spaces to indent the code _Default is 2_
 - `asm.invhex` Show invalid instructions as hexadecimal numbers _Default is false_
 - `asm.jmphints` Show jump hints [numbers] in disasm _Default is true_
-- `asm.jmpsub` Always substitute jump, call and branch targets in disassembly
+- `asm.jmpsub` Always substitute jump, call and branch targets in disassembly _Default is false_
 	> `asm.jmpsub` Substitutes targets of jmp, call and branch ops in disassembly based on jump target in RAnalOp structure
 - `asm.lbytes` Align disasm bytes to left _Default is true_
 - `asm.leahints` Show LEA hints [numbers] in disasm _Default is false_
