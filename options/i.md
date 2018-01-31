@@ -26,6 +26,7 @@ Usage: i Get info from opened file (see rabin2's manpage)
   - **`iee`** 🚀 shows entrypoint and endpoint. Shows init and fini [asciinema](https://asciinema.org/a/F8YVvY0pdwbHv5doPwOIfpaEF)
   - **`iE`** 🚀 Exports (global symbols)[asciinema](https://asciinema.org/a/v9Etp2ogAiAs7eQ48t0MFo2vn)
   - `iE.` Current export
+  - `iEj.` Current export as json
   - **`ih`** 🚀 Headers (alias for iH)[asciinema](https://asciinema.org/a/gLPP1N62lTB6D6TYqkpiyDpWu)
   - **`iHH`** 🚀 Verbose Headers in raw text [asciinema](https://asciinema.org/a/zUatS7zmoYg0MyNZGvFAZo7jf)
   - **`ii`** Imports
@@ -41,7 +42,9 @@ Usage: i Get info from opened file (see rabin2's manpage)
   - **`ir`** Relocs
   - **`iR`** Resources
   - **`is`** Symbols
+  - `is.` Current symbol
   - **`iS [entropy,sha1]`** 🚀 Sections (choose which hash algorithm to use) [asciinema](https://asciinema.org/a/FAoHCNVqvPqZVP6sOAvEp5myR)
+  - `iS.` Current section
   - **`iV`** 🚀 Display file version info [asciinema](https://asciinema.org/a/yJAkokc6XysYA8iBqCUxYTRBf)
   - **`iz|izj`** Strings in data sections (in JSON/Base64)
   - **`izz`** Search for Strings in the whole binary
