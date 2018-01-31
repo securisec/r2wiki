@@ -26,6 +26,7 @@ Usage: c[?dfx] [argument] # Compare
 
 - **`cud [addr] @at`** Unified diff disasm from $$ and given address
 - **`cv[1248] [addr] @at`** Compare 1,2,4,8-byte value
+- [**`cV[1248] [addr] @ addr2`** Compare 1,2,4,8-byte address contents](/options/c/c-capv)
 
 - [ **`cw[?] [us?] [...]`** Compare memory watchers](/options/c/cw)
 
