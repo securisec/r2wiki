@@ -31,7 +31,8 @@
 			- dbg.maps.write
 			- dbg.maps.readonly
 			- anal.fcn
-			- anal.bb
+			- anal\.bb
+			- bin.sections
 
 
 - **`search.kwidx`** Store last search index count _Default is 0_
