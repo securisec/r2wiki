@@ -17,6 +17,7 @@
 	> To see available options, use `e search.in=?` Available sections are:
 			- raw
 			- block
+			- bin.sections
 			- io.map
 			- io.maps
 			- io.sections
@@ -31,8 +32,7 @@
 			- dbg.maps.write
 			- dbg.maps.readonly
 			- anal.fcn
-			- anal\.bb
-			- bin.sections
+			- anal .bb
 
 
 - **`search.kwidx`** Store last search index count _Default is 0_
