@@ -26,6 +26,7 @@
 - **`dbg.libs`** If set stop when loading matching libname
 - **`dbg.malloc`** Choose malloc structure parser _Default is jemalloc_
 - **`dbg.profile`** Path to RRunProfile file
+	- 🚀 Can use dgb.profile to pass multiple args to a debugged binary. [asciinema](https://asciinema.org/a/COJ7JEDbNgESV7XZ7oeQlpjAH)
 - **`dbg.slow`** Show stack and regs in visual mode in a slow but verbose mode _Default is false_
 - **`dbg.status`** Set cmd.prompt to '.dr*' or '.dr*;drd;sr PC;pi 1;s-' _Default is false_
 - **`dbg.swstep`** Force use of software steps (code analysis+breakpoint) _Default is false_
