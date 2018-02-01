@@ -34,7 +34,8 @@
 	  > -m works for bootloaders, raw firmwares and such
 ## Help
 
-      Usage: r2 [-ACdfLMnNqStuvwzX] [-P patch] [-p prj] [-a arch] [-b bits] [-i file]
+```text
+Usage: r2 [-ACdfLMnNqStuvwzX] [-P patch] [-p prj] [-a arch] [-b bits] [-i file]
        [-s addr] [-B baddr] [-M maddr] [-c cmd] [-e k=v] file|pid|-|--|=
        -- run radare2 without opening any file
        - same as 'r2 malloc://512'
@@ -53,7 +54,8 @@
        -e k=v evaluate config var
        -f block size = file size
        -F [binplug] force to use that rbin plugin
-       -h, -hh show help message, -hh for long
+       -h, -hh show help message, 
+       -hh for long (show environment variables)
        -H ([var]) display variable
        -i [file] run script file
        -I [file] run script file before the file is opened
@@ -77,8 +79,10 @@
        -v, -V show radare2 version (-V show lib versions)
        -w open file in write mode
        -x open without exec-flag (asm.emu will not work), See io.exec
-	   -X same as -e bin.usextr=false (useful for dyldcache)
+	     -X same as -e bin.usextr=false (useful for dyldcache)
        -z, -zz do not load strings or load them even in raw
+```
+
 
 ## Debuggers supported 
    - `radare2 -L`
