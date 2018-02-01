@@ -23,6 +23,8 @@
 [Android malware analysis with Radare: Dissecting the Triada Trojan](https://www.nowsecure.com/blog/2016/11/21/android-malware-analysis-radare-triada-trojan/)
 [Oneplus backdoor analysis](https://www.nowsecure.com/blog/2017/11/14/oneplus-device-root-exploit-backdoor-engineermode-app-diagnostics-mode/)
 
+## Complimentary tools
+[termux](https://termux.com/)
 # Installing
 ## Installing from pre built
 - Download the latest from `http://radare.mikelloc.com/get/[version]/[android-arch]`
