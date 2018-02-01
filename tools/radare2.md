@@ -81,7 +81,7 @@ Usage: r2 [-ACdfLMnNqStuvwzX] [-P patch] [-p prj] [-a arch] [-b bits] [-i file]
        -v, -V show radare2 version (-V show lib versions)
        -w open file in write mode
        -x open without exec-flag (asm.emu will not work), See io.exec
-	     -X same as -e bin.usextr=false (useful for dyldcache)
+	    -X same as -e bin.usextr=false (useful for dyldcache)
        -z, -zz do not load strings or load them even in raw
 ```
 
