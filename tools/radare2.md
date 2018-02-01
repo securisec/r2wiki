@@ -32,6 +32,8 @@
     > when you want to map a file at a specific address the -B creates the map at address 0 to be in sync with the PA (physical address)
   - Use `-m` to map a binary at the provided address
 	  > -m works for bootloaders, raw firmwares and such
+
+- Use `-hh` to find paths to all environment variables being used
 ## Help
 
 ```text
