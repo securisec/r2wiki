@@ -44,8 +44,8 @@
 ## Symbolic exectution
 [Symbolic execution](/radare-plugins/angr)
 
-## r2 vmi
-r2 vmi plugin allows one to debug a remote process running in a VM
+## RVMI
+🚀 rvmi plugin allows one to debug a remote process running in a VM [asciinema](https://asciinema.org/a/Vm2eXMSOS8faegNQGlH4C9J0u)
 [r2 vmi github](https://github.com/Wenzel/radare2-extras/tree/vmi/vmi)
 
 ```text
