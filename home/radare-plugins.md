@@ -45,7 +45,7 @@
 [Symbolic execution](/radare-plugins/angr)
 
 ## r2 vmi
-Plugin allows one to debug a remote process running in a VM
+r2 vmi plugin allows one to debug a remote process running in a VM
 [r2 vmi github](https://github.com/Wenzel/radare2-extras/tree/vmi/vmi)
 
 ```text
