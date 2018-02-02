@@ -39,11 +39,11 @@
 
 - `asm.emu.pre` Run ESIL emulation starting at the closest flag in pd _Default is false_
 	> `asm.emu.pre` this will do the emulation of the instructions before the current offset to get better disasm hints
-- `asm.emuskip` Skip metadata of given types in asm.emu _Default is ds_
-- `asm.emustack` Create a temporary fake stack when emulating in disasm (asm.emu) _Default is false_
-- `asm.emustr` Show only strings if any in the asm.emu output _Default is false_
-  > `asm.emustr` Handy when analyzing objective c binaries
-- `asm.emuwrite` Allow asm.emu to modify memory (WARNING) _Default is false_
+- `asm.emu.skip` Skip metadata of given types in asm.emu _Default is ds_
+- `asm.emu.stack` Create a temporary fake stack when emulating in disasm (asm.emu) _Default is false_
+- `asm.emu.str` Show only strings if any in the asm.emu output _Default is false_
+  > `asm.emu.str` Handy when analyzing objective c binaries
+- `asm.emu.write` Allow asm.emu to modify memory (WARNING) _Default is false_
 - `asm.esil` Show ESIL instead of mnemonic _Default is false_
 - `asm.family` Show family name in disasm _Default is false_
 - `asm.fcncalls` Show functions calls _Default is true_
