@@ -16,20 +16,22 @@ Wiki is powered by [wiki.js](https://wiki.js.org/) <img src="https://beta.requar
 The wiki is available online at [https://radare2.securisec.com](https://radare2.securisec.com)  
 Both the online version and local version supports full search capability. The online version is always upto date. 
 
-## Local webapp Installation
+# r2pm installation
+- This wiki can also be installed from r2pm using `r2pm -i r2wiki`
+- Once installed, use inside r2 with `$wiki "some term"`
+- Update inside r2 with `$wiki -u ''`
+
+### Local webapp Installation
 - Install wiki.js by following [these instructions](https://docs.requarks.io/wiki/install)
 - Copy all the files in this repo to the `repo` directory, or run 
 ```git clone https://github.com/securisec/radare2_wiki.git repo/``` from inside your wiki directory.
 - Allow some time for the search to finish indexing.
 
-## Update local installation
+#### Update local installation
 - To update to the latest **(this wiki will be updated frequently :stuck_out_tongue_winking_eye:)**, simply run  
 `git pull origin master` from inside the repo directory.
 
-## r2pm
-- This wiki can also be installed from r2pm using `r2pm -i r2wiki`
-
-## From r2 shell
+#### From r2 shell
 - Directions can be found in the [r2wiki.py](https://radare2.securisec.com/home/r2wiki-python)
 > In order for this to work, you need a local copy of the wiki. You can get it from [github](https://github.com/securisec/radare2_wiki)
 - The argument supports regex and the output is in less format
@@ -54,7 +56,7 @@ Both the online version and local version supports full search capability. The o
     #!pipe python /path/to/repo/r2wiki.py
     ```
 
-## Tips for local wiki (applies to wiki.js version 1.0.12)
+### Tips for local wiki (applies to wiki.js version 1.0.12)
 To style your local wiki in a manner similar to the online version, add the following to the `/wiki_installation_dir/server/views/layout.pug` under the section marked as `//- JS / CSS`  
  ```css
      style(type='text/css').
