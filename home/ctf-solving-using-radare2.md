@@ -1,5 +1,5 @@
-<!-- TITLE: CTF solving using radare2 -->
-# CTF solving using radare2
+<!-- TITLE: CTF solving using radare2 / blogs -->
+# CTF solving using radare2 / Blogs
 
 - [A journey into Radare 2 - Part 1](https://www.megabeets.net/a-journey-into-radare-2-part-1/)
 
@@ -35,3 +35,4 @@
 
 - [34c4 m0rph](https://www.sigflag.at/blog/2017/writeup-34c3ctf-m0rph/)
 - [Intro to r2 Insinuator](https://insinuator.net/2016/08/reverse-engineering-with-radare2-intro/)
+- [Linux malware reversing](https://medium.com/@jacob16682/linux-malware-analysis-why-homebrew-encryption-is-bad-48e349b252f9)
