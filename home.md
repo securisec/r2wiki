@@ -42,8 +42,8 @@ Visual cues:
 [Pwn helper](./home/pwn-helper)
 
 
-## CTF solving
-[CTF solving using radare2](./home/ctf-solving-using-radare2)
+## CTF solving / Blogs
+[CTF solving using radare2 / Blogs](./home/ctf-solving-using-radare2)
 
 
 ## Tips
