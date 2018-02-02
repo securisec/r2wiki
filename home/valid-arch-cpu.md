@@ -24,6 +24,7 @@ _dA_  32 64      ebc         LGPL3   EFI Bytecode
 adAe  16         gb          LGPL3   GameBoy(TM) (z80-like)
 _dAe  16         h8300       LGPL3   H8/300 disassembly plugin
 _d__  32         hexagon     GPL3    Qualcomm DSPv5
+_dAe  32         hexagon     LGPL3   Qualcomm Hexagon (QDSP6) V6
 _d__  32         hppa        GPL3    HP PA-RISC
 _dAe             i4004       LGPL3   Intel 4004 microprocessor
 _dA_  8          i8080       BSD     Intel 8080 CPU
