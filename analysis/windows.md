@@ -13,7 +13,7 @@
 > To compile radare2, simply run `meson.bat` {.is-info}
 - `meson.bat -p` outputs a Visual Studio project file
 
-# Config file
+## Config file
 - To find the location of the radare2rc config file for windows, run `r2 -hh` and look for the environment variable `RHOMEDIR`
 
 ## Using an installer
