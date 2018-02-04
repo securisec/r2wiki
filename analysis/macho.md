@@ -11,7 +11,8 @@
 Code Signing
 ------------
 
-After Mac OS X 10.6, binaries that need permissions to debug require to be signed and include a .plist describing them. In order to do this you can follow the following steps:
+After Mac OS X 10.6, binaries that need permissions to debug require to be signed and include a .plist describing them. 
+In order to do this you can follow the following steps:
 
 (Based on https://llvm.org/svn/llvm-project/lldb/trunk/docs/code-signing.txt)
 
