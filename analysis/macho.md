@@ -61,7 +61,8 @@ You can verify that the binary is properly signed and verified by using the code
 
 	$ codesign -dv binr/radare2/radare2
 
-Additionally, you can run the following command to add the non-priviledge user (username) to the Developer Tools group in macOS, avoiding the related Xcode prompts:
+Additionally, you can run the following command to add the non-priviledge user (username) to the Developer Tools group in macOS, 
+avoiding the related Xcode prompts:
 
 	$ sudo dscl . append /Groups/_developer GroupMembership <username>
 
@@ -69,7 +70,9 @@ After doing it you should be able to debug on macOS without root permissions!
 
 	$ r2 -d mybin
 
-Note: Apple-signed binaries cannot be debugged, since Apple's SIP (System Integrity Protection) prevents attaching to an Apple-signed binary. If you want to debug an Apple-signed binary, either remove its certificate (https://github.com/steakknife/unsign; WARNING: this cannot be reversed!) or disable SIP (`csrutil enable --without debug`).
+Note: Apple-signed binaries cannot be debugged, since Apple's SIP (System Integrity Protection) prevents attaching
+		to an Apple-signed binary. If you want to debug an Apple-signed binary, either remove its certificate
+		(https://github.com/steakknife/unsign; WARNING: this cannot be reversed!) or disable SIP (`csrutil enable --without debug`).
 
 Note: if you already have a valid certificate for code signing, you can specify its name by setting the env var CERTID.
 
