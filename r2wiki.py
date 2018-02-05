@@ -7,9 +7,6 @@ import sys
 import pydoc
 from argparse import ArgumentParser
 from subprocess import Popen, PIPE
-from pygments import highlight
-from pygments.lexers import MarkdownLexer
-from pygments.formatters import TerminalFormatter
 
 black_list = ['<p hidden>', '<!--', '<img src']
 src_dir = os.path.dirname(os.path.realpath(__file__))
@@ -56,7 +53,9 @@ else:
                          flags=re.IGNORECASE)
 
 try:
-
+    from pygments import highlight
+    from pygments.lexers import MarkdownLexer
+    from pygments.formatters import TerminalFormatter
     found = ''
 
     for path, subdirs, files in os.walk(src_dir):
