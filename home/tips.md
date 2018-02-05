@@ -39,6 +39,7 @@
 - Use `!` at the end of an offset followed by the number of bytes to limit the amount of bytes that are shown. Example `pxr @ esp!32`
 - To set conditional breakpoints, see the example [here](/home/misc/usage-examples#debug)
 - 🚀 To change the value of a local variable, use `afv` to find the offset, followed by whatever you want to write, like `w` for strings [asciinema](https://asciinema.org/a/IC3jEr2Wt3nCDG5OU3qkoHyZE)
+- Use `r2 -qc /m some_file` as a replacement for binwalk! `e search.align` can be used to tweak how the search works. Example `e search.align=4k`
 
 
 ## **Tips from fortunes**
