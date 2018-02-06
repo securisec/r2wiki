@@ -34,6 +34,7 @@
 	  > -m works for bootloaders, raw firmwares and such
 
 - Use `-hh` to find paths to all environment variables being used
+- Use `-n` switch to load a binary in raw more. No VADDR
 ## Help
 
 ```text
