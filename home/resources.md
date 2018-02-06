@@ -22,3 +22,5 @@
 - [Summary of less commands](/home/resources/less-command)
 
 - [PDF from 2015 HackLU](http://archive.hack.lu/2015/radare2-workshop-slides.pdf)
+
+- ⭐ [Analysis By Default: How r2 analyze something by default](http://radare.today/posts/analysis-by-default/)
