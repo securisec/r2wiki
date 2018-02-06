@@ -37,3 +37,4 @@
 - [Intro to r2 Insinuator](https://insinuator.net/2016/08/reverse-engineering-with-radare2-intro/)
 - [Linux malware reversing](https://medium.com/@jacob16682/linux-malware-analysis-why-homebrew-encryption-is-bad-48e349b252f9)
 - [Redvelvet codegate 2017 r2+angr+ida :(](https://github.com/Brandon-Everhart/CTF-Writeups/tree/master/2018/Codegate/Reversing/RedVelvet)
+- [Ioli crackme writeups (various)](https://moveax.me/crackme0x06/)
