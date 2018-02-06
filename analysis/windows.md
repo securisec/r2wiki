@@ -17,7 +17,7 @@
 - To find the location of the radare2rc config file for windows, run `r2 -hh` and look for the environment variable `RHOMEDIR`
 
 ## Using an installer
-To get the latest installer, [go to this site](https://ci.appveyor.com/project/radare/radare2-shvdd) and click the appropiate job name (32 vs 64bit) and then click artifacts to download the installer. **The installer adds right click context for any file**
+To get the latest installer, [go to this site](https://ci.appveyor.com/project/radare/radare2-shvdd) or [this site](http://radare.mikelloc.com/get/) and click the appropiate job name (32 vs 64bit) and then click artifacts to download the installer. **The installer adds right click context for any file**
 
 # DLL support
 ## dll support using rarun2
