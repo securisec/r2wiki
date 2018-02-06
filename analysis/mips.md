@@ -1,5 +1,6 @@
 <!--TITLE: Mips -->
 
+> Work in progess {.is-danger}
 # Mips reversing
 ## Tips
 - Set the value of the GP register using `anal.gp`
