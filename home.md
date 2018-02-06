@@ -77,6 +77,8 @@ Visual cues:
 ## Macho
 [Macho reversing](./analysis/macho)
 
+## Mips
+[Mips reversing](./analysis/mips)
 ## Misc
 [Misc reversing](./analysis/misc)
 
