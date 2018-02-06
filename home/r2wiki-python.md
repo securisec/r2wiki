@@ -20,6 +20,10 @@ To update, use -u ''
 ```
 
 ## Installation
+### Dependencies
+- `python pygments`
+- `pip install -U pygments`
+> NOTE: make sure your pygments is upto date for {.warning}
 ### From r2pm
 - r2pm -i r2wiki
 ### Manual installation
