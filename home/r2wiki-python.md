@@ -23,7 +23,7 @@ To update, use -u ''
 ### Dependencies
 - `python pygments`
 - `pip install -U pygments`
-> NOTE: make sure your pygments is upto date for {.is-warning}
+> NOTE: make sure your pygments is upto date for {.is-danger}
 ### From r2pm
 - r2pm -i r2wiki
 ### Manual installation
