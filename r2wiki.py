@@ -93,6 +93,6 @@ try:
 except IndexError:
     print 'Usage: %s search_param' % sys.argv[0]
 except NameError:
-    print 'pip install Pygments'
+    print 'pip install -U Pygments'
 except ImportError:
-    print 'Pygments dependency not met. pip install Pygments'
+    print 'Pygments dependency not met. pip install -U Pygments'
