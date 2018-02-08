@@ -3,6 +3,7 @@
 #  `afl[?] [l*] [fcn name]`   list functions (addr, size, bbs, name) (see afll)
 
 - `afl`   list functions
+	> The columns of the `afl` command are *offset/address*, *nbbs*, *size* and *name*
 - `aflc`   count of functions
 - `aflj`   list functions in json
 	> `aflj` can be used to show the size of a function
