@@ -1,7 +1,7 @@
 <!-- TITLE: esil -->
 
 # esil
-> Some infor about [ESIL](http://radare.org/get/lacon2k15-esil.pdf)
+> Some infor about [ESIL](http://radare.org/get/lacon2k15-esil.pdf) (from 2015)
 
 - **`esil.exectrap`** trap when executing code in non-executable memory _Default is false_
 - **`esil.fillstack`** Initialize ESIL stack with (random, debrujn, sequence, zeros, ...)
