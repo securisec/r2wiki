@@ -2,6 +2,7 @@
 
 # Yara
 [Some information about yara](https://github.com/radare/radare2/blob/master/doc/yara.md)
+[Generate yara signature from function](https://gist.github.com/cmatthewbrooks/ea38729ec5f69c8c7c966d3e37016020)
 
 # Visualization
 ## r2graphity
