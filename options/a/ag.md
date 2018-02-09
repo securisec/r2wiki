@@ -24,6 +24,8 @@
 - `agf [addr]`   Show ASCII art graph of given function
 	> After setting `scr.html` to true, `agf` can be used to export a visual graph to html.
 
+- `agfl`
+
 - [ `agg[?] [kdi*]`   Print graph in ASCII-Art, graphviz, k=v, r2 or visual](/options/a/ag/agg-kdi)
 
 - `agj [addr]`   idem, but in JSON format
