@@ -43,6 +43,7 @@
 - `asm.emu.stack` Create a temporary fake stack when emulating in disasm (asm.emu) _Default is false_
 - `asm.emu.str` Show only strings if any in the asm.emu output _Default is false_
   > `asm.emu.str` Handy when analyzing objective c binaries
+- `asm.emu.stroff` Always show offset when printing asm.emu strings
 - `asm.emu.write` Allow asm.emu to modify memory (WARNING) _Default is false_
 - `asm.esil` Show ESIL instead of mnemonic _Default is false_
 - `asm.family` Show family name in disasm _Default is false_
