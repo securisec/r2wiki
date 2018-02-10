@@ -24,3 +24,4 @@
 - [PDF from 2015 HackLU](http://archive.hack.lu/2015/radare2-workshop-slides.pdf)
 
 - ⭐ [Analysis By Default: How r2 analyze something by default](http://radare.today/posts/analysis-by-default/)
+- [Emulating simple bootloader](http://radare.today/posts/emulating-simple-bootloader/)
