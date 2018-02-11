@@ -7,7 +7,7 @@
 - `dbg.backend` Select the debugger backend _Default is native_
 - `dbg.bep` Break on entrypoint _Default is loader_
 - `dbg.bpinmaps` Force breakpoints to be inside a valid map _Default is true_
-	- `dbg.bpinmaps` can be used to place breakpoints / see unmapped memory
+	>  - `dbg.bpinmaps` can be used to place breakpoints / see unmapped memory
 - `dbg.bpsize` Size of software breakpoints _Default is 8_
 - `dbg.bpsysign` Ignore system breakpoints _Default is false_
 - `dbg.btalgo` Select backtrace algorithm _Default is fuzzy_
