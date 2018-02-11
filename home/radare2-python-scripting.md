@@ -2,8 +2,8 @@
 
 # Radare2 Python scripting
 ## r2pipe
-
-> Python: r2pipe `pip install r2pipe` {.is-danger}
+- [Sample scripts could be found here](https://github.com/radare/radare2-r2pipe/tree/master/python/examples)
+-  > Python: r2pipe `pip install r2pipe` {.is-danger}
 
 ## Basic usage
 
