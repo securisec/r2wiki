@@ -40,7 +40,7 @@ Usage: p[=68abcdDfiImrstuxz] [arg|len] [@addr]
 
 - [ `pj[?] [len]` print as indented JSON](/options/p/pj-len)
 
-- [ `p[kK] [len]` print key in randomart (K is for mosaic)](/options/p/p-k_capK)
+- [ `p[kK] [len]` print key in randomart (K is for mosaic)](/options/p/p-k_capk)
 
 - [ `pm[?] [magic]` print libmagic data (see pm? and /m?)](/options/p/pm-magic)
 
