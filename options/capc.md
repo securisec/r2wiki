@@ -31,7 +31,7 @@ Usage: C[-LCvsdfm*?][*?] [...] # Metadata management
 - **`Ch[-] [size] [@addr]`** hide data
 - **`Cd[-] [size] [repeat] [@addr]`** hexdump data array (Cd 4 10 == dword [10])
 
-- [ **`Cf[?][-] [sz] [0|cnt][fmt] [a0 a1...] [@addr]`** format memory (see pf?)](/options/capc/Cf)
+- [ **`Cf[?][-] [sz] [0|cnt][fmt] [a0 a1...] [@addr]`** format memory (see pf?)](/options/capc/cf)
 
 - **`CF[sz] [fcn-sign..] [@addr]`** function signature
 - **`Cm[-] [sz] [fmt..] [@addr]`** magic parse (see pm?)
