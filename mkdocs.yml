@@ -1,0 +1,335 @@
+site_name: r2wiki
+site_author: securisec
+site_description: A searchable wiki for radare2
+repo_url: https://github.com/securisec/r2wiki
+# theme: readthedocs
+pages:
+  - Home: home.md
+  - Options:
+    - Options: home/options.md
+    - '~':
+      - '~': options/grep.md
+    - '$':
+      - '$': options/alias.md
+    - '*':
+      - '*': options/pointer.md
+    - '.':
+      - '.': options/define.md
+    - '=':
+      - '=': options/send.md
+    - '/':
+      - '/': options/search.md
+      - 'c':
+        - c: options/search/c.md
+      - 'C':
+        - C: options/search/capc.md
+      - 'R':
+        - R: options/search/capr.md
+      - 'r':
+        - r: options/search/r.md
+      - 'x':
+        - x: options/search/x.md
+    - '\': 
+      - '\': options/pluginsslash.md
+      - 'Frida':
+        - 'frida': radare-plugins/frida.md
+    - '!': options/run.md
+    - '#': options/hashbang.md
+    - '(': options/macros.md
+    - '|': options/pipe.md
+    - '-': options/dash.md
+    - '?':
+      - '?': options/helpevaluate.md
+      - coreplugins: options/evaluate/coreplugins.md
+      - 'V':
+        - 'V': options/helpevaluate/cap-v.md
+      - 'vi':
+        - 'vi': options/helpevaluate/vi.md
+    - '@': options/misc.md
+    - '@@': options/run-a-for-loop.md
+    - '@@@': options/simpleloop.md
+    - '?$?': options/show.md
+    - 'a':
+      - 'a': options/a.md
+      - 'aa':
+        - 'aa': options/a/aa.md
+        - 'aar':
+          - 'aar': options/a/aa/aar.md
+        - 'ab':
+          - 'ab': options/a/ab.md
+        - 'ad':
+          - 'ad': options/a/ad.md
+        - 'ae':
+          - 'ae': options/a/ae.md
+          - 'aea':
+            - 'aea': options/a/ae/aea.md
+          - 'aec':
+            - 'aec': options/a/ae/aec.md
+          - 'aep':
+            - 'aep': options/a/ae/aep.md
+          - 'aets':
+            - 'aets': options/a/ae/aets.md
+          - 'breakdownesil': options/a/ae/breakdownesil.md
+        - 'af':
+          - 'af': options/a/af.md
+          - 'afb': options/a/af/afb.md
+          - 'afc': options/a/af/afc.md
+          - 'afi': options/a/af/afi.md
+          - 'afl': options/a/af/afl.md
+          - 'afll': options/a/af/afll.md
+          - 'afn': options/a/af/afn.md
+          - 'afsmallc': options/a/af/afsmallc.md
+          - 'aft': options/a/af/aft.md
+          - 'afv':
+            - 'afv': options/a/af/afv.md
+            - 'afvb': options/a/af/afv/afvb.md
+            - 'afvd': options/a/af/afv/afvd.md
+            - 'afvr': options/a/af/afv/afvr.md
+            - 'afvs': options/a/af/afv/afvs.md
+          - 'afx': options/a/af/afx.md
+        - 'ag':
+          - 'ag': options/a/ag.md
+          - 'age': options/a/ag/age.md
+          - 'agg_display': options/a/ag/agg-display.md
+          - 'agg_kdi': options/a/ag/agg-kdi.md
+          - 'agn': options/a/ag/agn.md
+        - 'ah':
+          - 'ah': options/a/ah.md    
+          - 'ahi': options/a/ah/ahi.md
+        - 'ao': options/a/ao.md
+        - 'ar':
+          - 'ar': options/a/ar.md          
+          - 'ara': options/a/ar/ara.md
+        - 'as': options/a/as.md
+        - 'ax': options/a/ax.md
+    - b: options/b.md
+    - c: 
+      - c: options/c.md
+      - cV: options/c/c-capv.md
+      - cg: options/c/cg.md
+      - cu: options/c/cu.md
+      - cw: options/c/cw.md
+    - C:
+      - Cc: options/capc.md
+      - CC: options/capc/cc.md
+      - Cf: options/capc/cf.md
+      - CS: options/capc/cs.md
+      - Cs: options/capc/csmalls.md
+    - d:
+      - d: options/d.md
+      - db: options/d/db.md
+      - dbt: options/d/dbt.md
+      - dcs: options/d/dc/dcs.md
+      - dcu: options/d/dc/dcu.md
+      - dc: options/d/dc.md
+      - dd: options/d/dd.md
+      - des: options/d/de/des.md
+      - de: options/d/de.md
+      - di: options/d/di.md
+      - dko: options/d/dk/dko.md
+      - dk: options/d/dk.md
+      - dmh: options/d/dm/dmh.md
+      - dmi: options/d/dm/dmi.md
+      - dmp: options/d/dm/dmp.md
+      - dms: options/d/dm/dms.md
+      - dm: options/d/dm.md
+      - do: options/d/do.md
+      - dp: options/d/dp.md
+      - drp: options/d/dr/drp.md
+      - drs: options/d/dr/drs.md
+      - drt: options/d/dr/drt.md
+      - drx: options/d/dr/drx.md
+      - dr: options/d/dr.md
+      - dsu: options/d/ds/dsu.md
+      - ds: options/d/ds.md
+      - dtc: options/d/dt/dtc.md
+      - dte: options/d/dt/dte.md
+      - dts: options/d/dt/dts.md
+      - dt: options/d/dt.md
+      - dx: options/d/dx.md
+    - e:
+      - e: options/e.md
+      - 'ec':
+        - ec: options/e/ec.md
+        - ec-values: options/e/ec/ec-values.md
+        - ecH: options/e/ec/eccaph.md
+      - 'Values e can modify':
+        - 'values-that-e-can-modify': options/e/values-that-e-can-modify.md
+        - anal: options/e/values-that-e-can-modify/anal.md
+        - asm: options/e/values-that-e-can-modify/asm.md
+        - bin: options/e/values-that-e-can-modify/bin.md
+        - cfg: options/e/values-that-e-can-modify/cfg.md
+        - cmd: options/e/values-that-e-can-modify/cmd.md
+        - dbg: options/e/values-that-e-can-modify/dbg.md
+        - diff: options/e/values-that-e-can-modify/diff.md
+        - dir: options/e/values-that-e-can-modify/dir.md
+        - esil: options/e/values-that-e-can-modify/esil.md
+        - file: options/e/values-that-e-can-modify/file.md
+        - fs: options/e/values-that-e-can-modify/fs.md
+        - graph: options/e/values-that-e-can-modify/graph.md
+        - hex: options/e/values-that-e-can-modify/hex.md
+        - http: options/e/values-that-e-can-modify/http.md
+        - hud: options/e/values-that-e-can-modify/hud.md
+        - io: options/e/values-that-e-can-modify/io.md
+        - key: options/e/values-that-e-can-modify/key.md
+        - lines: options/e/values-that-e-can-modify/lines.md
+        - magic: options/e/values-that-e-can-modify/magic.md
+        - pdb: options/e/values-that-e-can-modify/pdb.md
+        - prj: options/e/values-that-e-can-modify/prj.md
+        - rap: options/e/values-that-e-can-modify/rap.md
+        - rop: options/e/values-that-e-can-modify/rop.md
+        - scr: options/e/values-that-e-can-modify/scr.md
+        - search: options/e/values-that-e-can-modify/search.md
+        - stack: options/e/values-that-e-can-modify/stack.md
+        - str: options/e/values-that-e-can-modify/str.md
+        - time: options/e/values-that-e-can-modify/time.md
+        - zign: options/e/values-that-e-can-modify/zign.md
+        - zoom: options/e/values-that-e-can-modify/zoom.md
+    - 'f':
+        - f: options/f.md
+        - fc: options/f/fc.md
+        - fR: options/f/fcapr.md
+        - fd: options/f/fd.md
+        - fs: options/f/fs.md
+        - fz: options/f/fz.md
+    - g: options/g.md
+    - i: 
+      - 'i': options/i.md
+      - 'id':
+        - id: options/i/id.md
+    - k: options/k.md
+    - L: options/capl.md
+    - 'm':
+      - m: options/m.md
+      - mf: options/m/mf.md
+      - ml: options/m/ml.md
+    - 'o':
+      - o: options/o.md
+      - ob: options/o/ob.md
+      - oj: options/o/oj.md
+      - om: options/o/om.md
+      - 'on': options/o/on.md
+      - oo: options/o/oo.md
+      - 'oo?': options/o/ooquestion.md
+    - 'p':
+      - p: options/p.md
+      - 'p=': options/p/p-bep.md
+      - 'piI': options/p/p-ii.md
+      - 'pjh': options/p/p-jh.md
+      - 'pkK': options/p/p-kcapk.md
+      - 'paeD': options/p/pa-ed.md
+      - 'pcp': options/p/pc-p.md
+      - 'pddz': options/p/pd-sz.md
+      - 'pf-format-characters': options/p/pf-nam/pf-format-characters.md
+      - 'pf-pf-usage': options/p/pf-nam/pf-pf-usage.md
+      - 'pf-nam': options/p/pf-nam.md
+      - 'ph-hash': options/p/ph-hash.md
+      - 'pj-len': options/p/pj-len.md
+      - pm-magic: options/p/pm-magic.md
+      - prg-print: options/p/pr-glx/prg-print.md
+      - pr-glx: options/p/pr-glx.md
+      - ps-pwz: options/p/ps-pwz.md
+      - pt-dn: options/p/pt-dn.md
+      - pu-w-len: options/p/pu-w-len.md
+      - pv-jh-mode: options/p/pv-jh-mode.md
+      - px-owq: options/p/px-owq.md
+      - pz-len-print-zoom: options/p/pz-len-print-zoom.md
+    - P: options/capp.md
+    - q: options/q.md
+    - r: options/r.md
+    - 's':
+      - s: options/s.md
+      - sl: options/s/sl.md
+      - sr: options/caps/sr.md
+    - S: options/caps.md
+    - T: options/capt.md
+    - 'Visual Mode':
+      - visual-mode: options/capv/visual-mode.md
+      - v-bang-help: options/capv/visual-mode/v-bang-help.md
+      - d: options/capv/visual-mode/v-help/d.md
+      - v-help: options/capv/visual-mode/v-help.md
+      - vv-help: options/capv/visual-mode/vv-help.md
+      - capv: options/capv.md
+    - 't':
+      - t: options/t.md
+      - ta: options/t/ta-type.md
+      - tc: options/t/tc-cctype.md
+      - te: options/t/te-list.md
+      - tl: options/t/tl-show.md
+      - tn: options/t/tn-addr.md
+      - ts: options/t/ts-print.md
+    - 'w':
+      - w: options/w.md
+      - wa: options/w/wa-push.md
+      - wA: options/w/wa-r-0.md
+      - wao: options/w/wao-op.md
+      - wc: options/w/wc-list-all.md
+      - we: options/w/we-nnsxx.md
+      - wop: options/w/wo-hex-write/wop.md
+      - wo: options/w/wo-hex-write.md
+      - wp: options/w/wp-file.md
+      - wt: options/w/wt-f-file.md
+      - wv: options/w/wv-eip.md
+      - wx: options/w/wx-fs.md
+    - x: options/x.md
+    - 'y': options/y.md
+    - 'z':
+      - z: options/z.md
+      - z-search: options/z/z-search.md
+      - zf-manage: options/z/zf-manage.md
+      - zo-manage: options/z/zo-manage.md
+      - zs-manage: options/z/zs-manage.md
+    - java: options/java.md
+  - Platforms:
+    - android: analysis/android.md
+    - arm: analysis/arm.md
+    - avr: analysis/avr.md
+    - go: analysis/go.md
+    - ios: analysis/ios.md
+    - macho: analysis/macho.md
+    - mips: analysis/mips.md
+    - misc: analysis/misc.md
+    - windows: analysis/windows.md
+  - Tools:
+    - r2agent: tools/r2agent.md
+    - r2pm: tools/r2pm.md
+    - rabin2: tools/rabin2.md
+    - radare2: tools/radare2.md
+    - radiff2: tools/radiff2.md
+    - rafind2: tools/rafind2.md
+    - ragg2: tools/ragg2.md
+    - rahash2: tools/rahash2.md
+    - rarun2: tools/rarun2.md
+    - rasm2: tools/rasm2.md
+    - rax2: tools/rax2.md
+    - Debugging:
+      - gdbserver: options/servers/gdbserver.md
+      - http-server: options/servers/http-server.md
+      - rap-commands: options/servers/rap-commands.md
+      - rap-server: options/servers/rap-server.md
+      - debugger-help: home/debugger-help.md      
+  - Plugins:
+    - radare-plugins: home/radare-plugins.md
+    - frida-commands: plugins/frida-commands.md
+    - rarop-install-help: plugins/rarop-install-help.md
+    - angr: radare-plugins/angr.md
+    - ripr: radare-plugins/ripr.md
+  - Resources:
+    - r2wiki-python: home/r2wiki-python.md
+    - 'CTF solving using radare2': home/ctf-solving-using-radare2.md
+    - Cheatsheet: home/misc/cheatsheet.md
+    - 'Usage examples': home/misc/usage-examples.md
+    - 'Pwn helper': home/pwn-helper.md
+    - 'radare2 python scripting': home/radare2-python-scripting.md
+    - 'radare2 tools': home/radare2-tools.md
+    - Resources: home/resources.md
+    - Tips: home/tips.md
+    - 'Valid arch cpu': home/valid-arch-cpu.md
+    - Videos: home/videos.md
+    - 'Code samples': home/code-samples.md
+    - Misc:
+      - themes: home/themes.md
+      - twitter-feed: home/twitter-feed.md
+      - less-command: home/resources/less-command.md
+      - 'Misc Helpers': home/mischelpers.md
+    - README: README.md
