@@ -1,6 +1,6 @@
 <!-- TITLE: a -->
 
-#  **`a`** Analysis commands
+#  `a` Analysis commands
 
 
 ```text
@@ -8,12 +8,12 @@ Usage: a[abdefFghoprxstc] [...]
 ```
 
 
-## **Tips**
+## Tips
   - Use `afn` to rename function. Use `dr` in visual mode
   - To see cross references for strings, use `axt @@ str.*` . The `@@` is a for i in x operator in radare2.
 ---
 
-- [ **`aa[?]`** analyze all (fcns + bbs) (aa0 to avoid sub renaming)](/options/a/aa)
+- [ `aa[?]` analyze all (fcns + bbs) (aa0 to avoid sub renaming)](/options/a/aa)
 - [ `ab [hexpairs]` analyze bytes](/options/a/ab)
 - `ac [cycles]` analyze which op could be executed in [cycles]
 - [ `ad[?]` analyze data trampoline (wip)](/options/a/ad)
