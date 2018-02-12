@@ -3,7 +3,7 @@
 #  `tl[?]` Show/Link type to an address
 
 - `tl` list all links in readable format
-	- > `tl` can be used to cast the type of an address permanently
+	> `tl` can be used to cast the type of an address permanently
 - `tl[typename]` link a type to current address.
 - `tl[typename] = [address]` link type to given address.
 - `tls[address]` show link at given address
