@@ -44,17 +44,17 @@ modifier:
    > _Example: `pdf ~..` {.is-info}
 
 - `...` 🚀 internal 'hud' (like V_) [asciinema](https://asciinema.org/a/KdW2Lh8hjyHytcqGnyN9bXNDY)
-   > This is take any commands output and overlay a HUD on top of it for string type searching. Example: `pdf ~...` and then search for call
+   - > This is take any commands output and overlay a HUD on top of it for string type searching. Example: `pdf ~...` and then search for call
 
 ## Modifiers
 
 - `{}` json indentation
 
-    > Example: `iij ~{}` for pretty printing json output. Can be combine with `..` for less. Example: `iij~{}..` {.is-info}
+    - > Example: `iij ~{}` for pretty printing json output. Can be combine with `..` for less. Example: `iij~{}..` {.is-info}
 
 - `{path}` json grep
 
-   > The path is a json key. If the json output is an array, then use [array position]key. If the keys are nested, then use key.secondkey etc. Example `ij~{bin.pic}` {.is-info}
+   - > The path is a json key. If the json output is an array, then use [array position]key. If the keys are nested, then use key.secondkey etc. Example `ij~{bin.pic}` {.is-info}
 
 - `{}..` less json indentation
 - `endmodifier`
