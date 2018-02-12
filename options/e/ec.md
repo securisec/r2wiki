@@ -26,7 +26,7 @@ Usage ec[s?] [key][[=| ]fg] [bg]
 - **`ecp`** 🚀 load previous color theme [asciinema](https://asciinema.org/a/L3Dy3KOAuPpXJr7PrqYqOj0oq)
 - **`ecn`** 🚀 load next color theme [asciinema](https://asciinema.org/a/L3Dy3KOAuPpXJr7PrqYqOj0oq)
 
-- [ **`ecH[?]`** highlight word or instruction](/options/e/ec/ec_cap_H)
+- [ **`ecH[?]`** highlight word or instruction](/options/e/ec/ec_cap_h)
 
 - **`ec prompt red`** 🚀 change color of prompt [asciinema](https://asciinema.org/a/mYzg8U4nuoX4oyQw6rVlndW8v)
 - **`ec prompt red blue`** 🚀 change color and background of prompt [asciinema](https://asciinema.org/a/mYzg8U4nuoX4oyQw6rVlndW8v)
