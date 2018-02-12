@@ -14,4 +14,4 @@ Usage: @@@ [type] # types:
 ```
 
 
-  > Example: `axt @@@ strings`
+  - > Example: `axt @@@ strings`
