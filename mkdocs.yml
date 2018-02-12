@@ -2,7 +2,7 @@ site_name: r2wiki
 site_author: securisec
 site_description: A searchable wiki for radare2
 repo_url: https://github.com/securisec/r2wiki
-# theme: readthedocs
+theme: readthedocs
 pages:
   - Home: home.md
   - Options:
