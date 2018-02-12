@@ -93,7 +93,7 @@ Visual cues:
 
   [Introduction · Radare2 Explorations](https://monosource.gitbooks.io/radare2-explorations/content/)
 
-   _ > _Tutorial 3, memory manipulation is really good_
+   - > _Tutorial 3, memory manipulation is really good_
 
   [Plugins · Radare2 Book](https://radare.gitbooks.io/radare2book/content/plugins/plugins.html)
 
