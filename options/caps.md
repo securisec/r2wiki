@@ -23,6 +23,6 @@ Usage: S[?-.*=adlr] [...]
 - **`Sl [file]`** load contents of file into current section (see dml)
 - **`Sr [name]`** rename section on current seek
 
-- [ **`SR[?]`** Remap sections with different mode of operation](/options/caps/SR)
+- [ **`SR[?]`** Remap sections with different mode of operation](/options/caps/sr)
 
 <p hidden>S. S- S= Sa Sd Sf Sj Sl Sr SR</p>
