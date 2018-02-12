@@ -45,7 +45,7 @@
 
 [ `c` Compare block with given data](/options/c)
 
-[ `C` Code metadata (comments, format, hints, ..)](/options/cap_c)
+[ `C` Code metadata (comments, format, hints, ..)](/options/capc)
 
 [ `d` Debugger commands](/options/d)
 
