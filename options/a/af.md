@@ -19,7 +19,7 @@
 
 - `afF[1|0|]`   fold/unfold/toggle
 - [ `afi [addr|fcn.name]`   show function(s) information (verbose afl)](/options/a/af/afi)
-	> 🚀 `afi[j]` Get various information about a function including size, call-convention, call references local variables, args etc Example [asciinema](https://asciinema.org/a/p3P1PWA5PvLb0LADUXiXIbr9S)
+	- > 🚀 `afi[j]` Get various information about a function including size, call-convention, call references local variables, args etc Example [asciinema](https://asciinema.org/a/p3P1PWA5PvLb0LADUXiXIbr9S)
 - [ `afl[?] [l*] [fcn name]`   list functions (addr, size, bbs, name) (see afll)](/options/a/af/afl)
 
 - `afo [fcn.name]`   show address for the function named like this
@@ -34,7 +34,7 @@
 - `afs [addr] [fcnsign]`   get/set function signature at current address
 - `afS[stack_size]`   set stack frame size for function at current address
 - `afu [addr]`   resize and analyze function from current address until addr
-	> `afu` can be used to define both the start and end of a function when manually defining a function
+	- > `afu` can be used to define both the start and end of a function when manually defining a function
 - [ `aft[?]`   type matching, type propagation](/options/a/af/aft)
 - [ `afv[bsra]?`   manipulate args, registers and variables in](/options/a/af/afv)
 - [ `afx[cCd-] src dst`   add/remove code/Call/data/string reference](/options/a/af/afx)
