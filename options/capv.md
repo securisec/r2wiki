@@ -4,7 +4,7 @@
 
 > **(V! = panels, VV = fcngraph, VVV = callgraph)**  {.is-info}
 
-> [Visual mode help](/options/capv/Visual-mode) {.is-danger}
+> [Visual mode help](/options/capv/visual-mode) {.is-danger}
 
 
 ## **Tips**
