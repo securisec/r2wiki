@@ -5,39 +5,39 @@
   - Use the back tick \` to wrap a command to use as the input to another command. Example s axt \`str.some~[1]\` . This command will take the address xref to of somestr and seek to that address.
 
 ## Options
-[ `~` Grep](/options/Grep)
+[ `~` Grep](/options/grep)
 
-[ `$` Alias](/options/Alias)
+[ `$` Alias](/options/alias)
 
-[ **`*`** Pointer read/write data/values (see ?v, wx, wv)](/options/Pointer)
+[ **`*`** Pointer read/write data/values (see ?v, wx, wv)](/options/pointer)
 
-[ **`.`** Define macro or load r2, cparse or rlang file](/options/Define)
+[ **`.`** Define macro or load r2, cparse or rlang file](/options/define)
 
-[ **`=`** Send/Listen for Remote Commands (rap://, http://, <fd>)](/options/Send)
+[ **`=`** Send/Listen for Remote Commands (rap://, http://, <fd>)](/options/send)
 
-[ **`/`** Search for bytes, regexps, patterns, ..](/options/Search)
+[ **`/`** Search for bytes, regexps, patterns, ..](/options/search)
 
-[ `\` Generally used for plugin commands](/options/Plugins_slash)
+[ `\` Generally used for plugin commands](/options/plugins_slash)
 
-[ **`!`** Run given command as in system(3)](/options/Run)
+[ **`!`** Run given command as in system(3)](/options/run)
 
-[ **`#`** Hashbang to run an rlang script](/options/Hashbang)
+[ **`#`** Hashbang to run an rlang script](/options/hashbang)
 
-[ `(` Macros](/options/Macros)
+[ `(` Macros](/options/macros)
 
 [ `|` Pipe](/options/pipe)
 
 [`-` Dash](/options/dash)
 
-[ **`?`** Help or evaluate math expression](/options/Help_evaluate)
+[ **`?`** Help or evaluate math expression](/options/help_evaluate)
 
-[ **`@`** Misc help for '@' (seek), '~' (grep) (see ~??)](/options/Misc)
+[ **`@`** Misc help for '@' (seek), '~' (grep) (see ~??)](/options/misc)
 
-[ `@@` Run a for loop](/options/Run-a-for-loop)
+[ `@@` Run a for loop](/options/run-a-for-loop)
 
-[ `@@@` Simpler version of `@@` ](/options/Simple_loop)
+[ `@@@` Simpler version of `@@` ](/options/simple_loop)
 
-[ **`?$?`** Show available '$' variables and aliases](/options/Show)
+[ **`?$?`** Show available '$' variables and aliases](/options/show)
 
 [ **`a`** Analysis commands](/options/a)
 
