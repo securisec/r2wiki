@@ -16,7 +16,7 @@ Usage: .[r2cmd] | [file] | [!command] | [(macro)] # define macro or load r2, cpa
 - `. foo.r2` interpret r2 script
 - `.-` open cfg.editor and interpret tmp file
 - `.!rabin -ri $FILE` interpret output of command
-- `.(foo 1 2 3)` run macro 'foo' with args 1, 2, 3. Find more info in [ `(` Macros](./Macros)
+- `.(foo 1 2 3)` run macro 'foo' with args 1, 2, 3. Find more info in [ `(` Macros](./macros)
 - `./ ELF` interpret output of command /m ELF as r. commands
 
 <p hidden>.r2cmd .!rabin</p>
