@@ -15,9 +15,9 @@ Usage: C[-LCvsdfm*?][*?] [...] # Metadata management
 - **`C- [len] [[@]addr]`** delete metadata at given address range
 - **`CL[-][*] [file:line] [addr]`** show or add 'code line' information (bininfo)
 
-- [ **`CS[-][space]`** manage meta-spaces to filter comments, etc..](/options/capc/CS)
+- [ **`CS[-][space]`** manage meta-spaces to filter comments, etc..](/options/capc/cs)
 
-- [ **`CC[?] [-] [comment-text] [@addr]`** add/remove comment](/options/capc/CC)
+- [ **`CC[?] [-] [comment-text] [@addr]`** add/remove comment](/options/capc/cc)
 
 - **`CC.[addr]`** show comment in current address
 - **`CC! [@addr]`** edit comment with $EDITOR
@@ -25,7 +25,7 @@ Usage: C[-LCvsdfm*?][*?] [...] # Metadata management
 - **`CCu [comment-text] [@addr]`** add unique comment
 - **`Cv[bsr][?]`** add comments to args
 
-- [ **`Cs[?] [-] [size] [@addr]`** add string](/options/capc/C_small_s)
+- [ **`Cs[?] [-] [size] [@addr]`** add string](/options/capc/c_small_s)
 
 - **`Cz[@addr]`** add string (see Cs?)
 - **`Ch[-] [size] [@addr]`** hide data
