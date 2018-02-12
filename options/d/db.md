@@ -25,7 +25,7 @@ Usage: db # Breakpoints commands
 	> `dbC` If the command returns a value different from zero, execution continue, otherwise, execution is stopped at the breakpoint
 - `dbd <addr>` Disable breakpoint. Supports autocomplete
 - `dbe <addr>` Enable breakpoint. Supports autocomplete
-- `dbs <addr>` Toggle breakpoint
+- `dbs <addr>` Toggle breakpoint. Supports autocomplete
 - `dbf` Put a breakpoint into every no-return function
 - `dbt[?]` Display backtrace based on dbg.btdepth and dbg.btalgo
 - `dbt*` Display backtrace in flags
