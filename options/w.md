@@ -20,7 +20,7 @@ Usage: w[x] [str] [<file] [<<EOF] [@addr]
 
 - [ **`wao[?] op`** modify opcode (change conditional of jump. nop, etc)](/options/w/wao-op)
 
-- [ **`wA[?] r 0`** alter/modify opcode at current seek (see wA?)](/options/w/wA-r-0)
+- [ **`wA[?] r 0`** alter/modify opcode at current seek (see wA?)](/options/w/wa-r-0)
 
 - **`wb 010203`** fill current block with cyclic hexpairs
 - **`wB[-]0xVALUE`** set or unset bits with given value
@@ -30,7 +30,7 @@ Usage: w[x] [str] [<file] [<<EOF] [@addr]
 - **`wc[?][ir*?]`** write cache undo/commit/reset/list (io.cache)
 - **`wd [off] [n]`** duplicate N bytes from offset at current seek (memcpy) (see y?)
 
-- [ **`we[?] [nNsxX] [arg]`** extend write operations (insert instead of replace)](/options/w/we-nNsxX)
+- [ **`we[?] [nNsxX] [arg]`** extend write operations (insert instead of replace)](/options/w/we-nnsxx)
 
 - **`wf -|file`** write contents of file at current offset
 - **`wh r2`** whereis/which shell command
