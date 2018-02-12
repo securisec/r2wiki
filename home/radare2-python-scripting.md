@@ -7,16 +7,16 @@
 
 ## Basic usage
 
-  - To run a python script inside the r2 shell, do not pass a file path. The file can then be called using `.` or `#!pipe /path/to/script.py`
-	```python
-	r = r2pipe.open() # no file path
-	```
+- To run a python script inside the r2 shell, do not pass a file path. The file can then be called using `.` or `#!pipe /path/to/script.py`
+```python
+r = r2pipe.open() # no file path
+```
 	
-  - Load a binary
-	```python
-	import r2pipe
-	r = r2pipe.open('binary')
-	```
+- Load a binary
+```python
+import r2pipe
+r = r2pipe.open('binary')
+```
 				
 
   - Disable stderr messages
