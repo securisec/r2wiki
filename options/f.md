@@ -57,7 +57,7 @@ Usage: f [?] [flagname] # Manage offset-name flags
 - **`fo`** show fortunes
 - **`fr [old] [[new]]`** rename flag (if no new flag current seek one is used)
 
-- [ **`fR[?] [f] [t] [m]`** relocate all flags matching f&~m 'f'rom, 't'o, 'm'ask](/options/f/f_cap_r)
+- [ **`fR[?] [f] [t] [m]`** relocate all flags matching f&~m 'f'rom, 't'o, 'm'ask](/options/f/fcapr)
 
 - [ **`fs[?]+-*`** manage flagspaces](/options/f/fs)
 
