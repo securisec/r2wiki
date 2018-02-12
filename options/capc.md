@@ -25,7 +25,7 @@ Usage: C[-LCvsdfm*?][*?] [...] # Metadata management
 - **`CCu [comment-text] [@addr]`** add unique comment
 - **`Cv[bsr][?]`** add comments to args
 
-- [ **`Cs[?] [-] [size] [@addr]`** add string](/options/capc/c_small_s)
+- [ **`Cs[?] [-] [size] [@addr]`** add string](/options/capc/csmalls)
 
 - **`Cz[@addr]`** add string (see Cs?)
 - **`Ch[-] [size] [@addr]`** hide data
