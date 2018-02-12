@@ -33,7 +33,7 @@ modifier:
 - `^` words must be placed at the beginning of line
 - `!` negate grep
 
-   > grep -v {.is-info}
+   - > grep -v {.is-info}
 
 - `?` count number of matching lines
 - `?.` count number chars
