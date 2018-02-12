@@ -35,7 +35,7 @@
 
 ## Hex view `V`
 
-  - [ `V` Help](/options/capv/Visual-mode) 
+  - [ `V` Help](/options/capv/visual-mode) 
 
   - After loading hex view, use `p` to see this view
 
@@ -52,6 +52,6 @@
 
 - Callgraph `VVV` or `VV` (Can use `-` or `+` to zoom)
 
-   [ `VV` Help](/options/capv/Visual-mode) 
+   [ `VV` Help](/options/capv/visual-mode) 
 
   <img src="/uploads/cap-v/cap-vvv-png.png " width="50%">
