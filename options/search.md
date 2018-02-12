@@ -18,7 +18,7 @@ Use io.va for searching in non virtual addressing spaces
 - `/+ /bin/sh` 🚀 construct the string with chunks [asciinema](https://asciinema.org/a/BPv5byYzyLrDoO2FxE1XR8tkX)
 - `//` repeat last search
 - `/a jmp eax` assemble opcode and search its bytes
-  > 🚀 Example: `/a jmp eax` [asciinema](https://asciinema.org/a/r9lxscaovPgJ2nS4d7AVnr0ne)
+  - > 🚀 Example: `/a jmp eax` [asciinema](https://asciinema.org/a/r9lxscaovPgJ2nS4d7AVnr0ne)
 
 - `/A jmp` 🚀 find analyzed instructions of this type _(/A? for help)_ [asciinema](https://asciinema.org/a/QEjFcFC3eBjWRlUy2RseQigom)
 - `/b` search backwards, command modifier, followed by other command
@@ -38,9 +38,9 @@ Use io.va for searching in non virtual addressing spaces
 - `/h[t] [hash] [len]` find block matching this hash. See /#?
 - `/i foo` 🚀 search for string 'foo' ignoring case [asciinema](https://asciinema.org/a/JbReEd7wnDvUIHexYr97UX5BZ)
 - `/m magicfile` search for matching magic file (use blocksize)
-  > 🚀 Use this to search for magic headers inside the binary. Similar to foremost. Example (pcap): [asciinema](https://asciinema.org/a/gYd0YHsXdGx2xxgjTQh9FfMWa)
+  - > 🚀 Use this to search for magic headers inside the binary. Similar to foremost. Example (pcap): [asciinema](https://asciinema.org/a/gYd0YHsXdGx2xxgjTQh9FfMWa)
 
-	> Use `/m` to look for magic signatures at every offset. This can be defined with `search.in`. `/m` can be used to identify files in memory as an example.
+	- > Use `/m` to look for magic signatures at every offset. This can be defined with `search.in`. `/m` can be used to identify files in memory as an example.
 - `/me` Doesnt really do anything 😕
 - `/M` search for known filesystems and mount them automatically
 - `/o [n]` show offset of n instructions backward
