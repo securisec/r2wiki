@@ -20,14 +20,14 @@ Usage: t # cparse types commands
 
 - [ `tc ([cctype])` calling conventions listing and manipulations](/options/t/tc-cctype)
 
-- [ `te[?]` List all loaded enums](/options/t/te-List)
+- [ `te[?]` List all loaded enums](/options/t/te-list)
 - `td[?] <string>` Load types from string
 - `te <enum> <value>` Show name for given enum number
 - `tf` List all loaded functions signatures
 - `tj` Return as json
 - `tk <sdb-query>` Perform sdb query
 
-- [ `tl[?]` Show/Link type to an address](/options/t/tl-Show)
+- [ `tl[?]` Show/Link type to an address](/options/t/tl-show)
 
 - [ `tn[?] [-][addr]` manage noreturn function attributes and marks](/options/t/tn-addr)
 
