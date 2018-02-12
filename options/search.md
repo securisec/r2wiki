@@ -49,7 +49,7 @@ Use io.va for searching in non virtual addressing spaces
 
 - [ `/r[erwx][?] sym.printf` analyze opcode reference an offset (/re for esil)](search/r)
 
-- [ `/R [grepopcode]` search for matching ROP gadgets, semicolon-separated](search/cap_r)
+- [ `/R [grepopcode]` search for matching ROP gadgets, semicolon-separated](search/capr)
 
 - `/s` search for all syscalls in a region (EXPERIMENTAL)
 - `/v[1248] value` look for an `cfg.bigendian` 32bit value
