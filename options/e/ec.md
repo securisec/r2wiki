@@ -9,9 +9,9 @@ Usage ec[s?] [key][[=| ]fg] [bg]
 
 
 - `ec` list all color keys
-	> 🚀 [Values that can be modifed using `ec` and theme example can be found here](/options/e/ec/ec-values). Colors can be changed to create custom themes. Custom themes can be placed in `radare2/libr/cons/d/` folder. [asciinema](https://asciinema.org/a/eVDMKMAvyXYJcWwJyym1BlI5O)
+	- > 🚀 [Values that can be modifed using `ec` and theme example can be found here](/options/e/ec/ec-values). Colors can be changed to create custom themes. Custom themes can be placed in `radare2/libr/cons/d/` folder. [asciinema](https://asciinema.org/a/eVDMKMAvyXYJcWwJyym1BlI5O)
 	
-	> `ec usrcmt color` to change comment color
+	- > `ec usrcmt color` to change comment color
 - `ec*` same as above, but using r2 commands
 - `ecd` 🚀 set default palette [asciinema](https://asciinema.org/a/ZAJTa5eO2ppMdqNwluzLXqVJY)
 - `ecr` 🚀 set random palette (see also scr.randpal) [asciinema](https://asciinema.org/a/8mHk3kVjzpZ1Ighs9BIiqf5AX)
@@ -19,7 +19,7 @@ Usage ec[s?] [key][[=| ]fg] [bg]
 - `ecj` show palette in JSON
 - `ecc [prefix]` show palette in CSS
 - `eco dark|white` load white color scheme template
-  > _Use eco to see a list of themes_
+  - > _Use eco to see a list of themes_
 
     - [Themes](/home/themes)
 
