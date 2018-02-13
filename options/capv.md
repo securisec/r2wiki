@@ -31,7 +31,7 @@
 
 ## Panels `V!`
 
-  ![](/uploads/cap-v/panels.png){: height="50%"}
+  ![](/uploads/cap-v/panels.png){: height="50%" width="50%"}
 
 ## Hex view `V`
 
