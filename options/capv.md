@@ -31,7 +31,7 @@
 
 ## Panels `V!`
 
-  <img src="../../../../../uploads/cap-v/panels.png" width="50%">
+  <img src="../../../../../../uploads/cap-v/panels.png" width="50%">
 
 ## Hex view `V`
 
@@ -39,19 +39,19 @@
 
   - After loading hex view, use `p` to see this view
 
-    <img src="./uploads/cap-v/hex-view.png" width="50%">
+    <img src="../../../../../../uploads/cap-v/hex-view.png" width="50%">
 
   - Pressing `p` twice in this mode will show the stack and the registers in the same view. This is very helpful during debugging.
   - In this mode, you can navigate and scroll through the stack/registers/assembly by using `c` (cursor) and **TAB**
 
-    <img src="./uploads/cap-v/hex-view-cap-p" width="50%>
+    <img src="../../../../../../uploads/cap-v/hex-view-cap-p" width="50%>
 
 ## `vv`
 
-  <img src="./uploads/cap-v/vv.png " width="50%">
+  <img src="../../../../../../uploads/cap-v/vv.png " width="50%">
 
 - Callgraph `VVV` or `VV` (Can use `-` or `+` to zoom)
 
    [ `VV` Help](/options/capv/visual-mode) 
 
-  <img src="./uploads/cap-v/cap-vvv-png.png " width="50%">
+  <img src="../../../../../../uploads/cap-v/cap-vvv-png.png " width="50%">
