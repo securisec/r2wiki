@@ -1,6 +1,6 @@
 <!-- TITLE: = -->
 
-#  **`=`** Send/Listen for Remote Commands (rap://, http://, <fd>)
+#  `=` Send/Listen for Remote Commands (rap://, http://, <fd>)
 
 
 ```text
@@ -8,7 +8,7 @@ Usage: =[:!+-=hH] [...] # radare remote command execution protocol
 ```
 
 
-- **Tips**
+- Tips
   - Use `=H` inside radare2 shell to start the webserver and open the browser.
 
   [Remoting Capabilities · Radare2 Book](https://radare.gitbooks.io/radare2book/content/debugger/remoting_capabilities.html)

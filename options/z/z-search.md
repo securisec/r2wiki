@@ -1,6 +1,6 @@
 <!-- TITLE: z/ -->
 
-#  **`z/[?]`** search zignatures
+#  `z/[?]` search zignatures
 
 
 ```text

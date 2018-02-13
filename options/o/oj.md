@@ -1,6 +1,6 @@
 <!-- TITLE: oj -->
 
-#  **`oj[?]`** list opened files in JSON format
+#  `oj[?]` list opened files in JSON format
 
 
 ```text

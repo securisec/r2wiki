@@ -1,6 +1,6 @@
 <!-- TITLE: pa -->
 
-#  **`pa[edD] [arg]`** pa:assemble pa[dD]:disasm or pae: esil from hexpairs
+#  `pa[edD] [arg]` pa:assemble pa[dD]:disasm or pae: esil from hexpairs
 
 
 ```text

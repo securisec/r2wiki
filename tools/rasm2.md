@@ -2,7 +2,7 @@
 
 # rasm2
 
-## **Tips**
+## Tips
   - The `a` or the `d` in `rasm2 -L` signifies assember, disassembler or both
 ## Help
 

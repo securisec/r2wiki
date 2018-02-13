@@ -1,6 +1,6 @@
 <!-- TITLE: wp -->
 
-#  **`wp[?] -|file`** apply radare patch file. See wp? fmi
+#  `wp[?] -|file` apply radare patch file. See wp? fmi
 
 
 ```text

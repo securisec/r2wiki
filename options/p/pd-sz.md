@@ -8,9 +8,9 @@ Usage: p[dD][ajbrfils] [sz] [arch] [bits] # Print Disassembly
 ```
 
 
-> NOTE: len parameter can be negative {.is-info}
+> NOTE: len parameter can be negative 
 
-> NOTE: Pressing ENTER on empty command will repeat last pd command and also seek to end of disassembled range. {.is-info}
+> NOTE: Pressing ENTER on empty command will repeat last pd command and also seek to end of disassembled range. 
 
 - `pd N` 🚀 disassemble N instructions [asciinema](https://asciinema.org/a/2nKEu7kSlVqBjOK4wP5z5zEsX)
 - `pd -N` 🚀 disassemble N instructions backward [asciinema](https://asciinema.org/a/vd7otYJkQOz4O4L2A4mNgKp3t)

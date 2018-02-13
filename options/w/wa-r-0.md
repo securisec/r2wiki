@@ -1,6 +1,6 @@
 <!-- TITLE: wA -->
 
-#  **`wA[?] r 0`** alter/modify opcode at current seek (see wA?)
+#  `wA[?] r 0` alter/modify opcode at current seek (see wA?)
 
 
 ```text

@@ -2,7 +2,7 @@
 
 # Values that `e` can modify
 
-## **Tips**
+## Tips
   - Use `Ve` to see the headless mode for these keys.
   - These values can also be set in `~./radare2.rc` as `e key=value` pairs seperated by newlines
   - To get valid values, use `=?` . Example `e dbg.bep =?`

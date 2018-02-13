@@ -3,7 +3,7 @@
 ripr is a tool that helps you rip out functionality from binary code and use it from python. It accomplishes this by pairing the Unicorn-Engine with Binary Ninja
 
   - Dependencies:
-    > Binary Ninja {.is-danger}
+    > Binary Ninja 
     - To install the binary ninja api, use:
 
       [Install the Binary Ninja Python API](https://gist.github.com/withzombies/c9ab65b878d05fa20878d6c2bfa935d9)

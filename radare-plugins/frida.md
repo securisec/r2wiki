@@ -2,15 +2,15 @@
 # r2frida 😃
 ![Frida](/uploads/plugins/frida.png "Frida"){.pagelogo}
 A lot of the examples from this section has been obtained following examples from the youtube video linked below
-> [nowsecure/r2frida](https://github.com/nowsecure/r2frida) {.is-info}
+> [nowsecure/r2frida](https://github.com/nowsecure/r2frida) 
 
-> Api documentation can be found on the [Frida site](https://www.frida.re/docs/javascript-api/) {.is-danger}
+> Api documentation can be found on the [Frida site](https://www.frida.re/docs/javascript-api/) 
 
-> You can run js normally by `\. ./path/to/script.js` {.is-info}
+> You can run js normally by `\. ./path/to/script.js` 
 
 ## Tips
 ### Misc tips
-- Use the following syntax to trace. Example: `\dtf write iZi` (this was tested against node. Write is the symbol being hooked) {.is-info}
+- Use the following syntax to trace. Example: `\dtf write iZi` (this was tested against node. Write is the symbol being hooked) 
 
 - 🚀 `af` Analyze function while using r2frida. [asciinema](https://asciinema.org/a/rDfyFskNxvnguJCQu6AiehUd0)
 

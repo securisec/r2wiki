@@ -13,18 +13,18 @@
         setenv=ENV_VAR=<value>
 
     Then run with `r2 -d rarun2 script.rr2`
-> 🚀 Use rarun2 `preload` to preload shared objects (.so) files. [asciinema](https://asciinema.org/a/NDtyrivLmyltLRXhQ0PF7oUC5)
+- > 🚀 Use rarun2 `preload` to preload shared objects (.so) files. [asciinema](https://asciinema.org/a/NDtyrivLmyltLRXhQ0PF7oUC5)
 
-  > Use `stdin=./path/to/file` to send multiple stdin input
+  - > Use `stdin=./path/to/file` to send multiple stdin input
 
 - To disable ASLR on a macho file, use `rarun2 aslr=no system=./somefile` and then follow the instructions.
 		
 ## Preload
   - You can preload r2 inside a process. This is similar to r2frida but native implementation
-	 > Example: `rarun2 r2preload=yes program=/bin/cat` followed by the kill command that rarun2 generates
+	 - > Example: `rarun2 r2preload=yes program=/bin/cat` followed by the kill command that rarun2 generates
 	- Screenshot:
-		<img src="/uploads/tools/rarun-2-preload.png" width="50%">
-		 > The red box indicates the kill command to run in another shell
+		![](/uploads/tools/rarun-2-preload.png)
+		 - > The red box indicates the kill command to run in another shell
 	- Available commands inside preload are:
 		
 		```text
@@ -86,7 +86,7 @@
       # setegid=2001
       # nice=5
 
-  > Example: `rarun2 stdin=somefile.txt program=/path/to/binary`
+  - > Example: `rarun2 stdin=somefile.txt program=/path/to/binary`
 
 ## rarun2 man page
 

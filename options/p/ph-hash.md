@@ -1,6 +1,6 @@
 <!-- TITLE: ph Hash -->
 
-#  **`ph[?][=|hash] ([len])`** calculate hash for a block
+#  `ph[?][=|hash] ([len])` calculate hash for a block
 
 
 ```text
@@ -8,7 +8,7 @@ Usage: pfs.struct_name | pfs format
 ```
 
 
-## **Tips**
+## Tips
   - > Use `bf` to set the block size, and then `ph [hash_name]` to calculate the hash of that block
   - > `pf` also takes the number of bytes as a size instead of default block size
 ## Hashs available (sorted)

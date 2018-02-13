@@ -5,7 +5,7 @@
 ## Tips
   > Dependencies include `xdot` . To install, `sudo apt install xdot`
 	> To print a grapviz, `use a[options] | xdot -` . Example: `ag $$ | xdot -` . `$$` means here (at current seek). `agv` does the same thing.
-	{.is-info}
+	
 ---
 
 - `ag [addr]`   output graphviz code (bb at addr and children)

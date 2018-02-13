@@ -1,6 +1,6 @@
 <!-- TITLE: agn -->
 
-#  `agn[?] title body` ** ** Add a node to the current graph
+#  `agn[?] title body`   Add a node to the current graph
 
 
 ```text

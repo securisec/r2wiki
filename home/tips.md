@@ -1,7 +1,7 @@
 <!-- TITLE: Tips -->
 # Tips
 
-## **Unorganized random tips**
+## Unorganized random tips
 
 - Use `~/.radare2rc` to make any config or cmd run everytime radare2 is loaded.
 - To run the same command multiple times, prepend the number before the command. Example: `3dc` will run `dc` three times
@@ -28,7 +28,7 @@
 	s axt `str.some~[1]`
 	``` 
 - The `$$` represents here (current seek)
-- Press **space bar** to switch between `V` and `VV`
+- Press space bar to switch between `V` and `VV`
 - Use `agv` to open a grapviz flow graph
 - Set `?E `fo`` in `~/.radare2rc` to show clippy style fortune messages
 - [Floss](https://github.com/fireeye/flare-floss/releases) has a radare2 output using `-r`
@@ -43,8 +43,8 @@
 	- Found files can be written to disk using the `wtf` command
 
 
-## **Tips from fortunes**
-> These tips are from the radare2 fortunes {.is-info}
+## Tips from fortunes
+- > These tips are from the radare2 fortunes 
 
 - Add comments using the `;` key in visual mode or the `CC` command from the radare2 shell
 - Add custom Have you setup your ~/.radare2rc today?

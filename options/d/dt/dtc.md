@@ -1,6 +1,6 @@
 <!-- TITLE: dtc -->
 
-#  **`dtc[?][addr]|([from] [to] [addr])`** Trace call/ret
+#  `dtc[?][addr]|([from] [to] [addr])` Trace call/ret
 
 
 ```text

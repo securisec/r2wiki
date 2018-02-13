@@ -1,6 +1,6 @@
 # rarop install help
 
-> Manually install rarop. Use this method instead {.is-info}
+> Manually install rarop. Use this method instead 
 
 - Clone the rarop repository
 

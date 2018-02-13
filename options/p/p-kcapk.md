@@ -1,6 +1,6 @@
 <!-- TITLE: P[kK] -->
 
-#  **`p[kK] [len]`** print key in randomart (K is for mosaic)
+#  `p[kK] [len]` print key in randomart (K is for mosaic)
 
 
 ```text

@@ -9,11 +9,11 @@ The goal of this wiki is to make a searchable collection of documents which can 
 
 This wiki can be used either from the online version, local webapp or from the r2 shell. 
 
-**Make sure to update the local version everytime before using. The wiki is updated frequently**
+Make sure to update the local version everytime before using. The wiki is updated frequently
 
 #### Credits:
 Tons of great youtube videos, the radare2 irc channel, twitter, too many to list.
-Wiki is powered by [wiki.js](https://wiki.js.org/) <img src="https://beta.requarks.io/svg/logo.svg" width="48">
+Wiki is powered by https://wiki.js.org/
 
 ## Online
 The wiki is available online at [readthedocs http://r2wiki.readthedocs.io/en/latest/](http://r2wiki.readthedocs.io/en/latest/)
@@ -33,29 +33,29 @@ Both the online version and local version supports full search capability. The o
 - Allow some time for the search to finish indexing.
 
 #### Update local installation
-- To update to the latest **(this wiki will be updated frequently :stuck_out_tongue_winking_eye:)**, simply run  
+- To update to the latest (this wiki will be updated frequently :stuck_out_tongue_winking_eye:), simply run  
 `git pull origin master` from inside the repo directory.
 
 #### From r2 shell
 - Directions can be found in the [r2wiki.py](https://radare2.securisec.com/home/r2wiki-python)
-> In order for this to work, you need a local copy of the wiki. You can get it from [github](https://github.com/securisec/radare2_wiki)
+- > In order for this to work, you need a local copy of the wiki. You can get it from [github](https://github.com/securisec/radare2_wiki)
 - The argument supports regex and the output is in less format
 
 - Because the output is using less, you can highlight/search using `/` or show only matching lines by using `&`
 
-- /path/to/repo/r2wiki.py needs to be absolute path {.is-warning}
+- /path/to/repo/r2wiki.py needs to be absolute path 
 
 - This can be accessed multiple ways. 
 	- Method 1: Set an alias in your `~/.radare2rc` file		
     ```sh
     echo '$'wiki="#"'!'"pipe python /path/to/repo/r2wiki.py" >> ~/.radare2rc
     ```
-	 > Invoke as `$wiki arg`
+	 - > Invoke as `$wiki arg`
 	- Method 2: Set an alias from inside r2 shell:
 	```text
 	$wiki=#!pipe python /path/to/r2wiki.py
 	```
-	 > invoke as `$wiki arg`
+	 - > invoke as `$wiki arg`
 	- Method 3: 
     ```text
     #!pipe python /path/to/repo/r2wiki.py

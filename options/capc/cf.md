@@ -1,6 +1,6 @@
 <!-- TITLE: Cf -->
 
-#  **`Cf[?][-] [sz] [0|cnt][fmt] [a0 a1...] [@addr]`** format memory (see pf?)
+#  `Cf[?][-] [sz] [0|cnt][fmt] [a0 a1...] [@addr]` format memory (see pf?)
 
 
 ```text

@@ -10,7 +10,7 @@
 - Set up and attach gdbserver to a process/binary. Example: `gdbserver localhost:8000 /bin/ls`
 - 🚀 Connect to gdbserver using r2. `radare2 -d gdb://localhost:8000` [asciinema](https://asciinema.org/a/V1olGhQv9rhYWdkYxOzDGBntu)
 - Use radare2 commands normally
-	> Note that gdbserver implemented this way will die once the r2 session exits
+	- > Note that gdbserver implemented this way will die once the r2 session exits
 
 ### gdbserver subhelp
 

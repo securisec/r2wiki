@@ -1,6 +1,6 @@
 <!-- TITLE: * Pointer -->
 
-#  **`*`** Pointer read/write data/values (see ?v, wx, wv)
+#  `*` Pointer read/write data/values (see ?v, wx, wv)
 
 
 ```text

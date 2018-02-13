@@ -1,6 +1,6 @@
 <!-- TITLE: dx -->
 
-#  **`dx[?]`** Inject and run code on target process (See gs)
+#  `dx[?]` Inject and run code on target process (See gs)
 
 
 ```text
@@ -8,11 +8,11 @@ Usage: dx # Code injection commands
 ```
 
 
-- **`dx <opcode>...`** Inject opcodes
-- **`dxa nop`** Assemble code and inject
-- **`dxe egg-expr`** Compile egg expression and inject it
-- **`dxr <opcode>...`** Inject opcodes and restore state
-- **`dxs write 1, 0x8048, 12`** Syscall injection (see gs)
+- `dx <opcode>...` Inject opcodes
+- `dxa nop` Assemble code and inject
+- `dxe egg-expr` Compile egg expression and inject it
+- `dxr <opcode>...` Inject opcodes and restore state
+- `dxs write 1, 0x8048, 12` Syscall injection (see gs)
 
     
 ```text

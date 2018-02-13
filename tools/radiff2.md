@@ -2,9 +2,9 @@
 
 # radiff2
 
-## **Tips**
+## Tips
   - After installing xdot ( `sudo apt install xdot` ), you can graph the difference between two binaries. Syntax is, `radiff2 -g function_name binary1 binary | xdot -`
-    - **Yellow** indicates some offsets doesnt match, **grey** is perfect match and **red** shows a strong difference (radare2 book page 148)
+    - Yellow indicates some offsets doesnt match, grey is perfect match and red shows a strong difference (radare2 book page 148)
 ## Help
 
       Usage: radiff2 [-abcCdjrspOxuUvV] [-A[A]] [-g sym] [-t %] [file] [file]

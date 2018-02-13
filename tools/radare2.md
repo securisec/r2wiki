@@ -2,7 +2,7 @@
 
 # radare2
 
-## **Tips**
+## Tips
   - Load a profile and use two terminals (redirect stdin from another terminal)
     - First, find out the the tty of the second terminal using `tty` . Then put that terminal to sleep, i.e. `sleep 999999`
     - Create a new profile file (named with a `.rr` ) and put the following or any other configuration options
@@ -27,11 +27,11 @@
 
   - To attach to a remote debugger, use the `-D debugger_type` . Example `r2 -D gdb gdb://host:port`
   - Use `-B` to set the base address
-	  > -B changes the base address, which is the address used by RBin to rebase all the flags , symbols, etc
+	  - > -B changes the base address, which is the address used by RBin to rebase all the flags , symbols, etc
 
-    > when you want to map a file at a specific address the -B creates the map at address 0 to be in sync with the PA (physical address)
+    - > when you want to map a file at a specific address the -B creates the map at address 0 to be in sync with the PA (physical address)
   - Use `-m` to map a binary at the provided address
-	  > -m works for bootloaders, raw firmwares and such
+	  - > -m works for bootloaders, raw firmwares and such
 
 - Use `-hh` to find paths to all environment variables being used
 - Use `-n` switch to load a binary in raw more. No VADDR
@@ -90,36 +90,36 @@ Usage: r2 [-ACdfLMnNqStuvwzX] [-P patch] [-p prj] [-a arch] [-b bits] [-i file]
 ## Debuggers supported 
    - `radare2 -L`
 
-  Those that have a **d** in the first column support debugging
+  Those that have a d in the first column support debugging
 
-  - _rw_ _ **`ar`** Open ar/lib files [ar|lib]://[file//path] (LGPL3)
-  - _rw_ _ **`bfdbg`** BrainFuck Debugger (bfdbg://path/to/file) (LGPL3)
-  - _rwd_ **`bochs`** Attach to a BOCHS debugger (LGPL3)
-  - _r_d_ **`debug`** Native debugger (dbg:///bin/ls dbg://1388 pidof:// waitfor://) (LGPL3) v0.2.0 pancake
-  - _rw_ _ **`default`** open local files using def_mmap:// (LGPL3)
-  - _rwd_ **`gdb`** Attach to gdbserver, 'qemu -s', gdb://localhost:1234 (LGPL3)
-  - _rw_ _ **`gzip`** read/write gzipped files (LGPL3)
-  - _rw_ _ **`http`** http get (http://rada.re/) (LGPL3)
-  - _rw_ _ **`ihex`** Intel HEX file (ihex://eeproms.hex) (LGPL)
-  - _r_ __ **`mach`** mach debug io (unsupported in this platform) (LGPL)
-  - _rw_ _ **`malloc`** memory allocation (malloc://1024 hex://cd8090) (LGPL3)
-  - _rw_ _ **`mmap`** open file using mmap:// (LGPL3)
-  - _rw_ _ **`null`** null-plugin (null://23) (LGPL3)
-  - _rw_ _ **`procpid`** /proc/pid/mem io (LGPL3)
-  - _rwd_ **`ptrace`** ptrace and /proc/pid/mem (if available) io (LGPL3)
-  - _rwd_ **`qnx`** Attach to QNX pdebug instance, qnx://host:1234 (LGPL3)
-  - _rw_ _ **`r2k`** kernel access API io (r2k://) (LGPL3)
-  - _rw_ _ **`r2pipe`** r2pipe io plugin (MIT)
-  - _rw_ _ **`r2web`** r2web io client (r2web://cloud.rada.re/cmd/) (LGPL3)
-  - _rw_ _ **`rap`** radare network protocol (rap://:port rap://host:port/file) (LGPL3)
-  - _rw_ _ **`rbuf`** RBuffer IO plugin: rbuf:// (LGPL)
-  - _rw_ _ **`self`** read memory from myself using 'self://' (LGPL3)
-  - _rw_ _ **`shm`** shared memory resources (shm://key) (LGPL3)
-  - _rw_ _ **`sparse`** sparse buffer allocation (sparse://1024 sparse://) (LGPL3)
-  - _rw_ _ **`tcp`** load files via TCP (listen or connect) (LGPL3)
-  - _rwd_ **`windbg`** Attach to a KD debugger (windbg://socket) (LGPL3)
-  - _rwd_ **`winedbg`** Wine-dbg io and debug.io plugin for r2 (MIT)
-  - _rw_ _ **`zip`** Open zip files [apk|ipa|zip|zipall]://[file//path] (BSD)
+  - _rw_ _ `ar` Open ar/lib files [ar|lib]://[file//path] (LGPL3)
+  - _rw_ _ `bfdbg` BrainFuck Debugger (bfdbg://path/to/file) (LGPL3)
+  - _rwd_ `bochs` Attach to a BOCHS debugger (LGPL3)
+  - _r_d_ `debug` Native debugger (dbg:///bin/ls dbg://1388 pidof:// waitfor://) (LGPL3) v0.2.0 pancake
+  - _rw_ _ `default` open local files using def_mmap:// (LGPL3)
+  - _rwd_ `gdb` Attach to gdbserver, 'qemu -s', gdb://localhost:1234 (LGPL3)
+  - _rw_ _ `gzip` read/write gzipped files (LGPL3)
+  - _rw_ _ `http` http get (http://rada.re/) (LGPL3)
+  - _rw_ _ `ihex` Intel HEX file (ihex://eeproms.hex) (LGPL)
+  - _r_ __ `mach` mach debug io (unsupported in this platform) (LGPL)
+  - _rw_ _ `malloc` memory allocation (malloc://1024 hex://cd8090) (LGPL3)
+  - _rw_ _ `mmap` open file using mmap:// (LGPL3)
+  - _rw_ _ `null` null-plugin (null://23) (LGPL3)
+  - _rw_ _ `procpid` /proc/pid/mem io (LGPL3)
+  - _rwd_ `ptrace` ptrace and /proc/pid/mem (if available) io (LGPL3)
+  - _rwd_ `qnx` Attach to QNX pdebug instance, qnx://host:1234 (LGPL3)
+  - _rw_ _ `r2k` kernel access API io (r2k://) (LGPL3)
+  - _rw_ _ `r2pipe` r2pipe io plugin (MIT)
+  - _rw_ _ `r2web` r2web io client (r2web://cloud.rada.re/cmd/) (LGPL3)
+  - _rw_ _ `rap` radare network protocol (rap://:port rap://host:port/file) (LGPL3)
+  - _rw_ _ `rbuf` RBuffer IO plugin: rbuf:// (LGPL)
+  - _rw_ _ `self` read memory from myself using 'self://' (LGPL3)
+  - _rw_ _ `shm` shared memory resources (shm://key) (LGPL3)
+  - _rw_ _ `sparse` sparse buffer allocation (sparse://1024 sparse://) (LGPL3)
+  - _rw_ _ `tcp` load files via TCP (listen or connect) (LGPL3)
+  - _rwd_ `windbg` Attach to a KD debugger (windbg://socket) (LGPL3)
+  - _rwd_ `winedbg` Wine-dbg io and debug.io plugin for r2 (MIT)
+  - _rw_ _ `zip` Open zip files [apk|ipa|zip|zipall]://[file//path] (BSD)
 
 ## radare2 man page
 

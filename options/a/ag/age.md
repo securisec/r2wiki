@@ -1,6 +1,6 @@
 <!-- TITLE: age -->
 
-#  `age[?] title1 title2` ** ** Add an edge to the current graph
+#  `age[?] title1 title2`   Add an edge to the current graph
 
 
 ```text

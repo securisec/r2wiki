@@ -2,7 +2,7 @@
 
 # rahash2
 
-## **Tips**
+## Tips
   - WARNING - Do not try to use rahash2 on a big file as it attempts to load the entire file in memory first.
   - Use `all` as the hash type to calculate all hash types available
 ## Help

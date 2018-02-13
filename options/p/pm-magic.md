@@ -1,6 +1,6 @@
 <!-- TITLE: pm -->
 
-#  **`pm[?] [magic]`** print libmagic data (see pm? and /m?)
+#  `pm[?] [magic]` print libmagic data (see pm? and /m?)
 
 
 ```text

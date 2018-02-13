@@ -11,7 +11,7 @@
 ## Pre built binaries
 - [Pre built binaries can be found here](http://radare.mikelloc.com/get/)
 ## Use Cydia
-- > Most likely out of date{.is-warning}
+- > Most likely out of date
 	- [Cydia repository](http://cydia.radare.org/)
 
 

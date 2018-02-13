@@ -1,6 +1,6 @@
 <!-- TITLE: mf -->
 
-#  **`mf[?] [o|n]`** Search files for given filename or for offset
+#  `mf[?] [o|n]` Search files for given filename or for offset
 
 
 ```text

@@ -6,7 +6,7 @@
 
 # Visualization
 ## r2graphity
-> I could not make this work {.is-warning}
+- > I could not make this work
 
 [Call graph visualization with r2](https://github.com/pinkflawd/r2graphity)
 

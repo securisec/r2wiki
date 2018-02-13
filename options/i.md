@@ -33,7 +33,7 @@ Usage: i Get info from opened file (see rabin2's manpage)
   - `iI` Binary info
   - `ik [query]` 🚀 Key-value database from RBinObject [asciinema](https://asciinema.org/a/YRHebE7kO6N90U9BKMfsQeLFr)
   - `il` Libraries _information libraries_
-	  > 🚀 `il` can be used to show linked libraries [asciinema](https://asciinema.org/a/NYgYqTer5PAyoTLbOWp5UUqtP)
+	  - > 🚀 `il` can be used to show linked libraries [asciinema](https://asciinema.org/a/NYgYqTer5PAyoTLbOWp5UUqtP)
   - `il.` nothing documented 👎
   - `iL [plugin]` List all RBin plugins loaded or plugin details
   - `im` Show info about predefined memory allocation
@@ -44,7 +44,7 @@ Usage: i Get info from opened file (see rabin2's manpage)
   - `is` Symbols
   - `is.` Current symbol
   - `iS [entropy,sha1]` Sections (choose which hash algorithm to use)
-	  > 🚀 `iS [entropy,[hash_name]]` can be used to calculate the entropy hash of all the sections [asciinema](https://asciinema.org/a/FAoHCNVqvPqZVP6sOAvEp5myR)
+	  - > 🚀 `iS [entropy,[hash_name]]` can be used to calculate the entropy hash of all the sections [asciinema](https://asciinema.org/a/FAoHCNVqvPqZVP6sOAvEp5myR)
   - `iS.` Current section
   - `iV` 🚀 Display file version info [asciinema](https://asciinema.org/a/yJAkokc6XysYA8iBqCUxYTRBf)
   - `iz|izj` Strings in data sections (in JSON/Base64)

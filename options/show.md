@@ -1,7 +1,7 @@
 <!-- TITLE: ?$? -->
 
 #  `?$?` Show available '$' variables and aliases
-> To get the values of any of these variables, use `?$` {.is-info]
+> To get the values of any of these variables, use `?$` 
 
 ```text
 Usage: ?v [$.]

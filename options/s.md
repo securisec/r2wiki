@@ -22,7 +22,7 @@ Usage: s # Help for the seek commands. See ?$? to see all variables
 - `s[j*=!]` List undo seek history (JSON, =list, *r2, !=names, s==)
 	- `sj` to retrive seek history in json format
 - `s/ DATA` Search for next occurrence of 'DATA'
-  > `s/` This will also seek to the address of the first match
+  - > `s/` This will also seek to the address of the first match
 - `s/x 9091` Search for next occurrence of \x90\x91
 - `s.hexoff` Seek honoring a base from core->offset
 - `sa [[+-]a] [asz]` Seek asz (or bsize) aligned to addr

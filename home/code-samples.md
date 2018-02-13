@@ -29,7 +29,7 @@
 	```
 	
 # Automation
-> Place holder
+- > Place holder
 # Helper scripts
 ## Find args and addresses in stack
 [r2args](https://github.com/gast04/r2args)

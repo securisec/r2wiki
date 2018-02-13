@@ -1,6 +1,6 @@
 <!-- TITLE: F -->
 
-#  **`fR[?] [f] [t] [m]`** relocate all flags matching f&~m 'f'rom, 't'o, 'm'ask
+#  `fR[?] [f] [t] [m]` relocate all flags matching f&~m 'f'rom, 't'o, 'm'ask
 
 
 ```text

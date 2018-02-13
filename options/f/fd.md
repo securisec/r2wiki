@@ -1,6 +1,6 @@
 <!-- TITLE: fd -->
 
-#  **`fd addr`** return flag+delta
+#  `fd addr` return flag+delta
 
 
 ```text

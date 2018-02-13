@@ -1,6 +1,6 @@
 <!-- TITLE: pf Format Characters -->
 
-#  **`pf??`** Format characters
+#  `pf??` Format characters
 
 
 ```text

@@ -2,7 +2,7 @@
 
 # Helpers
 [zlowram/radare2-scripts](https://github.com/zlowram/radare2-scripts/tree/master/go_helpers)
-	> *To run, from inside r2 console, use `#!pipe python ./file.py` or `. ./file.py`* {.is-info}
+	> *To run, from inside r2 console, use `#!pipe python ./file.py` or `. ./file.py`*
 
 - _load_pclntab_info.py_
 	- Before

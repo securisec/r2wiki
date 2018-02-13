@@ -1,6 +1,6 @@
 <!-- TITLE: wt -->
 
-#  **`wt[f][?] file [sz]`** write to file (from current seek, blocksize or sz bytes)
+#  `wt[f][?] file [sz]` write to file (from current seek, blocksize or sz bytes)
 
 
 ```text

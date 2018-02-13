@@ -1,6 +1,6 @@
 <!-- TITLE: pu -->
 
-#  **`pu[?][w] [len]`** print N url encoded bytes (w=wide)
+#  `pu[?][w] [len]` print N url encoded bytes (w=wide)
 
 
 ```text

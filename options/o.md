@@ -31,7 +31,7 @@ Usage: o [com- ] [file] ([offset])
 - [ `oo[?]` reopen current file (kill+fork in debugger)](/options/o/oo_question)
 
 - `oo+` reopen current file in read-write
-  > _This is a substitute for `-w` as a paramter when opening the file_
+  - > _This is a substitute for `-w` as a paramter when opening the file_
 - `ood [args]` reopen in debugger mode (with args)
 
 - [ `oo[bnm] [...]` see oo? for help](/options/o/oo)

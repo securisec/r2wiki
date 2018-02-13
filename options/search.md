@@ -9,7 +9,7 @@ Use io.va for searching in non virtual addressing spaces
 ```
 
 
-## **Tips**
+## Tips
   - To search for hexadecimal representation of a string, prepend the string with a `\x` . For example, `/ \xELF` will search for the hexadecimal represenation of ELF
 - `/ foo\x00` 🚀 search for string 'foo\0' [asciinema](https://asciinema.org/a/Ecgm3K7peRKclEFWGM9fZyGrj)
 - `/j foo\x00` 🚀 search for string 'foo\0' (json output) [asciinema](https://asciinema.org/a/UeE0hZZxMWzni2Fgq2Mc4xIJ5)

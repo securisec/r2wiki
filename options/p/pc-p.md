@@ -1,6 +1,6 @@
 <!-- TITLE: pc -->
 
-#  **`pc[?][p] [len]`** output C (or python) format
+#  `pc[?][p] [len]` output C (or python) format
 
 ## Valid print code formats are: JSON, C, Python, Cstring (pcj, pc, pcp, pcs) 
 - `pc` 🚀 C [asciinema](https://asciinema.org/a/Zpz2IX4UYUvpMZPmRoXbvatYn)

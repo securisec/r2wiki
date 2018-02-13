@@ -2,7 +2,7 @@
 
 # rabin2
 
-## **Tips**
+## Tips
   - Use `rabin2 -l binary` to list its direct dependencies.
 ## Help
 

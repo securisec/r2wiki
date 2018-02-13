@@ -2,7 +2,7 @@
 
 # Installing / Building
 ### Installing from pre packaged binaries
-[Instructions on building for Windows **OLD**](https://github.com/radare/radare2/blob/master/doc/windows.md)
+[Instructions on building for Windows OLD](https://github.com/radare/radare2/blob/master/doc/windows.md)
 [These pre packaged binaries/installers are not always up to date](http://radare.mikelloc.com/get/)
 ## Building
 - Requirements
@@ -10,18 +10,18 @@
 	- [Python meson build](https://github.com/mesonbuild/meson)
 	- [Ninja](https://ninja-build.org/)
 
-> To compile radare2, simply run `meson.bat` {.is-info}
+> To compile radare2, simply run `meson.bat`
 - `meson.bat -p` outputs a Visual Studio project file
 
 ## Config file
 - To find the location of the radare2rc config file for windows, run `r2 -hh` and look for the environment variable `RHOMEDIR`
 
 ## Using an installer
-To get the latest installer, [go to this site](https://ci.appveyor.com/project/radare/radare2-shvdd) or [this site](http://radare.mikelloc.com/get/) and click the appropiate job name (32 vs 64bit) and then click artifacts to download the installer. **The installer adds right click context for any file**
+To get the latest installer, [go to this site](https://ci.appveyor.com/project/radare/radare2-shvdd) or [this site](http://radare.mikelloc.com/get/) and click the appropiate job name (32 vs 64bit) and then click artifacts to download the installer. The installer adds right click context for any file
 
 # DLL support
 ## dll support using rarun2
-> Syntax is `rarun2.exe runlib=[path\to\library] runlib.fcn=[function_name] [arg1=argument1 arg2=argument2...]`. {.is-info}
+> Syntax is `rarun2.exe runlib=[path\to\library] runlib.fcn=[function_name] [arg1=argument1 arg2=argument2...]`.
 - Example: `rarun2.exe runlib=C:\Windows\System32\user32.dll runlib.fcn=MessageBoxA arg1=%0 arg2=Body arg3=Title arg4=%1`
 - It should be possible to use a rarun2 profile to debug a dll in this manner. 
 
