@@ -13,7 +13,7 @@ Usage: dbt # Backtrace commands
 - **`dbt=`** Display backtrace in one line (see dbt=s and dbt=b for sp or bp)
 - **`dbtj`** Display backtrace in JSON
 - **`dbta`** Display ascii-art representation of the stack backtrace
-![dbta](/uploads/small-d/dbta.png) {: height="50%" width="50%"}
+![dbta](/uploads/small-d/dbta.png) {:height="50%" width="50%"}
 - **`dbte <addr>`** Enable Breakpoint Trace
 - **`dbtd <addr>`** Disable Breakpoint Trace
 - **`dbts <addr>`** Swap Breakpoint Trace
