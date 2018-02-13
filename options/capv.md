@@ -31,7 +31,7 @@
 
 ## Panels `V!`
 
-  <img src="uploads/cap-v/panels.png" width="50%">
+  <img src="./uploads/cap-v/panels.png" width="50%">
 
 ## Hex view `V`
 
