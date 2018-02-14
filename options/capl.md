@@ -3,7 +3,7 @@
 #  `L` list, unload load r2 plugins
 
 
-```text
+```
 Usage: L[-name][ file] # see oL, iL, dL, ...
 ```
 

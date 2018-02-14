@@ -3,7 +3,7 @@
 #  `sl[?] [+-]line` Seek to line
 
 
-```text
+```
 Usage: sl+ or sl- or slc
 ```
 

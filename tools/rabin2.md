@@ -64,7 +64,7 @@
 			 
 ## rabin2 man page
 
-```text
+```
 RABIN2(1)                                    BSD General Commands Manual                                    RABIN2(1)
 
 NAME

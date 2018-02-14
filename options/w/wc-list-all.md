@@ -3,7 +3,7 @@
 #  `wc` list all write changes
 
 
-```text
+```
 Usage: wc[ir+-*?] # NOTE: Uses io.cache=true
 ```
 

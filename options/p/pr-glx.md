@@ -3,7 +3,7 @@
 #  `pr[?][glx] [len]` print N raw bytes (in lines or hexblocks, 'g'unzip)
 
 
-```text
+```
 Usage: pr[glx] [size]
 ```
 

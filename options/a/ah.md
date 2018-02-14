@@ -3,7 +3,7 @@
 #  `ah[?]`   analysis hints (force opcode size, ...)
 
 
-```text
+```
 Usage: ah[lba-]Analysis Hints
 ```
 

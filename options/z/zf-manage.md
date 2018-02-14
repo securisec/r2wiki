@@ -3,7 +3,7 @@
 #  `zf[?]` manage FLIRT signatures
 
 
-```text
+```
 Usage: zf[dsz] filename # Manage FLIRT signatures
 ```
 

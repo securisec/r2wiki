@@ -3,7 +3,7 @@
 #  `do[?]` Open process (reload, alias for 'oo')
 
 
-```text
+```
 Usage: do # Debug (re)open commands
 ```
 

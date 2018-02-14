@@ -12,7 +12,7 @@
 			 
 ## r2agent man page
 
-```text
+```
 R2AGENT(1)                                   BSD General Commands Manual                                   R2AGENT(1)
 
 NAME

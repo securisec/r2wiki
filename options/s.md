@@ -3,7 +3,7 @@
 #  `s` Seek to address (also for '0x', '0x1' == 's 0x1')
 
 
-```text
+```
 Usage: s # Help for the seek commands. See ?$? to see all variables
 ```
 

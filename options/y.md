@@ -3,7 +3,7 @@
 #  `y` Yank/paste bytes from/to memory
 
 
-```text
+```
 Usage: y[ptxy] [len] [[@]addr] # See wd? for memcpy, same as 'yf'.
 ```
 

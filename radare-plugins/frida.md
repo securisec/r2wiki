@@ -48,7 +48,7 @@ A lot of the examples from this section has been obtained following examples fro
 - `\/v[1248][j] value` Search for a value honoring `e cfg.bigendian` of given width
 - `\e search.in=?` r2fridas own search configuration
 	
-	```text
+	```
 	Specify which memory ranges to search in, possible values:
 
 			perm:---        filter by permissions (default: 'perm:r--')
@@ -103,7 +103,7 @@ A lot of the examples from this section has been obtained following examples fro
 - `\dtr <addr> (<regs>...)` Trace register values
 - `\dtf <addr> [fmt]` Trace address with format (^ixzO) (see dtf?)
       
-	```text
+	```
 		Usage: dtf [format] || dtf [addr] [fmt]
 			 ^ = trace onEnter instead of onExit
 			 + = show backtrace on trace
@@ -132,7 +132,7 @@ A lot of the examples from this section has been obtained following examples fro
 	- > `\e patch.code=true` Can also be used to patch code dynamically. Followed by `wx [something] @ offset`
 
 	
-	```text
+	```
 	Usage: e [var[=value]]Evaluable vars
 		patch.code      = true
 		search.in       = perm:r--
@@ -144,7 +144,7 @@ A lot of the examples from this section has been obtained following examples fro
 
 	- > `\e stalker.event=?`
 		
-	```text
+	```
 	Specify the event to use when stalking, possible values:
 
 			call            trace calls

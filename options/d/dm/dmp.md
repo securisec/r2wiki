@@ -3,7 +3,7 @@
 #  `dmp[?] <address> <size> <perms>` Change page at <address> with <size>, protection <perms> (rwx)
 
 
-```text
+```
 Usage: dmp Change page permissions
 ```
 

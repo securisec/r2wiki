@@ -3,7 +3,7 @@
 #  `fs[?]+-*` manage flagspaces
 
 
-```text
+```
 Usage: fs [*] [+-][flagspace|addr] # Manage flagspaces
 ```
 

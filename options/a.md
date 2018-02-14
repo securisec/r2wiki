@@ -3,7 +3,7 @@
 #  `a` Analysis commands
 
 
-```text
+```
 Usage: a[abdefFghoprxstc] [...]
 ```
 

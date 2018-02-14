@@ -2,7 +2,7 @@
 
 # afll
 
-```text
+```
 | Table fields:
 |
 | address        start address

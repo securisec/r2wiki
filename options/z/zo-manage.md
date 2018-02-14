@@ -3,7 +3,7 @@
 #  `zo[?]` manage zignature files
 
 
-```text
+```
 Usage: zo[zs] filename # Manage zignature files (see dir.zigns)
 ```
 

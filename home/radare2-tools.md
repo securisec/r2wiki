@@ -32,7 +32,7 @@
    - `rasm2 -L`
 
       
-```text
+```
 			_dAe 8 16 6502 LGPL3 6502/NES/C64/Tamagotchi/T-1000 CPU
       _dA_ 8 8051 PD 8051 Intel CPU
       _dA_ 16 32 arc GPL3 Argonaut RISC Core
@@ -152,7 +152,7 @@
    - `radare2 -L`
 
       
-```text
+```
       rw_ ar Open ar/lib files [ar|lib]://[file//path] (LGPL3)
       rw_ bfdbg BrainFuck Debugger (bfdbg://path/to/file) (LGPL3)
       rwd bochs Attach to a BOCHS debugger (LGPL3)
@@ -188,7 +188,7 @@
    - `rahash2 -L` , sorted
 
       
-```text
+```
       Available Hashes: 
        adler32
        crc15can

@@ -3,7 +3,7 @@
 #  `*` Pointer read/write data/values (see ?v, wx, wv)
 
 
-```text
+```
 Usage: *<addr>[=[0x]value]Pointer read/write data/values
 ```
 

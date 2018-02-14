@@ -3,7 +3,7 @@
 #  `pd[?] [sz] [a] [b]` disassemble N opcodes (pd) or N bytes (pD)
 
 
-```text
+```
 Usage: p[dD][ajbrfils] [sz] [arch] [bits] # Print Disassembly
 ```
 

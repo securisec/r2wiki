@@ -3,7 +3,7 @@
 #  `fc[?][name] [color]` set color for given flag
 
 
-```text
+```
 Usage: fc <flagname> [color] # List colors with 'ecs'
 ```
 

@@ -3,7 +3,7 @@
 #  `id[?]` Debug information (source lines)
 
 
-```text
+```
 Usage: id Debug information
 ```
 

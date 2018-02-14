@@ -3,7 +3,7 @@
 #  `wo[?] hex` write in block with operation. 'wo?' fmi
 
 
-```text
+```
 Usage: wo[asmdxoArl24] [hexpairs] @ addr[!bsize]
 ```
 

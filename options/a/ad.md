@@ -2,7 +2,7 @@
 #  `ad[?]`   analyze data trampoline (wip)
 
 
-```text
+```
 Usage: ad[kt] [...]
 ```
 

@@ -3,7 +3,7 @@
 #  `fd addr` return flag+delta
 
 
-```text
+```
 Usage: fd[d] [offset|flag|expression]
 ```
 

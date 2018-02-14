@@ -3,7 +3,7 @@
 #  `px[?][owq] [len]` hexdump of N bytes (o=octal, w=32bit, q=64bit)
 
 
-```text
+```
 Usage: px[0afoswqWqQ][f] # Print heXadecimal
 ```
 

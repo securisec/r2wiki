@@ -3,7 +3,7 @@
 #  `/` Search for bytes, regexps, patterns, ..
 
 
-```text
+```
 Usage: /[!bf] [arg]Search stuff (see 'e??search' for options)
 Use io.va for searching in non virtual addressing spaces
 ```

@@ -4,7 +4,7 @@
 #  `p` Print current block with format and length
 
 
-```text
+```
 Usage: p[=68abcdDfiImrstuxz] [arg|len] [@addr]
 ```
 

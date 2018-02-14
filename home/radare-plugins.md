@@ -48,7 +48,7 @@ _This a list of plugins that I find interesting._
 🚀 rvmi plugin allows one to debug a remote process running in a VM [asciinema](https://asciinema.org/a/Vm2eXMSOS8faegNQGlH4C9J0u)
 [r2 vmi github](https://github.com/Wenzel/radare2-extras/tree/vmi/vmi)
 
-```text
+```
 Usage:
 r2 vmi://win7:5344
 ```

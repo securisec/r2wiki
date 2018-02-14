@@ -7,7 +7,7 @@
 
 # OSX Code signing
 
-```text
+```
 Code Signing
 ------------
 

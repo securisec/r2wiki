@@ -2,7 +2,7 @@
 
 # `wop[DO][arg]` De Bruijn Patterns
 
-```text
+```
 Usage: wop[DO] len @ addr | value
 ```
 

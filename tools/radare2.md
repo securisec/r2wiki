@@ -37,7 +37,7 @@
 - Use `-n` switch to load a binary in raw more. No VADDR
 ## Help
 
-```text
+```
 Usage: r2 [-ACdfLMnNqStuvwzX] [-P patch] [-p prj] [-a arch] [-b bits] [-i file]
        [-s addr] [-B baddr] [-M maddr] [-c cmd] [-e k=v] file|pid|-|--|=
        -- run radare2 without opening any file
@@ -123,7 +123,7 @@ Usage: r2 [-ACdfLMnNqStuvwzX] [-P patch] [-p prj] [-a arch] [-b bits] [-i file]
 
 ## radare2 man page
 
-```text
+```
 RADARE2(1)                                   BSD General Commands Manual                                   RADARE2(1)
 
 NAME

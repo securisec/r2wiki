@@ -3,7 +3,7 @@
 #  `z/[?]` search zignatures
 
 
-```text
+```
 Usage: z/[*] # Search signatures (see 'e?search' for options)
 ```
 

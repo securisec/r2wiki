@@ -14,7 +14,7 @@
 
 ### gdbserver subhelp
 
-```text
+```
 Usage: =!cmd args
  =!pid             - show targeted pid
  =!pkt s           - send packet 's'

@@ -27,7 +27,7 @@
 		 - > The red box indicates the kill command to run in another shell
 	- Available commands inside preload are:
 		
-		```text
+		```
 		|Usage: =![cmd] [args]
 		| =!pid               show getpid()
 		| =!maps              show map regions
@@ -90,7 +90,7 @@
 
 ## rarun2 man page
 
-```text
+```
 RARUN2(1)                                    BSD General Commands Manual                                    RARUN2(1)
 
 NAME

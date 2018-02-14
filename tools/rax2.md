@@ -5,7 +5,7 @@
 ## Help
 
 
-```text
+```
 Usage: rax2 [options] [expr ...]
   =[base]                      ;  rax2 =10 0x46 -> output in base 10
   int     ->  hex              ;  rax2 10
@@ -53,7 +53,7 @@ Usage: rax2 [options] [expr ...]
 
 ## rax2 man page
 
-```text
+```
 RAX2(1)                                      BSD General Commands Manual                                      RAX2(1)
 
 NAME

@@ -24,7 +24,7 @@
 - Equivalent of "set-follow-fork-mode" gdb command. First, `dcf` until a fork happens, and then `dp` to see all child processes
 - When debugging a binary, use `e dbg.bep=main` or entry to bypass the loader. This can be made persistant in `~/.radare2rc`
 - Use the back tick ``` to wrap a command to use as the input to another command. Example. This command will take the address xref to of somestr and seek to that address. 
-	```text
+	```
 	s axt `str.some~[1]`
 	``` 
 - The `$$` represents here (current seek)

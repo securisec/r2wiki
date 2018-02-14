@@ -3,7 +3,7 @@
 #  `b` Display or change the block size
 
 
-```text
+```
 Usage: b[f] [arg]
     Get/Set block size
 ```

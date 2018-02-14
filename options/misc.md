@@ -3,7 +3,7 @@
 #  `@` Misc help for '@' (seek), '~' (grep) (see ~??)
 
 
-```text
+```
 Usage: [.][#]<cmd>[*] [`cmd`] [@ addr] [~grep] [|syscmd] [>[>]file]
 ```
 

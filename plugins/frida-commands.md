@@ -35,7 +35,7 @@ The commands here can be found using `\?` or `=!` when a binary is loaded using 
 - `\dtf <addr> [fmt]` Trace address with format (^ixzO) (see dtf?)
 
       
-	```text
+	```
 		Usage: dtf [format] || dtf [addr] [fmt]
 			 ^ = trace onEnter instead of onExit
 			 + = show backtrace on trace

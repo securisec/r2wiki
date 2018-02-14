@@ -3,7 +3,7 @@
 #  `dsu[?]<address>` Step until address
 
 
-```text
+```
 Usage: dsu[fei] [arg] . step until address ' ', 'f'lag, 'e'sil or 'i'nstruction matching
 ```
 

@@ -3,7 +3,7 @@
 #  `zs[?]` manage zignspaces
 
 
-```text
+```
 Usage: zs[+-*] [namespace] # Manage zignspaces
 ```
 

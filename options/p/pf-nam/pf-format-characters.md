@@ -3,7 +3,7 @@
 #  `pf??` Format characters
 
 
-```text
+```
 |pf: pf[.k[.f[=v]]|[v]]|[n]|[0|cnt][fmt] [a0 a1 ...]
 ```
 

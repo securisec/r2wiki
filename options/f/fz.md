@@ -3,7 +3,7 @@
 #  `fz[?][name]` add named flag zone -name to delete. see fz?[name]
 
 
-```text
+```
 Usage: f [?|-name| name] [@addr] # Manage flagzones
 ```
 

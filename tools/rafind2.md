@@ -26,7 +26,7 @@
 
 ## rafind2 man page
 
-```text
+```
 RAFIND2(1)                                   BSD General Commands Manual                                   RAFIND2(1)
 
 NAME

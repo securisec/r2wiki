@@ -3,7 +3,7 @@
 #  `ara[?]` Manage register arenas
 
 
-```text
+```
 Usage: ara[+-s]Register Arena Push/Pop/Swap
 ```
 

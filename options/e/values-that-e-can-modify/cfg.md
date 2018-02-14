@@ -14,7 +14,7 @@
    - > _Can have some fun with this by setting this on ~/.radare2rc. Example: `?E your_message_here`_ 
 
       
-```text
+```
 ┌─[~][]
       └─▪ radare2 -
        .--. .-----------.

@@ -3,7 +3,7 @@
 #  `ps[?][pwz] [len]` print pascal/wide/zero-terminated strings
 
 
-```text
+```
 Usage: ps[zpw+] [N]Print String
 ```
 

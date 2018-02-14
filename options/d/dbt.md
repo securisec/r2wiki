@@ -3,7 +3,7 @@
 #  `dbt[?]` Display backtrace based on dbg.btdepth and dbg.btalgo
 
 
-```text
+```
 Usage: dbt # Backtrace commands
 ```
 

@@ -3,7 +3,7 @@
 #  `p[iI][df] [len]` print N ops/bytes (f=func) (see pi? and pdi)
 
 
-```text
+```
 Usage: pi[bdefrj] [num]
 ```
 

@@ -3,7 +3,7 @@
 #  `wt[f][?] file [sz]` write to file (from current seek, blocksize or sz bytes)
 
 
-```text
+```
 Usage: wt[a] file [size] Write 'size' bytes in current block to 'file'
 ```
 

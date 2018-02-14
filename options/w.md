@@ -3,7 +3,7 @@
 #  `w` Multiple write operations
 
 
-```text
+```
 Usage: w[x] [str] [<file] [<<EOF] [@addr]
 ```
 

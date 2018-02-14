@@ -3,7 +3,7 @@
 #  `pv[?][jh] [mode]` show variable/pointer/value in memory
 
 
-```text
+```
 Usage: pv[j][1,2,4,8,z]
 ```
 

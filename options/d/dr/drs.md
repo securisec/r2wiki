@@ -3,7 +3,7 @@
 #  `drs[?]` Stack register states
 
 
-```text
+```
 Usage: drsregister states commands
 ```
 

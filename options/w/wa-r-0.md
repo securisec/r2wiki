@@ -3,7 +3,7 @@
 #  `wA[?] r 0` alter/modify opcode at current seek (see wA?)
 
 
-```text
+```
 Usage: wA[type] [value]
 ```
 

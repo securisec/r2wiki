@@ -3,7 +3,7 @@
 #  `Cf[?][-] [sz] [0|cnt][fmt] [a0 a1...] [@addr]` format memory (see pf?)
 
 
-```text
+```
 Usage: Cf[-] [sz] [fmt..] [@addr]
 
 'sz' indicates the byte size taken up by struct.

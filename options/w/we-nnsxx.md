@@ -3,7 +3,7 @@
 #  `we[?] [nNsxX] [arg]` extend write operations (insert instead of replace)
 
 
-```text
+```
 Usage: write extend
 ```
 

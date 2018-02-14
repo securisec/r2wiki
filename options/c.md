@@ -3,7 +3,7 @@
 #  `c` Compare block with given data
 
 
-```text
+```
 Usage: c[?dfx] [argument] # Compare
 ```
 

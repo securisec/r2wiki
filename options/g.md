@@ -3,7 +3,7 @@
 #  `g` Generate shellcodes with r_egg
 
 
-```text
+```
 Usage: g[wcilper] [arg]Go compile shellcodes
 ```
 

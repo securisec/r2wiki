@@ -31,7 +31,7 @@
 			 
 ## Available Hashes
 
-```text
+```
 Available Hashes: 
   md5
   sha1
@@ -83,7 +83,7 @@ Available Crypto Algos:
 
 ## rahash2 man page
 
-```text
+```
 RAHASH2(1)                                   BSD General Commands Manual                                   RAHASH2(1)
 
 NAME

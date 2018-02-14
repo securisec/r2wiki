@@ -3,7 +3,7 @@
 #  `dcu[?] [..end|addr] ([end])` Continue until address (or range)
 
 
-```text
+```
 Usage: dcu Continue until address
 ```
 

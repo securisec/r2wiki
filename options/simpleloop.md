@@ -2,7 +2,7 @@
 #  `@@@` Simpler version of `@@` 
 
 
-```text
+```
 Usage: @@@ [type] # types:
      symbols
      imports

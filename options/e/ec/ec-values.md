@@ -1,7 +1,7 @@
 <!-- TITLE: ec Values -->
 # ec values
 
-```text
+```
  ##  comment
  ##  usrcmt
  ##  args
@@ -63,7 +63,7 @@
 
 # Sample theme file (smyck)
 
-```text
+```
 ec b0x00 rgb:222
 ec b0x7f rgb:fff
 ec b0xff rgb:eee

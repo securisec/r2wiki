@@ -3,7 +3,7 @@
 #  `dc[?]` Continue execution
 
 
-```text
+```
 Usage: dc Execution continuation commands
 ```
 

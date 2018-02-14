@@ -3,7 +3,7 @@
 #  `=` Send/Listen for Remote Commands (rap://, http://, <fd>)
 
 
-```text
+```
 Usage: =[:!+-=hH] [...] # radare remote command execution protocol
 ```
 

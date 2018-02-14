@@ -3,7 +3,7 @@
 #  `p=[?][bep] [blks] [len] [blk]` show entropy/printable chars/chars bars
 
 
-```text
+```
 Usage: p=[=bep?][qj] [nblocks] ([len]) ([offset]) show entropy/printable chars/chars bars
 ```
 

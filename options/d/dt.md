@@ -3,7 +3,7 @@
 #  `dt[?]` Display instruction traces (dtr=reset)
 
 
-```text
+```
 Usage: dt Trace commands
 ```
 

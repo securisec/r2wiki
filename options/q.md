@@ -3,7 +3,7 @@
 #  `q` Quit program with a return value
 
 
-```text
+```
 Usage: q[!][!] [retval]
 ```
 

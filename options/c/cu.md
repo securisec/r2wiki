@@ -3,7 +3,7 @@
 #  `cu[?] [addr] @at` Compare memory hexdumps of $$ and dst in unified diff
 
 
-```text
+```
 Usage: cu [offset]# Creates a unified hex patch
 ```
 

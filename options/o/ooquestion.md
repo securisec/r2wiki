@@ -3,7 +3,7 @@
 #  `oo[?]` reopen current file (kill+fork in debugger)
 
 
-```text
+```
 Usage: oo[-] [arg] # map opened files
 ```
 

@@ -3,7 +3,7 @@
 #  `CS[-][space]` manage meta-spaces to filter comments, etc..
 
 
-```text
+```
 Usage: CS [*] [+-][metaspace|addr] # Manage metaspaces
 ```
 

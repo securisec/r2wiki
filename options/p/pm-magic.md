@@ -3,7 +3,7 @@
 #  `pm[?] [magic]` print libmagic data (see pm? and /m?)
 
 
-```text
+```
 |Usage: pm [file|directory]
     | r_magic will use given file/dir as reference
     | output of those magic can contain expressions like:

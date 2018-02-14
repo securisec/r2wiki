@@ -3,7 +3,7 @@
 #  `Cs[?] [-] [size] [@addr]` add string
 
 
-```text
+```
 Usage: Cs[ga-*.] [size] [@addr]
 ```
 

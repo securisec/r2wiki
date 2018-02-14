@@ -3,7 +3,7 @@
 #  `~` Grep
 
 
-```text
+```
 Usage: [command]~[modifier][word,word][endmodifier][[column]][:line]
 modifier:
 ```

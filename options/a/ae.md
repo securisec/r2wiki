@@ -3,7 +3,7 @@
 #  `ae[?] [expr]`   analyze opcode eval expression (see ao)
 
 
-```text
+```
 Usage: ae[idesr?] [arg]ESIL code emulation
 ```
 

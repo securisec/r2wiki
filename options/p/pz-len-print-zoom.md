@@ -3,7 +3,7 @@
 #  `pz[?] [len]` print zoom view (see pz? for help)
 
 
-```text
+```
 Usage: pz [len] print zoomed blocks (filesize/N)
 ```
 

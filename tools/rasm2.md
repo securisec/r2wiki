@@ -38,7 +38,7 @@
 
 ## rasm2 man page
 
-```text
+```
 RASM2(1)                                     BSD General Commands Manual                                     RASM2(1)
 
 NAME

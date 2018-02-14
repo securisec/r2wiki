@@ -2,7 +2,7 @@
 
 #  `VV` Help
 
-```text
+```
 Visual Ascii Art Panels:
 !    - run r2048 game
 .    - seek to PC or entrypoint
@@ -31,7 +31,7 @@ q    - quit, back to visual mode
 # Sub menu help
 ## File
 
-```text
+```
 New
 Open
 Close
@@ -47,7 +47,7 @@ Quit
 ```
 
 ## Edit
-```text
+```
 Copy
 Paste
 Clipboard
@@ -60,7 +60,7 @@ io.Cache
 ```
 
 ## View
-```text
+```
 Hexdump
 Disassembly
 Graph
@@ -72,7 +72,7 @@ Colors
 ```
 
 ## Tools
-```text
+```
 Assembler
 Calculator
 R2 Shell
@@ -80,7 +80,7 @@ System Shell
 ```
 
 ## Search
-```text
+```
 String
 ROP
 Code
@@ -88,7 +88,7 @@ Hexpairs
 ```
 
 ## Debug
-```text
+```
 Registers
 RegisterRefs
 DRX
@@ -105,7 +105,7 @@ Step Over
 ```
 
 ## Analyze
-```text
+```
 Function
 Program
 Calls
@@ -113,7 +113,7 @@ References
 ```
 
 ## Help
-```text
+```
 Fortune
 Commands
 2048

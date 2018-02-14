@@ -3,7 +3,7 @@
 #  `drp[?] <file>` Load register metadata file
 
 
-```text
+```
 Usage: drp # Register profile commands
 ```
 

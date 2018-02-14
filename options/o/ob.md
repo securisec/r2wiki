@@ -3,7 +3,7 @@
 #  `ob[?] [lbdos] [...]` list opened binary files backed by fd
 
 
-```text
+```
 Usage: ob # List open binary files backed by fd
 ```
 

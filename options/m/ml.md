@@ -3,7 +3,7 @@
 #  `ml` List filesystem plugins
 
 
-```text
+```
 ext2  ext2 filesystem
        fat  FAT filesystem
         fb  FB filesystem

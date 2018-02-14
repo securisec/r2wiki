@@ -3,7 +3,7 @@
 #  `ph[?][=|hash] ([len])` calculate hash for a block
 
 
-```text
+```
 Usage: pfs.struct_name | pfs format
 ```
 

@@ -3,7 +3,7 @@
 #  `k` Run sdb-query. see k? for help, 'k *', 'k ' ...
 
 
-```text
+```
 Usage: k[s] [key[=value]]Sdb Query
 ```
 

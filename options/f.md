@@ -3,7 +3,7 @@
 #  `f` Add flag at current address
 
 
-```text
+```
 Usage: f [?] [flagname] # Manage offset-name flags
 ```
 

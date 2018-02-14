@@ -3,7 +3,7 @@
 #  `dko[?] <signal>` Reset skip or cont options for given signal
 
 
-```text
+```
 Usage: dko # Signal handling commands
 ```
 

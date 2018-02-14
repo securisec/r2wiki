@@ -3,7 +3,7 @@
 #  `r` Resize file
 
 
-```text
+```
 Usage: r[+-][ size]Resize file
 ```
 

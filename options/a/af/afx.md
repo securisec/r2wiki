@@ -3,7 +3,7 @@
 #  `afx[cCd-] src dst`   add/remove code/Call/data/string reference
 
 
-```text
+```
 Usage: afx[-cCd?] [src] [dst] manage function references (see also ar?)
 ```
 

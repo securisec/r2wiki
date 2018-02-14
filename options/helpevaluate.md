@@ -3,7 +3,7 @@
 #  `?` Help or evaluate math expression
 
 
-```text
+```
 Usage: ?[?[?]] expression
 ```
 

@@ -3,7 +3,7 @@
 #  `!` Run given command as in system(3)
 
 
-```text
+```
 Usage: !<cmd> Run given command as in system(3)
 ```
 
@@ -20,7 +20,7 @@ Usage: !<cmd> Run given command as in system(3)
 
 ## Environment
 
-```text
+```
 | R2_FILE file name
 | R2_OFFSET 10base offset 64bit value
 | R2_BYTES TODO: variable with bytes in curblock

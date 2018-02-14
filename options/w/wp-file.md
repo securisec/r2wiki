@@ -3,7 +3,7 @@
 #  `wp[?] -|file` apply radare patch file. See wp? fmi
 
 
-```text
+```
 |Usage: wp[-|r2patch-file]
 ```
 

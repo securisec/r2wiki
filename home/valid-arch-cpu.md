@@ -5,7 +5,7 @@
   - > A list of valid architectures can also be obtained using `e asm.arch=?` 
 	
 	
-  ```text
+  ```
 _dAe  8 16       6502        LGPL3   6502/NES/C64/Tamagotchi/T-1000 CPU
 _dA_  8          8051        PD      8051 Intel CPU
 _dA_  16 32      arc         GPL3    Argonaut RISC Core

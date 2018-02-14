@@ -1,7 +1,7 @@
 #  `ae[aA][f] [count]`   analyse esil accesses (regs, mem..)
 
 
-```text
+```
 Examples: aea show regs used in a range
 ```
 

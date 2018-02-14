@@ -13,7 +13,7 @@
 - Echo the following to the `~/.radare2rc` file. They can be used inside radare2 shell independantly also.
 	- To invoke the macros, run them with `.(marcoName [args])
 	
-		```text
+		```
 		(r4ge, #!pipe python2.7 /pathToClone/src/r4ge.py)
 		(markMemSymbolic addr bytes name, #!pipe python2.7 /pathToClone/src/createVariable.py symb $0 $1 $2)
 		(addHook addr instructions bytes comment, #!pipe python2.7 /pathToClone/src/createVariable.py hook $0 $1 $2 $3)
@@ -41,7 +41,7 @@
 
 ## ipython shell variables
 
-```text
+```
 proj          ... angr project
 start_state   ... start state
 pg            ... path_group

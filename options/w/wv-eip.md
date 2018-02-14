@@ -3,7 +3,7 @@
 #  `wv[?] eip+34` write 32-64 bit value
 
 
-```text
+```
 Usage: wv[size] [value]write value of given size
 ```
 

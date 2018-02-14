@@ -3,7 +3,7 @@
 #  `#` Hashbang to run an rlang script
 
 
-```text
+```
 Usage #!interpreter [<args>] [<file] [<<eof]
 ```
 

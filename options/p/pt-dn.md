@@ -3,7 +3,7 @@
 #  `pt[?][dn] [len]` print different timestamps
 
 
-```text
+```
 Usage: pt [dn]print timestamps
 ```
 

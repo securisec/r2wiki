@@ -40,7 +40,7 @@
 
 ## ragg2 man page
 
-```text
+```
 RAGG2(1)                                     BSD General Commands Manual                                     RAGG2(1)
 
 NAME

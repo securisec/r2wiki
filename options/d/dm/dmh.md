@@ -3,7 +3,7 @@
 #  `dmh[?]` Show map of heap
 
 
-```text
+```
 Usage: dmh # Memory map heap
 ```
 

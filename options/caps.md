@@ -3,7 +3,7 @@
 #  `S` Io section manipulation information
 
 
-```text
+```
 Usage: S[?-.*=adlr] [...]
 ```
 

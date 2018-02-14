@@ -3,7 +3,7 @@
 #  `CC[?] [-] [comment-text] [@addr]` add/remove comment
 
 
-```text
+```
 Usage: CC[-+!*au] [base64:..|str] @ addr
 ```
 

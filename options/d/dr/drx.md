@@ -3,7 +3,7 @@
 #  `drx[?]` Show all debug registers
 
 
-```text
+```
 Usage: drx Hardware breakpoints commands
 Usage: drx n [address] [length] [rwx]
 ```

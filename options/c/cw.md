@@ -3,7 +3,7 @@
 #  `cw[?] [us?] [...]` Compare memory watchers
 
 
-```text
+```
 Usage: cw Watcher commands
 ```
 

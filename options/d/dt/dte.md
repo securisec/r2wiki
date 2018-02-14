@@ -3,7 +3,7 @@
 #  `dte[?]` Show esil trace logs
 
 
-```text
+```
 Usage: dte Show esil trace logs
 ```
 

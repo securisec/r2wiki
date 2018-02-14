@@ -3,7 +3,7 @@
 #  `dm[?]` Show memory maps
 
 
-```text
+```
 Usage: dm # Memory maps commands
 ```
 

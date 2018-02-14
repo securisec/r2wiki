@@ -12,7 +12,7 @@ Radare package manager
 ## Help
 
 
-```text
+```
  -i,info                     show information about a package
  -i,install <pkgname>        install package in your home (pkgname=all)
  -gi,global-install <pkg>    install package system-wide
@@ -44,7 +44,7 @@ Radare package manager
 
 ## r2pm man page
 
-```text
+```
 R2PM(1)                                      BSD General Commands Manual                                      R2PM(1)
 
 NAME

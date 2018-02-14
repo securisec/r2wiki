@@ -3,7 +3,7 @@
 #  `o` Open file at optional address
 
 
-```text
+```
 Usage: o [com- ] [file] ([offset])
 ```
 

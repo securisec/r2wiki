@@ -3,7 +3,7 @@
 #  `p-[?][jh] [mode]` bar|json|histogram blocks (mode: e?search.in)
 
 
-```text
+```
 Usage: p-[hj] [pieces]bar|json|histogram blocks
 ```
 

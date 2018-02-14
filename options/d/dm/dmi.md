@@ -3,7 +3,7 @@
 #  `dmi [addr|libname] [symname]` List symbols of target lib
 
 
-```text
+```
 Usage: dmi # List/Load Symbols
 ```
 

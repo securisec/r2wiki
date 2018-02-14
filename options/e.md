@@ -3,7 +3,7 @@
 #  `e` List/get/set config evaluable vars
 
 
-```text
+```
 Usage: e [var[=value]]Evaluable vars
 ```
 

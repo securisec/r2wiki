@@ -3,7 +3,7 @@
 #  `P` Project management utilities
 
 
-```text
+```
 Usage: P[?osi] [file]Project management
 ```
 

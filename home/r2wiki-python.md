@@ -3,7 +3,7 @@
 # r2wiki python
 ## Help
 
-```text
+```
 usage: r2wiki.py [-h] [-a] [-l] what_to_search_for
 
 positional arguments:
@@ -43,12 +43,12 @@ Access the radare2 wiki from inside the r2 shell
     ```
 	 - > Invoke as `$wiki arg`
 	- Method 2: Set an alias from inside r2 shell:
-	```text
+	```
 	$wiki=#!pipe python /path/to/r2wiki.py
 	```
 	 - > invoke as `$wiki arg`
 	- Method 3: 
-    ```text
+    ```
     #!pipe python /path/to/repo/r2wiki.py
     ```
 		

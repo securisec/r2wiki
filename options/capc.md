@@ -3,7 +3,7 @@
 #  `C` Code metadata (comments, format, hints, ..)
 
 
-```text
+```
 Usage: C[-LCvsdfm*?][*?] [...] # Metadata management
 ```
 

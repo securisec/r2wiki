@@ -3,7 +3,7 @@
 #  `dcs[?] <num>` Continue until syscall
 
 
-```text
+```
 Usage: dcs Continue until syscall
 ```
 

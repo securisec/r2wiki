@@ -3,7 +3,7 @@
 #  `z` Zignatures management
 
 
-```text
+```
 Usage: z[*j-aof/cs] [args] # Manage zignatures
 ```
 

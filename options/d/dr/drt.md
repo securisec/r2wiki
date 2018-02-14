@@ -3,7 +3,7 @@
 #  `drt[?]` Show all register types
 
 
-```text
+```
 Usage: drt [type] [size] # debug register types
 ```
 

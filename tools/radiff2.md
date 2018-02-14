@@ -38,7 +38,7 @@
 			 
 ## radiff2 man page
 
-```text
+```
 RADIFF2(1)                                   BSD General Commands Manual                                   RADIFF2(1)
 
 NAME

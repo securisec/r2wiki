@@ -3,7 +3,7 @@
 #  `dk[?]` List, send, get, set, signal handlers of child
 
 
-```text
+```
 Usage: dk Signal commands
 ```
 

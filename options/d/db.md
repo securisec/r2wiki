@@ -3,7 +3,7 @@
 #  `db[?]` Breakpoints commands
 
 
-```text
+```
 Usage: db # Breakpoints commands
 ```
 

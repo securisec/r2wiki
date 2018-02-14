@@ -3,7 +3,7 @@
 #  `dx[?]` Inject and run code on target process (See gs)
 
 
-```text
+```
 Usage: dx # Code injection commands
 ```
 
@@ -15,7 +15,7 @@ Usage: dx # Code injection commands
 - `dxs write 1, 0x8048, 12` Syscall injection (see gs)
 
     
-```text
+```
 Examples: 
 		| dx 9090 Inject two x86 nop
 		| "dxa mov eax,6;mov ebx,0;int 0x80" Inject and restore state

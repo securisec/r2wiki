@@ -1,7 +1,7 @@
 <!-- TITLE: | pipe -->
 
 # `|` Pipe
-```text
+```
 Usage: <r2command> | <program|H|>
 ```
 

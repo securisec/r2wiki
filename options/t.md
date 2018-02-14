@@ -3,7 +3,7 @@
 #  `t` Types, noreturn, signatures, C parser and more
 
 
-```text
+```
 Usage: t # cparse types commands
 ```
 

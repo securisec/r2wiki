@@ -2,7 +2,7 @@
 
 # Summary of `less` command
 
-```text
+```
 SUMMARY OF LESS COMMANDS
 
       Commands marked with * may be preceded by a number, N.

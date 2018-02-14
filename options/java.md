@@ -1,7 +1,7 @@
 <!-- TITLE: Java -->
 # Java
 
-```text
+```
 Usage: java [cmd] [arg..] Suite of java commands, java help for more info
 ```
 

@@ -3,7 +3,7 @@
 #  `dms[?] <id> <mapaddr>` Take memory snapshot
 
 
-```text
+```
 Usage: dms # Memory map snapshots
 ```
 

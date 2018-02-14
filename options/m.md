@@ -3,7 +3,7 @@
 #  `m` Mountpoints commands
 
 
-```text
+```
 Usage: m[-?*dgy] [...] Mountpoints management
 ```
 

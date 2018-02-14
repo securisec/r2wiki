@@ -3,7 +3,7 @@
 #  `dr[?]` Cpu registers
 
 
-```text
+```
 Usage: dr Registers commands
 ```
 

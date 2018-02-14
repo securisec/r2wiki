@@ -3,7 +3,7 @@
 #  `dd[?]` File descriptors (!fd in r1)
 
 
-```text
+```
 Usage: dd Descriptors commands
 ```
 

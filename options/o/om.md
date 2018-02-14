@@ -3,7 +3,7 @@
 #  `om[?]` create, list, remove IO maps
 
 
-```text
+```
 Usage: om[-] [arg] # map opened files
 ```
 

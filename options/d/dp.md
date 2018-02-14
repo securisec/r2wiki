@@ -3,7 +3,7 @@
 #  `dp[?]` List, attach to process or thread id
 
 
-```text
+```
 Usage: dp # Process commands
 ```
 

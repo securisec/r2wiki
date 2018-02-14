@@ -3,7 +3,7 @@
 #  `wao[?] op` modify opcode (change conditional of jump. nop, etc)
 
 
-```text
+```
 Usage: wao [op]performs a modification on current opcode
 ```
 

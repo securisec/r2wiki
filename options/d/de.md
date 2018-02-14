@@ -3,7 +3,7 @@
 #  `de[-sc] [rwx] [rm] [e]` Debug with ESIL (see de?)
 
 
-```text
+```
 Usage: de[-sc] [rwx] [rm] [expr]
 ```
 

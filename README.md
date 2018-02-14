@@ -52,12 +52,12 @@ Both the online version and local version supports full search capability. The o
     ```
 	 - > Invoke as `$wiki arg`
 	- Method 2: Set an alias from inside r2 shell:
-	```text
+	```
 	$wiki=#!pipe python /path/to/r2wiki.py
 	```
 	 - > invoke as `$wiki arg`
 	- Method 3: 
-    ```text
+    ```
     #!pipe python /path/to/repo/r2wiki.py
     ```
 

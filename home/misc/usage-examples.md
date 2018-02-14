@@ -2,7 +2,7 @@
 # Usage examples
 ## Android
 
-```text
+```
 r2 on android
 =============
 Install NDK in archlinux x86-64
@@ -43,7 +43,7 @@ Environment:
 
 ## avr
 
-```text
+```
 AVR (arduino, atmega128, ..)
 ============================
 
@@ -78,7 +78,7 @@ NOTE: Right now the avr debugger is pretty broken, the memory and register reads
 
 ## brainfuck
 
-```text
+```
 Brainfuck support for r2
 ========================
 
@@ -115,7 +115,7 @@ EOF
 
 ## Debug
 
-```text
+```
  Conditional breakpoints
 =========================
 conditional breakpoints are implemented in the following way:
@@ -148,7 +148,7 @@ conditional breakpoints are implemented in the following way:
 ## esil
 
 
-```text
+```
 ESIL
 ====
 
@@ -440,7 +440,7 @@ Other operations that require bindings to external functionalities to work. In t
 
 ## FLIRT
 
-```text
+```
 FLIRT
 =====
 At the  moment of  writing r2  supports  loading  and finding  FLIRT
@@ -494,7 +494,7 @@ refs:
 
 ## gdb
 
-```text
+```
 Connecting r2 with gdb
 ======================
 
@@ -560,7 +560,7 @@ TODO
 
 ## IDA
 
-```text
+```
 IDA
 ======
 
@@ -571,7 +571,7 @@ You can find conversion scripts to work between radare2 and IDA files (IDC, IDB.
 
 ## Macros
 
-```text
+```
  Examples of Macros
 --------------------
 NOTE: in radare2, do not add a space between the "," and the next
@@ -615,7 +615,7 @@ f base@next
 
 ## pdb
 
-```text
+```
 PDB usage
 =========
 
@@ -689,7 +689,7 @@ The following dependencies are required for PDB downloader:
 
 ## RAP Remote Access Protocol
 
-```text
+```
 RAP protocol
 ============
 
@@ -791,7 +791,7 @@ C:
 
 ## Strings
 
-```text
+```
 Loading strings from binaries
 =============================
 
@@ -831,7 +831,7 @@ if (bin.strings) {
 
 ## windbg
 
-```text
+```
 WinDBG
 ======
 

@@ -3,7 +3,7 @@
 #  `di[?]` Show debugger backend information (See dh)
 
 
-```text
+```
 Usage: di Debugger target information
 ```
 

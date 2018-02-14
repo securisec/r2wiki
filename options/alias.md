@@ -2,7 +2,7 @@
 #  `$` Alias
 
 
-```text
+```
 Usage: $alias[=cmd] [args...]Alias commands
 ```
 

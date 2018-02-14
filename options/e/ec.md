@@ -3,7 +3,7 @@
 #  `ec [k] [color]` set color for given key (prompt, offset, ...)
 
 
-```text
+```
 Usage ec[s?] [key][[=| ]fg] [bg]
 ```
 
