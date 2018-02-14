@@ -4,7 +4,7 @@
 > This is an ongoing work in progress and reflects various material obtained while stuying how to use radare2. This wiki is constantly updated. Feel free to tweet to me [![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/securisec) if there is a tidbit I can include in here. 
 
 
-```text
+```
 All the commands are based (started) with the following Radare version:
 radare2 2.1.0-git 16575 @ linux-x86-64 git.2.0.1-245-g48bfa50
 commit: 48bfa5087bed71be501e4c37933c0fe1298d817e build: 2017-11-14__02:43:49
