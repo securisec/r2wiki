@@ -7,6 +7,7 @@ Usage: $alias[=cmd] [args...]Alias commands
 ```
 
 - `$` list all defined aliases
+	- > 🚀 `$` can be used as variables. [asciinema](https://asciinema.org/a/9XsUEQySaKiNp3WJFeC2AdfoF)
 - `$*` same as above, but using r2 commands
 	- > Use `$*` to see values of all user defined variables or aliases. 
 - `$dis='af;pdf'` create command - analyze to show function <p hidden>$dis</p>
