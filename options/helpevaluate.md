@@ -42,7 +42,7 @@ Usage: ?[?[?]] expression
 - `?im message` 🚀 show message centered in screen [asciinema](https://asciinema.org/a/vmSYaPY9RJfssBpN8o6JS2F6K)
 - `?in prompt` noyes input prompt
 - `?iy prompt` yesno input prompt
-- `?l str` returns the length of string
+- `?l[q] 🚀 str` returns the length of string. Use q for quite. [asciinema](https://asciinema.org/a/N4YAQRBq2RYFFpWnmLGF305jb)
 - `?o num` 🚀 get octal value [asciinema](https://asciinema.org/a/DqczvLnEep64MSqLffoMpgYqz)
 - `?O [id]` List mnemonics for current asm.arch / asm.bits
 	- > Usage: `?O[jd] [arg]` .. list all mnemonics for asm.arch (d = describe, j=json)
