@@ -4,7 +4,7 @@
 
 # Debugging
 - To debug a MachO file using r2, run r2 with sudo. Otherwise you need to sign r2
-- LLDB debugger plugin [r2lldb](https://github.com/nowsecure/r2lldb)
+- LLDB debugger plugin [r2lldb](/radare-plugins/r2lldb)
 # Videos
 [](https://www.youtube.com/watch?v=3A3s9BIGphA){.youtube}
 
