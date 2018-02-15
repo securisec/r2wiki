@@ -1,7 +1,6 @@
 <!-- TITLE: r2lldb -->
 
 # Github README r2lldb
-======
 
 `radare2-(lldb|gdb) integration`
 
