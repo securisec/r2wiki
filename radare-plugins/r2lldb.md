@@ -154,3 +154,6 @@ iOS
 The `debugserver` is deployed by XCode in the debugger image. If you have a jailbroken device you can just extract this binary from the dmg and copy it via SSH.
 
 --pancake
+
+# github
+[r2lldb](https://github.com/nowsecure/r2lldb)
