@@ -50,6 +50,7 @@ Usage: px[0afoswqWqQ][f] # Print heXadecimal
 - `pxs` show hexadecimal in sparse mode
 - `pxt[*.] [origin]` show delta pointer table in r2 commands
 - `pxw` show hexadecimal words dump (32bit)
+	- > The colors in `pxw` are: yellow: printable chars, red: pointer to executable are, blue: data
   - Screenshot
 
     ![](/uploads/small-p/pxw.png)
