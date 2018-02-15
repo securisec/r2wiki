@@ -2,7 +2,7 @@
 
 # Debugging
 ## r2lldb
-[r2lldb](https://github.com/nowsecure/r2lldb)
+[r2lldb](/radare-plugins/r2lldb)
 
 # Installation
 - [From radare2 git](https://github.com/radare/radare2/blob/master/doc/iphone.md)
