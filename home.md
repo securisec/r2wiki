@@ -108,7 +108,7 @@ Visual cues:
 
 ## Gui
 
-  [radareorg/cutter](https://github.com/radareorg/cutter)
+  [Cutter](/home/cutter)
 
 ## Install
 
