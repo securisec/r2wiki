@@ -15,12 +15,12 @@ src_dir = os.path.dirname(os.path.realpath(__file__))
 def check_if_up_to_date():
     status = Popen('git -C %s remote show origin' % src_dir,
                    stdout=PIPE, shell=True).stdout.readlines()[-1]
-    if 'out of date' in status:
-        print '[-] r2wiki out of date.\n ' \
+    if 'out of date'.encode() in status:
+        print('[-] r2wiki out of date.\n ' \
               '\tRun $wiki -u \'\' or \n' \
-              '\tUpdate with git -C %s pull origin master' % src_dir
-    elif 'fatal: unable to access' in status:
-        print '[-] Could not check for r2wiki update'
+              '\tUpdate with git -C %s pull origin master' % src_dir)
+    elif 'fatal: unable to access'.encode() in status:
+        print('[-] Could not check for r2wiki update')
 
 
 def arg_parse():
@@ -43,7 +43,7 @@ check_if_up_to_date()
 
 if args.update:
     Popen('git -C %s pull origin master' % src_dir, shell=True, stdout=PIPE).wait()
-    print '\n[+] r2wiki updated'
+    print('\n[+] r2wiki updated')
     exit(0)
 
 if args.match_any:
@@ -91,8 +91,8 @@ try:
     pydoc.pipepager(highlight(found, MarkdownLexer(), TerminalFormatter()), cmd='less -r')
 
 except IndexError:
-    print 'Usage: %s search_param' % sys.argv[0]
+    print('Usage: %s search_param' % sys.argv[0])
 except NameError:
-    print 'pip install -U Pygments'
+    print('pip install -U Pygments')
 except ImportError:
-    print 'Pygments dependency not met. pip install -U Pygments'
+    print('Pygments dependency not met. pip install -U Pygments')
