@@ -32,3 +32,8 @@
 - From `adb shell` launch `/data/data/org.radare.radare2installer/radare2/bin/r2[or any other r2 binaries]`
 ## Documentation for building
 [Documents around installing r2 on android](/home/misc/usage-examples#android)
+
+## Install using Termux
+- radare2 can be installed right from [Termux](https://termux.com/). Inside termux terminal, run the following commands
+	- `pkg update`
+	- `pkg install radare2`
