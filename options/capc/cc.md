@@ -16,7 +16,7 @@ Usage: CC[-+!*au] [base64:..|str] @ addr
 - `CC [text]` append comment at current address
 - `CCf` list comments in function
 - `CC+ [text]` append comment at current address
-- `CC!` edit comment using cfg.editor (vim, ..)
+- `CC!` 🚀 edit comment using cfg.editor (vim, ..) [asciinema](https://asciinema.org/a/vTZQP8lnl6qEw9dZKLvOC7EHV)
 - `CC- @ cmt_addr` remove comment at given address
 - `CCu good boy @ addr` add good boy comment at given address
 - `CCu base64:AA== @ addr` add comment in base64
