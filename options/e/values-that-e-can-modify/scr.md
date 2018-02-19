@@ -7,7 +7,7 @@
 - `scr.breakword` Emulate console break (^C) when a word is printed (useful for pD)
 - `scr.color` Enable colors _Default is true_
 - `scr.color.bytes` Colorize bytes that represent the opcodes of the instruction _Default is true_
-- `scr.color.grep` Enable colors when using ~grep _Default is false_
+- `scr.color.grep` 🚀 Enable colors when using ~grep _Default is false_ [asciinema](https://asciinema.org/a/qh30rqONvLV2WDLRmuZjwnDNm)
 - `scr.color.ops` Colorize numbers and registers in opcodes _Default is true_
 - `scr.columns` Force console column count (width) _Default is 0_
 - `scr.echo` Show rcons output in realtime to stderr and buffer _Default is false_
