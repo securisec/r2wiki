@@ -39,10 +39,10 @@ To get the latest installer, [go to this site](https://ci.appveyor.com/project/r
 # Resources
 ## CTF Windows binaries
 [flareon 2015 2nd challenge](https://fevral.github.io/2017/08/13/flareon2015-2.html)
+
+# Windows malware / scripts
+[malware_analysis_tools](https://github.com/redmed666/malware_analysis_tools)
 # Videos
 [video](https://www.youtube.com/watch?v=2gcqLDGnKMc){.youtube}
 
 <p hidden>idp idpd idpi</p>
-
-# Windows malware / scripts
-[malware_analysis_tools](https://github.com/redmed666/malware_analysis_tools)
