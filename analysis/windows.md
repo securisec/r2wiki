@@ -43,3 +43,6 @@ To get the latest installer, [go to this site](https://ci.appveyor.com/project/r
 [video](https://www.youtube.com/watch?v=2gcqLDGnKMc){.youtube}
 
 <p hidden>idp idpd idpi</p>
+
+# Windows malware / scripts
+[malware_analysis_tools](https://github.com/redmed666/malware_analysis_tools)
