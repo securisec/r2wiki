@@ -36,6 +36,7 @@ modifier:
    - > grep -v 
 
 - `?` count number of matching lines
+	- 🚀You can use `~?` to grep count the number of matching lines. [asciinema](https://asciinema.org/a/2VJyasN4BBMX1HoAaXXW1nP6h)
 - `?.` count number chars
 - `??` show this help message
 - `:[s]-[e]` show lines s-e
