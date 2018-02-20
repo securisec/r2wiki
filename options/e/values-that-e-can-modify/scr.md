@@ -19,6 +19,7 @@
 - `scr.flush` Force flush to console in realtime (breaks scripting) _Default is false_
 - `scr.fps` Show FPS in Visual _Default is false_
 - `scr.highlight` Highlight that word at RCons level
+	- > 🚀Use `scr.highlight` to highlight anything in the disassembly. [asciinema](https://asciinema.org/a/xFrDUHJYcdt6w53jpC1IKCmhN)
 - `scr.histsave` Always save history on exit _Default is true_
 - `scr.html` Disassembly uses HTML syntax _Default is false_
 	- > `scr.html` Enabling this will output any command in html format. Useful when working with a web ui in radare2.
@@ -46,9 +47,10 @@
 - `scr.seek` Seek to the specified address on startup
 	- > Use `sec.seek = main` to automatically seek to main at startup
 - `scr.tee` Pipe output to file of this name
+	- > 🚀 Similar to the tee command in linux `scr.tee` can be used to write all outputs from r2 to a file. [asciinema](https://asciinema.org/a/ouDj8D7Yaf8De6Zg80dfzbBqV)
 - `scr.truecolor` Manage color palette (0 _Default is false_
 - `scr.tts` Use tts if available by a command (see ic) _Default is false_
-- `scr.utf8` Show UTF-8 characters instead of ANSI _Default is false_
+- `scr.utf8` 🚀 Show UTF-8 characters instead of ANSI _Default is false_ [asciinema](https://asciinema.org/a/mC6rNURBpd0cbOyivtT2qUUvY)
 - `scr.utf8.curvy` Show curved UTF-8 corners (requires scr.utf8) _Default is false_
 - `scr.wheel` Mouse wheel in Visual; temporaryly disable/reenable by right click/Enter) _Default is true_
 - `scr.wheelnkey` Use sn/sp and scr.nkey on wheel instead of scroll _Default is false_
