@@ -18,7 +18,7 @@ Wiki is powered by https://wiki.js.org/
 ## Online
 The wiki is available online at [readthedocs http://r2wiki.readthedocs.io/en/latest/](http://r2wiki.readthedocs.io/en/latest/)
 
-The wiki is available online at [radare2.securisec.com](radare2.securisec.com)  
+The wiki is available online at [radare2.securisec.com](http://radare2.securisec.com)  
 Both the online version and local version supports full search capability. The online version is always upto date. 
 
 # r2pm installation
@@ -46,7 +46,7 @@ Both the online version and local version supports full search capability. The o
 `git pull origin master` from inside the repo directory.
 
 #### From r2 shell
-- Directions can be found in the [r2wiki.py](radare2.securisec.com/home/r2wiki-python)
+- Directions can be found in the [r2wiki.py](http://radare2.securisec.com/home/r2wiki-python)
 - > In order for this to work, you need a local copy of the wiki. You can get it from [github](https://github.com/securisec/radare2_wiki)
 - The argument supports regex and the output is in less format
 
