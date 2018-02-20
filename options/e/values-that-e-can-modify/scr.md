@@ -5,10 +5,10 @@
 - `scr.atport` V@ starts a background http server and spawns an r2 -C _Default is false_
 - `scr.breaklines` Break lines in Visual instead of truncating them _Default is false_
 - `scr.breakword` Emulate console break (^C) when a word is printed (useful for pD)
-- `scr.color` Enable colors _Default is true_
+- `scr.color` 🚀 Enable colors _Default is true_ [asciinema](https://asciinema.org/a/c3NvOKBSO5UMpyuRNaVDxvEUx)
 - `scr.color.bytes` Colorize bytes that represent the opcodes of the instruction _Default is true_
 - `scr.color.grep` 🚀 Enable colors when using ~grep _Default is false_ [asciinema](https://asciinema.org/a/qh30rqONvLV2WDLRmuZjwnDNm)
-- `scr.color.ops` Colorize numbers and registers in opcodes _Default is true_
+- `scr.color.ops` 🚀 Colorize numbers and registers in opcodes _Default is true_ [asciinema](https://asciinema.org/a/6AZ7o9CrIUhRKZos5TopluNR4)
 - `scr.columns` Force console column count (width) _Default is 0_
 - `scr.echo` Show rcons output in realtime to stderr and buffer _Default is false_
 - `scr.feedback` Set visual feedback level (1=arrow on jump, 2=every key (useful for videos)) _Default is 1_
