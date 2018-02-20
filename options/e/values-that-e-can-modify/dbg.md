@@ -7,7 +7,7 @@
 - `dbg.backend` Select the debugger backend _Default is native_
 - `dbg.bep` Break on entrypoint _Default is loader_
 - `dbg.bpinmaps` Force breakpoints to be inside a valid map _Default is true_
-	> `dbg.bpinmaps` can be used to place breakpoints / see unmapped memory
+	- > `dbg.bpinmaps` can be used to place breakpoints / see unmapped memory
 - `dbg.bpsize` Size of software breakpoints _Default is 8_
 - `dbg.bpsysign` Ignore system breakpoints _Default is false_
 - `dbg.btalgo` Select backtrace algorithm _Default is fuzzy_
@@ -15,7 +15,7 @@
 - `dbg.clone` Stop execution if new thread is created _Default is false_
 - `dbg.consbreak` SIGINT handle for attached processes _Default is false_
 - `dbg.exe.path` Path to binary being debugged
-	> `dbg.exe.path` Helpful for when debugging a remote binary. May help loading symbols properly. Need to specify the base address with `-B` while loading with r2.
+	- > `dbg.exe.path` Helpful for when debugging a remote binary. May help loading symbols properly. Need to specify the base address with `-B` while loading with r2.
 - `dbg.execs` Stop execution if new thread is created _Default is false_
 - `dbg.exitkills` Kill process on exit _Default is true_
 - `dbg.follow` Follow program counter when pc > core->offset + dbg.follow _Default is 32_
@@ -27,7 +27,7 @@
 - `dbg.libs` If set stop when loading matching libname
 - `dbg.malloc` Choose malloc structure parser _Default is jemalloc_
 - `dbg.profile` Path to RRunProfile file
-	> 🚀 Can use dgb.profile to pass multiple args to a debugged binary. [asciinema](https://asciinema.org/a/COJ7JEDbNgESV7XZ7oeQlpjAH)
+	- > 🚀 Can use dgb.profile to pass multiple args to a debugged binary. [asciinema](https://asciinema.org/a/COJ7JEDbNgESV7XZ7oeQlpjAH)
 - `dbg.slow` Show stack and regs in visual mode in a slow but verbose mode _Default is false_
 - `dbg.status` Set cmd.prompt to '.dr*' or '.dr*;drd;sr PC;pi 1;s-' _Default is false_
 - `dbg.swstep` Force use of software steps (code analysis+breakpoint) _Default is false_

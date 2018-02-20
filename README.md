@@ -18,7 +18,7 @@ Wiki is powered by https://wiki.js.org/
 ## Online
 The wiki is available online at [readthedocs http://r2wiki.readthedocs.io/en/latest/](http://r2wiki.readthedocs.io/en/latest/)
 
-The wiki is available online at [https://radare2.securisec.com](https://radare2.securisec.com)  
+The wiki is available online at [radare2.securisec.com](radare2.securisec.com)  
 Both the online version and local version supports full search capability. The online version is always upto date. 
 
 # r2pm installation
@@ -26,7 +26,16 @@ Both the online version and local version supports full search capability. The o
 - Once installed, use inside r2 with `$wiki "some term"`
 - Update inside r2 with `$wiki -u ''`
 
-### Local webapp Installation
+## Local webapp Installation
+
+### mkdocs installation
+- `pip install mkdocs`
+- `git clone https://github.com/securisec/r2wiki-rtd.git`
+- `cd r2wiki-rtd`
+- `mkdocs serve`
+- Open browser to http://localhost:8000
+
+### Wiki.js installation
 - Install wiki.js by following [these instructions](https://docs.requarks.io/wiki/install)
 - Copy all the files in this repo to the `repo` directory, or run 
 ```git clone https://github.com/securisec/radare2_wiki.git repo/``` from inside your wiki directory.
@@ -37,7 +46,7 @@ Both the online version and local version supports full search capability. The o
 `git pull origin master` from inside the repo directory.
 
 #### From r2 shell
-- Directions can be found in the [r2wiki.py](https://radare2.securisec.com/home/r2wiki-python)
+- Directions can be found in the [r2wiki.py](radare2.securisec.com/home/r2wiki-python)
 - > In order for this to work, you need a local copy of the wiki. You can get it from [github](https://github.com/securisec/radare2_wiki)
 - The argument supports regex and the output is in less format
 

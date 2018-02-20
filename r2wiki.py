@@ -70,7 +70,7 @@ try:
                                 if match.startswith('- ['):
                                     split = match.split(']')
                                     found += max(split, key=len).replace('[', '') + \
-                                             ' [.](https://radare2.securisec.com%s' % split[-1].strip('(')
+                                             ' [.](http://radare2.securisec.com%s' % split[-1].strip('(')
                                 else:
                                     if match.startswith('>'):
                                         match = ''.join(list(match)[1:])
@@ -82,7 +82,7 @@ try:
                                     match = re.sub('{\.is-warning}|'
                                                    '{\.is-info}', '', match)
 
-                                    link = '[.](https://radare2.securisec.com/%s)' % md_path.strip(src_dir).strip('.md')
+                                    link = '[.](http://radare2.securisec.com/%s)' % md_path.strip(src_dir).strip('.md')
                                     if args.show_link:
                                         found += '%s\n%s' % (link, match)
                                     else:
