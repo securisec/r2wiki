@@ -17,6 +17,11 @@ Visual cues:
 ![R 2 Learning Curve](/uploads/r-2-learning-curve.png "R 2 Learning Curve"){.align-center}
 ## Local web app
   - **Using wiki.js** > To get a local copy of this wiki check out [github](https://github.com/securisec/radare2_wiki)
+  - **Using mkdocs** (Is slightly behind the wiki.js implementation)
+		- `pip install mkdocs`
+		- `git clone https://github.com/securisec/r2wiki-rtd.git`
+		- `cd r2wiki-rtd`
+		- `mkdocs serve`
 ## r2wiki.py
   - > ⭐ [Radare2 wiki can also be used right from the r2 shell. See directions here](./home/r2wiki-python)
 # Sections
