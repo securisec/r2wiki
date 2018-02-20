@@ -4,6 +4,7 @@
 
 ## Tips
   - The `a` or the `d` in `rasm2 -L` signifies assember, disassembler or both
+  - To assemble instructions to opcode, use `rasm2 -a x86 -b 32 "push esp"`
 ## Help
 
       Usage: rasm2 [-ACdDehLBvw] [-a arch] [-b bits] [-o addr] [-s syntax]
