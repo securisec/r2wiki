@@ -19,7 +19,7 @@ Usage: p[=68abcdDfiImrstuxz] [arg|len] [@addr]
 - `p8[?][j] [len]` 🚀 8bit hexpair list of bytes [asciinema](https://asciinema.org/a/NiBOmL4HjzsMgYlIMiZxHAwGv)
 
 - [ `pa[edD] [arg]` pa:assemble pa[dD]:disasm or pae: esil from hexpairs](/options/p/pa-ed)
-	- > 🚀use `pa` to assemble instructions to opcodes. 
+	- > 🚀use `pa` to assemble instructions to opcodes. [asciinema](https://asciinema.org/a/pg4JyPZ4Tx1l2v2nVzKusAeVA)
 
 - `pA[n_ops]` show n_ops address and type
 - `p[b|B|xb] [len] ([skip])` bindump N bits skipping M
