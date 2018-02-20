@@ -82,7 +82,7 @@ try:
                                     match = re.sub('{\.is-warning}|'
                                                    '{\.is-info}', '', match)
 
-                                    link = '[.](http://radare2.securisec.com/%s)' % md_path.strip(src_dir).strip('.md')
+                                    link = '[.](http://radare2.securisec.com/%s)' % md_path.replace(src_dir, '').strip('.md')
                                     if args.show_link:
                                         found += '%s\n%s' % (link, match)
                                     else:
