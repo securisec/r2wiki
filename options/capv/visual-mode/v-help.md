@@ -3,7 +3,7 @@
 #  `V` Help
 
 ## Tips
-  > Use `- or +` while in cursor mode to increment of decrement opcode value
+  - > Use `- or +` while in cursor mode to increment of decrement opcode value
 
 ---
 
@@ -14,7 +14,7 @@
 
     ![](/uploads/v-help/question-question-hud.png) 
 
-  > _Makes it really easy to do various tasks in visual mode. This is different from the `_` HUD mode_
+  - > _Makes it really easy to do various tasks in visual mode. This is different from the `_` HUD mode_
 - `$` toggle asm.pseudo
 - `(` snow in visual mode
 - `%` in cursor mode finds matching pair, otherwise toggle autoblocksz
@@ -28,7 +28,7 @@
 - `=` set cmd.vprompt (top row)
 - `|` set cmd.cprompt (right column)
 - `.` seek to program counter
-  > _Return back to where EIP or the current seek is_
+  - > _Return back to where EIP or the current seek is_
 - `\` toggle visual split mode
 - `"` toggle the column mode (uses pC..)
 - `/` in cursor mode search in current block
@@ -71,7 +71,7 @@
 
 - `e` edit eval configuration variables
 - `E` Color / Theme changer. Use up or down to select what you want to change followed by RGB keys.
-  > _Theme editor: Use `rRgGbB` keys to the RGB values_
+  - > _Theme editor: Use `rRgGbB` keys to the RGB values_
 - `f/F` set/unset or browse flags. f- to unset, F to browse, ..
   - Visual flag help
 
@@ -96,9 +96,9 @@
 - `mK/'K` mark/go to Key (any key)
 - `M` walk the mounted filesystems
 - `n/N` seek next/prev function/flag/hit (scr.nkey)
-  > _Move down `n` or up `N` to the next function_
+  - > _Move down `n` or up `N` to the next function_
 - `o` go/seek to given offset
-  > _Go to this offset and change seek to this offset._
+  - > _Go to this offset and change seek to this offset._
 - `O` toggle asm.esil
 - `p/P` rotate print modes (hex, disasm, debug, words, buf)
 - `q` back to radare shell
@@ -130,4 +130,4 @@
 - Pressing the `=` sign inside visual mode brings up cmd.vprompt. Any command executed in this prompt shows up at the top of the visual mode.
 - Pressing the `|` sign inside visual mode brings up cmd.cprompt. Any command executed in this prompt shows up at the right of the visual mode.
 	![](/uploads/v-help/custom-visual-mode.png) 
-	> The red boxing is showing the command `pxr @$$!50` while the green box is show the output of `dr`
+	- > The red boxing is showing the command `pxr @$$!50` while the green box is show the output of `dr`
