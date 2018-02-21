@@ -64,7 +64,8 @@
 
 - `B` toggle breakpoint
 - `c/C` toggle (c)ursor and (C)olors
-  > _Use - or + to increment or decrement opcode value while in cursor c mode_
+  - > _Use - or + to increment or decrement opcode value while in cursor c mode_
+  - > Can also use `[` or `]` to adjust the comment columns
 
 - [ `d[f?]` define function, data, code, ..](/options/capv/visual-mode/v-help/d)
 
