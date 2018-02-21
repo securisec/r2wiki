@@ -23,7 +23,7 @@ Usage: e [var[=value]]Evaluable vars
 - `e!a` invert the boolean value of 'a' var
 
 - [ `ec [k] [color]` set color for given key (prompt, offset, ...)](/options/e/ec)
-
+- `ed` open editor to edit `~/.radare2rc` file
 - `eevar` open editor to change the value of var
 - `ej` list config vars in JSON
 - `env [k[=v]]` get/set environment variable
