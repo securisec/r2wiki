@@ -23,6 +23,12 @@ Usage: c[?dfx] [argument] # Compare
 - `cl|cls|clear` Clear screen, (clear0 to goto 0, 0 only)
 
 - [ `cu[?] [addr] @at` Compare memory hexdumps of $$ and dst in unified diff](/options/c/cu)
+- `cp` Not documented
+	```
+	Usage: cp src dst
+	Usage: cp.orig  # cp $file $file.orig
+	```
+
 
 - `cud [addr] @at` Unified diff disasm from $$ and given address
 - `cv[1248] [addr] @at` Compare 1,2,4,8-byte value
