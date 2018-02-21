@@ -42,7 +42,26 @@
 - `a` assemble code
 - `A` visual Assembler
 - `b` browse symbols, flags, configurations, classes, ...
-	![](/uploads/v-help/visual-b.png) 
+	```
+	_  hud mode (V_)
+	b  blocks
+	c  classes
+	C  comments
+	e  eval var configurations
+	f  flags
+	F  functions
+	h  history
+	i  imports
+	m  maps
+	p  pids/threads
+	q  quit
+	s  symbols
+	t  types
+	v  vars
+	x  xrefs
+	X  refs
+	```
+
 - `B` toggle breakpoint
 - `c/C` toggle (c)ursor and (C)olors
   > _Use - or + to increment or decrement opcode value while in cursor c mode_
