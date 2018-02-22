@@ -46,6 +46,7 @@
 - `scr.rows` Force console row count (height) (duplicate?) _Default is 0_
 - `scr.seek` Seek to the specified address on startup
 	- > Use `sec.seek = main` to automatically seek to main at startup
+- `scr.slow` Do slow stuff on visual mode like RFlag.get_at(true)
 - `scr.tee` Pipe output to file of this name
 	- > 🚀 Similar to the tee command in linux `scr.tee` can be used to write all outputs from r2 to a file. [asciinema](https://asciinema.org/a/ouDj8D7Yaf8De6Zg80dfzbBqV)
 - `scr.truecolor` Manage color palette (0 _Default is false_
