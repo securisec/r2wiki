@@ -29,7 +29,7 @@
 - `dbg.profile` Path to RRunProfile file
 	- > 🚀 Can use dgb.profile to pass multiple args to a debugged binary. [asciinema](https://asciinema.org/a/COJ7JEDbNgESV7XZ7oeQlpjAH)
 - `dbg.slow` Show stack and regs in visual mode in a slow but verbose mode _Default is false_
-	- Set `e dbg.slow=1` to get a more PEDA like visual debugging. `Vpp`
+	- > Set `e dbg.slow=1` to get a more PEDA like visual debugging. `Vpp`
 - `dbg.status` Set cmd.prompt to '.dr*' or '.dr*;drd;sr PC;pi 1;s-' _Default is false_
 - `dbg.swstep` Force use of software steps (code analysis+breakpoint) _Default is false_
 - `dbg.threads` Stop all threads when debugger breaks (see dbg.forks) _Default is false_
