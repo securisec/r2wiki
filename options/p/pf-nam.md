@@ -25,7 +25,7 @@
 - `pf* fmt_name|fmt` Show data using (named) format as r2 flag create commands
 - `pfd.fmt_name` Show data using named format as graphviz commands
 - `pf.name [0|cnt]fmt` Define a new named format
-  > Example is `pf.somename i`. The i is for sign integers but can be any combination of format specifiers. This can then be invoked as `pf.somename @ offset`. This can be used to print the offset as an integer
+  - > Example is `pf.somename i`. The i is for sign integers but can be any combination of format specifiers. This can then be invoked as `pf.somename @ offset`. This can be used to print the offset as an integer
 - `pf.` List all format definitions
 - `pf?fmt_name` Show the definition of a named format
 - `pfo` List all format definition files (fdf)

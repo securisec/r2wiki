@@ -14,7 +14,7 @@ Usage: w[x] [str] [<file] [<<EOF] [@addr]
 - `w6[de] base64/hex` write base64 [d]ecoded or [e]ncoded string
 
 - [ `wa[?] push ebp` write opcode, separated by ';' (use '"' around the command)](/options/w/wa-push)
-	> Assemble opcodes with the `a` and `A` keys in visual mode, which are bindings to the `wa` and `wA` commands
+	- > Assemble opcodes with the `a` and `A` keys in visual mode, which are bindings to the `wa` and `wA` commands
 
 - `waf file` assemble file and write bytes
 

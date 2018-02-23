@@ -11,9 +11,9 @@
 - `d` → `b` set as byte B set as short word (2 bytes) c set as code C define flag color (fc)
 - `d` → `d` set as data
 - `d` → `e` end of function
-	> Visual mode `de` Set end of function
+	- > Visual mode `de` Set end of function
 - `d` → `f` analyze function
-	> Visual mode `df` anlyze the next function
+	- > Visual mode `df` anlyze the next function
 - `d` → `F` format
 - `d` → `i` immediate base (b(in), o(ct), d(ec), h(ex), s(tr)) j merge down (join this and next functions)
 - `d` → `k` merge up (join this and previous function)

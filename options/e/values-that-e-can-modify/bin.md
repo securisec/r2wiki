@@ -4,7 +4,7 @@
 
 - `bin.b64str` Try to debase64 the strings _Default is false_
 - `bin.baddr` Base address of the binary _Default is 4194304_
-	> `bin.baddr` can be used to set the base address. 
+	- > `bin.baddr` can be used to set the base address. 
 - `bin.classes` Load classes from rbin on startup _Default is true_
 - `bin.dbginfo` Load debug information at startup if available _Default is true_
 - `bin.debase64` Try to debase64 all strings _Default is false_

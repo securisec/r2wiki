@@ -3,7 +3,7 @@
 #  `ahi[?] 10` define numeric base for immediates (1, 8, 10, 16, s)
 
 - `ahi [base]` set numeric base (1, 2, 8, 10, 16)
-	> `ahi` can be used to change how a value looks or is represented
+	- > `ahi` can be used to change how a value looks or is represented
 - `ahi b` set base to binary (2)
 - `ahi d` set base to decimal (10)
 - `ahi h` set base to hexadecimal (16)
@@ -18,6 +18,6 @@
 
     ![](/uploads/a-afvd/ahi.png) 
 
-    > `ahi` _Forcefully convert value to string_
+    - > `ahi` _Forcefully convert value to string_
 
 <p hidden>ahi</p>

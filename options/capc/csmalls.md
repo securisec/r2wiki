@@ -10,7 +10,7 @@ Usage: Cs[ga-*.] [size] [@addr]
 
 - `NOTE: size` 1 unit in bytes == width in bytes of smallest possible char in encoding, so ascii/latin1/utf8 = 1, utf16le = 2
 - `Cs` list all strings in human friendly form
-	> As an example: `Cs` will give strings from bytes
+	- > As an example: `Cs` will give strings from bytes
 - `Cs*` list all strings in r2 commands
 - `Cs [size] @addr` add string (guess latin1/utf16le)
 - `Csg [size] [@addr]` as above but addr not needed

@@ -9,7 +9,7 @@ Usage: ps[zpw+] [N]Print String
 
 
 - `ps` print string
-  > _Use `ps @ [register]` to print string representation of addresses pointed to by a register_
+  - > _Use `ps @ [register]` to print string representation of addresses pointed to by a register_
 - `psb` print strings in current block
 - `psi` print string inside curseek
 - `psj` print string in JSON format

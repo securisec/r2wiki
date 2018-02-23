@@ -39,8 +39,8 @@ Usage: px[0afoswqWqQ][f] # Print heXadecimal
 - `pxq` show hexadecimal quad-words dump (64bit)
 - `pxQ` same as above, but one per line
 - `pxr[j]` show words with references to flags and code
-  > _Alternatively, consider using `afvd`_
-  > _`pxr @ esp` stack analysis. This is also memory telescoping_
+  - > _Alternatively, consider using `afvd`_
+  - > _`pxr @ esp` stack analysis. This is also memory telescoping_
   - Screenshot
 
      Green/Blue is executable, Red is data White is value?

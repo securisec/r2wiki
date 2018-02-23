@@ -14,7 +14,7 @@ Usage: ax[?d-l*] # see also 'afx?'
 - `axF [flg-glob]` find data/code references of flags
 - `axt [addr]` find data/code references to this address xref to
 
-   > Example use case is `axt @@ str.*` to look for xrefs to all strings_ 
+   - > Example use case is `axt @@ str.*` to look for xrefs to all strings_ 
 - `axtg`
 - `axf [addr]` find data/code references from this address xref from
 - `ax- [at]` clean all refs (or refs from addr)

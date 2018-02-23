@@ -20,11 +20,11 @@
 - `aap` find and analyze function preludes
 [ `aar[?] [len]` analyze len bytes of instructions for references](/options/a/aa/aar)
 - `aas [len]` analyze symbols (af @@= \`isq~[0]\` )
-	> `aas` Use binary header information to find public functions 
+	- > `aas` Use binary header information to find public functions 
 - `aat [len]` analyze all consecutive functions in section. _Assume functions are consecutive_
 - `aaT [len]` analyze code after trap-sleds
 - `aau [len]` list mem areas (larger than len bytes) not covered by functions
 - `aav [sat]` find values referencing a specific section or map
-  > `aav` Looks for values in the text section that are pointing to the text section. Shows hardcoded pointers in program memory.
+  - > `aav` Looks for values in the text section that are pointing to the text section. Shows hardcoded pointers in program memory.
 
 <p hidden>aa aa* aaa aab aac aac* aad aae aaE aai aan aap aar aas aat aaT aau aav</p>

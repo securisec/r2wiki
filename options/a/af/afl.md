@@ -9,7 +9,7 @@
 - `aflj` 🚀 list functions in json [asciinema](https://asciinema.org/a/XvEb7StzQ3C1BAAlvn9CDvqLR)
 	- > `aflj` can be used to show the size of a function
 
-  > Use `aflj` to get the name of each value in `afl`
+  - > Use `aflj` to get the name of each value in `afl`
 - [`afll` list functions in verbose mode](/options/a/af/afll)
 	- > 🚀 `afll` will display a table of functions with their address, size, nbbs, edges, min and max bound, range calls, local variables, args xrefs and more. The different colors refer to read, write and execute along with invalid and printable. [asciinema](https://asciinema.org/a/N2QjD5o8X2d1t024LTr9w4wU7)
 - `afllj`  list functions in verbose mode (alias to aflj)

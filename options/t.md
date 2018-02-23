@@ -35,7 +35,7 @@ Usage: t # cparse types commands
 - `to <path>` Load types from C header file
 - `tos <path>` Load types from parsed Sdb database
 - `tp <type> = <address>` cast data at \<address\> to \<type\> and print it
-	> `tp` can be useful in printing struct data
+	- > `tp` can be useful in printing struct data
 
 - [ `ts[?]` print loaded struct types](/options/t/ts-print)
 

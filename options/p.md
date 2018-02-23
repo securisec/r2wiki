@@ -37,7 +37,7 @@ Usage: p[=68abcdDfiImrstuxz] [arg|len] [@addr]
 - [ `ph[?][=|hash] ([len])` calculate hash for a block](/options/p/ph-hash)
 
 - [ `p[iI][df] [len]` print N ops/bytes (f=func) (see pi? and pdi)](/options/p/p-ii)
-	> 🚀 Use `pi` to print opcodes only [asciinema](https://asciinema.org/a/Ygnzj7RSt7JJ3orx8DvonLpIW)
+	- > 🚀 Use `pi` to print opcodes only [asciinema](https://asciinema.org/a/Ygnzj7RSt7JJ3orx8DvonLpIW)
 
 - [ `pj[?] [len]` print as indented JSON](/options/p/pj-len)
 

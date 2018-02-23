@@ -9,7 +9,7 @@ Usage: fs [*] [+-][flagspace|addr] # Manage flagspaces
 
 
 - `fs` display flagspaces
-	> 🚀 The `*` next to the list of flags indicates the currently selected flag space [asiinema](https://asciinema.org/a/z8AdJ2bCOH0C4Eumwra7U9FdH)
+	- > 🚀 The `*` next to the list of flags indicates the currently selected flag space [asiinema](https://asciinema.org/a/z8AdJ2bCOH0C4Eumwra7U9FdH)
 - `fs*` display flagspaces as r2 commands
 - `fsj` display flagspaces in JSON
 - `fs *` select all flagspaces

@@ -17,7 +17,7 @@ Usage: dr Registers commands
 - `drc [name]` Related to conditional flag registers
 - `drC` Show register profile comments
 - `drd`  Show only different registers
-  > 🚀 `drd` _This can be used to show differences between old and new register values_ [asciinema](https://asciinema.org/a/A0Ki2qX9DKajCU0tD5QA8N2P9)
+  - > 🚀 `drd` _This can be used to show differences between old and new register values_ [asciinema](https://asciinema.org/a/A0Ki2qX9DKajCU0tD5QA8N2P9)
 - `drf` Show fpu registers (80 bit long double)
 - `drl[j]` List all register names
 - `drm` Show multimedia packed registers

@@ -10,7 +10,7 @@ Usage: as[ljk?] syscall name <-> number utility
 - `asf [k[=[v]]]` list/set/unset pf function signatures (see fcnsign)
 - `asj` list of syscalls in JSON
 
-   > Dump the whole syscall database
+   - > Dump the whole syscall database
 
 - `asl` list of syscalls by asm.os and asm.arch
 - `asl close` returns the syscall number for close

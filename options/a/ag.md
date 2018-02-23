@@ -3,8 +3,8 @@
 #  `ag[?] [options]`   output Graphviz code
 
 ## Tips
-  > Dependencies include `xdot` . To install, `sudo apt install xdot`
-	> To print a grapviz, `use a[options] | xdot -` . Example: `ag $$ | xdot -` . `$$` means here (at current seek). `agv` does the same thing.
+  - > Dependencies include `xdot` . To install, `sudo apt install xdot`
+	- > To print a grapviz, `use a[options] | xdot -` . Example: `ag $$ | xdot -` . `$$` means here (at current seek). `agv` does the same thing.
 	
 ---
 
@@ -22,7 +22,7 @@
 - [ `age[?] title1 title2`   Add an edge to the current graph](/options/a/ag/age)
 
 - `agf [addr]`   Show ASCII art graph of given function
-	> After setting `scr.html` to true, `agf` can be used to export a visual graph to html.
+	- > After setting `scr.html` to true, `agf` can be used to export a visual graph to html.
 
 - `agfl`
 

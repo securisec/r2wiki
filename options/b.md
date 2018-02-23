@@ -10,7 +10,7 @@ Usage: b[f] [arg]
 
 
 - `b` display current block size
-	> Change the block size with `b <block-size>`. In visual mode you can also enter radare2 command pressing the `:` key (like vi does)
+	- > Change the block size with `b <block-size>`. In visual mode you can also enter radare2 command pressing the `:` key (like vi does)
 - `b 33` set block size to 33
 - `b+3` increase blocksize by 3
 - `b-16` decrease blocksize by 16

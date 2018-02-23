@@ -9,7 +9,7 @@ Usage: CC[-+!*au] [base64:..|str] @ addr
 
 
 - `CC` list all comments in human friendly form 
-	> 🚀 Use `CC` to insert comments [asciinema](https://asciinema.org/a/Re42NaTrEYUuu5RseVhA8a7Qp)
+	- > 🚀 Use `CC` to insert comments [asciinema](https://asciinema.org/a/Re42NaTrEYUuu5RseVhA8a7Qp)
 - `CC*` list all comments in r2 commands
 - `CC.` show comment at current offset
 - `CC, [file]` show or set comment file

@@ -15,7 +15,7 @@
 - `|` 	set cmd.gprompt
 - `_` 	enter hud selector
 - `>` 	show function callgraph (see graph.refs)
-	> 🚀 Use `>` to see a the call graph [asciinema](https://asciinema.org/a/HUd6rADhomkLMDm1ZMqbOcUbv)
+	- > 🚀 Use `>` to see a the call graph [asciinema](https://asciinema.org/a/HUd6rADhomkLMDm1ZMqbOcUbv)
 - `<` 	show program callgraph (see graph.refs)
 - `Home/End` 	go to the top/bottom of the canvas
 - `Page-UP/DOWN` 	scroll canvas up/down
@@ -58,6 +58,6 @@
 - `w` 	toggle between movements speed 1 and graph.scroll
 - `x/X` 	jump to xref/ref
 - `y` 	toggle node folding/minification
-  > _Fold a block in visual graph mode_
+  - > _Fold a block in visual graph mode_
 - `Y` 🚀 toggle tiny graph minigraph [asciinema](https://asciinema.org/a/gwGABUr8DMXCZiV3Qzta18DVp)
 - `Z` 	follow parent node

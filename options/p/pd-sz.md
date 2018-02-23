@@ -8,9 +8,9 @@ Usage: p[dD][ajbrfils] [sz] [arch] [bits] # Print Disassembly
 ```
 
 
-> NOTE: len parameter can be negative 
+- > NOTE: len parameter can be negative 
 
-> NOTE: Pressing ENTER on empty command will repeat last pd command and also seek to end of disassembled range. 
+- > NOTE: Pressing ENTER on empty command will repeat last pd command and also seek to end of disassembled range. 
 
 - `pd N` 🚀 disassemble N instructions [asciinema](https://asciinema.org/a/2nKEu7kSlVqBjOK4wP5z5zEsX)
 - `pd -N` 🚀 disassemble N instructions backward [asciinema](https://asciinema.org/a/vd7otYJkQOz4O4L2A4mNgKp3t)
@@ -28,9 +28,9 @@ Usage: p[dD][ajbrfils] [sz] [arch] [bits] # Print Disassembly
 - `pdl` 🚀 show instruction sizes [asciinema](https://asciinema.org/a/VqcVh8H731bmhBoLNwv21zqDF)
 - `pdr` 🚀 recursive disassemble across the function graph [asciinema](https://asciinema.org/a/qbatqGNhB5Zmvr1VzmsEB7TRo)
 - `pdR` 🚀 recursive disassemble block size bytes without analyzing functions [asciinema](https://asciinema.org/a/gpiEMqW1aUsLnPprBeCjcMBlS)
-	> `pdR` command that doesnt requires previous analaysis and just follow non-conditional jumps
+	- > `pdR` command that doesnt requires previous analaysis and just follow non-conditional jumps
 - `pds[?]` 🚀 disassemble summary (strings, calls, jumps, refs) (see pdsf and pdfs) [asciinema](https://asciinema.org/a/pUcz5MwdofZbJrxzUIrZekH5z)
-  > `pds` _Can be used as either inside function, or assigned an offset `pds @offset[func_name]`_
+  - > `pds` _Can be used as either inside function, or assigned an offset `pds @offset[func_name]`_
 
 - `pdsf`  🚀 sumarize N bytes or function (pdfs) [asciinema](https://asciinema.org/a/sT6SJdYI4VqxqqTVcowF21hdk)
 - `pdt` disassemble the debugger traces (see atd)

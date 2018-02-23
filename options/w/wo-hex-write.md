@@ -16,7 +16,7 @@ Usage: wo[asmdxoArl24] [hexpairs] @ addr[!bsize]
 - `wod [val]` /= divide
 - `woD[algo] [key] [IV]` decrypt current block with given algo and key
 - `woe [from to] [step] [wsz=1] ..` create sequence
-  > _Example: `woe 42 3 @ edi!32` This will write a pattern from 42, increment by 3, onto edi. The `!` means size. So what offset to write till_
+  - > _Example: `woe 42 3 @ edi!32` This will write a pattern from 42, increment by 3, onto edi. The `!` means size. So what offset to write till_
 - `woE [algo] [key] [IV]` encrypt current block with given algo and key
 - `wol [val]` <<= shift left
 - `wom [val]` *= multiply
@@ -27,7 +27,7 @@ Usage: wo[asmdxoArl24] [hexpairs] @ addr[!bsize]
 - `wos [val]` -= substraction
 - `wow [val]` == write looped value (alias for 'wb')
 - `wox [val]` ^= xor (f.ex: wox 0x90)
-  > _This can be used to xor using registers. Example: `wox `p8 32 @ edi` @ eax!32`. This command will take 32 bytes in hex from edi and then xor eax till 32 bytes_
+  - > _This can be used to xor using registers. Example: `wox `p8 32 @ edi` @ eax!32`. This command will take 32 bytes in hex from edi and then xor eax till 32 bytes_
 
   [Memory Manipulation · Radare2 Explorations](https://monosource.gitbooks.io/radare2-explorations/content/tut2/tut2_-_mem_manip.html)
 	

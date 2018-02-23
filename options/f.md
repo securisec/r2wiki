@@ -12,7 +12,7 @@ Usage: f [?] [flagname] # Manage offset-name flags
   - > To show all the contents of a flag space, use `fs [space_name]; f`
 ---
 - `f` list flags (will only list flags from selected flagspaces)
-	> To create a new flag, use `f flag_name @ offset`
+	- > To create a new flag, use `f flag_name @ offset`
 - `f?flagname` check if flag exists or not, See ?? and ?!
 - `f. [*[*]]` list local per-function flags (*) as r2 commands
 - `f.blah=$$+12` set local function label named 'blah'
@@ -43,12 +43,12 @@ Usage: f [?] [flagname] # Manage offset-name flags
 
 - `fe-` resets the enumerator counter
 - `fe [name]` create flag name.#num# enumerated flag. See fe?
-	> 🚀 `fe` can be used to iterate in a loop and create numbered flags. [asciinema](https://asciinema.org/a/CcRKt9q90c12nSooYxWdHhtyg)
+	- > 🚀 `fe` can be used to iterate in a loop and create numbered flags. [asciinema](https://asciinema.org/a/CcRKt9q90c12nSooYxWdHhtyg)
 - `ff ([glob])` distance in bytes to reach the next flag (see sn/sp)
 - `ffs` nothing documented
 - `fi [size] | [from] [to]` show flags in current block or range
 - `fg` bring visual mode to foreground
-	> `fg` appears to do exactly what `V` does
+	- > `fg` appears to do exactly what `V` does
 - `fj` list flags in JSON format
 - `fl (@[flag]) [size]` show or set flag length (size)
 - `fla [glob]` automatically compute the size of all flags matching glob

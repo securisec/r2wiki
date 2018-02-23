@@ -34,7 +34,7 @@
 - `cfg.hashlimit` If the file is bigger than hashlimit, do not compute hashes _Default is 0x00a00000_
 - `cfg.log` Log changes using the T api needed for realtime syncing _Default is false_
 - `cfg.newtab` Show descriptions in command completion _Default is false_
-	> `cfg.newtab` Tab autocomplete commands.
+	- > `cfg.newtab` Tab autocomplete commands.
 - `cfg.plugins` Load plugins at startup _Default is true_
 - `cfg.prefixdump` Filename prefix for automated dumps _Default is dump_
 - `cfg.sandbox` Sandbox mode disables systems and open on upper directories _Default is false_

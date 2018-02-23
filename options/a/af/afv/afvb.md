@@ -3,7 +3,7 @@
 #  `afvb[?]`   manipulate bp based arguments/locals
 
 - `afvb`   list base pointer based arguments, locals
-	> 🚀 Use `afvb` to list (show) function variables and/or arguments [asciinema](https://asciinema.org/a/2IboiFYKwfIdCBJv56NswcL2u)
+	- > 🚀 Use `afvb` to list (show) function variables and/or arguments [asciinema](https://asciinema.org/a/2IboiFYKwfIdCBJv56NswcL2u)
 - `afvb*`   same as afvb but in r2 commands
 - `afvb [idx] [name] ([type])`   define base pointer based arguments, locals
 - `afvbj`   return list of base pointer based arguments, locals in JSON format

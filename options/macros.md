@@ -12,7 +12,7 @@ Usage: (foo args,cmd1,cmd2,..)Aliases
  - > ⭐ [Macro chapter from r2 book](https://radare.gitbooks.io/radare2book/content/scripting/macros.html)
 
 - `(foo args,..,..)` define a macro
-	> Example for loop in macro `(loop_macro,f cnt=3,loop:,?e hello `?vi cnt`,f cnt=`?vi cnt-1`,?= cnt,?!(),.loop:)`
+	- > Example for loop in macro `(loop_macro,f cnt=3,loop:,?e hello `?vi cnt`,f cnt=`?vi cnt-1`,?= cnt,?!(),.loop:)`
 - `(foo args,..,..)()` define and call a macro
 - `(-foo)` remove a macro
 - `.(foo)` to call it

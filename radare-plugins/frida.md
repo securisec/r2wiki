@@ -2,11 +2,11 @@
 # r2frida 😃
 ![Frida](/uploads/plugins/frida.png "Frida"){.pagelogo}
 A lot of the examples from this section has been obtained following examples from the youtube video linked below
-> [nowsecure/r2frida](https://github.com/nowsecure/r2frida) 
+- > [nowsecure/r2frida](https://github.com/nowsecure/r2frida) 
 
-> Api documentation can be found on the [Frida site](https://www.frida.re/docs/javascript-api/) 
+- > Api documentation can be found on the [Frida site](https://www.frida.re/docs/javascript-api/) 
 
-> You can run js normally by `\. ./path/to/script.js` 
+- > You can run js normally by `\. ./path/to/script.js` 
 
 ## Tips
 ### Misc tips
