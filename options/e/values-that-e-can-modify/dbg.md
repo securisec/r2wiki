@@ -21,6 +21,7 @@
 - `dbg.follow` Follow program counter when pc > core->offset + dbg.follow _Default is 32_
 - `dbg.follow.child` Continue tracing the child process on fork. By default the parent process is traced _Default is false_
 - `dbg.forks` Stop execution if fork() is done (see dbg.threads) _Default is false_
+- `dbg.funcarg` Display arguments to function call in visual mode
 - `dbg.gdb.page_size` Page size on gdb target (useful for QEMU) _Default is 0x00001000_
 - `dbg.gdb.retries` Number of retries before gdb packet read times out _Default is 10_
 - `dbg.hwbp` Set HW or SW breakpoints _Default is 0_
