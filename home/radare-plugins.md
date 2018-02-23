@@ -10,7 +10,7 @@ _This a list of plugins that I find interesting._
    - > _Binary diffing powered by diaphora (originally for IDA Pro)_
 
   [radare/diaphora](https://github.com/radare/diaphora)
-	[](https://www.youtube.com/watch?v=dAwXrUKaUsw){.youtube}
+	[](https://www.youtube.com/watch?v=dAwXrUKaUsw)
 
 ## r2frida
 [r2frida](/radare-plugins/frida)

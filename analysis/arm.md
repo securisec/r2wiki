@@ -38,4 +38,4 @@
 - Load the binary with `qemu-arm -g [port] ./[binary]`
 - `r2 -d gdb://localhost:1234`
 # Videos
-[video](https://www.youtube.com/watch?v=oXSx0Qo2Upk){.youtube}
+[video](https://www.youtube.com/watch?v=oXSx0Qo2Upk)

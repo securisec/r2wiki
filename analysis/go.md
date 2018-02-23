@@ -21,4 +21,4 @@
 					0x0047bd10 5 119 type..hash._3_interface___
 					0x0047bd90 8 176 type..eq._3_interface___
 # Videos
-[video](https://www.youtube.com/watch?v=PRLOlY4IKeA){.youtube}
+[video](https://www.youtube.com/watch?v=PRLOlY4IKeA)

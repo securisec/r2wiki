@@ -129,4 +129,4 @@ r.cons.flush()
   [Scripting r2 with pipes - pancake - Medium](https://medium.com/@trufae/scripting-r2-with-pipes-47a7e14c50aa)
 	
 ## Videos
-[video](https://www.youtube.com/watch?v=y69uIxU0eI8){.youtube}
+[video](https://www.youtube.com/watch?v=y69uIxU0eI8)

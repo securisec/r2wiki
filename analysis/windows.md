@@ -47,6 +47,6 @@ To get the latest installer, [go to this site](https://ci.appveyor.com/project/r
 ## Malware analysis scripts
 - [malware_analysis_tools](https://github.com/redmed666/malware_analysis_tools)
 # Videos
-[video](https://www.youtube.com/watch?v=2gcqLDGnKMc){.youtube}
+[video](https://www.youtube.com/watch?v=2gcqLDGnKMc)
 
 <p hidden>idp idpd idpi</p>

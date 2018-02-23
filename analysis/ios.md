@@ -39,6 +39,6 @@
 		- Needs r2 in iOS device
 		- Python in iOS device (not tested)
 # Videos
-[r2clutch r2con 2016](https://www.youtube.com/watch?v=OlzUdbvDLuA){.youtube}
-[How to Start iOS Hacking | Reverse Engineering With Radare2](https://www.youtube.com/watch?v=hy81mnLMvnE){.youtube}
+[r2clutch r2con 2016](https://www.youtube.com/watch?v=OlzUdbvDLuA)
+[How to Start iOS Hacking | Reverse Engineering With Radare2](https://www.youtube.com/watch?v=hy81mnLMvnE)
 [Nowsecure top OSS Mobile testing](https://www.brighttalk.com/webcast/15139/304637?utm_campaign=knowledge-feed&utm_source=brighttalk-portal&utm_medium=web)

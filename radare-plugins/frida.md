@@ -167,7 +167,7 @@ A lot of the examples from this section has been obtained following examples fro
 
 ## Videos
 ### r2con2017 - r2frida /by @mrmacete
-[r2con2017 - r2frida /by @mrmacete](https://www.youtube.com/watch?list=PLjIhlLNy_Y9Oe-nfcPEpaki0_En5dhQ5S&time_continue=15&v=URyd4bcV-Ik){.youtube}
+[r2con2017 - r2frida /by @mrmacete](https://www.youtube.com/watch?list=PLjIhlLNy_Y9Oe-nfcPEpaki0_En5dhQ5S&time_continue=15&v=URyd4bcV-Ik)
 
 ## Extending r2frida
 ### Plugins
