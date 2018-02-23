@@ -1,4 +1,4 @@
-# Radare2 Wiki
+# Radare2 Wiki[![analytics](http://www.google-analytics.com/collect?v=1&t=pageview&_s=1&dl=https%3A%2F%2Fgithub.com%2Fsecurisec%2Fr2wiki&tid=UA-113966566-4)]()
 ![repo size](https://img.shields.io/github/repo-size/securisec/radare2_wiki.svg)
 [![Documentation](https://img.shields.io/badge/docs-latest-brightgreen.svg)](http://r2wiki.readthedocs.io/en/latest/)
 [![Read the Docs](https://img.shields.io/readthedocs/r2wiki.svg)]()
