@@ -14,13 +14,13 @@
 - `asm.bytespace` Separate hexadecimal bytes with a whitespace _Default is false_
 - `asm.calls` Show callee function related info as comments in disasm _Default is true_
 - `asm.capitalize` Use camelcase at disassembly _Default is false_
-- `asm.cmtcol` Column to align comments _Default is 71_
-- `asm.cmtflgrefs` Show comment flags associated to branch reference _Default is true_
-- `asm.cmtfold` Fold comments, toggle with Vz _Default is false_
-- `asm.cmtoff` Show offset comment in disasm (true, false, nodup) _Default is nodup_
-- `asm.cmtpatch` Show patch comments in disasm _Default is false_
-- `asm.cmtrefs` Show flag and comments from refs in disasm _Default is false_
-- `asm.cmtright` Show comments at right of disassembly if they fit in screen _Default is true_
+- `asm.cmt.col` Column to align comments _Default is 71_
+- `asm.cmt.flgrefs` Show comment flags associated to branch reference _Default is true_
+- `asm.cmt.fold` Fold comments, toggle with Vz _Default is false_
+- `asm.cmt.off` Show offset comment in disasm (true, false, nodup) _Default is nodup_
+- `asm.cmt.patch` Show patch comments in disasm _Default is false_
+- `asm.cmt.refs` Show flag and comments from refs in disasm _Default is false_
+- `asm.cmt.right` Show comments at right of disassembly if they fit in screen _Default is true_
 - `asm.comments` Show comments in disassembly view _Default is true_
 - `asm.cpu` Set the kind of asm.arch cpu _Default is x86_
 	- > Example: `asm.cpu=cortex` when architecture is ARM.
