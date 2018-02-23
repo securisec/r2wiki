@@ -7,7 +7,7 @@
 - `asm.armimm` Display # for immediates in ARM _Default is 0_
 - `asm.asciidot` Enable a char filter for string comments that passes through chars in the range 0x20-0x7e and turns the rest into dots (except some control chars) _Default is false_
 - `asm.assembler` Set the plugin name to use when assembling
-- `asm.bbinfo` Show basic block information
+- `asm.bbinfo` Show basic block information _Default is false_
 - `asm.bbline` Show empty line after every basic block _Default is false_
 - `asm.bits` Word size in bits at assembler _Default is 64_
 - `asm.bytes` Display the bytes of each instruction _Default is true_
