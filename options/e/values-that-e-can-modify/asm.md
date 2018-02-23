@@ -23,7 +23,7 @@
 - `asm.cmtright` Show comments at right of disassembly if they fit in screen _Default is true_
 - `asm.comments` Show comments in disassembly view _Default is true_
 - `asm.cpu` Set the kind of asm.arch cpu _Default is x86_
-	> Example: `asm.cpu=cortex` when architecture is ARM.
+	- > Example: `asm.cpu=cortex` when architecture is ARM.
 - `asm.cycles` Show CPU-cycles taken by instruction at disassembly _Default is false_
 - `asm.cyclespace` Indent instructions depending on CPU-cycles _Default is false_
 - `asm.decode` Use code analysis as a disassembler _Default is false_
@@ -64,7 +64,7 @@
 - `asm.invhex` Show invalid instructions as hexadecimal numbers _Default is false_
 - `asm.jmphints` Show jump hints [numbers] in disasm _Default is true_
 - `asm.jmpsub` Always substitute jump, call and branch targets in disassembly _Default is false_
-	> `asm.jmpsub` Substitutes targets of jmp, call and branch ops in disassembly based on jump target in RAnalOp structure
+	- > `asm.jmpsub` Substitutes targets of jmp, call and branch ops in disassembly based on jump target in RAnalOp structure
 - `asm.lbytes` Align disasm bytes to left _Default is true_
 - `asm.leahints` Show LEA hints [numbers] in disasm _Default is false_
 - `asm.lines` Show ASCII-art lines at disassembly _Default is true_
