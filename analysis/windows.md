@@ -41,6 +41,8 @@ To get the latest installer, [go to this site](https://ci.appveyor.com/project/r
 [flareon 2015 2nd challenge](https://fevral.github.io/2017/08/13/flareon2015-2.html)
 
 # Windows malware / scripts
+⭐[r2msdn](https://github.com/securisec/r2msdn)
+	- Used to automatically annotated MSDN function description and args
 [malware_analysis_tools](https://github.com/redmed666/malware_analysis_tools)
 # Videos
 [video](https://www.youtube.com/watch?v=2gcqLDGnKMc){.youtube}
