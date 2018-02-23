@@ -28,7 +28,8 @@ Usage: c[?dfx] [argument] # Compare
 	Usage: cp src dst
 	Usage: cp.orig  # cp $file $file.orig
 	```
-		- > `cp.orig` can be used to make a copy of the original file
+	
+	- > `cp.orig` can be used to make a copy of the original file
 
 
 - `cud [addr] @at` Unified diff disasm from $$ and given address
