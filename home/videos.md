@@ -31,7 +31,7 @@
 [video](https://www.youtube.com/watch?v=Svm5V4leEho)
 
 ## Call graph visualization with r2
-[](https://www.youtube.com/watch?v=ofRP2PorryU)
+[Call graph visualization with r2](https://www.youtube.com/watch?v=ofRP2PorryU)
 
 ## Reversing embedded firmware using radare2
 [video](https://www.youtube.com/watch?v=R3sGlzXfEkU)
