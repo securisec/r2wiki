@@ -5,7 +5,7 @@
 - `scr.atport` V@ starts a background http server and spawns an r2 -C _Default is false_
 - `scr.breaklines` Break lines in Visual instead of truncating them _Default is false_
 - `scr.breakword` Emulate console break (^C) when a word is printed (useful for pD)
-- `scr.color` 🚀 Enable colors _Default is true_ [asciinema](https://asciinema.org/a/c3NvOKBSO5UMpyuRNaVDxvEUx)
+- `scr.color` 🚀 Manage color palette (0: ansi 16, 1: 256, 2: 16M) _Default is 1_ [asciinema](https://asciinema.org/a/c3NvOKBSO5UMpyuRNaVDxvEUx)
 - `scr.color.bytes` Colorize bytes that represent the opcodes of the instruction _Default is true_
 - `scr.color.grep` 🚀 Enable colors when using ~grep _Default is false_ [asciinema](https://asciinema.org/a/qh30rqONvLV2WDLRmuZjwnDNm)
 - `scr.color.ops` 🚀 Colorize numbers and registers in opcodes _Default is true_ [asciinema](https://asciinema.org/a/6AZ7o9CrIUhRKZos5TopluNR4)
@@ -49,7 +49,6 @@
 - `scr.slow` Do slow stuff on visual mode like RFlag.get_at(true)
 - `scr.tee` Pipe output to file of this name
 	- > 🚀 Similar to the tee command in linux `scr.tee` can be used to write all outputs from r2 to a file. [asciinema](https://asciinema.org/a/ouDj8D7Yaf8De6Zg80dfzbBqV)
-- `scr.truecolor` Manage color palette (0: ansi 16, 1: 256, 2: 16M) _Default is false_
 - `scr.tts` Use tts if available by a command (see ic) _Default is false_
 - `scr.utf8` 🚀 Show UTF-8 characters instead of ANSI _Default is false_ [asciinema](https://asciinema.org/a/mC6rNURBpd0cbOyivtT2qUUvY)
 - `scr.utf8.curvy` Show curved UTF-8 corners (requires scr.utf8) _Default is false_
