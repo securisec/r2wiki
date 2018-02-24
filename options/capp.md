@@ -19,7 +19,7 @@ Usage: P[?osi] [file]Project management
 - `Pn[j]` show project notes (Pnj for json)
 - `Pn [base64]` set notes text
 - `Pn -` edit notes with cfg.editor
-- `Po [file]` open project
+- `Po [file]` open project. Supports autocompletion
 - `Ps [file]` save project
 - `PS [file]` save script file
 - `P- [file]` delete project (alias for Pd)
