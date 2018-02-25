@@ -8,9 +8,10 @@ Usage: P[?osi] [file]Project management
 ```
 
 
-> NOTE: See 'e??prj.'
+- > NOTE: See 'e??prj.'
 
-> NOTE: project are stored in ~/.config/radare2/projects
+- > NOTE: project are stored in ~/.config/radare2/projects
+- > To create a project, use the `-p projectName` argument to r2
 
 - `Pc [file]` show project script to console
 - `Pd [file]` delete project
