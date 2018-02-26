@@ -31,6 +31,7 @@ Usage: i Get info from opened file (see rabin2's manpage)
   - `iHH` 🚀 Verbose Headers in raw text [asciinema](https://asciinema.org/a/zUatS7zmoYg0MyNZGvFAZo7jf)
   - `ii` Imports
   - `iI` Binary info
+		- > 🚀 Use `iI` to show binary information. Similar to the file command. [asciinema](https://asciinema.org/a/OM5qi7NIRHefkmzCTBm4OizgR)
   - `ik [query]` 🚀 Key-value database from RBinObject [asciinema](https://asciinema.org/a/YRHebE7kO6N90U9BKMfsQeLFr)
   - `il` Libraries _information libraries_
 	  - > 🚀 `il` can be used to show linked libraries [asciinema](https://asciinema.org/a/NYgYqTer5PAyoTLbOWp5UUqtP)
