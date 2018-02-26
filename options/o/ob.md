@@ -12,6 +12,7 @@ Usage: ob # List open binary files backed by fd
 - `ob*` List opened binary files and objid (r2 commands)
 - `ob [fd objid]` Switch to open binary file by fd number and objid
 - `oba [addr]` Open bin info from the given address
+	- The `[addr]` in `oba` is the base address of the binary being analyzed
 - `oba [addr] [filename]` Open file and load bin info at given address
 - `obb [fd]` Switch to open binfile by fd number
 - `obj` List opened binary files and objid (JSON format)
