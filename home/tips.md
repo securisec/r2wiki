@@ -42,6 +42,10 @@
 - Use `r2 -qc /m some_file` as a replacement for binwalk! `e search.align` can be used to tweak how the search works. Example `e search.align=4k`
 	- Found files can be written to disk using the `wtf` command
 - To load contents of another program that generates r2 commands, prefix it with `.!`
+- To use the keystone disassbler (the default r2 is better), install it using:
+	- `r2pm -i keystone-lib`
+	- `r2pm -i keystone`
+	- And then invoke with either `r2 -a arm.ks` or from shell `e asm.assembler = arm.ks`
 
 
 ## Tips from fortunes
