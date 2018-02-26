@@ -25,3 +25,4 @@
 
 - ⭐ [Analysis By Default: How r2 analyze something by default](http://radare.today/posts/analysis-by-default/)
 - [Emulating simple bootloader](http://radare.today/posts/emulating-simple-bootloader/)
+- [Introduction to RE with radare2](https://github.com/TobalJackson/2017-SIT-RE-Presentation)
