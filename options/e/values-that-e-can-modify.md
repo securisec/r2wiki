@@ -63,6 +63,9 @@
 - [stack](/options/e/values-that-e-can-modify/stack)
 ## str
 - [str](/options/e/values-that-e-can-modify/str)
+
+## tcp
+- [tcp](/options/e/values-that-e-can-modify/tcp)
 ## time
 - [time](/options/e/values-that-e-can-modify/time)
 ## zign
