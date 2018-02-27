@@ -38,7 +38,8 @@ To get the latest installer, [go to this site](https://ci.appveyor.com/project/r
 
 # Resources
 ## CTF Windows binaries
-[flareon 2015 2nd challenge](https://fevral.github.io/2017/08/13/flareon2015-2.html)
+- [flareon 2015 2nd challenge](https://fevral.github.io/2017/08/13/flareon2015-2.html)
+- [debugging with r2 in windows](https://medium.com/@jacob16682/debugging-using-radare2-and-windows-5e58677bf943)
 
 # Windows malware / scripts
 ## r2msdn
