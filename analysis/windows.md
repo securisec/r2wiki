@@ -44,7 +44,7 @@ To get the latest installer, [go to this site](https://ci.appveyor.com/project/r
 # Windows malware / scripts
 ## r2msdn
 - ⭐[r2msdn](https://github.com/securisec/r2msdn)
-	- > Used to automatically annotated MSDN function description and args
+	- > `r2msdn` is used to automatically annotated MSDN function description and args
 ## Malware analysis scripts
 - [malware_analysis_tools](https://github.com/redmed666/malware_analysis_tools)
 # Videos
