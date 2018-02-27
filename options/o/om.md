@@ -23,7 +23,7 @@ Usage: om[-] [arg] # map opened files
 - `omn.([-|name])` show/set/delete name for current map
 - `omf [mapid] rwx` change flags/perms for current/given map
 - `omfg[+-]rwx` change flags/perms for all maps (global)
-- `omb mapid addr` relocate map with corresponding id
+- `omb mapid addr` relocate (remap) map with corresponding id
 - `omb. addr` relocate current map
 - `omr mapid newsize` resize map with corresponding id
 - `omp mapid` priorize map with corresponding id
