@@ -40,3 +40,4 @@
 - [Ioli crackme writeups (various)](https://moveax.me/crackme0x06/)
 - [Xiomara 2018 slammer](https://jbzteam.github.io/xiomaractf2018/Slammer)
 	- [Another version of the Xiomara 2018 slammer](http://www.aperikube.fr/docs/xiomara_re4/)
+- [TAMUCTF 18 Cutter](https://adminadminctf.github.io/ctf/TAMUctf18-hashbrowns)
