@@ -39,3 +39,4 @@
 - [Redvelvet codegate 2017 r2+angr+ida :(](https://github.com/Brandon-Everhart/CTF-Writeups/tree/master/2018/Codegate/Reversing/RedVelvet)
 - [Ioli crackme writeups (various)](https://moveax.me/crackme0x06/)
 - [Xiomara 2018 slammer](https://jbzteam.github.io/xiomaractf2018/Slammer)
+	- [Another version of the Xiomara 2018 slammer](http://www.aperikube.fr/docs/xiomara_re4/)
