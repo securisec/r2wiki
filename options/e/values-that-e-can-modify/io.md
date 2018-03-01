@@ -17,6 +17,7 @@
 - `io.exec` See !!r2 -h~-x _Default is true_
 - `io.ff` Fill invalid buffers with 0xff instead of returning error _Default is true_
 - `io.pcache` io.cache for p-level _Default is false_
+	- > `io.pcache` improves speed
 - `io.pcache.read` Enable read-cache _Default is false_
 - `io.pcache.write` Enable write-cache _Default is false_
 - `io.va` Use virtual address layout _Default is true_
