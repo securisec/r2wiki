@@ -12,7 +12,7 @@ Visual cues:
 🚀 Means there is an asciinema
 ⭐ Great command to remember
 ```
-<br>  
+
 ## Local web app
   - **Using wiki.js** > To get a local copy of this wiki check out [github](https://github.com/securisec/radare2_wiki)
   - **Using mkdocs** (Is slightly behind the wiki.js implementation)
