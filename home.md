@@ -2,7 +2,7 @@
 # Radare2 wiki
 > This is an ongoing work in progress and reflects various material obtained while stuying how to use radare2. This wiki is constantly updated. Feel free to tweet to me [![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/securisec) if there is a tidbit I can include in here. 
 
-<img src="/uploads/r-2-logo-3.png" class="center">
+<center><img src="/uploads/r-2-logo-3.png" class="center"></center>
 
 
 ```
