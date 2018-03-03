@@ -28,6 +28,10 @@
 ## dark
 
   ![Dark](/uploads/themes/dark.png "Dark")
+	
+## darkda
+
+  ![Base](/uploads/themes/darkda.png "Darkda")
 
 ## ogray
 
