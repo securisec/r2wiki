@@ -17,6 +17,8 @@
 - `>` 	show function callgraph (see graph.refs)
 	- > 🚀 Use `>` to see a the call graph [asciinema](https://asciinema.org/a/HUd6rADhomkLMDm1ZMqbOcUbv)
 - `<` 	show program callgraph (see graph.refs)
+- `(` reverse conditional branch of last instruction in bb
+- `)` rotate asm.emu and asm.emu.str
 - `Home/End` 	go to the top/bottom of the canvas
 - `Page-UP/DOWN` 	scroll canvas up/down
 - `C` 	toggle scr.colors
