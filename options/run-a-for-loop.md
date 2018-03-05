@@ -24,9 +24,5 @@ Repeat a command over a list of offsets
 - `x @@c:cmd` the same as @@=`` without the backticks
 - `x @@=pdf~call[0]` run 'x' at every call offset of the current function
   - > 🚀⭐ `@@=` can be used to loop over the output of a command and run another command against it. [asciinema](https://asciinema.org/a/1Qj5SAUKbwA7lEzxsYCx6BKaL)
-​
-​
+
 <p hidden>search and replace</p>
-Powered by Wiki.js.
-Home
-Return to top
