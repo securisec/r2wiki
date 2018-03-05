@@ -12,9 +12,11 @@ Repeat a command over a list of offsets
 `x @@.file        ` run 'x' over the offsets specified in the file (one offset per line)
 `x @@=off1 off2 ..` manual list of offsets
   - > 🚀 `x@@=` Run query over multiple offsets [asciinema](https://asciinema.org/a/sxTpCSQUL1vkT9ByRRo5B03RT)
-`x @@/x 9090      ` temporary set cmd.hit to run a command on each search result
+
+`x @@/x 9090` temporary set cmd.hit to run a command on each search result
   - > ⭐ `@@/` Can be used to search and replace something. Usage in this case is `w mystring_replace @@/ mystring_to_search`
-`x @@k sdbquery   ` run 'x' on all offsets returned by that sdbquery
+
+`x @@k sdbquery` run 'x' on all offsets returned by that sdbquery
 `x @@t            ` run 'x' on all threads (see dp)
 `x @@b            ` run 'x' on all basic blocks of current function (see afb)
 `x @@i            ` run 'x' on all instructions of the current function (see pdr)
