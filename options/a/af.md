@@ -3,9 +3,6 @@
 #  `af[?]`   analyze Functions
 
 - `af ([name]) ([addr])`   analyze functions (start at addr or $$)
-
-- `afr ([name]) ([addr])`   analyze functions recursively
-
 - `af+ addr name [type] [diff]`   hand craft a function (requires afb+)
 
 - `af- [addr]`   clean all function analysis data (or function at addr)
@@ -31,6 +28,8 @@
 - [ `afn[?] name [addr]`   rename name for function at address (change flag too)](/options/a/af/afn)
 
 - `afna`   suggest automatic name for current offset
+- `afr ([name]) ([addr])`   analyze functions recursively
+	- > `afr <new_name> @ <potential_function_addr>` will mark \<addr\> as the \<new_name\> function and do the recurrent analysis
 - `afs [addr] [fcnsign]`   get/set function signature at current address
 - `afS[stack_size]`   set stack frame size for function at current address
 - `afu [addr]`   resize and analyze function from current address until addr
