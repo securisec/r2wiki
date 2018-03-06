@@ -31,7 +31,7 @@ Usage: ah[lba-]Analysis Hints
 
 - `ahj` list hints in JSON
 - `aho foo a0,33` replace opcode string
-	- > `aho` can use used to override a constants value. 
+	- > `aho` can use used to override a constants value. (unverified)
 - `ahp addr` set pointer hint
 - `ahs 4` set opcode size=4
 - `ahS jz` set asm.syntax=jz for this opcode
