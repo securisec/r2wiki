@@ -12,6 +12,7 @@ commit: 48bfa5087bed71be501e4c37933c0fe1298d817e build: 2017-11-14__02:43:49
 Visual cues:
 🚀 Means there is an asciinema
 ⭐ Great command to remember
+❓ Means unverified or no information
 ```
 
 ## Local web app
