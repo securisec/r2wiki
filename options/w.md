@@ -31,8 +31,9 @@ Usage: w[x] [str] [<file] [<<EOF] [@addr]
 - `wd [off] [n]` duplicate N bytes from offset at current seek (memcpy) (see y?)
 
 - [ `we[?] [nNsxX] [arg]` extend write operations (insert instead of replace)](/options/w/we-nnsxx)
-
-- `wf -|file` write contents of file at current offset
+- `wf [start_position] [bytes] @ [offset]` Write from start position, the number of bytes at offset [Twitter](https://twitter.com/radareorg/status/971320354760216578)
+- `wff -|file` write contents of file at current offset
+- `wfs [from_address] [bytes] [@] [offset]` Swap from address N bytes to offset [Twitter](https://twitter.com/radareorg/status/971322252200378368)
 - `wh r2` whereis/which shell command
 - `wm f0ff` set binary mask hexpair to be used as cyclic write mask
 
