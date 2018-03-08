@@ -94,4 +94,4 @@
 
 [ `java` Java help](/options/java)
 
-[`misc` Misc commands](/options/misc)
+[`misc` Misc commands](/options/other)
