@@ -93,3 +93,5 @@
 [ `z` Zignatures management](/options/z)
 
 [ `java` Java help](/options/java)
+
+[`misc` Misc commands](/options/misc)
