@@ -41,6 +41,7 @@
 - `</>` seek aligned to block size (seek cursor in cursor mode)
 - `a` assemble code
 - `A` visual Assembler
+	- Use `VA` to assemble from asm to hex and so forth
 - `b` browse symbols, flags, configurations, classes, ...
 	```
 	_  hud mode (V_)
