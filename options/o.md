@@ -8,7 +8,8 @@ Usage: o [com- ] [file] ([offset])
 ```
 
 
-- `o` 🚀 list opened files [asciinema](https://asciinema.org/a/XAlBcowKXudg4lI7E5Dr0rfD8)
+- `o[j]` 🚀 list opened files [asciinema](https://asciinema.org/a/XAlBcowKXudg4lI7E5Dr0rfD8)
+	- > `o or oj` can be used to find the path of currently opened binaries
 - `oa[-] [A] [B] [filename]` Specify arch and bits for given file
 - `oq` list all open files
 - `o*` list opened files in r2 commands
