@@ -4,6 +4,7 @@
 
 - `scr.atport` V@ starts a background http server and spawns an r2 -C _Default is false_
 - `scr.breaklines` Break lines in Visual instead of truncating them _Default is false_
+	- Use `scr.breaklines` to stop comment overflow from the screen
 - `scr.breakword` Emulate console break (^C) when a word is printed (useful for pD)
 - `scr.color` 🚀 Manage color palette (0: ansi 16, 1: 256, 2: 16M) _Default is 1_ [asciinema](https://asciinema.org/a/c3NvOKBSO5UMpyuRNaVDxvEUx)
 - `scr.color.bytes` Colorize bytes that represent the opcodes of the instruction _Default is true_
