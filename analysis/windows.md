@@ -19,6 +19,18 @@
 ## Using an installer
 To get the latest installer, [go to this site](https://ci.appveyor.com/project/radare/radare2-shvdd) or [this site](http://radare.mikelloc.com/get/) and click the appropiate job name (32 vs 64bit) and then click artifacts to download the installer. The installer adds right click context for any file
 
+# Debugging
+## Winedbg
+- Untested
+```
+In one terminal do: # winedbg --gdb --no-start foo.exe
+(it will show some output, and at the end it will tell you the port number, like 1234)
+In the other terminal: r2 gdb://localhost:1234
+```
+
+## Resources
+- [Windows debugging flare challenge](https://medium.com/@jacob16682/debugging-using-radare2-and-windows-5e58677bf943)
+
 # DLL support
 ## dll support using rarun2
 > Syntax is `rarun2.exe runlib=[path\to\library] runlib.fcn=[function_name] [arg1=argument1 arg2=argument2...]`.
