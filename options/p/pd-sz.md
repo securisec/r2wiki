@@ -33,6 +33,7 @@ Usage: p[dD][ajbrfils] [sz] [arch] [bits] # Print Disassembly
   - > `pds` _Can be used as either inside function, or assigned an offset `pds @offset[func_name]`_
 
 - `pdsf`  🚀 sumarize N bytes or function (pdfs) [asciinema](https://asciinema.org/a/sT6SJdYI4VqxqqTVcowF21hdk)
+	- Use `pdsf~str` to get all strings from a function
 - `pdt` disassemble the debugger traces (see atd)
 
 <p hidden>pd pD pda pdb pdc pdC pdf pdi pdj pdk pdl pdr pdR pds pdt</p>
