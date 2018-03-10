@@ -24,6 +24,26 @@
 - `bin.strfilter` Filter strings
 - `bin.strings` Load strings from rbin on startup _Default is true_
 - `bin.strpurge` Try to purge false positive strings _Default is false_
+	
+	```
+	There can be multiple entries separated by commas. No whitespace before/after entries.
+	Possible entries:
+		all          : purge all strings
+		true         : use the false_positive() classifier in cbin.c
+		addr         : purge string at addr
+		addr1-addr2  : purge all strings in the range addr1-addr2 inclusive
+		!addr        : prevent purge of string at addr by prev entries
+		!addr1-addr2 : prevent purge of strings in range addr1-addr2 inclusive by prev entries
+	Neither !true nor !false is supported.
+
+	Examples:
+		e bin.strpurge=true,0-0xff,!0x1a
+			-- purge strings using the false_positive() classifier in cbin.c and also strings
+				 with addresses in the range 0-0xff, but not the string at 0x1a.
+		e bin.strpurge=all,!0x1000-0x1fff
+			-- purge all strings except the strings with addresses in the range 0x1000-0x1fff.
+	```
+
 - `bin.verbose` Show RBin warnings when loading binaries _Default is true_
 
 <p hidden>bin.b64str bin.baddr bin.classes bin.dbginfo bin.debase64 bin.demangle bin.demanglecmd bin.filter bin.force bin.laddr bin.lang bin.libs bin.maxstr bin.maxstrbuf bin.minstr bin.prefix bin.rawstr bin.relocs bin.strfilter bin.strings bin.strpurge bin.verbose</p>
