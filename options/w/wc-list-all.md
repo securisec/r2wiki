@@ -8,7 +8,7 @@ Usage: wc[ir+-*?] # NOTE: Uses io.cache=true
 ```
 
 
-- `wc` list all write changes
+- `wc[j]` list all write changes
 - `wc- [from] [to]` remove write op at curseek or given addr
 - `wc+ [addr]` commit change from cache to io
 - `wc*` "" in radare commands
