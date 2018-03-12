@@ -13,5 +13,6 @@ Usage: dsu[fei] [arg] . step until address ' ', 'f'lag, 'e'sil or 'i'nstruction 
 - `dsui [instruction]` Step until instruction
 - `dsuf [flag]` Step until flag
 - `dsue [esil]` Step until esil
+- `dsuo <optype> [<optype> ...]` Step until an instr matches one of the \<optype\>s.
 
-<p hidden>dsui dsuir dsuf dsue</p>
+<p hidden>dsui dsuir dsuf dsue dsuo</p>
