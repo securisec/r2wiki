@@ -31,6 +31,7 @@
 - `asm.demangle` Show demangled symbols in disasm _Default is true_
 - `asm.describe` Show opcode description _Default is false_
 - `asm.dwarf` Show dwarf comment at disassembly _Default is false_
+	- > `asm.dwarf` along with `dir.source` can be used for source code debugging
 - `asm.dwarf.abspath` Show absolute path in asm.dwarf _Default is false_
 - `asm.dwarf.file` Show filename of asm.dwarf in pd _Default is true_
 - `asm.emu` Run ESIL emulation analysis on disasm _Default is false (cpu emulation)_
