@@ -8,6 +8,7 @@
 - `dir.prefix` Default prefix r2 was compiled for
 - `dir.projects` Default path for projects _Default is ~/.config/radare2/projects_
 - `dir.source` Path to find source files
+	- > `dir.source` can be used for source code debugging
 - `dir.types` Default path to look for cparse type files _Default is /usr/include_
 - `dir.zigns` Default path for zignatures (see zo command) _Default is ~/.config/radare2/zigns_
 
