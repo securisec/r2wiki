@@ -13,6 +13,7 @@
 - `anal.brokenrefs` Follow function references as well if function analysis was failed _Default is false_
 - `anal.calls` Make basic af analysis walk into calls _Default is false_
 - `anal.cjmpref` Create references for conditional jumps _Default is false_
+- `anal.cpp.abi` Select C++ ABI (Compiler) _Default is itanium_
 - `anal.cpu` Specify the anal.cpu to use _Default is x86_
 - `anal.datarefs` Follow data references for code coverage _Default is false_
 - `anal.depth` Max depth at code analysis _Default is 16_
