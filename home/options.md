@@ -30,6 +30,8 @@
 
 [`-` Dash](/options/dash)
 
+[`>` Redirection](/options/dash)
+
 [ `?` Help or evaluate math expression](/options/help_evaluate)
 
 [ `@` Misc help for '@' (seek), '~' (grep) (see ~??)](/options/misc)
