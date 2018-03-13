@@ -30,7 +30,7 @@
 
 [`-` Dash](/options/dash)
 
-[`>` Redirection](/options/dash)
+[`>` Redirection](/options/redirection)
 
 [ `?` Help or evaluate math expression](/options/help_evaluate)
 
