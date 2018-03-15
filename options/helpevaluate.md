@@ -48,6 +48,7 @@ Usage: ?[?[?]] expression
 	- > Usage: `?O[jd] [arg]` .. list all mnemonics for asm.arch (d = describe, j=json)
 - `?p vaddr` get physical address for given virtual address
 - `?P paddr` get virtual address for given physical one
+- `?q eip-0x804800` compute expression like `?` or `?v` but in quiet mode
 - `?r [from] [to]` 🚀 generate random number between from-to [asciinema](https://asciinema.org/a/KDsEFp4p723UZa166Qmw0gu2S)
 - `?s from to step` sequence of numbers from to by steps
 - `?S addr` return section name of given address
