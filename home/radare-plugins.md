@@ -20,6 +20,10 @@ _This a list of plugins that I find interesting._
   [wargio/r2dec-js](https://github.com/wargio/r2dec-js)  
 - > 🚀 [r2dec installation help and demo](https://asciinema.org/a/0Ncb0iVwwNaXFP6qkpO1hvFVI)
 
+## r2retdec
+Local retdec implementation which also offers function summary
+[r2retdec](https://github.com/securisec/r2retdec)
+
 
 ## r2pm package manager
 
