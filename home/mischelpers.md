@@ -13,3 +13,7 @@
 # Malware reversing
 ## r2kit
 [r2kit](https://github.com/cmatthewbrooks/r2kit)
+
+# Extending radare2
+## pwntools (python)
+- [Integration of pwntools and radare2](https://bannsecurity.com/index.php/tutorials/48-integration-of-pwntools-and-radare2)
