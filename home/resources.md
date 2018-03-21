@@ -17,7 +17,7 @@
 
    - > _pancakes blog_
 
-- [Reverse Engineering With Radare2 — Part 2](https://medium.com/@jacob16682/reverse-engineering-with-radare2-part-2-83b71df7ffe4)
+- [Reverse Engineering With Radare2 — Part 2](https://goggleheadedhacker.com/blog/post/2)
 
 - [Summary of less commands](/home/resources/less-command)
 
