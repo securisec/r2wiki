@@ -29,7 +29,7 @@ In the other terminal: r2 gdb://localhost:1234
 ```
 
 ## Resources
-- [Windows debugging flare challenge](https://medium.com/@jacob16682/debugging-using-radare2-and-windows-5e58677bf943)
+- [Windows debugging flare challenge](https://goggleheadedhacker.com/blog/post/5)
 
 # DLL support
 ## dll support using rarun2
@@ -38,7 +38,7 @@ In the other terminal: r2 gdb://localhost:1234
 - It should be possible to use a rarun2 profile to debug a dll in this manner. 
 
 ## dll resources
-[Snojan analysis](https://medium.com/@jacob16682/snojan-analysis-bb3982fb1bb9)
+[Snojan analysis](https://goggleheadedhacker.com/blog/post/3)
 
 # PDB support
 > Helpful: `cabextract` in linux
@@ -51,7 +51,7 @@ In the other terminal: r2 gdb://localhost:1234
 # Resources
 ## CTF Windows binaries
 - [flareon 2015 2nd challenge](https://fevral.github.io/2017/08/13/flareon2015-2.html)
-- [debugging with r2 in windows](https://medium.com/@jacob16682/debugging-using-radare2-and-windows-5e58677bf943)
+- [debugging with r2 in windows](https://goggleheadedhacker.com/blog/post/5)
 
 # Windows malware / scripts
 ## r2msdn
