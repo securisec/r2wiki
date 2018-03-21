@@ -35,7 +35,7 @@
 
 - [34c4 m0rph](https://www.sigflag.at/blog/2017/writeup-34c3ctf-m0rph/)
 - [Intro to r2 Insinuator](https://insinuator.net/2016/08/reverse-engineering-with-radare2-intro/)
-- [Linux Malware Analysis — Why Homebrew Encryption is Bad](https://medium.com/@jacob16682/linux-malware-analysis-why-homebrew-encryption-is-bad-48e349b252f9)
+- [Linux Malware Analysis — Why Homebrew Encryption is Bad](https://goggleheadedhacker.com/blog/post/4)
 - [Redvelvet codegate 2017 r2+angr+ida :(](https://github.com/Brandon-Everhart/CTF-Writeups/tree/master/2018/Codegate/Reversing/RedVelvet)
 - [Ioli crackme writeups (various)](https://moveax.me/crackme0x06/)
 - [Xiomara 2018 slammer](https://jbzteam.github.io/xiomaractf2018/Slammer)
