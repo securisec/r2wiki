@@ -25,6 +25,7 @@ Usage: ?[?[?]] expression
 - `?? [cmd]` run cmd if $? != 0
 - `??` show value of operation
 - `?_ hudfile` load hud menu with given file
+- `?a` show ascii table
 - `?b [num]` 🚀 show binary value of number [asciinema](https://asciinema.org/a/4lauRRlFZHiJmpAQUv1FlxDfC)
 - `?b64[-] [str]` 🚀 encode/decode in base64 [asciinema](https://asciinema.org/a/xV77ADJ1jf2w43Lr9RS9fIy76)
 - `?btw num|(expr) num|(expr) num|(expr)` returns boolean value of a <= b <= c
