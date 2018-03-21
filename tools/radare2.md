@@ -98,6 +98,7 @@ Usage: r2 [-ACdfLMnNqStuvwzX] [-P patch] [-p prj] [-a arch] [-b bits] [-i file]
   - _r_d_ `debug` Native debugger (dbg:///bin/ls dbg://1388 pidof:// waitfor://) (LGPL3) v0.2.0 pancake
   - _rw_ _ `default` open local files using def_mmap:// (LGPL3)
   - _rwd_ `gdb` Attach to gdbserver, 'qemu -s', gdb://localhost:1234 (LGPL3)
+  - _rw_  `gprobe` open gprobe connection using gprobe:// (LGPL3)
   - _rw_ _ `gzip` read/write gzipped files (LGPL3)
   - _rw_ _ `http` http get (http://rada.re/) (LGPL3)
   - _rw_ _ `ihex` Intel HEX file (ihex://eeproms.hex) (LGPL)
