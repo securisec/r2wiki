@@ -47,6 +47,7 @@
 	- `r2pm -i keystone`
 	- And then invoke with either `r2 -a arm.ks` or from shell `e asm.assembler = arm.ks`
 - The radare2 command line history can be found in `$HOME/.config/radare2/history`
+- You can use rarun profile paramaters directly using `radare2 -R [arg1=foo] [stdin=bar] [preload=baz] -d binary`
 
 
 ## Tips from fortunes
