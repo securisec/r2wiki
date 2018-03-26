@@ -43,3 +43,4 @@
 - [TAMUCTF 18 Cutter](https://adminadminctf.github.io/ctf/TAMUctf18-hashbrowns)
 - [Harekaze 2018 EzReverse](https://github.com/RedEcho/CTF_Challenges/blob/master/EasyCTF_IV/5365_EzReverse/WriteUp/Writeup.md)
 - [Self modifying binary](https://www.megabeets.net/reversing-a-self-modifying-binary-with-radare2/)
+- [Solving bomblab with r2](https://moveax.me/bomblab/)
