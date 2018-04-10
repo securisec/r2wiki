@@ -38,7 +38,10 @@ Usage: t # cparse types commands
 	- > `tp` can be useful in printing struct data
 
 - [ `ts[?]` print loaded struct types](/options/t/ts-print)
+- `tt           `  List all loaded typedefs
+- `tt <typename>`  Show name for given type alias
+- `tt?          `  show this help
 
 - `tu[?]` print loaded union types
 
-<p hidden>t- ta tb tc te td tf tk tl tn to tos tp ts tu</p>
+<p hidden>t- ta tb tc te td tf tk tl tn to tos tp ts tu tt</p>
