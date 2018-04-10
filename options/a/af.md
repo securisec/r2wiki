@@ -37,5 +37,6 @@
 - [ `aft[?]`   type matching, type propagation](/options/a/af/aft)
 - [ `afv[bsra]?`   manipulate args, registers and variables in](/options/a/af/afv)
 - [ `afx[cCd-] src dst`   add/remove code/Call/data/string reference](/options/a/af/afx)
+- `afxj` 
 
 <p hidden>af afr af+ af- afb+ afB afC afc aff afF afi afl afo afm afM afn afna afs afS afu aft afv afx</p>
