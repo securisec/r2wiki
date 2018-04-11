@@ -34,6 +34,7 @@ Use io.va for searching in non virtual addressing spaces
 - `/e /E.F/i` search/match regular expression
 - `/E esil-expr` offset matching given esil expressions %%= here
 - `/f` search forwards, command modifier, followed by other command
+- `/g[g] [from]`            find all graph paths A to B (/gg follow jumps, see search.count and anal.depth)
 - `/F file [off] [sz]` search contents of file with offset and size
 - `/h[t] [hash] [len]` find block matching this hash. See /#?
 - `/i foo` 🚀 search for string 'foo' ignoring case [asciinema](https://asciinema.org/a/JbReEd7wnDvUIHexYr97UX5BZ)
