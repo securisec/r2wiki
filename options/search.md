@@ -38,7 +38,7 @@ Use io.va for searching in non virtual addressing spaces
 - `/F file [off] [sz]` search contents of file with offset and size
 - `/h[t] [hash] [len]` find block matching this hash. See /#?
 - `/i foo` 🚀 search for string 'foo' ignoring case [asciinema](https://asciinema.org/a/JbReEd7wnDvUIHexYr97UX5BZ)
-- `/m magicfile` search for matching magic file (use blocksize)
+- `/m[j] magicfile` search for matching magic file (use blocksize)
   - > 🚀 Use this to search for magic headers inside the binary. Similar to foremost. Example (pcap): [asciinema](https://asciinema.org/a/gYd0YHsXdGx2xxgjTQh9FfMWa)
 
 	- > Use `/m` to look for magic signatures at every offset. This can be defined with `search.in`. `/m` can be used to identify files in memory as an example.
@@ -53,8 +53,8 @@ Use io.va for searching in non virtual addressing spaces
 - [ `/R [grepopcode]` search for matching ROP gadgets, semicolon-separated](search/capr)
 
 - `/s` search for all syscalls in a region (EXPERIMENTAL)
-- `/v[1248] value` look for an `cfg.bigendian` 32bit value
-- `/V[1248] min max` look for an `cfg.bigendian` 32bit value in range
+- `/v[j1248] value` look for an `cfg.bigendian` 32bit value
+- `/V[j1248] min max` look for an `cfg.bigendian` 32bit value in range
 - `/w foo` search for wide string 'f\0o\0o\0'
 - `/wi foo` search for wide string ignoring case 'f\0o\0o\0'
 
