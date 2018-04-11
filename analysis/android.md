@@ -25,6 +25,7 @@
 
 ## Complimentary tools
 [termux](https://termux.com/)
+[r2frida for android](https://github.com/nowsecure/r2frida/releases/tag/v2.2.0)
 # Installing
 ## Installing from pre built
 - Download the latest from `http://radare.mikelloc.com/get/[version]/[android-arch]`
