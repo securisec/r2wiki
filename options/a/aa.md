@@ -14,6 +14,7 @@
 - `aad [len]` analyze data references to code
 - `aae [len] ([addr])` analyze references with ESIL (optionally to address) _Emulate code to identify new pointer references_
   - > `aae` Analyzes executable sections but using emulation. Useful for calls that are using registers instead of hardcoded destinations
+- `aaf`                 analyze all functions (e anal.hasnext=1;afr @@c:isq)
 - `aaE` run aef on all functions (same as aef @@f)
 - `aai[j]` show info of all analysis parameters
 - `aan` autoname functions that either start with fcn.* or sym.func.*
@@ -27,4 +28,4 @@
 - `aav [sat]` find values referencing a specific section or map
   - > `aav` Looks for values in the text section that are pointing to the text section. Shows hardcoded pointers in program memory.
 
-<p hidden>aa aa* aaa aab aac aac* aad aae aaE aai aan aap aar aas aat aaT aau aav</p>
+<p hidden>aa aa* aaa aab aac aac* aad aae aaE aai aan aap aar aas aat aaT aau aav aaf</p>
