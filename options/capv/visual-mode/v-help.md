@@ -103,7 +103,7 @@
 - `O` toggle asm.esil
 - `p/P` rotate print modes (hex, disasm, debug, words, buf)
 - `q` back to radare shell
-- `r` refresh screen / in cursor mode browse comments
+- `r` refresh screen / in cursor mode browse comments. Toggle between hotkey hints in disasm between data and code
 - `R` randomize color palette (ecr)
 - `sS` step / step over
 - `t` browse types
