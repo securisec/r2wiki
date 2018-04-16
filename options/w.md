@@ -45,6 +45,7 @@ Usage: w[x] [str] [<file] [<<EOF] [@addr]
 - `ws pstring` write 1 byte for length and then the string
 
 - [ `wt[f][?] file [sz]` write to file (from current seek, blocksize or sz bytes)](/options/w/wt-f-file)
+	- Use `wt somefile $FS` to write a function to file 
 
 - `wts host:port [sz]` send data to remote host:port via tcp://
 - `ww foobar` write wide string 'f\x00o\x00o\x00b\x00a\x00r\x00'
