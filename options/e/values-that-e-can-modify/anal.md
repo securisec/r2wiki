@@ -22,6 +22,7 @@
 - `anal.fcnprefix` Prefix new function names with this _Default is fcn_
 - `anal.from` Lower limit on the address range for analysis _Default is 0xffffffffffffffff_
 - `anal.gp` Set the value of the GP register (MIPS) _Default is 0_
+- `anal.gp2` Set anal.gp before emulating each instruction (workaround) _Default is false_
 - `anal.hasnext` Continue analysis after each function _Default is false_
   - > `anal.hasnext` _Forces to find a function, after the end of a function._
 - `anal.hpskip` Skip `mov reg, reg` and `lea reg, [reg] at the beginning of functions _Default is false_
