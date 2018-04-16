@@ -6,6 +6,9 @@ _This a list of plugins that I find interesting._
 ## Tips
 - > Sometimes, a plugin installation using r2pm will fail with a Directory nonexistant error. To prevent this, simply run `mkdir -p $HOME/.config/radare2/prefix/bin/` (on Ubuntu)
 
+## Plugin development guide
+[Boilerplate for plugin development](https://wenzel.github.io/2018/04/15/radare2-io-plugin-tutorial.html)
+
 ## diaphora (binary diffing)
    - > _Binary diffing powered by diaphora (originally for IDA Pro)_
 
