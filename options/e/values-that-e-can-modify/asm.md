@@ -79,6 +79,7 @@
 - `asm.lineswidth` Number of columns for program flow arrows _Default is 7_
 - `asm.marks` Show marks before the disassembly _Default is true_
 - `asm.maxrefs` Maximum number of xrefs to be displayed as list (use columns above) _Default is 5_
+- `asm.meta` Display the code/data/format conversions in disasm _Default is true_
 - `asm.midcursor` Cursor in visual disasm mode breaks the instruction _Default is false_
 - `asm.middle` Allow disassembling jumps in the middle of an instruction _Default is false_
 - `asm.midflags` Realign disassembly if there is a flag in the middle of an instruction _Default is 2_
