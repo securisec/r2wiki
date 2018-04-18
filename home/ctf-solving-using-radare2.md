@@ -46,3 +46,4 @@
 - [Solving bomblab with r2](https://moveax.me/bomblab/)
 - [Gynvael mission 22](https://ctfs.ghost.io/gynvael-mission-22-solution/amp/?__twitter_impression=true)
 - [Bomblab moveax](https://moveax.me/bomblab/)
+- [ROPping to victory](https://jmpesp.me/rop-emporium-ret2win-with-radare-and-pwntools/)
