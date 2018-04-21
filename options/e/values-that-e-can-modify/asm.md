@@ -85,6 +85,7 @@
 - `asm.midflags` Realign disassembly if there is a flag in the middle of an instruction _Default is 2_
 - `asm.minicols` Only show the instruction in the column disasm _Default is false_
 - `asm.minvalsub` Minimum value to substitute in instructions (asm.varsub) _Default is 256_
+	- `asm.minvalsub` is used to reduce low immediate values
 - `asm.nbytes` Number of bytes for each opcode at disassembly _Default is 6_
 - `asm.nodup` Do not show dupped instructions (collapse disasm) _Default is false_
 - `asm.noisy` Show comments considered noisy but possibly useful _Default is true_
