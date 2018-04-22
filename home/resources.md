@@ -28,4 +28,4 @@
 - [Introduction to RE with radare2](https://github.com/TobalJackson/2017-SIT-RE-Presentation)
 - [Reversing with radare2 - Intro](https://insinuator.net/2016/08/reverse-engineering-with-radare2-intro/)
 - [Reversing with radare2 - part 2](https://insinuator.net/2016/08/reverse-engineering-with-radare2-part-2/)
-- [Reversing with radare2 - part 3](https://insinuator.net/2016/08/reverse-engineering-with-radare2-part-3/)
+- [Reversing with radare2 - part 3](https://insinuator.net/2016/10/reverse-engineering-with-radare2-part-3/)
