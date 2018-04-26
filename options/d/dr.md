@@ -9,6 +9,7 @@ Usage: dr Registers commands
 
 
 - `dr` Show 'gpr' registers
+	- Use `dr` to find the argv and argc of a binary. See writeup [here](https://reverseengineering.stackexchange.com/questions/18085/radare2-find-command-line-arguments-and-location-in-stack?atw=1)
 - `dr <register>=<val>` Set register value
 - `dr8[1|2|4|8] [type]` Display hexdump of gpr arena (WIP)
 - `dr=` 🚀 Show registers in columns [asciinema](https://asciinema.org/a/3pB3XIR48Lyz5XF9XTgbWTmWz)
