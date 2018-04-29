@@ -11,6 +11,7 @@
 - `dbg.bpsize` Size of software breakpoints _Default is 8_
 - `dbg.bpsysign` Ignore system breakpoints _Default is false_
 - `dbg.btalgo` Select backtrace algorithm _Default is fuzzy_
+	- > Set `dbg.btalgo` to `trace` to trace calls for backtrace
 - `dbg.btdepth` Depth of backtrace _Default is 128_
 - `dbg.clone` Stop execution if new thread is created _Default is false_
 - `dbg.consbreak` SIGINT handle for attached processes _Default is false_
