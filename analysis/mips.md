@@ -8,3 +8,4 @@
 
 ## Resources
 - [Reverse Engineering Embedded Software an introduction Using Radare2](https://radare.org/get/r2embed-auckland2015.pdf)
+- [Reversing MIPS binaries](https://reverseengineering.stackexchange.com/questions/18166/reverse-mips-binary-with-radare2)
