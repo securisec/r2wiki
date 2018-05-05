@@ -111,6 +111,7 @@
 - `uU` undo/redo seek
 - `v` visual function/vars code analysis menu
 - `V` (V)iew graph using cmd.graph (agv?)
+- `VP` `pxr` in visual mode
 - `wW` seek cursor to next/prev word
 - `xX` show xrefs/refs of current function from/to data/code
   - Screenshot
