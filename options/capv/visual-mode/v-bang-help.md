@@ -12,7 +12,7 @@ _    - start the hud input mode
 d    - 
 x    - close current panel
 m    - open menubar
-A    - 
+A    - Visual assembly
 V    - view graph
 C    - toggle color
 M    - open new custom frame
