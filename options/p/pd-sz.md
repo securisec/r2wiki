@@ -28,7 +28,7 @@ Usage: p[dD][ajbrfils] [sz] [arch] [bits] # Print Disassembly
 - `pdl` 🚀 show instruction sizes [asciinema](https://asciinema.org/a/VqcVh8H731bmhBoLNwv21zqDF)
 - `pdp`        disassemble by following pointers to read ropchains
 - `pdr` 🚀 recursive disassemble across the function graph [asciinema](https://asciinema.org/a/qbatqGNhB5Zmvr1VzmsEB7TRo)
-- `pdR` 🚀 recursive disassemble block size bytes without analyzing functions [asciinema](https://asciinema.org/a/gpiEMqW1aUsLnPprBeCjcMBlS)
+- `pdR[j]` 🚀 recursive disassemble block size bytes without analyzing functions [asciinema](https://asciinema.org/a/gpiEMqW1aUsLnPprBeCjcMBlS)
 	- > `pdR` command that doesnt requires previous analaysis and just follow non-conditional jumps
 - `pds[?]` 🚀 disassemble summary (strings, calls, jumps, refs) (see pdsf and pdfs) [asciinema](https://asciinema.org/a/pUcz5MwdofZbJrxzUIrZekH5z)
   - > `pds` _Can be used as either inside function, or assigned an offset `pds @offset[func_name]`_
