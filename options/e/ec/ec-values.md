@@ -59,6 +59,7 @@
  ##  gui.alt_background
  ##  gui.border
  ##  highlight
+ ##  line_highlight
 ```
 
 # Sample theme file (smyck)
