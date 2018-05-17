@@ -9,8 +9,10 @@ Visual Ascii Art Panels:
 :    - run r2 command in prompt
 _    - start the hud input mode
 ?    - show this help
+d    - 
 x    - close current panel
 m    - open menubar
+A    - 
 V    - view graph
 C    - toggle color
 M    - open new custom frame
