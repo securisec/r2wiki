@@ -65,7 +65,7 @@
   ![Rasta](/uploads/themes/rasta.png "Rasta")
 	
 ## sepia
-	![Sepia](/uploads/themes/sepia.png "Sepia")
+![Sepia](/uploads/themes/sepia.png "Sepia")
 
 ## smyck
 
