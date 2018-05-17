@@ -32,7 +32,8 @@ Usage: ?[?[?]] expression
 - `?B [elem]` show range boundaries like 'e?search.in
 - `?d[.] opcode` 🚀 describe opcode for asm.arch [asciinema](https://asciinema.org/a/F5bPaITylZ1qGTtIh8slo8xr1)
 	- > Use: `?d[.] [opcode]`    to get the description of the opcode
-- `?e[nbgc] string` echo string (nonl, gotoxy, column, bars)
+- [`?e[nbgc] string` echo string (nonl, gotoxy, column, bars)](/options/helpevaluate/e)
+- `?ep` print PIE charts
 - `?E string`   clippy messages.
 - `?f [num] [str]` map each bit of the number as flag string index
 - `?F` flush cons output
