@@ -17,7 +17,7 @@ Usage: s # Help for the seek commands. See ?$? to see all variables
 - `s- n` Seek n bytes backward
 - `s--[n]` Seek blocksize bytes backward (/=n)
 - `s+` Redo seek
-- `s+ n` Seek n bytes forward
+- `s+ n` Seek n bytes forward (supports autocomplete)
 - `s++[n]` Seek blocksize bytes forward (/=n)
 - `s[j*=!]` List undo seek history (JSON, =list, *r2, !=names, s==)
 	- `sj` to retrive seek history in json format
