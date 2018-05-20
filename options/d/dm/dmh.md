@@ -13,5 +13,6 @@ Usage: dmh # Memory map heap
 - `dmhc*|[arena_t]` show all chunks created in all arenas, or show all chunks created for a given arena_t instance
 - `dmh?` Show map heap help
     - > _Handy for pwning_
+- `dmhj`
 
 <p hidden>dmha dmhb dmhc dmh</p>
