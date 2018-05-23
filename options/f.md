@@ -62,6 +62,7 @@ Usage: f [?] [flagname] # Manage offset-name flags
 - [ `fs[?]+-*` manage flagspaces](/options/f/fs)
 
 - `fS[on]` sort flags by offset or name
+- `ft` flag tags [twitter](https://pbs.twimg.com/media/Dc7H-yUWAAAfeg1.jpg:large)
 - `fV[*-] [nkey] [offset]` dump/restore visual marks (mK/'K)
 - `fx[d]` show hexdump (or disasm) of flag:flagsize
 - `fq` list flags in quiet mode
