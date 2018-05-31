@@ -22,6 +22,7 @@
 # Resources
 [Android malware analysis with Radare: Dissecting the Triada Trojan](https://www.nowsecure.com/blog/2016/11/21/android-malware-analysis-radare-triada-trojan/)
 [Oneplus backdoor analysis](https://www.nowsecure.com/blog/2017/11/14/oneplus-device-root-exploit-backdoor-engineermode-app-diagnostics-mode/)
+[Android/Linux vmlinux loader](https://github.com/nforest/droidimg)
 
 ## Complimentary tools
 [termux](https://termux.com/)
