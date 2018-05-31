@@ -47,3 +47,4 @@
 - [Gynvael mission 22](https://ctfs.ghost.io/gynvael-mission-22-solution/amp/?__twitter_impression=true)
 - [Bomblab moveax](https://moveax.me/bomblab/)
 - [ROPping to victory](https://jmpesp.me/rop-emporium-ret2win-with-radare-and-pwntools/)
+- 📼 [Solving a Self-modifying Crackme with r2pipe EMU vs DBG vs XOR](https://www.youtube.com/watch?v=ODCNbM9_U4M)
