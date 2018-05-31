@@ -57,6 +57,7 @@ Local retdec implementation which also offers function summary
 ## RVMI
 🚀 rvmi plugin allows one to debug a remote process running in a VM [asciinema](https://asciinema.org/a/Vm2eXMSOS8faegNQGlH4C9J0u)
 [r2 vmi github](https://github.com/Wenzel/radare2-extras/tree/vmi/vmi)
+[r2vmi-vmi-io-debugger](https://securityonline.info/r2vmi-vmi-io-debugger/)
 
 ```
 Usage:
