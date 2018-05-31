@@ -53,6 +53,9 @@ In the other terminal: r2 gdb://localhost:1234
 - [flareon 2015 2nd challenge](https://fevral.github.io/2017/08/13/flareon2015-2.html)
 - [debugging with r2 in windows](https://goggleheadedhacker.com/blog/post/5)
 
+## Windows kernel
+- [Arbitrary Code Guard vs. Kernel Code Injections](https://www.countercraft.eu/blog/post/arbitrary-vs-kernel/)
+
 # Windows malware / scripts
 ## r2msdn
 - ⭐[r2msdn](https://github.com/securisec/r2msdn)
