@@ -69,4 +69,4 @@ Usage: f [?] [flagname] # Manage offset-name flags
 
 - [ `fz[?][name]` add named flag zone -name to delete. see fz?[name]](/options/f/fz)
 
-<p hidden>f+ f- f= fC fe fe- fg fj fl fla fm fn fo fr fR fs fS fV fx fq fz ff ffs</p>
+<p hidden>f+ f- f= fC fe fe- fg fj fl fla fm fn fo fr fR fs fS fV fx fq fz ff ffs ft</p>
