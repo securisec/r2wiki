@@ -3,8 +3,9 @@
 #  `ag[?] [options]`   output Graphviz code
 
 ## Tips
-  - > Dependencies include `xdot` . To install, `sudo apt install xdot`
-	- > To print a grapviz, `use a[options] | xdot -` . Example: `ag $$ | xdot -` . `$$` means here (at current seek). `agv` does the same thing.
+- > Dependencies include `xdot` . To install, `sudo apt install xdot`
+- > To print a grapviz, `use a[options] | xdot -` . Example: `ag $$ | xdot -` . `$$` means here (at current seek). `agv` does the same thing.
+- > `ag` supports autocompletion
 	
 ---
 
