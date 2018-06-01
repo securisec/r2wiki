@@ -9,34 +9,38 @@
 	
 ---
 
-- `ag [addr]`   output graphviz code (bb at addr and children)
-- `ag-`   Reset the current ASCII art graph (see agn, age, agg?)
-- `aga [addr]`   idem, but only addresses
-- `agr[j] [addr]`   output graphviz call graph of function
-
 - [ `agg`   display current graph created with agn and age (see also ag-)](/options/a/ag/agg-display)
-
-- `agc[j] [addr]`   output graphviz call graph of function
-- `agC[j]`   Same as agc -1. full program callgraph
-- `agd [fcn name]`   output graphviz code of diffed function
-
-- [ `age[?] title1 title2`   Add an edge to the current graph](/options/a/ag/age)
-
 - `agf [addr]`   Show ASCII art graph of given function
 	- > After setting `scr.html` to true, `agf` can be used to export a visual graph to html.
-
 - `agfl`
-
 - [ `agg[?] [kdi*]`   Print graph in ASCII-Art, graphviz, k=v, r2 or visual](/options/a/ag/agg-kdi)
 
-- `agj [addr]`   idem, but in JSON format
-- `agk [addr]`   idem, but in SDB key-value format
-- `agl [fcn name]`   output graphviz code using meta-data
+- Graph commands:
+- `agc[format] [fcn addr]`  Function callgraph
+- `agf[format] [fcn addr]`  Basic blocks function graph
+- `agx[format] [addr] `     Cross references graph
+- `agr[format] [fcn addr]`  References graph
+- `aga[format] [fcn addr]`  Data references graph
+- `agd[format] [fcn addr]`  Diff graph
+- `agi[format]`             Imports graph
+- `agC[format]`             Global callgraph
+- `agR[format]`             Global references graph
+- `agA[format]`             Global data references graph
+- `agg[format]`             Custom graph
+- `ag-`                     Clear the custom graph
+- `agn[?] title body`       Add a node to the custom graph
+- `age[?] title1 title2`    Add an edge to the custom graph
 
-- [ `agn[?] title body`   Add a node to the current graph](/options/a/ag/agn)
-
-- `ags [addr]`   output simple graphviz call graph of function (only bb offset)
-- `agt [addr]`   find paths from current offset to given address
-- `agv`   Show function graph in web/png (see graph.web and cmd.graph) or agf for asciiart
-
+```
+- Output formats:
+- <blank>                 Ascii art
+- v                       Interactive ascii art
+- t                       Tiny ascii art
+- d                       Graphviz dot
+- j                       json ('J' for formatted disassembly)
+- g                       Graph Modelling Language (gml)
+- k                       SDB key-value
+- *                       r2 commands
+- w                       Web/image (see graph.extension and graph.web)
+```
 <p hidden>ag ag- aga agr agc agC agd age agf agg agj agk agl agn ags agt agv xdot</p>
