@@ -49,3 +49,4 @@
 - [ROPping to victory](https://jmpesp.me/rop-emporium-ret2win-with-radare-and-pwntools/)
 - 📼 [Solving a Self-modifying Crackme with r2pipe EMU vs DBG vs XOR](https://www.youtube.com/watch?v=ODCNbM9_U4M)
 - [Reversing MalwareTech challenge with Radare2 and inline assembly](https://prsecurity.org/reversing-malwaretech-challange-with-radare2-and-inline-assembly/)
+- [ROPping to Victory](https://jmpesp.me/rop-emporium-ret2win-with-radare-and-pwntools/)
