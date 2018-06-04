@@ -9,6 +9,7 @@ Usage: t # cparse types commands
 
 
 - `t` List all loaded types
+	- > `t` can be used to list types
 - `t <type>` Show type in 'pf' syntax
 - `t*` List types info in r2 commands
 - `t- <name>` Delete types by its name
