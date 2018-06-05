@@ -73,13 +73,15 @@
 - `asm.lbytes` Align disasm bytes to left _Default is true_
 - `asm.leahints` Show LEA hints [numbers] in disasm _Default is false_
 - `asm.lines` Show ASCII-art lines at disassembly _Default is true_
+- `asm.lines.bb` Show flow lines at jumps _Default is true_
 - `asm.lines.call` Enable call lines _Default is false_
+- `asm.lines.fcn` Show function boundary lines _Default is true_
+- `asm.lines.out` Show out of block lines _Default is true_
 - `asm.lines.ret` Show separator lines after ret _Default is false_
-- `asm.linesout` Show out of block lines _Default is true_
-- `asm.linesright` Show lines before opcode instead of offset _Default is false_
-- `asm.lineswide` Put a space between lines _Default is false_
-- `asm.lineswidth` Number of columns for program flow arrows _Default is 7_
-- `asm.marks` Show marks before the disassembly _Default is true_
+- `asm.lines.right` Show lines before opcode instead of offset _Default is false_
+- `asm.lines.wide` Put a space between lines _Default is false_
+- `asm.lines.width` Number of columns for program flow arrows _Default is 7_
+- `asm.lines.jmp`- `asm.marks` Show marks before the disassembly _Default is true_
 - `asm.maxrefs` Maximum number of xrefs to be displayed as list (use columns above) _Default is 5_
 - `asm.meta` Display the code/data/format conversions in disasm _Default is true_
 - `asm.midcursor` Cursor in visual disasm mode breaks the instruction _Default is false_
