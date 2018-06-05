@@ -58,8 +58,8 @@
  ##  gui.background
  ##  gui.alt_background
  ##  gui.border
- ##  highlight
- ##  line_highlight
+ ##  wordhl
+ ##  linehl
 ```
 
 # Sample theme file (smyck)
