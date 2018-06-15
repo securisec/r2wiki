@@ -7,6 +7,7 @@
 Usage: t # cparse types commands
 ```
 
+- > `t` commands support autocompletion
 
 - `t` List all loaded types
 	- > `t` can be used to list types
