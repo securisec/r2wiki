@@ -35,7 +35,7 @@ Usage: ah[lba-]Analysis Hints
 - `ahp addr` set pointer hint
 - `ahr val` set hint for return value of a functionahs
 	- 4set opcode size=4 ahS
-| - jzset asm.syntax=jz for this opcode  (null)
+  - jzset asm.syntax=jz for this opcode  (null)
 - `ahs 4` set opcode size=4
 - `ahS jz` set asm.syntax=jz for this opcode
 
