@@ -1,7 +1,7 @@
 <!-- TITLE: aoda -->
 
 # aoda show all mnemonic descriptions
-`- aaa` ascii adjust after addition
+- ` aaa` ascii adjust after addition
 - `aad` ascii adjust ax before division
 - `aam` ascii adjust ax after multiply
 - `aas` ascii adjust al after subtraction
