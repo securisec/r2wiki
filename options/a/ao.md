@@ -8,6 +8,6 @@
 - `aor N        `  display reil form for N opcodes
 - `aos N        `  display size of N opcodes
 - `aod[mnemonic]`  describe opcode for asm.arch
-- `aoda         `  show all mnemonic descriptions
+- [`aoda         `  show all mnemonic descriptions](/options/a/aoda)
 - `ao 5         `  display opcode analysis of 5 opcodes
 - `ao*          `  display opcode in r commands
