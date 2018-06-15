@@ -33,6 +33,9 @@ Usage: ah[lba-]Analysis Hints
 - `aho foo a0,33` replace opcode string
 	- > `aho` can use used to override a constants value. ❓
 - `ahp addr` set pointer hint
+- `ahr val` set hint for return value of a functionahs
+	- 4set opcode size=4 ahS
+| - jzset asm.syntax=jz for this opcode  (null)
 - `ahs 4` set opcode size=4
 - `ahS jz` set asm.syntax=jz for this opcode
 
