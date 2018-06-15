@@ -11,3 +11,5 @@
 - [`aoda         `  show all mnemonic descriptions](/options/a/aoda)
 - `ao 5         `  display opcode analysis of 5 opcodes
 - `ao*          `  display opcode in r commands
+
+<p hidden>aoj aoe aor aos aod aoda ao ao*</p>
