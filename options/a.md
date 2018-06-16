@@ -26,7 +26,7 @@ Usage: a[abdefFghoprxstc] [...]
 - [ `ah[?]` analysis hints (force opcode size, ...)](/options/a/ah)
 - `ai [addr]` address information (show perms, stack, heap, ...)
 - `an [name] [@addr]` show/rename/create whatever flag/function is used at addr
-- [ `ao[?] [len]` analyze Opcodes (or emulate it)](/options/a/ao)
+- 🚀 [ `ao[?] [len]` analyze Opcodes (or emulate it)](/options/a/ao) [asciinema](https://asciinema.org/a/eYNTakBmrP2CqfBOZkMKhSAJu)
 - `aO` Analyze N instructions in M bytes
 - `ap` find prelude for current offset
 - [ `ar[?]` like 'dr' but for the esil vm. (registers)](/options/a/ar)
