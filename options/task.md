@@ -12,6 +12,7 @@ Usage: &[-|<cmd>]Manage tasks (WARNING: Experimental. Use with caution!)
 - `&- 1   `  delete task #1
 - `&-*    `  delete all done tasks
 - `&?     `  show this help
+- `&t` Show a list of task status?
 - `&& 3   `  wait until task 3 is finished
 - `&&     `  wait until all tasks are finish`ed`
 
