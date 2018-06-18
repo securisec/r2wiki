@@ -18,6 +18,8 @@
 - Graph commands:
 - `agc[format] [fcn addr]`  Function callgraph
 - `agf[format] [fcn addr]`  Basic blocks function graph
+- `agfd` ?
+	- > Use `agfd` with viz-js library to render an SVG
 - `agx[format] [addr] `     Cross references graph
 - `agr[format] [fcn addr]`  References graph
 - `aga[format] [fcn addr]`  Data references graph
@@ -43,4 +45,4 @@
 - *                       r2 commands
 - w                       Web/image (see graph.extension and graph.web)
 ```
-<p hidden>ag ag- aga agr agc agC agd age agf agg agj agk agl agn ags agt agv xdot agc agf agx agr aga agd agi agC agR agA agg ag- agn age</p>
+<p hidden>ag ag- aga agr agc agC agd age agf agg agj agk agl agn ags agt agv xdot agc agf agx agr aga agd agi agC agR agA agg ag- agn age agfd</p>
