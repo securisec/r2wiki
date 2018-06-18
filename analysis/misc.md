@@ -9,3 +9,8 @@
 # Misc architecture
 ## 6502 reversing
 - [Reverse simple 6502 game](https://retro.moe/2015/11/18/disassembling-6502-code-with-radare-part-i/)
+
+## FAT files
+- Use `rabin2 -x` to extract all the sub bins
+- Use `r2 -a arch -b bits` on selected sub bins
+- Use `rabin2 -A` ti list all subbins
