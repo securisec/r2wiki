@@ -34,6 +34,8 @@
 
 [ `?` Help or evaluate math expression](/options/help_evaluate)
 
+[ `&` Tasks](/options/task)
+
 [ `@` Misc help for '@' (seek), '~' (grep) (see ~??)](/options/misc)
 
 [ `@@` Run a for loop](/options/run-a-for-loop)
