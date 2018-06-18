@@ -20,7 +20,7 @@
 
 - [ `dk[?]` List, send, get, set, signal handlers of child](/options/d/dk)
 
-- `dL [handler]` List or set debugger handler _debug handler_
+- [`dL [handler]` List or set debugger handler _debug handler_](/options/d/dcapl)
 
 - [ `dm[?]` Show memory maps](/options/d/dm) _debug memory maps_
 
