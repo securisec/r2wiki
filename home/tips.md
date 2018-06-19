@@ -51,6 +51,7 @@
 - To find addresses of all functions, use `s @@f`
 - To search for something in memory, use `/v` in conjuction with `e search.in=dbg.maps`
 - To dump types, like C++, use this [resource](https://radare.gitbooks.io/radare2book/content/analysis/types.html)
+- Use `?v $r{register}` to access register values
 
 
 ## Tips from fortunes
