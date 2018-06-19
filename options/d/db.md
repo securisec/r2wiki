@@ -39,6 +39,7 @@ Usage: db # Breakpoints commands
 - `dbm <module> <offset>` Add a breakpoint at an offset from a module's base
 - `dbn [<name>]` Show or set name for current breakpoint
 - `dbi` List breakpoint indexes
+- `dbi.` Show breakpoint index in current offset
 - `dbic <index> <cmd>` Run command at breakpoint index
 	- > `dbi` and `dbic` can be used to run a command once a break point hits similar to `db` and `dbc`
 - `dbie <index>` Enable breakpoint by index
