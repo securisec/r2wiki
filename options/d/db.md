@@ -45,6 +45,7 @@ Usage: db # Breakpoints commands
 - `dbie <index>` Enable breakpoint by index
 - `dbid <index>` Disable breakpoint by index
 - `dbis <index>` Swap Nth breakpoint
+- `dbix <idx> [expr]`        Set expression for bp at given index
 - `dbite <index>` Enable breakpoint Trace by index
 - `dbitd <index>` Disable breakpoint Trace by index
 - `dbits <index>` Swap Nth breakpoint trace
@@ -54,4 +55,4 @@ Usage: db # Breakpoints commands
 - `drx number addr len rwx` Modify hardware breakpoint
 - `drx-number` Clear hardware breakpoint
 
-<p hidden>db dbj dbc dbC dbd dbe dbs dbf dbt dbt* dbt=dbtj dbta dbtv dbte dbtd dbts dbm dbn dbi dbic dbie dbid dbis dbite dbitd dbits dbh dbh- dbw drx</p>
+<p hidden>db dbj dbc dbC dbix dbd dbe dbs dbf dbt dbt* dbt=dbtj dbta dbtv dbte dbtd dbts dbm dbn dbi dbic dbie dbid dbis dbite dbitd dbits dbh dbh- dbw drx</p>
