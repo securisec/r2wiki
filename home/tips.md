@@ -52,6 +52,7 @@
 - To search for something in memory, use `/v` in conjuction with `e search.in=dbg.maps`
 - To dump types, like C++, use this [resource](https://radare.gitbooks.io/radare2book/content/analysis/types.html)
 - Use `?v $r{register}` to access register values
+- To see if analysis has been done, check `aflc != 0`
 
 
 ## Tips from fortunes
