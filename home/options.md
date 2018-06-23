@@ -22,6 +22,8 @@
 
 [ `!` Run given command as in system(3)](/options/run)
 
+[ `!!!` User defined autocomplete](/options/autocomplete)
+
 [ `#` Hashbang to run an rlang script](/options/hashbang)
 
 [ `(` Macros](/options/macros)
