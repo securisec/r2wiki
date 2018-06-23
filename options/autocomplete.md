@@ -7,6 +7,7 @@ Usage: !!![-*][cmd] [arg|$type...] # user-defined autocompletion for commands
 ```
 
 - `!!!         `  list all autocompletions
+- `!!!:` Register new autocomplete logic
 - `!!!?        `  show this help
 - `!!!-*       `  remove all user-defined autocompletions
 - `!!!-\*      `  remove autocompletions starting by backslash (glob expression)
