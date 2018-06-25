@@ -17,6 +17,7 @@
 - `anal.cpu` Specify the anal.cpu to use _Default is x86_
 - `anal.datarefs` Follow data references for code coverage _Default is false_
 - `anal.depth` Max depth at code analysis _Default is 16_
+- `anal.endsize` Adjust function size at the end of the analysis (known to be buggy)
 - `anal.eobjmp` jmp is end of block mode (option) _Default is false_
 - `anal.esil` Use the new ESIL code analysis _Default is false_
 - `anal.fcnprefix` Prefix new function names with this _Default is fcn_
