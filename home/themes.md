@@ -5,6 +5,10 @@
 
 - > Use `ecr` to set use randomly generated themes
 
+## ayu
+
+  ![Base](/uploads/themes/ayu.png "Ayu")
+
 ## basic
 
   ![Base](/uploads/themes/base.png "Base")
