@@ -35,4 +35,56 @@ Usage ec[s?] [key][[=| ]fg] [bg]
 - `e scr.truecolor=1|0` for 256 _256_ 256 colors (boolean)
 - `$DATADIR/radare2/cons` ~/.config/radare2/cons ./
 
+
+## Theme modification values
+```
+ec ai.exec 
+ec ai.read 
+ec ai.write 
+ec args 
+ec b0x00              # 00 bytes
+ec b0x7f 
+ec b0xff              # ff bytes
+ec bin                # operations like xor
+ec btext              # text section opcode? first byte of opcode
+ec call               # call instructions
+ec cjmp               # je, jg, etc
+ec cmp                # cmp instructions
+ec comment            # r2 renerated comments
+ec creg               # modified registries
+ec flag               # flags. usually apprears above the current seek
+ec fline              # function line. the boundary of a function
+ec flow               # lines that show jump destinations
+ec flow2 
+ec fname              # function name
+ec graph.box          # unselected boxes in visual graph mode
+ec graph.box2         # currently selected box in visual graph mode
+ec graph.box3 
+ec graph.box4 
+ec graph.current 
+ec graph.false        # false line on visual graph mode
+ec graph.true         # true line on visual graph mode
+ec graph.trufae       # lines in graph that does not have true or false
+ec help               # color of help explanation text
+ec input 
+ec jmp                # jmp instructions
+ec label 
+ec linehl             # highlight color when using asm.highlight
+ec math               # math instructions like sub, add
+ec mov                # mov instructions
+ec nop                # nop instructions
+ec num                # numbers
+ec offset             # offset in visual mode
+ec other 
+ec pop                # pop instructions
+ec prompt             # color for main r2 prompt
+ec push               # push instructions
+ec reg                # register names
+ec ret                # ret opcode
+ec swi 
+ec trap                  
+ec usrcmt            # user comment
+
+```
+
 <p hidden>ec ec* ecd ecr ecs ecj ecc eco ecp ecn ecH usrcmt</p>
