@@ -37,7 +37,7 @@ Usage ec[s?] [key][[=| ]fg] [bg]
 
 
 ## Theme modification values
-```
+```text
 ec ai.exec 
 ec ai.read 
 ec ai.write 
