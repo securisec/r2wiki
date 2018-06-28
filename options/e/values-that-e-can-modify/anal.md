@@ -9,7 +9,7 @@
 - `anal.autoname` Automatically set a name for the functions, may result in some false positives _Default is true_
 - `anal.bb.align` Possible space between basic blocks _Default is 0x10_
 - `anal.bb.maxsize` Maximum basic block size _Default is 1024_
-- `anal.bb.split` Use the experimental basic block split for JMPs _Default is true_
+- ~~`anal.bb.split` Use the experimental basic block split for JMPs _Default is true_~~
 - `anal.brokenrefs` Follow function references as well if function analysis was failed _Default is false_
 - `anal.calls` Make basic af analysis walk into calls _Default is false_
 - `anal.cjmpref` Create references for conditional jumps _Default is false_
