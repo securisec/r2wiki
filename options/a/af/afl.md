@@ -16,6 +16,7 @@
 - `aflq`   list functions in quiet mode
 	- > `aflq` only returns the offsets of all the functions
 - `aflqj`   list functions in json quiet mode
-- `afls`   print sum of sizes of all functions
+- `afl+`   print sum of sizes of all functions
+- `afls`   sort function list by address
 
 <p hidden>afl aflc aflj afll aflq aflqj afls</p>
