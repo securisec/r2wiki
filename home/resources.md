@@ -32,3 +32,4 @@
 
 ## Additional resources
 [Awesome radare2](https://github.com/dukebarman/awesome-radare2)
+[Install radare from snap and tutorial](https://blog.simos.info/how-to-run-helloworld-in-radare2-installed-from-a-snap-package/)
