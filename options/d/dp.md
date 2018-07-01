@@ -10,7 +10,7 @@ Usage: dp # Process commands
 
 - `dp` List current pid and children
 - `dp <pid>` List children of pid
-- `dp*` List all attachable pids. Supports JSON output
+- `dp*[j]` List all attachable pids. Supports JSON output
 - `dp- <pid>` Detach select pid
 - `dp=<pid>` Select pid
 - `dpa <pid>` Attach and select pid
