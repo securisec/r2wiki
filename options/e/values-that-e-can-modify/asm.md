@@ -63,6 +63,7 @@
 	- > Use `asm.highlight` to highlight current seek. Example: `e asm.highlight = $$` or `e asm.highlight = rip`. Change color of highlight using `ec line_highlight`
 - `asm.hints` Show hints for magic numbers in disasm _Default is false_
 - `asm.immstr` Show immediates values as strings _Default is false_
+- `asm.imm.str` treat shortened strings as false positives
 - `asm.immtrim` Remove all offsets and constants from disassembly _Default is false_
 - `asm.indent` Indent disassembly based on reflines depth _Default is false_
 - `asm.indentspace` How many spaces to indent the code _Default is 2_
