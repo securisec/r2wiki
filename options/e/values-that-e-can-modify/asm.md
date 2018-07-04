@@ -56,8 +56,10 @@
 - `asm.features` Specify supported features by the target CPU
 - `asm.filter` Replace numeric values by flags (e.g. 0x4003e0 -> sym.imp.printf) _Default is true_
 - `asm.flags` Show flags _Default is true_
-- `asm.flagsinbytes` Display flags inside the bytes space _Default is false_
-- `asm.flgoff` Show offset in flags _Default is false_
+- `asm.flags.inbytes` Display flags inside the bytes space
+- `asm.flags.middle` Realign disassembly if there is a flag in the middle of an instruction
+- `asm.flags.offset` Show offset in flags
+- `asm.flags.real` Show flags unfiltered realnames instead of names- `asm.flgoff` Show offset in flags _Default is false_
 - `asm.functions` Show functions in disassembly _Default is true_
 - `asm.highlight` Highlight current line
 	- > Use `asm.highlight` to highlight current seek. Example: `e asm.highlight = $$` or `e asm.highlight = rip`. Change color of highlight using `ec line_highlight`
