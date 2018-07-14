@@ -10,7 +10,7 @@ Usage: om[-] [arg] # map opened files
 
 - `om` list all defined IO maps
 	- > Can use `om` to check permissions for maps
-- `omq` list all maps and their fds
+- `omq[.]` list all maps and their fds
 - `om*` list all maps in r2 commands format
 - `om=` list all maps in ascii art
 - `omj` list all maps in json format
@@ -28,6 +28,7 @@ Usage: om[-] [arg] # map opened files
 - `omr mapid newsize` resize map with corresponding id
 - `omo fd` map the given fd with lowest priority
 - `omp mapid` priorize map with corresponding id
+- `ompd` 
 - `ompf[fd]` priorize map by fd
 - `ompb binid` priorize maps of mapped bin with binid
 - `omps sectionid` priorize maps of mapped section with sectionid
