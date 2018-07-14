@@ -26,6 +26,7 @@ Usage: om[-] [arg] # map opened files
 - `omb mapid addr` relocate (remap) map with corresponding id
 - `omb. addr` relocate current map
 - `omr mapid newsize` resize map with corresponding id
+- `omo fd` map the given fd with lowest priority
 - `omp mapid` priorize map with corresponding id
 - `ompf[fd]` priorize map by fd
 - `ompb binid` priorize maps of mapped bin with binid
