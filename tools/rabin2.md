@@ -51,6 +51,7 @@
        -R relocations
        -s symbols
        -S sections
+			 -SS segments
        -u unfiltered (no rename duplicated symbols/sections)
        -U resoUrces
        -v display version and quit
