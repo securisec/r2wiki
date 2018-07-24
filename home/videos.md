@@ -35,3 +35,6 @@
 
 ## Reversing embedded firmware using radare2
 [video](https://www.youtube.com/watch?v=R3sGlzXfEkU)
+
+## General videos
+[video](https://www.youtube.com/watch?v=pkUw4oX96Fw)
