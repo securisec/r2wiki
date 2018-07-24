@@ -52,3 +52,6 @@ state_found   ... result state of exploration
 ## Usage example
 - 🚀 Usage example from the repo [asciinema](https://asciinema.org/a/155856)
 - 🚀 CTF challenge solving [asciinema](https://asciinema.org/a/ehkKZLKE5t5G7NT5muw6JOVK6)
+
+# r2angrdbg
+- [Python module for r2pipe and angr](https://github.com/andreafioraldi/r2angrdbg)
