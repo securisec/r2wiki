@@ -7,6 +7,7 @@ Usage: &[-|<cmd>]Manage tasks (WARNING: Experimental. Use with caution!)
 ```
 - `& <cmd>`  run \<cmd\> in a new background task
 - `&      `  list all tasks
+- `&b 3`     break task 3
 - `&j     `  list all tasks (in JSON)
 - `&= 3   `  show output of task 3
 - `&- 1   `  delete task #1
