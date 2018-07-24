@@ -58,6 +58,7 @@ Usage: ?[?[?]] expression
 - `?u num` get value in human units (KB, MB, GB, TB)
 - `?v eip-0x804800` show hex value of math expr
 - [`?vi rsp-rbp` show decimal value of math expr](/options/helpevaluate/vi)
+- `?vx` ❓
 - [`?V` show library version of r_core](/options/helpevaluate/cap-v)
 - `?w addr` 🚀 show what's in this address (like pxr/pxq does) [asciinema](https://asciinema.org/a/012GFhmRtgZ4dVe0SJRbVUFxH)
 - `?x str` 🚀 returns the hexpair of number or string [asciinema](https://asciinema.org/a/deh7r6WHZ4AOoH8hhfgODrzDR)
