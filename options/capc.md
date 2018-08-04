@@ -13,6 +13,7 @@ Usage: C[-LCvsdfm*?][*?] [...] # Metadata management
 - `C[Chsdmf]` list comments/hidden/strings/data/magic/formatted in human friendly form
 - `C[Chsdmf]*` list comments/hidden/strings/data/magic/formatted in r2 commands
 - `C- [len] [[@]addr]` delete metadata at given address range
+- `Cd.` Show size of data in current address
 - `CL[-][*] [file:line] [addr]` show or add 'code line' information (bininfo)
 
 - [ `CS[-][space]` manage meta-spaces to filter comments, etc..](/options/capc/cs)
@@ -36,4 +37,4 @@ Usage: C[-LCvsdfm*?][*?] [...] # Metadata management
 - `CF[sz] [fcn-sign..] [@addr]` function signature
 - `Cm[-] [sz] [fmt..] [@addr]` magic parse (see pm?)
 
-<p hidden>C C* C- CL CC. CC! CCa CCu Cv Cs Cz Ch Cd Cf CF Cm</p>
+<p hidden>C C* C- CL CC. CC! CCa CCu Cv Cs Cz Ch Cd Cf CF Cm Cd</p>
