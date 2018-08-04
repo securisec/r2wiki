@@ -48,6 +48,7 @@ Usage: i Get info from opened file (see rabin2's manpage)
 	  - > 🚀 `iS [entropy,[hash_name]]` can be used to calculate the entropy hash of all the sections [asciinema](https://asciinema.org/a/FAoHCNVqvPqZVP6sOAvEp5myR)
   - `iS.` Current section
   - `iV` 🚀 Display file version info [asciinema](https://asciinema.org/a/yJAkokc6XysYA8iBqCUxYTRBf)
+  - `iX`                  Display source files used (via dwarf)
   - `iz|izj` Strings in data sections (in JSON/Base64)
   - `izz` Search for Strings in the whole binary
   - `iZ` Guess size of binary program
