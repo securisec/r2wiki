@@ -20,7 +20,7 @@ Use io.va for searching in non virtual addressing spaces
 - `/a jmp eax` assemble opcode and search its bytes
   - > 🚀 Example: `/a jmp eax` [asciinema](https://asciinema.org/a/r9lxscaovPgJ2nS4d7AVnr0ne)
 
-- [`/A jmp` 🚀 find analyzed instructions of this type _(/A? for help)_ [asciinema](https://asciinema.org/a/QEjFcFC3eBjWRlUy2RseQigom)](search/capa)
+- [`/A jmp` 🚀 find analyzed instructions of this type _(/A? for help)_ ](search/capa)[asciinema](https://asciinema.org/a/QEjFcFC3eBjWRlUy2RseQigom)
 - `/b` search backwards, command modifier, followed by other command
 - `/B` search recognized RBin headers
 
