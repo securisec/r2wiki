@@ -63,6 +63,9 @@
 	
 ## monokai
   ![Monokai](/uploads/themes/monokai.png "Monokai")
+	
+## onedark
+  ![Monokai](/uploads/themes/onedark.png "Onedark")
 
 ## rasta
 
