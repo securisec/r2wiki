@@ -19,7 +19,7 @@
 - `io.pcache` io.cache for p-level _Default is false_
 	- > `io.pcache` improves speed
 - `io.pcache.read` Enable read-cache _Default is false_
-	- `io.pcache.read` can be used to speed up analysis
+	- > `io.pcache.read` can be used to speed up analysis
 - `io.pcache.write` Enable write-cache _Default is false_
 - `io.va` Use virtual address layout _Default is true_
 
