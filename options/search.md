@@ -17,10 +17,9 @@ Use io.va for searching in non virtual addressing spaces
 - `/!x 00` inverse hexa search (find first byte != 0x00)
 - `/+ /bin/sh` 🚀 construct the string with chunks [asciinema](https://asciinema.org/a/BPv5byYzyLrDoO2FxE1XR8tkX)
 - `//` repeat last search
-- `/a jmp eax` assemble opcode and search its bytes
+- [`/a jmp eax` assemble opcode and search its bytes](search/capa)
   - > 🚀 Example: `/a jmp eax` [asciinema](https://asciinema.org/a/r9lxscaovPgJ2nS4d7AVnr0ne)
 
-- [`/A jmp` 🚀 find analyzed instructions of this type _(/A? for help)_ ](search/capa)[asciinema](https://asciinema.org/a/QEjFcFC3eBjWRlUy2RseQigom)
 - `/b` search backwards, command modifier, followed by other command
 - `/B` search recognized RBin headers
 
