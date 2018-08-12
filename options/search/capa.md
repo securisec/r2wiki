@@ -1,11 +1,15 @@
-<!-- TITLE: /A -->
+<!-- TITLE: /a -->
 
-# /A jmp find analyzed instructions of this type
- - `/A?`      - get this help
- - `/A??`     - list all opcode types
- - `/Af?`     - get this help
- - `/Af??`    - list all opcode families
- - `/A ucall` - find calls with unknown destination
- - `/Af sse`  - find SSE instructions
- - `/Aj swi`  - search all syscalls, show results in JSON
- - `/Afj` fpu - search all fpu instructions, show in JSON
+# /a jmp find analyzed instructions of this type
+```
+Usage: /a[stf][?ljq] [instr | op.type | op.family]Search for assembly
+```
+
+- `/a instr  `  assemble given instruction and search the bytes
+- `/at type  `  Search for instructions of given type
+- `/af family`  Search for instruction of specific family
+- `/as       `  Search for syscalls (See /at swi and /af priv)
+- `/al       `  Same as aoml, list all opcodes
+- `/asl      `  Same as asl, list all syscalls
+- `/atl      `  List all instruction types
+- `/afl      `  List all instruction families
