@@ -21,6 +21,7 @@
 - `cmd.log` Every time a new T log is added run this command
 - `cmd.open` Run when file is opened
 - `cmd.pdc` Select pseudo-decompiler command to run after pdc
+	- To change the default pseudo code view in `V!`, install `r2pm -i r2dec` and then `e cmd.pdc = pdd`
 - `cmd.prompt` Prompt commands
 - `cmd.repeat` Empty command an alias for '..' (repeat last command) _Default is false_
 - `cmd.stack` Command to display the stack in visual debug mode
