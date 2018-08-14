@@ -20,7 +20,7 @@ Usage: p[dD][ajbrfils] [sz] [arch] [bits] # Print Disassembly
 - `pdbj` disassemble basic block json output
 - `pdc` 🚀 pseudo disassembler output in C-like syntax [asciinema](https://asciinema.org/a/B5GTvDyOpRPn488Da6mkGcBgC)
 	- To change the view in panels node `V!`, do `r2pm -i r2dec`, and then set `e cmd.pdc = pdd`
-- [`pdd` core plugin for r2dec](/options/p/pdd.md)
+- [`pdd` core plugin for r2dec](/options/p/pdd)
 - `pdC` show comments found in N instructions 
 - `pdf` 🚀 disassemble function asciinema[](https://asciinema.org/a/uDMKJWZBg0M9Fq14nQBh3VJnQ)
 - `pdfs[j]`  - disassemble function (summary+cjmp), json)
