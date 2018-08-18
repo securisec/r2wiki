@@ -14,6 +14,7 @@ Usage: p[dD][ajbrfils] [sz] [arch] [bits] # Print Disassembly
 
 - `pd N` 🚀 disassemble N instructions [asciinema](https://asciinema.org/a/2nKEu7kSlVqBjOK4wP5z5zEsX)
 - `pd -N` 🚀 disassemble N instructions backward [asciinema](https://asciinema.org/a/vd7otYJkQOz4O4L2A4mNgKp3t)
+- `pd--` Context disassembly
 - `pD N` 🚀 disassemble N bytes [asciinema](https://asciinema.org/a/YHknEz9gYIfXzXceGwQ5ngEga)
 - `pda` 🚀 disassemble all possible opcodes (byte per byte) [asciinema](https://asciinema.org/a/J7bNbCAvuLyWUgX34l6L5zIFZ)
 - `pdb` 🚀 disassemble basic block [asciinema](https://asciinema.org/a/7aehL6ebprYJHHD7USmR4LLLO)
