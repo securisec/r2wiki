@@ -51,7 +51,6 @@ Use io.va for searching in non virtual addressing spaces
 
 - [ `/R [grepopcode]` search for matching ROP gadgets, semicolon-separated](search/capr)
 
-- `/s` search for all syscalls in a region (EXPERIMENTAL)
 - `/v[j1248] value` look for an `cfg.bigendian` 32bit value
 - `/V[j1248] min max` look for an `cfg.bigendian` 32bit value in range
 - `/w foo` search for wide string 'f\0o\0o\0'
