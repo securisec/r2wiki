@@ -10,6 +10,7 @@ Usage: p=[=bep?][qj] [nblocks] ([len]) ([offset]) show entropy/printable chars/c
 
 - `e zoom.in`  specify range for zoom
 - `p=` 🚀 print bytes of current block in bars [asciinema](https://asciinema.org/a/CEYLf91ddfojcRGFN2yE5b8R8)
+- `p=2` short (signed int16) bars, good for waves
 - `p==[..]` 🚀 same subcommands as p=, but using flame column graph instead of rows [asciinema](https://asciinema.org/a/tJuwNaafEYTbOZYT23ACWS6wR)
 - `p=b` same as above
 - `p=c` 🚀 print number of calls per block [asciinema](https://asciinema.org/a/tAzt1FyDyxaq9TlumjtTkJWWU)
