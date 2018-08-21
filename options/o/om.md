@@ -16,6 +16,7 @@ Usage: om[-] [arg] # map opened files
 - `omj` list all maps in json format
 - `om [fd]` list all defined IO maps for a specific fd
 - `om-mapid` remove the map with corresponding id
+- `om-..`                                    hud view of all the maps to select the one to delete
 - `om fd vaddr [size] [paddr] [rwx] [name]` create new io map
 - `omm [fd]` create default map for given fd. (omm `oq` )
 - `om.` show map, that is mapped to current offset
