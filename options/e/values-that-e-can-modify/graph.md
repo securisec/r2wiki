@@ -5,7 +5,7 @@
 - `graph.cmtright` Show comments at right _Default is false_
 - `graph.comments` Show disasm comments in graph _Default is true_
 - `graph.font` Font for dot graphs _Default is Courier_
-- `graph.format` Specify output format for graphs (dot, gml, gmlfcn) _Default is dot_
+- `graph.gv.format` Graph image extension when using 'w' format (png, jpg, pdf, ps, svg, json) _Defaut is gif_
 - `graph.from` _Default is 0xffffffffffffffff_
 - `graph.gv.current` Highlight the current node in graphviz graph. _Default is false_
 - `graph.gv.edge` Graphviz edge style. (arrowhead="vee")
