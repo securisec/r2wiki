@@ -6,6 +6,7 @@
 - `afc`   Show Calling convention for the Current function
 - `afcr[j]`   Show register usage for the current function
 - `afca`   Analyse function for finding the current calling convention
+- `afcf [name]`     Prints return type function(arg1, arg2...)
 - `afcl`   List all available calling conventions
 - `afco path`   Open Calling Convention sdb profile from given path
 
