@@ -28,7 +28,7 @@ Usage: px[0afoswqWqQ][f] # Print heXadecimal
 - `pxA` show op analysis color map
 - `pxb` dump bits in hexdump form
 - `pxc` show hexdump with comments
-- `pxd[124]` signed integer dump (1 byte, 2 and 4)
+- [`pxd[124]` signed integer dump (1 byte, 2 and 4)](/options/p/pxd)
 - `pxe` 🚀 emoji hexdump! :) [asciinema](https://asciinema.org/a/g15mRdZIIhC6Zj3vNbp0flwiX)
 - `pxf` show hexdump of current function
 - `pxh` show hexadecimal half-words dump (16bit)
