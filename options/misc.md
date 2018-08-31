@@ -7,7 +7,6 @@
 Usage: [.][#]<cmd>[*] [`cmd`] [@ addr] [~grep] [|syscmd] [>[>]file]
 ```
 
-
 - `0                 `  alias for 's 0'
 - `0xaddr            `  alias for 's 0x..'
 - `#cmd              `  if # is a number repeat the command # times
@@ -30,10 +29,11 @@ Usage: [.][#]<cmd>[*] [`cmd`] [@ addr] [~grep] [|syscmd] [>[>]file]
 - `@ 0x1024          `  temporary seek to this address (sym.main+3)
 - `@ [addr]!blocksize`  temporary set a new blocksize
 - `@..addr           `  temporary partial address seek (see s..)
+- `@!blocksize       `  temporary change the block size (p8@3!3)
 - `@(from to)        `  temporary set from and to for commands supporting ranges
 - `@a:arch[:bits]    `  temporary set arch and bits
 - `@b:bits           `  temporary set asm.bits
-- `@B:nth            `  temporary seek to nth instruction of current bb (negative numbers too)
+- `@B:nth            `  temporary seek to nth instruction in current bb (negative numbers too)
 - `@e:k=v,k=v        `  temporary change eval vars
 - `@f:file           `  temporary replace block with file contents
 - `@F:flagspace      `  temporary change flag space
@@ -50,7 +50,6 @@ Usage: [.][#]<cmd>[*] [`cmd`] [@ addr] [~grep] [|syscmd] [>[>]file]
 - `>file             `  pipe output of command to file
 - `>>file            `  append to file
 - `H>file            `  pipe output of command to file in HTML
-  - > Example:`pdf H>somefile.html`
 - `H>>file           `  append to file with the output of command in HTML
 - ``pdi~push:0[0]`   `  replace output of command inside the line
 - `|cmd              `  pipe output to command (pd|less) (.dr*)
