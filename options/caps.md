@@ -23,4 +23,4 @@ Usage: S[?-.*=adlr] [...]
 
 - [ `SR[?]` Remap sections with different mode of operation](/options/caps/sr)
 
-<p hidden>S. S- S= Sa Sd Sf Sj Sl Sr SR</p>
+<p hidden>S. S- S= Sa Sf Sl Sr SR</p>
