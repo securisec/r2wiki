@@ -21,6 +21,7 @@
 - `asm.cmt.patch` Show patch comments in disasm _Default is false_
 - `asm.cmt.refs` Show flag and comments from refs in disasm _Default is false_
 - `asm.cmt.right` Show comments at right of disassembly if they fit in screen _Default is true_
+	- > print call hints when `asm.cmt.right=0`
 - `asm.comments` Show comments in disassembly view _Default is true_
 - `asm.cpu` Set the kind of asm.arch cpu _Default is x86_
 	- > Example: `asm.cpu=cortex` when architecture is ARM.
