@@ -13,6 +13,7 @@ Usage: f [?] [flagname] # Manage offset-name flags
 ---
 - `f` list flags (will only list flags from selected flagspaces)
 	- > To create a new flag, use `f flag_name @ offset`
+	- > To rename / substitute the value of an offset, use a `.` in the flag name. Example `f some.flag`=@0x00123456`
 - `f?flagname` check if flag exists or not, See ?? and ?!
 - `f. [*[*]]` list local per-function flags (*) as r2 commands
 - `f.blah=$$+12` set local function label named 'blah'
