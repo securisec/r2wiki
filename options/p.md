@@ -34,6 +34,8 @@ Usage: p[=68abcdDfiImrstuxz] [arg|len] [@addr]
 
 - [ `pf[?][.nam] [fmt]` print formatted data (pf.name, pf.name $<expr>)](/options/p/pf-nam)
 
+- [ `pF[?][apx]`              print asn1, pkcs7 or x509](/options/p/pcapf)
+
 - [ `ph[?][=|hash] ([len])` calculate hash for a block](/options/p/ph-hash)
 
 - [ `p[iI][df] [len]` print N ops/bytes (f=func) (see pi? and pdi)](/options/p/p-ii)
