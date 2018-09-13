@@ -37,4 +37,8 @@ Usage: C[-LCvsdfm*?][*?] [...] # Metadata management
 - `CF[sz] [fcn-sign..] [@addr]` function signature
 - `Cm[-] [sz] [fmt..] [@addr]` magic parse (see pm?)
 
+- `Ct[?] [-] [comment-text] [@addr]`               add/remove type analysis comment
+- `Ct.[@addr]                      `               show comment at current or specified address
+- `Cd. [@addr]                     `               show size of data at current address
+
 <p hidden>C C* C- CL CC. CC! CCa CCu Cv Cs Cz Ch Cd Cf CF Cm Cd</p>
