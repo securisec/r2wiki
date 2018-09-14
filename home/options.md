@@ -66,6 +66,8 @@
 
 [ `k` Run sdb-query. see k? for help, 'k *', 'k ' ...](/options/k)
 
+`l` list files and directories
+
 [ `L` list, unload load r2 plugins](/options/cap_l)
 
 [ `m` Mountpoints commands](/options/m)
