@@ -18,6 +18,7 @@
 - `cmd.hit` Run when a search hit is found
   - > _Run a command/action when a search hit is found_
 - `cmd.hitinfo` Show info when a tracepoint/breakpoint is hit _Default is 1_
+- `cmd.load` Run when binary is loaded
 - `cmd.log` Every time a new T log is added run this command
 - `cmd.open` Run when file is opened
 - `cmd.pdc` Select pseudo-decompiler command to run after pdc
