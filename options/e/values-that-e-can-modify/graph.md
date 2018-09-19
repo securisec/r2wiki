@@ -16,6 +16,7 @@
 - `graph.gv.spline` Graphviz spline style. (splines="ortho")
 - `graph.hints` Show true (t) and false (f) hints for conditional edges in graph
 - `graph.invscroll` Invert scroll direction in ascii-art graph
+- `graph.json.usenames` Use names instead of addresses in Global Call Graph (agCj)
 - `graph.layout` Graph layout (0=vertical, 1=horizontal)
 - `graph.linemode` Graph edges (0=diagonal, 1=square)
 - `graph.nodejmps` Enables shortcuts for every node.
@@ -26,4 +27,4 @@
 - `graph.to` Upper bound address when drawing global graphs
 - `graph.web` Display graph in web browser (VV)
 
-<p hidden>graph.cmtright graph.comments graph.font graph.format graph.from graph.gv.current graph.gv.edge graph.gv.graph graph.gv.node graph.gv.spline graph.invscroll graph.layout graph.linemode graph.nodejmps graph.offset graph.refs graph.scroll graph.title graph.to graph.web</p>
+<p hidden>graph.cmtright graph.comments graph.font graph.format graph.from graph.gv.current graph.gv.edge graph.gv.graph graph.gv.node graph.gv.spline graph.invscroll graph.layout graph.linemode graph.nodejmps graph.offset graph.refs graph.scroll graph.title graph.to graph.web graph.json.usenames</p>
