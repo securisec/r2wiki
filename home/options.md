@@ -8,6 +8,8 @@
 ## Options
 [ `~` Grep](/options/grep)
 
+`_` print last output
+
 [ `$` Alias](/options/alias)
 
 [ `*` Pointer read/write data/values (see ?v, wx, wv)](/options/pointer)
