@@ -18,6 +18,7 @@ Usage ec[s?] [key][[=| ]fg] [bg]
 - `ecs` 🚀 show a colorful palette [asciinema](https://asciinema.org/a/iUiw2j81mdmlaijEpAH4ewOI8)
 - `ecj` show palette in JSON
 - `ecc [prefix]` show palette in CSS
+- [`eco` Load theme](/options/e/ec/eco)
 - `eco dark|white` load white color scheme template
   - > _Use eco to see a list of themes_
 
