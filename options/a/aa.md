@@ -19,6 +19,7 @@
 - `aaE` run aef on all functions (same as aef @@f)
 - `aai[j]` show info of all analysis parameters
 - `aan` autoname functions that either start with fcn.* or sym.func.*
+- `aang` recover function names from stripped golang binaries
 - `aap` find and analyze function preludes
 [ `aar[?] [len]` analyze len bytes of instructions for references](/options/a/aa/aar)
 - `aas [len]` analyze symbols (af @@= \`isq~[0]\` )
