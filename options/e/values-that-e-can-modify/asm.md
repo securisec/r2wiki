@@ -126,6 +126,7 @@
 - `asm.trace` Show execution traces for each opcode _Default is false_
 - `asm.tracespace` Indent disassembly with trace.count information _Default is false_
 - `asm.ucase` Use uppercase syntax at disassembly _Default is false_
+- `asm.usercomments` Show user comments even if asm.comments is false _Default is false_
 - `asm.vars` Show local function variables in disassembly _Default is true_
 - `asm.varsub` Substitute variables in disassembly _Default is true_
 - `asm.varsub_only` Substitute the entire variable expression with the local variable name (e.g. [local10h] instead of [ebp+local10h]) _Default is true_
