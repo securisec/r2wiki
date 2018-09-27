@@ -10,6 +10,7 @@
   - > `aab` Looks for executable sections and looks for calls. when it finds a call, it looks for the destination of the call. Splits up basic blocks, and tries to remove all the false positives
 - `aac [len]` analyze function calls (af @@ \`pi len~call[1]\` ) _Identify functions by following calls_
 	- > `aac` analyze all call destinations as functions
+- `aaci` ?
 - `aac* [len]` flag function calls without performing a complete analysis
 - `aad [len]` analyze data references to code
 - `aae [len] ([addr])` analyze references with ESIL (optionally to address) _Emulate code to identify new pointer references_
