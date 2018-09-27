@@ -22,3 +22,6 @@
 					0x0047bd90 8 176 type..eq._3_interface___
 # Videos
 [video](https://www.youtube.com/watch?v=PRLOlY4IKeA)
+
+# Tips
+- `aang` function names from stripped golang binaries
