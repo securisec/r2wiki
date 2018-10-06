@@ -11,6 +11,7 @@
 - `ar 32` Show 32 bit registers
 - `ar all` Show all bit registers
 - `ar <type>` Show all registers of given type
+- `arA` Show values of function argument calls (A0, A1, A2, ..)
 - `arC` Display register profile comments
 - `arr` Show register references (telescoping)
 - `ar=` Show register values in columns
