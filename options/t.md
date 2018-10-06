@@ -25,7 +25,7 @@ Usage: t # cparse types commands
 - [ `te[?]` List all loaded enums](/options/t/te-list)
 - `td[?] <string>` Load types from string
 - `te <enum> <value>` Show name for given enum number
-- `tf` List all loaded functions signatures
+- [`tf` List all loaded functions signatures](/options/t/tf)
 - `tj` Return as json
 - `tk <sdb-query>` Perform sdb query
 
