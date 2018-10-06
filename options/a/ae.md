@@ -17,6 +17,7 @@ Usage: ae[idesr?] [arg]ESIL code emulation
 [ `aec[?]`   continue until ^C](/options/a/ae/aec)
 - `aecc` continue until call
 - `aef [addr]`   emulate function
+- `aefa` ?
 - `aei`   initialize ESIL VM state (aei- to deinitialize)
 - `aeim [addr] [size] [name]`   initialize ESIL VM stack (aeim- remove)
 - `aeip`   initialize ESIL program counter to curseek
