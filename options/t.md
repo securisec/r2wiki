@@ -27,9 +27,9 @@ Usage: t # cparse types commands
 - `to -                     `  Open cfg.editor to load types
 - `to <path>                `  Load types from C header file
 - `tos <path>               `  Load types from parsed Sdb database
-- `tp  <type> [addr|varname]`  cast data at <address> to <type> and print it
+- `tp  <type> [addr|varname]`  cast data at \<address\> to \<type\> and print it
     - > `tp` can be useful in printing struct data
-- `tpx <type> <hexpairs>    `  Show value for type with specified byte sequence
+- `tpx \<type\> \<hexpairs\>    `  Show value for type with specified byte sequence
 - `ts[?]                    `  print loaded struct types
 - `tu[?]                    `  print loaded union types
 - `tt[?]                    `  List all loaded typedefs
