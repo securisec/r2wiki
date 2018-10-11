@@ -60,4 +60,5 @@ Usage: $alias[=cmd] [args...]Alias commands
 - `$r{reg}     `  get value of named register
 - `$k{kv}      `  get value of an sdb query value
 - `$s{flag}    `  get size of flag
+- `$e{flag}    `  end of flag (flag->offset + flag->size)
 - `RNum        `  $variables usable in math expressions
