@@ -6,6 +6,9 @@
 # Build instructions
 [Building cutter from scratch](https://digital-shokunin.net/cutter-gui-radare2.html)
 
+# Resources
+- [Xarkes @ r2con 2018](https://www.youtube.com/watch?v=w8Bl5ZSmmZM&feature=youtu.be)
+
 # Docs
 ## Common Errors
 [Common Errors](https://github.com/radareorg/cutter/blob/master/docs/Common-errors.md)
