@@ -4,6 +4,7 @@
 - [Reversing EVM bytecode with radare2](https://blog.positive.com/reversing-evm-bytecode-with-radare2-ab77247e5e53)
 - [Reversing Gameboy ROM](https://www.megabeets.net/reverse-engineering-a-gameboy-rom-with-radare2/)
 - [VMI debugging](https://twitter.com/mtarral/status/972187659882901507)
+- [Disassembline 6502](https://retro.moe/2015/11/18/disassembling-6502-code-with-radare-part-i/)
 
 
 # Misc architecture
