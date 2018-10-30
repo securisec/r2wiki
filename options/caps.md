@@ -1,7 +1,7 @@
 <!-- TITLE: S -->
 
-#  `S` Io section manipulation information
-
+##  `S` Io section manipulation information
+# All `S` and related commands are deprecated
 
 ```
 Usage: S[?-.*=adlr] [...]
