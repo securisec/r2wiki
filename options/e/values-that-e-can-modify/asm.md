@@ -9,6 +9,7 @@
 - `asm.assembler` Set the plugin name to use when assembling
 - `asm.bbinfo` Show basic block information _Default is false_
 - `asm.bbline` Show empty line after every basic block _Default is false_
+- `asm.bb.middle` Realign disassembly if a basic block starts in the middle of an instruction _Default is true_
 - `asm.bits` Word size in bits at assembler _Default is 64_
 - `asm.bytes` Display the bytes of each instruction _Default is true_
 - `asm.bytespace` Separate hexadecimal bytes with a whitespace _Default is false_
