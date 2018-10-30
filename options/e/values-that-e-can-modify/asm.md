@@ -110,6 +110,8 @@
 - `asm.section` Show section name before offset _Default is false_
 - `asm.section.col` Columns width to show asm.section _Default is 20_
 - `asm.section.sub` Show offsets in disasm prefixed with section/map name _Default is false_
+- `asm.section.perm` Show section permissions in the disasm _Default is false_
+- `asm.section.name` Show section name in the disasm _Default is true_
 - `asm.seggrn` Segment granularity in bits (x86-16) _Default is 4_
 - `asm.segoff` Show segmented address in prompt (x86-16) _Default is false_
 - `asm.shortcut` Shortcut position (-1, 0, 1) _Default is 1_
