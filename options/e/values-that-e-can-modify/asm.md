@@ -127,7 +127,7 @@
 - `asm.tabsoff` tabulate spaces after the offset _Default is 0_
 - `asm.tabsonce` Only tabulate the opcode, not the arguments _Default is false_
 - `asm.tailsub` Replace addresses with prefix .. syntax _Default is false_
-- `asm.trace` Show execution traces for each opcode _Default is false_
+-  🚀`asm.trace` Show execution traces for each opcode _Default is false_ [asciinema](https://asciinema.org/a/jULf3gNxxuJy9CNEaeykuNnGL)
 - `asm.tracespace` Indent disassembly with trace.count information _Default is false_
 - `asm.ucase` Use uppercase syntax at disassembly _Default is false_
 - `asm.usercomments` Show user comments even if asm.comments is false _Default is false_
