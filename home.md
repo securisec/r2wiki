@@ -15,6 +15,8 @@ Visual cues:
 ❓ Means unverified or no information
 ```
 
+SecurisecCTF is looking for new members! We are an open to all [Slack](http://invite.securisec.com) community focused on all aspects of information security, and CTF team! Anyone with any skill level is welcome to join. Our goal is to teach/learn from each other. #ctf #infosec [http://www.securisec.com](http://www.securisec.com) **This is not a radare2 group, or is not affiliated with radare2 in anyway** We do promote healthy discussions on reverse enginnering!
+
 ## Local web app
   - **Using wiki.js** > To get a local copy of this wiki check out [github](https://github.com/securisec/radare2_wiki)
   - **Using mkdocs** (Is slightly behind the wiki.js implementation)
