@@ -36,7 +36,7 @@
 - `dbg.status` Set cmd.prompt to '.dr*' or '.dr*;drd;sr PC;pi 1;s-' _Default is false_
 - `dbg.swstep` Force use of software steps (code analysis+breakpoint) _Default is false_
 - `dbg.threads` Stop all threads when debugger breaks (see dbg.forks) _Default is false_
-- `dbg.trace` Trace program execution (see asm.trace) _Default is false_
+-  🚀`dbg.trace` Trace program execution (see asm.trace) _Default is false_ [asciinema](https://asciinema.org/a/jULf3gNxxuJy9CNEaeykuNnGL)
 - `dbg.trace.inrange` While tracing, avoid following calls outside specified range _Default is false_
 - `dbg.trace.libs` Trace library code too _Default is true_
 - `dbg.trace.tag` Trace tag _Default is 0_
