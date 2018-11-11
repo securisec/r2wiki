@@ -15,6 +15,7 @@ Usage: CC[-+!*au] [base64:..|str] @ addr
 - `CC, [file]` show or set comment file
 - `CC [text]` append comment at current address
 - `CCf` list comments in function
+- `CCf*` list comments in funciton as r2 commands?
 - `CC+ [text]` append comment at current address
 	- 🚀 `CC+` may be used to add multiline comments using r2pipe [asciinema](https://asciinema.org/a/wArUQELJApjnDF77pz3MbuZGz)
 - `CC!` 🚀 edit comment using cfg.editor (vim, ..) [asciinema](https://asciinema.org/a/vTZQP8lnl6qEw9dZKLvOC7EHV)
