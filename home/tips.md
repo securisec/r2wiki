@@ -53,6 +53,7 @@
 - To dump types, like C++, use this [resource](https://radare.gitbooks.io/radare2book/content/analysis/types.html)
 - Use `?v $r{register}` to access register values
 - To see if analysis has been done, check `aflc != 0`
+- Use `?*?` to show every command in r2 along with their description
 
 
 ## Tips from fortunes
