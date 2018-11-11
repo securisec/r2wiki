@@ -18,6 +18,7 @@ Usage: ax[?d-l*] # see also 'afx?'
    - > Example use case is `axt @@ str.*` to look for xrefs to all strings_ 
 - `axtg`
 - `axf [addr]` find data/code references from this address xref from
+- `axff` xrefs from function
 - `ax- [at]` clean all refs (or refs from addr)
 - `ax` list refs
 - `axk [query]` perform sdb query
