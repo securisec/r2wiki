@@ -35,7 +35,7 @@ Usage: i Get info from opened file (see rabin2's manpage)
   - `ik [query]` 🚀 Key-value database from RBinObject [asciinema](https://asciinema.org/a/YRHebE7kO6N90U9BKMfsQeLFr)
   - `il` Libraries _information libraries_
 	  - > 🚀 `il` can be used to show linked libraries [asciinema](https://asciinema.org/a/NYgYqTer5PAyoTLbOWp5UUqtP)
-  - `il.` nothing documented 👎
+  - `il.` show libraries
   - `iL [plugin]` List all RBin plugins loaded or plugin details
   - `im` Show info about predefined memory allocation
   - `iM` 🚀 Show main address [asciinema](https://asciinema.org/a/iXmNYJwjuhEyRK1VH9xwsdX45)
