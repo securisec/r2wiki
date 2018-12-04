@@ -3,6 +3,12 @@
 
 _This a list of plugins that I find interesting._ 
 
+## Macros
+- Bypass ptrace when debugging [gist](https://github.com/SajjadPourali/cheatsheets/blob/master/radare2.txt)
+	```
+	(hooker, dr rax=0, dc);db $$+5 @@=`axt sym.imp.ptrace~CALL~call[1]`;dbc $$+5 .(hooker) @@=`axt sym.imp.ptrace~CALL~call[1]` #bypass ptrace debugging detection
+```
+
 ## Tips
 - > Sometimes, a plugin installation using r2pm will fail with a Directory nonexistant error. To prevent this, simply run `mkdir -p $HOME/.config/radare2/prefix/bin/` (on Ubuntu)
 
