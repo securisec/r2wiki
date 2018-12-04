@@ -1,6 +1,8 @@
 <!-- TITLE: Resources -->
 
 # Resources
+## Book
+[radare2 book](https://radare.gitbooks.io/radare2book/)
 
 - [radare vs ida vs gdb](https://docs.google.com/spreadsheets/d/1GxOcKKrtB1bs8pCyPCelQUKwwAQTBw1x8LaavJGJtFI/edit?usp=sharing)
 	- > Spreadsheet describing different shortcuts and keys between r2, ida and gdb 
