@@ -9,20 +9,21 @@
 
 ## Installation
 - Clone the repository
-> Dependencies: `[sudo] pip install -U r2pipe termcolor IPython angr simuvex` 
-- Echo the following to the `~/.radare2rc` file. They can be used inside radare2 shell independantly also.
-	- To invoke the macros, run them with `.(marcoName [args])
+> Install using a virtualenv is recommended:
+  `pip install -r requirements.txt`
+
+- Echo the following to the `~/.radare2rc` file.
+	- To invoke the macros, run them with `.(marcoName [args])`
 	
 		```
-		(r4ge, #!pipe python2.7 /pathToClone/src/r4ge.py)
-		(markMemSymbolic addr bytes name, #!pipe python2.7 /pathToClone/src/createVariable.py symb $0 $1 $2)
-		(addHook addr instructions bytes comment, #!pipe python2.7 /pathToClone/src/createVariable.py hook $0 $1 $2 $3)
-		(addAssert addr assertions comment, #!pipe python2.7 /pathToClone/src/createVariable.py assert $0 $1 $2)
-		(checkStdout content,  #!pipe python2.7 /pathToClone/src/createVariable.py checkstdout $0)
-		(createScript name, #!pipe python2.7 /pathToClone/src/createScript.py $0)
-		(callFunction retval, #!pipe python2.7 /pathToClone/src/callFunction.py $0)
+		(r4ge, #!pipe python /pathToClone/src/r4ge.py)
+		(markMemSymbolic addr bytes name, #!pipe python /pathToClone/src/createVariable.py symb $0 $1 $2)
+		(addHook addr instructions bytes comment, #!pipe python /pathToClone/src/createVariable.py hook $0 $1 $2 $3)
+		(addAssert addr assertions comment, #!pipe python /pathToClone/src/createVariable.py assert $0 $1 $2)
+		(checkStdout content,  #!pipe python /pathToClone/src/createVariable.py checkstdout $0)
+		(createScript name, #!pipe python /pathToClone/src/createScript.py $0)
+		(callFunction retval, #!pipe python /pathToClone/src/callFunction.py $0)
 		```
-	- Replace `/pathToFile` as needed
 
 ## Command description
 - `(r4ge)` main plugin file, performs static and dynamic analysis
@@ -48,6 +49,13 @@ pg            ... path_group
 state_found   ... result state of exploration
 ```
 
+## Test Installation
+
+In the testcase folder is binary with an implemented keyschedule, where we have 
+to find the key, only the subkeys are left, thats perfect for r4ge.
+
+Follow the instructions from the guide.
+
 
 ## Usage example
 - 🚀 Usage example from the repo [asciinema](https://asciinema.org/a/155856)
@@ -55,3 +63,4 @@ state_found   ... result state of exploration
 
 # r2angrdbg
 - [Python module for r2pipe and angr](https://github.com/andreafioraldi/r2angrdbg)
+
