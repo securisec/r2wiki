@@ -9,7 +9,7 @@
 
 ## Installation
 - Clone the repository
-> Install using a virtualenv is recommended:
+> Install using a pyhton3 virtualenv is recommended:
   `pip install -r requirements.txt`
 
 - Echo the following to the `~/.radare2rc` file.
